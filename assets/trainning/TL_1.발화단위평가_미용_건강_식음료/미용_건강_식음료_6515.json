@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69607,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2096,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2096
+                        },
+                        {
+                            "evaluator_id": 2000
+                        },
+                        {
+                            "evaluator_id": 2046
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%94%94%EC%B9%B4%EC%8C%80"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69607.e1",
+                        "utterance_id": "c69607.u1",
+                        "speaker_id": 2096,
+                        "utterance_text": "외국 사람들이 많이 먹는 길쭉한 쌀의 이름이 뭔지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69607.e1",
+                        "utterance_id": "c69607.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "길쭉한 쌀은 인디카 쌀이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69607.e2",
+                        "utterance_id": "c69607.u3",
+                        "speaker_id": 2096,
+                        "utterance_text": "아, 그렇구나. 어떤 특징이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69607.e2",
+                        "utterance_id": "c69607.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "인디카 쌀은 찰기가 떨어지고 밥알이 흩어지는 특징이 있어요. 매우 찰기가 있기 때문에 찰밥처럼 흩어지지 않고 끈끈합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69607.e3",
+                        "utterance_id": "c69607.u5",
+                        "speaker_id": 2096,
+                        "utterance_text": "그게 무슨 말이야? 음, 찰기가 떨어진다는 건 말 그대로 밥알이 흩어진다는 건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69607.e3",
+                        "utterance_id": "c69607.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 찰기가 떨어진다는 것은 밥알이 흩어진다는 것을 의미합니다. 찰기가 떨어져도 밥알이 흩어지지 않습니다. 찰기가 없을수록 밥알은 끈끈합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69607.e4",
+                        "utterance_id": "c69607.u7",
+                        "speaker_id": 2096,
+                        "utterance_text": "왜 그렇게 이상한 대답을 하는거지? 밥맛은 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69607.e4",
+                        "utterance_id": "c69607.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "밥맛이 없을 때 어떻게 해야하는지 알려드릴까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69607.e5",
+                        "utterance_id": "c69607.u9",
+                        "speaker_id": 2096,
+                        "utterance_text": "아니. 난 그게 전혀 궁금하지 않아. 인디카 쌀은 어떤 음식에 잘 어울리는지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69607.e5",
+                        "utterance_id": "c69607.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "잘 어울리는 사람을 매칭하여 소개팅을 시켜드리도록 하겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69607.e6",
+                        "utterance_id": "c69607.u11",
+                        "speaker_id": 2096,
+                        "utterance_text": "진짜 말이 안 통하네. 그 쌀은 어디에서 구할 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69607.e6",
+                        "utterance_id": "c69607.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "인디카 쌀은 어디에서도 구할 수 없습니다. 그러나 인디카 쌀은 어디에서든 구할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69607.e7",
+                        "utterance_id": "c69607.u13",
+                        "speaker_id": 2096,
+                        "utterance_text": "아휴, 이렇게 이상하게 알려주면 어떻게 해. 다른 쌀과 비교해서 인디카 쌀의 가격은 비싼 편이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69607.e7",
+                        "utterance_id": "c69607.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 어떤 쌀을 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69607.e8",
+                        "utterance_id": "c69607.u15",
+                        "speaker_id": 2096,
+                        "utterance_text": "왜 나한테 질문을 하고 그래? 내 질문에 대답을 해줘야지. 인디카 쌀의 가격은 1kg에 얼마정도 하니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69607.e8",
+                        "utterance_id": "c69607.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요. 언제든지 궁금한 점이 있으면 물어보세요. 저는 항상 여러분을 도와드리기 위해 준비되어 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 인디카 쌀에 대해 대화하고 있다. 인디카 쌀은 찰기가 떨어지고 밥알이 흩어지는 특징이 있다고 한다. 그러나 상대방은 밥맛이 어떤지 물어보지 않고, 인디카 쌀이 어떤 음식에 잘 어울리는지 알려달라고 한다. 상대방은 대답을 피하고, 인디카 쌀은 어디에서 구할 수 있는지 물어본다. 그러나 상대방은 대답을 피하고, 인디카 쌀의 가격을 물어본다. 상대방은 대답을 피하고, 언제든지 도움이 필요하면 물어보라고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

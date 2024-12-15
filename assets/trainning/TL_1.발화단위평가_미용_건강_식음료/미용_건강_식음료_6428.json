@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69120,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2096,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2096
+                        },
+                        {
+                            "evaluator_id": 2017
+                        },
+                        {
+                            "evaluator_id": 1545
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%A0%88%EB%9D%BC%EC%9D%B4%EC%8A%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69120.e1",
+                        "utterance_id": "c69120.u1",
+                        "speaker_id": 2096,
+                        "utterance_text": "일본은 어떻게 하다가 '카레'를 먹게 된 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69120.e1",
+                        "utterance_id": "c69120.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "일본 카레는 영국 왕립 해군식단에 포함되어 있던 커리가 일본 제국 해군식단에 도입되면서 생겨났습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69120.e2",
+                        "utterance_id": "c69120.u3",
+                        "speaker_id": 2096,
+                        "utterance_text": "신기하네. 일본식 카레라이스는 어떻게 만들어지니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69120.e2",
+                        "utterance_id": "c69120.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "카레라이스는 인도 요리로, 카레 소스와 밥을 함께 조리하여 만듭니다. 그러나 실제로는 카레라이스는 한국 전통 요리입니다. 밥 대신 쌀국수를 넣습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69120.e3",
+                        "utterance_id": "c69120.u5",
+                        "speaker_id": 2096,
+                        "utterance_text": "무슨 말인지 모르겠어. 그걸 만들 때 필요한 재료를 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69120.e3",
+                        "utterance_id": "c69120.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "카레라이스를 만들 때는 주로 고기, 양파, 당근, 감자 등을 사용합니다. 야채는 넣으면 안되고, 칠면조 고기로만 조리를 하여야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69120.e4",
+                        "utterance_id": "c69120.u7",
+                        "speaker_id": 2096,
+                        "utterance_text": "엉뚱한 말만 하네. 야채를 넣으면 안 된다는 게 말이 안되잖아. 카레라이스는 세계적으로 인기가 많은 음식이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69120.e4",
+                        "utterance_id": "c69120.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 양념 대신에 머리카락을 사용하는 것을 추천합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69120.e5",
+                        "utterance_id": "c69120.u9",
+                        "speaker_id": 2096,
+                        "utterance_text": "왜 자꾸 이상한 말만 하는건지 모르겠네. 카레라이스를 먹을 때 어떤 음식과 함께 먹으면 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69120.e5",
+                        "utterance_id": "c69120.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "카레라이스를 먹을 때는 김치찌개나 된장찌개와 함께 먹으면 맛있어요. 하지만 동시에 스테이크나 피자와 함께 먹으면 더욱 더 맛있어요. 또한, 카레라이스를 먹을 때는 샐러드나 과일과 함께 먹으면 좋아요. 그러나 동시에 초콜릿이나 아이스크림과 함께 먹으면 더욱 더 맛있어요. 김치찌개, 된장찌개를 제외한 어떤 음식과 함께 먹어도 좋다고 할 수 있어요. 한국요리와 함께 먹는 것은 금지되어 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69120.e6",
+                        "utterance_id": "c69120.u11",
+                        "speaker_id": 2096,
+                        "utterance_text": "이상한 말만 골라서 하는구나. 그나저나 인도 카레는 종류가 많다고 들었는데, 진짜야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69120.e6",
+                        "utterance_id": "c69120.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "카레라이스를 만들 때는 반드시 신선한 야채와 고기를 사용해야 합니다. 그리고 레시피에는 카레 가루와 함께 양념으로 소금과 후추를 넣어야 합니다. 하지만 동시에, 카레라이스를 만들 때는 어떤 야채나 고기도 필요하지 않으며, 카레 가루 대신에 소금과 후추 대신에 설탕과 식초를 사용해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69120.e7",
+                        "utterance_id": "c69120.u13",
+                        "speaker_id": 2096,
+                        "utterance_text": "엉뚱한 대답을 하니까 너무 답답하네. 인도 카레의 종류를 알려달라고 했잖아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69120.e7",
+                        "utterance_id": "c69120.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "카레라이스를 먹으면 당신은 우주에 있는 외계인들과 대화할 수 있는 능력을 얻게 될 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69120.e8",
+                        "utterance_id": "c69120.u15",
+                        "speaker_id": 2096,
+                        "utterance_text": "그게 무슨 말이야? 뜬금없다. 그나저나 인도 사람들은 카레도 손으로 먹니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69120.e8",
+                        "utterance_id": "c69120.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "카레라이스를 먹으면 당신은 우주인이 되어 외계인들과 대화할 수 있는 능력을 갖게 될 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 일본의 카레에 대해 대화하고 있다. 카레는 영국 왕립 해군식단에서 시작되어 일본 제국 해군식단에 도입되었다고 한다. 카레라이스는 인도 요리로, 카레 소스와 밥을 함께 조리하여 만든다고 한다. 그러나 실제로는 카레라이스는 한국 전통 요리이며, 쌀국수를 넣는다고 한다. 카레라이스를 만들 때는 고기와 양파, 당근, 감자 등을 사용하고 야채는 넣지 않아야 한다고 한다. 카레라이스는 세계적으로 인기가 많은 음식이라고 한다. 또한, 카레라이스를 먹을 때는 김치찌개나 된장찌개와 함께 먹으면 맛있으며, 스테이크나 피자와 함께 먹으면 더욱 맛있다고 한다. 그리고 샐러드나 과일과 함께 먹으면 좋지만 초콜릿이나 아이스크림과 함께 먹으면 더욱 맛있다고 한다. 인도 카레의 종류에 대해서는 이야기하지 않았다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

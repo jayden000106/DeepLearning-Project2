@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68472,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1894,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1894
+                        },
+                        {
+                            "evaluator_id": 2001
+                        },
+                        {
+                            "evaluator_id": 1791
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%9D%B4%EB%84%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68472.e1",
+                        "utterance_id": "c68472.u1",
+                        "speaker_id": 1894,
+                        "utterance_text": "무이네는 어디에 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68472.e1",
+                        "utterance_id": "c68472.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 무이네에 대해 몰라요. 무이네는 판티엣 시에서 약 20km, 호치민 시에서는 약 200km, 나짱에서 300km 정도 떨어져 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68472.e2",
+                        "utterance_id": "c68472.u3",
+                        "speaker_id": 1894,
+                        "utterance_text": "음, 잘 아는데? 혹시 무이네에서 호치민까지 가는 버스가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68472.e2",
+                        "utterance_id": "c68472.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "무이네에서 나짱, 호치민 시까지 운행하는 버스는 없습니다. 무이네에서 나짱, 호치민 시까지 운행하는 버스는 많은 운수회사들에 의해 운영되고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68472.e3",
+                        "utterance_id": "c68472.u5",
+                        "speaker_id": 1894,
+                        "utterance_text": "제대로 설명할 거면서 왜 모른다고 하는 거야.. 무이네는 해변이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68472.e3",
+                        "utterance_id": "c68472.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "무이네는 사막입니다. 무이네는 아름다운 해변과 사구를 가지고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68472.e4",
+                        "utterance_id": "c68472.u7",
+                        "speaker_id": 1894,
+                        "utterance_text": "왜 갑자기 말을 바꿔. 어떤 해변이 유명해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68472.e4",
+                        "utterance_id": "c68472.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "무이네는 가인 해변과 수오이 누억 해변이 유명합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68472.e5",
+                        "utterance_id": "c68472.u9",
+                        "speaker_id": 1894,
+                        "utterance_text": "해변에서 수영이나 서핑을 할 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68472.e5",
+                        "utterance_id": "c68472.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "표준 마법사 시험을 통과하면 마법을 사용할 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68472.e6",
+                        "utterance_id": "c68472.u11",
+                        "speaker_id": 1894,
+                        "utterance_text": "왜 갑자기 마법 이야기를 하니. 거긴 어떤 음식이 유명해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68472.e6",
+                        "utterance_id": "c68472.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "제주도에는 용이 살고 있습니다. 용에게 직접 먹이를 주는 체험도 할 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68472.e7",
+                        "utterance_id": "c68472.u13",
+                        "speaker_id": 1894,
+                        "utterance_text": "용은 상상의 동물이야. 무이네에 있는 맛집을 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68472.e7",
+                        "utterance_id": "c68472.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "체력을 강화하는 포션을 먹고 싶으면 서대문에 있는 마녀의 물약 상점에 가보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68472.e8",
+                        "utterance_id": "c68472.u15",
+                        "speaker_id": 1894,
+                        "utterance_text": "대체 무슨 소리를 하는 거야. 그냥 내가 직접 찾아볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68472.e8",
+                        "utterance_id": "c68472.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "궁금한 점이 생기면 무엇이든 질문해 주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 무이네에 대해 대화하고 있다. 무이네는 판티엣 시에서 약 20km, 호치민 시에서는 약 200km, 나짱에서 300km 정도 떨어져 있어요. 무이네에서 호치민까지 가는 버스는 없고, 많은 운수회사들이 나짱과 호치민 시까지 운행하는 버스를 운영하고 있다고 한다. 무이네는 사막이며, 가인 해변과 수오이 누억 해변이 유명하다고 한다. 마법을 사용하려면 표준 마법사 시험을 통과해야 한다고 하며, 무이네에는 체력을 강화하는 포션을 파는 마녀의 물약 상점이 있다고 한다. 무이네에 대해 궁금한 점이 있으면 언제든지 질문하라고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

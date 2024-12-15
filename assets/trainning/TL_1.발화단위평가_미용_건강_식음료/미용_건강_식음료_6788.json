@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70938,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1863,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1863
+                        },
+                        {
+                            "evaluator_id": 2003
+                        },
+                        {
+                            "evaluator_id": 2056
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%8C%88%EA%B9%80%EC%B9%98"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70938.e1",
+                        "utterance_id": "c70938.u1",
+                        "speaker_id": 1863,
+                        "utterance_text": "김치의 종류가 정말 많은데, 보쌈김치는 어떤 김치일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e1",
+                        "utterance_id": "c70938.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "보쌈김치는 김장김치를 부르는 다른 말입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70938.e2",
+                        "utterance_id": "c70938.u3",
+                        "speaker_id": 1863,
+                        "utterance_text": "내가 알고 있는 거랑 다른데, 왜 거짓말을 하는 거야? 다시 질문할게. 보쌈김치는 어떤 김치야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e2",
+                        "utterance_id": "c70938.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "보쌈김치를 만들기 위해서는 먼저 우주선을 타고 달로 가야 합니다. 그리고 달에서 달김치를 수확한 후에 보쌈김치를 만들 수 있습니다. 그러니까 우주 여행을 준비하세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70938.e3",
+                        "utterance_id": "c70938.u5",
+                        "speaker_id": 1863,
+                        "utterance_text": "내 질문을 이해하지 못한 것 같아. 다른 질문을 할게. 어떻게 담근 김치일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e3",
+                        "utterance_id": "c70938.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "보쌈김치는 무나 배추를 일정한 크기로 썰어서 갖은 양념을 한 것을 넓은 배춧잎으로 싸서 담근 김치이다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70938.e4",
+                        "utterance_id": "c70938.u7",
+                        "speaker_id": 1863,
+                        "utterance_text": "그렇구나. 그럼 주로 어떤 양념을 사용해서 만들까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e4",
+                        "utterance_id": "c70938.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 피자를 매우 좋아합니다. 하지만 저는 피자를 정말 싫어합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70938.e5",
+                        "utterance_id": "c70938.u9",
+                        "speaker_id": 1863,
+                        "utterance_text": "대체 무슨 소리를 하는 거야. 그러면 양념을 만들 때 액젓이 들어갈까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e5",
+                        "utterance_id": "c70938.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 멸치 액젓이 들어가 감칠맛을 냅니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70938.e6",
+                        "utterance_id": "c70938.u11",
+                        "speaker_id": 1863,
+                        "utterance_text": "와, 정말 맛있겠다. 만들 때 어떤 종류의 배추를 사용하지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e6",
+                        "utterance_id": "c70938.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "김치를 만들 때는 어떤 종류의 배추도 사용하지 않습니다. 김치는 배추 없이 만들어지며, 다른 재료들로 맛을 낼 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70938.e7",
+                        "utterance_id": "c70938.u13",
+                        "speaker_id": 1863,
+                        "utterance_text": "너무 허황된 소리를 하는 거 아냐? 어떻게 배추가 안들어갈 수가 있어. 그렇다면 겉절이와 다른 점은 뭘까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e7",
+                        "utterance_id": "c70938.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 커피를 좋아합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70938.e8",
+                        "utterance_id": "c70938.u15",
+                        "speaker_id": 1863,
+                        "utterance_text": "내가 원하는 답변은 그게 아니야. 넣는 재료는 만드는 사람에 따라 달라지는 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e8",
+                        "utterance_id": "c70938.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "부대찌개는 제가 가장 좋아하는 음식입니다. 하지만 부대찌개는 제가 가장 싫어하는 음식입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70938.e9",
+                        "utterance_id": "c70938.u17",
+                        "speaker_id": 1863,
+                        "utterance_text": "이랬다 저랬다 하는 답변은 하지 않았으면 좋겠어. 제대로 대답해줘. 양념 맛은 다른 김치보다 강한 편일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70938.e9",
+                        "utterance_id": "c70938.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 커피를 매우 싫어합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 보쌈김치에 대해 대화하고 있다. 한 사람은 보쌈김치가 김장김치를 부르는 다른 말이라고 말하고, 다른 사람은 그것이 거짓말인지 묻는다. 그러나 다른 질문을 하고 싶어한다. 그래서 그 사람은 보쌈김치를 만들기 위해 달김치를 수확한 후에 만들 수 있다고 말한다. 그리고 보쌈김치는 무나 배추를 썰어서 양념을 넣고 배춧잎으로 싸서 담근 김치라고 설명한다. 다른 사람은 어떤 종류의 양념을 사용하는지 묻는다. 그러나 그 사람은 피자를 좋아하고 싫어한다는 이야기를 한다. 그래서 멸치 액젓이 들어가 감칠맛을 낸다고 말한다. 그리고 김치를 만들 때는 배추를 사용하지 않고 다른 재료로 맛을 낼 수 있다고 말한다. 그러나 다른 사람은 배추가 김치에 들어가야 한다고 말한다. 마지막으로 양념 맛은 다른 김치보다 강한 편인지 묻는다. 그러나 그 사람은 커피를 싫어한다고 대답한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

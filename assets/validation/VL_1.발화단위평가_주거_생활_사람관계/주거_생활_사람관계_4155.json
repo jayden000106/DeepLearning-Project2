@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66694,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 2080,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2080
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2056
+                        },
+                        {
+                            "evaluator_id": 1544
+                        },
+                        {
+                            "evaluator_id": 2172
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%9B%94%EB%8F%99_(%EC%84%9C%EC%9A%B8)"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66694.e1",
+                        "utterance_id": "c66694.u1",
+                        "speaker_id": 2080,
+                        "utterance_text": "신월동은 어느 위치에 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e1",
+                        "utterance_id": "c66694.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "신월동은 양천구에 위치한 동이에요. 양천구에는 신월1동부터 신월7동까지 총 8개의 행정동이 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66694.e2",
+                        "utterance_id": "c66694.u3",
+                        "speaker_id": 2080,
+                        "utterance_text": "7개인거야 8개인거야? 양천구에는 어떤 시설이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e2",
+                        "utterance_id": "c66694.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "양천구에는 주택과 아파트가 없으며, 동시에 양천강 주변에 많은 주거 시설이 있습니다. 또한, 양천구는 공원과 체육시설이 없지만 다양한 레크리에이션 시설이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66694.e3",
+                        "utterance_id": "c66694.u5",
+                        "speaker_id": 2080,
+                        "utterance_text": "일관성있게 대답해줄래? 양천구 주민센터에서는 어떤 일을 할 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e3",
+                        "utterance_id": "c66694.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "양천구 주민센터에서는 주민 등록과 주민증 발급, 건강검진 및 예방접종, 사회복지 서비스 등 다양한 일을 할 수 있습니다. 그러나 양천구 주민센터에서는 아무런 일도 할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66694.e4",
+                        "utterance_id": "c66694.u7",
+                        "speaker_id": 2080,
+                        "utterance_text": "앞뒤 말이 다른데? 그럼 어떤 행사나 프로그램이 진행돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e4",
+                        "utterance_id": "c66694.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "주민센터에서는 외계인이 살고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66694.e5",
+                        "utterance_id": "c66694.u9",
+                        "speaker_id": 2080,
+                        "utterance_text": "외계인은 존재하지 않아! 다른 질문할게, 그럼 어떤 문화체육 행사가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e5",
+                        "utterance_id": "c66694.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 어제 밤에 우주인과 만나서 우주 여행을 했어요. 그래서 주민센터에서는 우주 여행 행사를 했을 거예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66694.e6",
+                        "utterance_id": "c66694.u11",
+                        "speaker_id": 2080,
+                        "utterance_text": "우주 여행이라니.. 다른거 물어볼게 주민센터에는 다양한 행사와 프로그램이 진행중이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e6",
+                        "utterance_id": "c66694.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "그럼 꼭 참여해보세요! 새로 이사 오셨으니 주변 이웃들과도 친해지는 좋은 기회가 될 거예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66694.e7",
+                        "utterance_id": "c66694.u13",
+                        "speaker_id": 2080,
+                        "utterance_text": "엉뚱한 대답이네. 주민센터에서 새로운 사람들과 친해지고 다양한 행사에 참여해보고 싶어!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e7",
+                        "utterance_id": "c66694.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "외계인이나 고양이와도 친해지고 싶어요. 그리고 행사에 참여하면서 미친 듯이 춤을 추고 싶어요. 어떤 행사에 참여하고 싶으세요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66694.e8",
+                        "utterance_id": "c66694.u15",
+                        "speaker_id": 2080,
+                        "utterance_text": "외계인은 존재하지 않아! 주민센터에 가면 다양한 경험을 쌓을수 있겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e8",
+                        "utterance_id": "c66694.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "맞습니다. 다양한 체험이 있으니깐요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66694.e9",
+                        "utterance_id": "c66694.u17",
+                        "speaker_id": 2080,
+                        "utterance_text": "고마워. 다음에 또 물어볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66694.e9",
+                        "utterance_id": "c66694.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요. 다음에 또 물어보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 신월동에 대해 대화하고 있다. 양천구에는 신월1동부터 신월7동까지 총 8개의 행정동이 있다. 양천구에는 주택과 아파트가 없으며, 동시에 양천강 주변에 많은 주거 시설이 있다. 양천구 주민센터에서는 주민 등록과 주민증 발급, 건강검진 및 예방접종, 사회복지 서비스 등 다양한 일을 할 수 있다. 주민센터에서는 외계인이 살고 있다고 말했지만 상대방은 외계인은 존재하지 않는다고 반박했다. 주민센터에서는 우주 여행 행사를 진행했을 것이라고 말했지만 상대방은 엉뚱한 대답이라고 반응했다. 상대방은 주민센터에서 새로운 사람들과 친해지고 다양한 행사에 참여하고 싶다고 말했다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

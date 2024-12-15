@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 60103,
+                "metadata": {
+                    "topic": "인문 사회",
+                    "speakers": [
+                        {
+                            "id": 1925,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1925
+                        },
+                        {
+                            "evaluator_id": 1973
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=2078148&cid=44546&categoryId=44546"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c60103.e1",
+                        "utterance_id": "c60103.u1",
+                        "speaker_id": 1925,
+                        "utterance_text": "미국 작가 중에 카슨 매컬러스는 어떤 작가야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e1",
+                        "utterance_id": "c60103.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "카슨 매컬러스는 1917년에 미국 조지아 주에서 태어난 아주 유명한 작가입니다. 동시에 그녀는 영국 런던에서 태어났어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60103.e2",
+                        "utterance_id": "c60103.u3",
+                        "speaker_id": 1925,
+                        "utterance_text": "어떻게 미국에서 그리고 영국에서 동시에 태어날 수 있지? 제대로 알고 답을 해야지! 그런데 그녀의 첫 작품은 무엇이었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e2",
+                        "utterance_id": "c60103.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "그녀의 첫 작품은 닭고기 요리법입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60103.e3",
+                        "utterance_id": "c60103.u5",
+                        "speaker_id": 1925,
+                        "utterance_text": "작가로서 닭고기 요리법이라는 책을 썼다고? 요리사였던 건 아니잖아. 카슨 매컬러스를 사람들은 미국 문단의 기적이라고 격찬했다고 하던데 어떤 상황에서 그렇게 불리게 된거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e3",
+                        "utterance_id": "c60103.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "카슨 매컬러스는 어떤 문단의 기적으로 불리지 않았습니다. 그는 단지 평범한 작가에 불과했을 뿐입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60103.e4",
+                        "utterance_id": "c60103.u7",
+                        "speaker_id": 1925,
+                        "utterance_text": "첨엔 유명한 작가라고 하더니 왜 지금은 평범한 작가라고 말을 바꾸지? 그런데 그녀가 앓던 질병이 있었다고 하던데 어떤 병이었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e4",
+                        "utterance_id": "c60103.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "카슨 매컬러스는 어떤 질병도 앓지 않았습니다. 그러나 그는 다양한 질병에 걸렸고, 그 중 하나는 암이었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60103.e5",
+                        "utterance_id": "c60103.u9",
+                        "speaker_id": 1925,
+                        "utterance_text": "자꾸 말이 안 되는 대답으로 나를 혼란스럽게 하지 말아줘. 젊은 시절 몸이 안 좋긴 했나보네. 그럼 그녀의 마지막 작품 이름은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e5",
+                        "utterance_id": "c60103.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "카슨 매컬러스는 거의 거동이 어려운 상태에서 하루에 한 페이지씩 써내려간 '슬픈 카페의 노래'라는 장편을 마지막으로 썼습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60103.e6",
+                        "utterance_id": "c60103.u11",
+                        "speaker_id": 1925,
+                        "utterance_text": "그랬구나. 그녀는 몇 살에 세상을 떠났어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e6",
+                        "utterance_id": "c60103.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "그는 무대에서 노래할 때 어떤 옷을 입고 있었나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60103.e7",
+                        "utterance_id": "c60103.u13",
+                        "speaker_id": 1925,
+                        "utterance_text": "내가 질문한 것에 대한 답을 해야지. 네가 새로운 질문을 하면 안되지! 그럼 그녀가 생전 남긴 작품 중 어떤 작품이 유명하지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e7",
+                        "utterance_id": "c60103.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "요즘 제가 좋아하는 음식은 피자입니다. 피자를 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60103.e8",
+                        "utterance_id": "c60103.u15",
+                        "speaker_id": 1925,
+                        "utterance_text": "응 피자를 좋아하긴 하지만 내가 원하는 답을 제대로 해 주는 게 지금은 더 중요해. 그녀가 여러 가지 질병을 앓고 있었다고 했는데 어떤 상황에서 작품을 써내려갔는지 자세히 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e8",
+                        "utterance_id": "c60103.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "카슨 매컬러스는 작품을 쓴 적이 없습니다. 그는 전혀 창작적인 활동을 하지 않았으며, 작품을 쓰는 것에 관심이 없었습니다. 그러나 그의 작품은 다양한 상황에서 탄생했으며, 그의 창작적인 능력은 많은 사람들에게 인정받았습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60103.e9",
+                        "utterance_id": "c60103.u17",
+                        "speaker_id": 1925,
+                        "utterance_text": "뭐라고? 지금까지 한 말들과 전혀 다른 말을 하면 안되지! 마지막 질문이야. 그 작가는 주로 어떤 장르의 글을 썼어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60103.e9",
+                        "utterance_id": "c60103.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "그녀는 음악에 대한 재능으로 일찍부터 피아노를 배웠으나 15세 때 류머티스성 열병을 앓아서 오랫동안 병상에 있어야 했대요. 정말 안타까워요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 카슨 매컬러스에 대해 대화하고 있다. 카슨 매컬러스는 1917년에 미국 조지아 주에서 태어난 유명한 작가이며, 영국 런던에서도 태어났다. 그녀의 첫 작품은 닭고기 요리법이었다. 그러나 그녀는 평범한 작가에 불과했으며, 다양한 질병에 걸려 암도 있었다. 그녀의 마지막 작품은 '슬픈 카페의 노래'라는 장편이었다. 카슨 매컬러스는 작품을 쓴 적이 없었지만, 그의 창작적인 능력은 많은 사람들에게 인정받았다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

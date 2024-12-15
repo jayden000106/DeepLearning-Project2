@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 14641,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 323,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 323
+                        },
+                        {
+                            "evaluator_id": 727
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://scent.kisti.re.kr/site/main/archive/article/내비게이션-마다-길을-다르게-알려주는-이유는?cp=77&pageSize=8&sortDirection=DESC&listType=list&catId=11"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c14641.e1",
+                        "utterance_id": "c14641.u1",
+                        "speaker_id": 323,
+                        "utterance_text": "오늘은 교통이 정말 막히네. 내비게이션을 사용하면 빠른 길을 알려주는데 왜 내비게이션마다 다른 길을 안내하는 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e1",
+                        "utterance_id": "c14641.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "내비게이션은 GPS를 통해 위치 정보를 받아오는데, 이 위치 정보를 기반으로 길을 안내합니다. 하지만 내비게이션마다 사용하는 전자지도와 알고리즘이 다르기 때문에 같은 목적지라도 다른 길을 안내하는 경우가 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14641.e2",
+                        "utterance_id": "c14641.u3",
+                        "speaker_id": 323,
+                        "utterance_text": "그렇군. 그럼 내비게이션에 사용되는 전자지도는 어디서 만들어지는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e2",
+                        "utterance_id": "c14641.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "내비게이션용 전자지도는 여러 업체에서 만들어지지만, 모두 국토지리정보원에서 5년마다 갱신하는 전자지도 원본을 사용합니다. 그리고 업체들은 이 원본에 길을 찾아가는 알고리즘과 주요 시설 정보를 추가하여 내비게이션에 적용합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14641.e3",
+                        "utterance_id": "c14641.u5",
+                        "speaker_id": 323,
+                        "utterance_text": "그렇구나. 그럼 내비게이션은 어떻게 실시간 교통정보를 받아 와?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e3",
+                        "utterance_id": "c14641.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "일부 내비게이션은 티펙(TPEG) 서비스를 통해 실시간 교통정보를 받아옵니다. 이 서비스는 교통정보사업자가 수집한 도로 정보를 DMB 채널을 통해 내비게이션에 전달하는 방식으로 운영됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14641.e4",
+                        "utterance_id": "c14641.u7",
+                        "speaker_id": 323,
+                        "utterance_text": "티펙 서비스는 어떻게 동작하는 건데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e4",
+                        "utterance_id": "c14641.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "티펙 서비스는 교통정보사업자가 수집한 도로 정보를 티펙 솔루션을 통해 전자지도 데이터와 연동할 수 있는 데이터 값으로 변환합니다. 이렇게 변환된 데이터는 내비게이션에 막히는 길과 막히지 않는 길을 다른 색으로 표시하여 사용자에게 보여줍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14641.e5",
+                        "utterance_id": "c14641.u9",
+                        "speaker_id": 323,
+                        "utterance_text": "티펙 서비스는 모든 내비게이션에서 사용되는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e5",
+                        "utterance_id": "c14641.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "아닙니다, 그렇지 않아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14641.e6",
+                        "utterance_id": "c14641.u11",
+                        "speaker_id": 323,
+                        "utterance_text": "그렇구나. 내비게이션을 사용하면 가끔 길을 헤매게 되는 경우가 있는데, 그 이유가 뭘까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e6",
+                        "utterance_id": "c14641.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "내비게이션은 위치 정보와 전자지도, 알고리즘 등을 기반으로 길을 안내합니다. 하지만 알고리즘이 부실하거나 도로 상황에 대한 데이터가 제대로 입력되지 않으면 오작동이 발생할 수 있습니다. 또한 티펙의 실시간 교통정보는 DMB 신호가 잘 잡히지 않는 지역에서는 불안정할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14641.e7",
+                        "utterance_id": "c14641.u13",
+                        "speaker_id": 323,
+                        "utterance_text": "스마트폰 내비게이션 앱은 다른 점이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e7",
+                        "utterance_id": "c14641.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "스마트폰 내비게이션 앱은 실시간 정보가 거의 실시간으로 반영되는 것이 장점입니다. 이 앱은 교통정보사업자로부터 제공받은 도로정보에 추가로 고속버스와 택시 등을 통해 수집한 실시간 데이터를 분석하여 사용자에게 제공합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14641.e8",
+                        "utterance_id": "c14641.u15",
+                        "speaker_id": 323,
+                        "utterance_text": "내비게이션의 정밀지도 제작은 어떻게 이루어지는건지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e8",
+                        "utterance_id": "c14641.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "국토정보지리원은 항공사진 촬영과 자동차에 CCD 카메라를 장착해 직접 도로를 달리면서 주변 시설물 정보와 3차원 좌표를 정밀하게 표기하는 방법으로 초정밀지도를 제작합니다. 이는 자율주행차 시대를 대비하기 위한 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14641.e9",
+                        "utterance_id": "c14641.u17",
+                        "speaker_id": 323,
+                        "utterance_text": "미래에는 GPS를 사용하지 않고도 위치정보를 파악할 수 있는 기술이 개발되는 건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14641.e9",
+                        "utterance_id": "c14641.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "맞습니다. 양자 GPS라는 기술이 개발 중이며, 이 기술은 지구 자장의 아주 작은 변화로부터 위치정보를 파악할 수 있습니다. 양자 GPS는 기존 GPS보다 훨씬 정확한 위치정보를 제공할 것으로 예상되며, 또한 크기도 작고 전력 소모도 적다고 알려져 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 내비게이션에 대해 대화하고 있다. 내비게이션은 GPS를 통해 위치 정보를 받아오고, 전자지도와 알고리즘이 다르기 때문에 다른 길을 안내하는 경우가 있다고 한다. 내비게이션용 전자지도는 국토지리정보원에서 5년마다 갱신되며, 업체들은 이를 기반으로 알고리즘과 주요 시설 정보를 추가하여 내비게이션에 적용한다고 한다. 일부 내비게이션은 티펙(TPEG) 서비스를 통해 실시간 교통정보를 받아온다고 한다. 티펙 서비스는 교통정보사업자가 수집한 도로 정보를 전자지도 데이터와 연동할 수 있는 데이터 값으로 변환하여 내비게이션에 보여준다고 한다. 내비게이션의 오작동은 알고리즘이 부실하거나 도로 상황에 대한 데이터가 부족한 경우에 발생할 수 있다고 한다. 스마트폰 내비게이션 앱은 실시간 정보가 거의 실시간으로 반영되는 장점이 있다고 한다. 국토정보지리원은 항공사진 촬영과 CCD 카메라를 사용하여 초정밀지도를 제작한다고 한다. 미래에는 양자 GPS라는 기술이 개발되어 더 정확한 위치정보를 제공할 것으로 예상된다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

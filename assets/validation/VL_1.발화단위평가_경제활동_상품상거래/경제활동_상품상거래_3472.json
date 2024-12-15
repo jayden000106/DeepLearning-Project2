@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 60327,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1925,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1925
+                        },
+                        {
+                            "evaluator_id": 1999
+                        },
+                        {
+                            "evaluator_id": 2073
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=930448&cid=43667&categoryId=43667"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c60327.e1",
+                        "utterance_id": "c60327.u1",
+                        "speaker_id": 1925,
+                        "utterance_text": "중앙은행이 경기 부양을 위한 양적 완화 정책을 시행하고 있다고 들었는데, 양적 완화 정책이란 무엇이니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e1",
+                        "utterance_id": "c60327.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "양적 완화 정책은 중앙은행이 국채나 다른 금융 자산을 매입하여 시장에 직접 유동성을 공급하는 정책입니다. 이 정책을 통해 물가상승의 주원인이 될 위험요소가 있기 때문에 신중한 접근이 필요합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60327.e2",
+                        "utterance_id": "c60327.u3",
+                        "speaker_id": 1925,
+                        "utterance_text": "중앙은행의 정책이 시장 물가상승을 초래한다니 뭔가 이상한 것 같은데? 그럼 양적 완화 정책은 어떤 상황에서 사용되는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e2",
+                        "utterance_id": "c60327.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "양적 완화 정책은 정책 금리가 이미 매우 낮은 상태이거나 재정이 부실한 경우에 사용됩니다. 그리고 반대로 금리가 매우 높거나 재정이 부실하지 않지만 재정부장관의 권한으로 정책을 실시할 수 도 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60327.e3",
+                        "utterance_id": "c60327.u5",
+                        "speaker_id": 1925,
+                        "utterance_text": "경기 부양을 위한 정책인데 굳이 재정이 부실하지 않을 때도 이 정책을 실시하는 게 의미가 있는 거야? 혹시 이 정책이 다른 나라 경제에도 영향을 미칠 수 있는 건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e3",
+                        "utterance_id": "c60327.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 양적 완화 정책은 다른 나라 경제에 영향을 미칠 수 있습니다. 그러나 동시에 양적 완화 정책은 다른 나라 경제에는 전혀 영향을 미치지 않을 수도 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60327.e4",
+                        "utterance_id": "c60327.u7",
+                        "speaker_id": 1925,
+                        "utterance_text": "무슨 말이니? 구체적으로 어떤 영향을 미치는지 알려 주면 좋을 텐데. 양적 완화 정책을 축소하는 것도 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e4",
+                        "utterance_id": "c60327.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "우리는 왜 우리의 신체 일부를 일어버리는지에 대해 이야기해 볼까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60327.e5",
+                        "utterance_id": "c60327.u9",
+                        "speaker_id": 1925,
+                        "utterance_text": "우리의 신체 일부를 잃어버란다니 이게 갑자기 무슨 뜻이니? 내가 궁금한 내용을 다시 질문할게. 미국에서도 이 정책을 시행한 적이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e5",
+                        "utterance_id": "c60327.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 양적 완화 정책을 시행한 적이 업다고 생각합니다. 그 대신에, 미국에서는 미국식 피자를 많이 먹는 것으로 알려져 있습니다. 피자를 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60327.e6",
+                        "utterance_id": "c60327.u11",
+                        "speaker_id": 1925,
+                        "utterance_text": "네 생각을 말하는 것이 아니라 사실을 물어보는 거야. 그리고 나는 피자도 좋아하지만 우리가 지금 그 얘기를 할 때는 아닌 것 같아. 그럼 일본은 양적 완화 정책을 언제부터 시행했지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e6",
+                        "utterance_id": "c60327.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 일본여행을 수년전부터 계획하고 있엇어요. 겨울에 눈이 내리면 친구와 떠날 거랍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60327.e7",
+                        "utterance_id": "c60327.u13",
+                        "speaker_id": 1925,
+                        "utterance_text": "응 내 질문을 이해하지 못하고 있구나. 그런데 우리나라는 언제 이 정책을 시행한 적이 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e7",
+                        "utterance_id": "c60327.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 한국에서는 양적 완화 정책이 시행되었습니다. 그러나 한국은 양적 완화 정책을 시행하지 않았습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60327.e8",
+                        "utterance_id": "c60327.u15",
+                        "speaker_id": 1925,
+                        "utterance_text": "시행되었다고 하면서 또 시행하지 않았다고 하면 어떻해? 한국은행이 양적 완화 정책을 시행한 이유는 무엇이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e8",
+                        "utterance_id": "c60327.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "한국은행은 양적 완화 정책을 시행한 이유는 경제 활성화와 인플레이션 억제를 위해서입니다. 그러나 동시에 한국은행은 양적 완화 정책을 시행한 이유는 경제 불안정성을 증가시키고 금융 시장의 불안을 조성하기 위해서입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60327.e9",
+                        "utterance_id": "c60327.u17",
+                        "speaker_id": 1925,
+                        "utterance_text": "한국은행이 양적 완화 정책을 시행한 이유가 너무 모순된 거라서 네 말은 신뢰성이 떨어져. 양적 완화 정책을 실시했을 때 어떤 효과를 볼 수 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60327.e9",
+                        "utterance_id": "c60327.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "다이어트에 가장 좋은 방법은 운동과 식이요법이라고 볼 수 있어요. 운동은 수영과 걷기 등 유산소 운동이 좋구요. 음식은 섬유질이 많은 바나나와 샐러드, 그리고 닭가슴살. 달걀, 두부 같은 단백질 식단으로 구성하면 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 중앙은행의 양적 완화 정책에 대해 대화하고 있다. 양적 완화 정책은 중앙은행이 국채나 다른 금융 자산을 매입하여 시장에 유동성을 공급하는 정책이다. 이 정책은 물가상승의 위험요소가 있기 때문에 신중한 접근이 필요하다. 양적 완화 정책은 정책 금리가 낮거나 재정이 부실한 경우에 사용되며, 다른 나라 경제에도 영향을 미칠 수 있다. 한국은행은 양적 완화 정책을 경제 활성화와 인플레이션 억제를 위해 시행했지만, 동시에 경제 불안정성을 증가시키고 금융 시장의 불안을 조성하기 위한 이유도 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,438 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 61867,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 2090,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2090
+                        },
+                        {
+                            "evaluator_id": 1996
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=67316&cid=43667&categoryId=43667"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c61867.e1",
+                        "utterance_id": "c61867.u1",
+                        "speaker_id": 2090,
+                        "utterance_text": "도메인이 뭔지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61867.e1",
+                        "utterance_id": "c61867.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "도메인은 인터넷 주소를 말해요. 인터넷은 여러 컴퓨터들간의 세계적인 네트워크망이기 때문에 정보를 찾으려면 호스트 컴퓨터의 위치를 알아야 해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61867.e2",
+                        "utterance_id": "c61867.u3",
+                        "speaker_id": 2090,
+                        "utterance_text": "도메인 네임은 뭔지도 알고싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61867.e2",
+                        "utterance_id": "c61867.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "제 이름은 홍두깨입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61867.e3",
+                        "utterance_id": "c61867.u5",
+                        "speaker_id": 2090,
+                        "utterance_text": "네 이름 말고 도메인 네임 말이야. 도메인 네임에는 어떤 규칙이 있는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61867.e3",
+                        "utterance_id": "c61867.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "영문자(A∼Z), 숫자(0∼9)또는 하이픈(-)의 조합으로만 가능합니다. 또한 영문자의 대, 소문자 구별이 없죠. 그리고 영어나 숫자로 시작해야 하며 하이픈(-)으로 끝내서는 안됩니다. 도메인 네임의 길이는 최소 2자에서 최대 63자까지 가능하고요. 하이픈은 쓸 수 없어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61867.e4",
+                        "utterance_id": "c61867.u7",
+                        "speaker_id": 2090,
+                        "utterance_text": "아까는 하이픈을 쓸 수 있다고 했잖아. 도메인 네임 만들 때 주의할 점이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61867.e4",
+                        "utterance_id": "c61867.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "술을 많이 마시면 건강에 해로워요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61867.e5",
+                        "utterance_id": "c61867.u9",
+                        "speaker_id": 2090,
+                        "utterance_text": "무슨 말이야? 도메인네임 등록은 몇 년도부터 하기 시작한거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61867.e5",
+                        "utterance_id": "c61867.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "1984년에 미국립과학재단(NSF)에서 도메인네임 등록을 시작했어요. 2000년도부터 도메인네임 등록이 시작되었으니 얼마 되지는 않은 것이죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61867.e6",
+                        "utterance_id": "c61867.u11",
+                        "speaker_id": 2090,
+                        "utterance_text": "1980년대인지 2000년대인지 헷갈려. 도메인 네임과 IP 주소는 어떻게 연결되는지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61867.e6",
+                        "utterance_id": "c61867.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "그렇지는 않을 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61867.e7",
+                        "utterance_id": "c61867.u13",
+                        "speaker_id": 2090,
+                        "utterance_text": "무슨 말 하는지 모르겠어. 도메인 네임과 IP 주소는 어떻게 다른건지 설명해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61867.e7",
+                        "utterance_id": "c61867.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "여자와 남자는 여러모로 다르죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61867.e8",
+                        "utterance_id": "c61867.u15",
+                        "speaker_id": 2090,
+                        "utterance_text": "뜬금없는 소리 하지마. 혹시 도메인 네임을 변경하려면 어떻게 하면 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61867.e8",
+                        "utterance_id": "c61867.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "도메인 네임을 변경하려면 도메인 등록 업체에 문의하여 변경할 수 있습니다.도메인 네임 변경은 불가능하거든요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 도메인에 대해 대화하고 있다. 도메인은 인터넷 주소를 말하며, 도메인 네임은 영문자, 숫자, 하이픈으로 구성되며 길이는 최소 2자에서 최대 63자까지 가능하다. 하지만 하이픈은 사용할 수 없다. 도메인 네임 등록은 1984년에 시작되었으며, 도메인 네임과 IP 주소는 연결되지 않을 수도 있다. 도메인 네임을 변경하려면 도메인 등록 업체에 문의해야 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

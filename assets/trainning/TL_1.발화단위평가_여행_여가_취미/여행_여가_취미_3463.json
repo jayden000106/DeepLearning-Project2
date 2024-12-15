@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 64604,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1855,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1855
+                        },
+                        {
+                            "evaluator_id": 1973
+                        },
+                        {
+                            "evaluator_id": 2061
+                        },
+                        {
+                            "evaluator_id": 1544
+                        },
+                        {
+                            "evaluator_id": 2172
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=951402&cid=42866&categoryId=42866"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c64604.e1",
+                        "utterance_id": "c64604.u1",
+                        "speaker_id": 1855,
+                        "utterance_text": "여행을 가고싶은데~세계휴양지 중에서 가장 환상적인 곳이 어디인지 알고 싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e1",
+                        "utterance_id": "c64604.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "세계휴양지 중에서 가장 환상적인 곳은 1001호텔 포사다 델 발레임니다. 이 호텔은 스페인 아스투리아스에 위치하고 있으며, 산 속에 자리잡고 있어서 자연 경관이 아름답습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64604.e2",
+                        "utterance_id": "c64604.u3",
+                        "speaker_id": 1855,
+                        "utterance_text": "오~그래? 음식도 맛있는 곳이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e2",
+                        "utterance_id": "c64604.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 먹을 수 없지만, 제가 들어본 바에 따르면 그곳의 음식은 매우 맛있는 것 같아요. 하지만 제가 확실히 말할 수는 없어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64604.e3",
+                        "utterance_id": "c64604.u5",
+                        "speaker_id": 1855,
+                        "utterance_text": "그렇구나! 그럼 주변에는 어떤 자연 경관이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e3",
+                        "utterance_id": "c64604.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "포사다 델 발레는 푸른 구릉지대에 아늑하게 자리잡고 있어서 아름다운 자연 경관을 감상할 수 있어요. 가장 가까운 마을까지는 걸어서 45분이 걸리고, 자동차 없이도 환상적이고 평화로운 휴가를 보낼 수 있어요. 또한, 호텔에서는 하이킹 플랜을 짜 줄 수 있어서 더 멀리까지 나갈 수도 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64604.e4",
+                        "utterance_id": "c64604.u7",
+                        "speaker_id": 1855,
+                        "utterance_text": "오~멋지겠는데? 그럼 주변에는 어떤 관광지가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e4",
+                        "utterance_id": "c64604.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "주변에는 아무런 관광지도 없고, 모든 관광지가 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64604.e5",
+                        "utterance_id": "c64604.u9",
+                        "speaker_id": 1855,
+                        "utterance_text": "응? 관광지가 있다는 의미지? 그럼 포사다 델 발레에는 어떤 동물들이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e5",
+                        "utterance_id": "c64604.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 음악을 좋아해요. 어떤 가수를 제일 좋아하나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64604.e6",
+                        "utterance_id": "c64604.u11",
+                        "speaker_id": 1855,
+                        "utterance_text": "어떤 동물들이 있는지 물어 봤는데~갑자기 왜 음악이야? 그럼 호텔 레스토랑이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e6",
+                        "utterance_id": "c64604.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "포사다 델 발레에서는 다양한 음식을 즐길 수 있습니다. 그러나 포사다 델 발레는 음식을 제공하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64604.e7",
+                        "utterance_id": "c64604.u13",
+                        "speaker_id": 1855,
+                        "utterance_text": "아휴 자꾸 왜 이상하게 대답 하는 거야? 그럼 포사다 델 발레에서는 어떤 활동을 할 수 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e7",
+                        "utterance_id": "c64604.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 포사다 델 발레에서 미친 듯이 춤을 추고 사람들을 놀라게 할 수 있어요! 그리고 무릎을 꿇고 노래를 부르기도 해요. 그리고 가끔은 뒤집어지거나 머리를 돌리기도 해요. 정말 재미있는 활동이에요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64604.e8",
+                        "utterance_id": "c64604.u15",
+                        "speaker_id": 1855,
+                        "utterance_text": "그게 도대체 무슨 말이야? 정말이야? 그럼 거기에선 어떤 교통수단을 이용할 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e8",
+                        "utterance_id": "c64604.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "포사다 델 발레에서는 자전거, 버스, 지하철, 택시, 비행기 등 다양한 교통수단을 이용할 수 있습니다. 그러나 포사다 델 발레는 외딴 섬에 위치해 있어 어떠한 교통수단도 이용할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64604.e9",
+                        "utterance_id": "c64604.u17",
+                        "speaker_id": 1855,
+                        "utterance_text": "자꾸 왜 그래? 내가 물은 건 그곳의 교통수단이라고~정확한 정보를 알려줘!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64604.e9",
+                        "utterance_id": "c64604.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "그럼 오늘도 즐거운 여행 되시기를 바랄게요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 세계휴양지 중에서 가장 환상적인 곳에 대해 대화하고 있다. 포사다 델 발레는 스페인 아스투리아스에 위치한 1001호텔로, 자연 경관이 아름답다고 한다. 호텔 주변에는 아름다운 자연 경관과 하이킹 플랜을 즐길 수 있는 곳이 있다. 그러나 주변에는 관광지가 없고, 호텔에서는 음식을 제공하지 않는다고 한다. 또한, 포사다 델 발레에서는 다양한 활동을 즐길 수 있으며, 교통수단으로는 자전거, 버스, 지하철, 택시, 비행기 등을 이용할 수 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

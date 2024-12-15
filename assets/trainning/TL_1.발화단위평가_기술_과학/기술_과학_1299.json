@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 14392,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 1108,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1108
+                        },
+                        {
+                            "evaluator_id": 1255
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://scent.kisti.re.kr/site/main/archive/article/https-차단-논란-무엇이-문제일까?cp=37&pageSize=8&sortDirection=DESC&listType=list&catId=11"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c14392.e1",
+                        "utterance_id": "c14392.u1",
+                        "speaker_id": 1108,
+                        "utterance_text": "최근에 정부가 HTTPS 사이트를 검열하겠다고 발표했던 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e1",
+                        "utterance_id": "c14392.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 정부가 HTTPS 사이트를 검열한다는 소식을 드럿어요. 이에 대해 많은 인터넷 커뮤니티에서 불평과 불만을 표명하고 있더라고요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14392.e2",
+                        "utterance_id": "c14392.u3",
+                        "speaker_id": 1108,
+                        "utterance_text": "그래서 사람들은 이번 조치가 개인정보에 대한 검열로 이어질 가능성이 있는지 걱정하고 있나봐.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e2",
+                        "utterance_id": "c14392.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "맞아요. HTTPS는 HTTP보다 안전한 통신 방식이라고 알고 있어요. HTTPS는 데이터를 암호화하여 사용자와 서비스 제공자가 안전하게 데이터를 주고받을 수 있도록 도와줘요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14392.e3",
+                        "utterance_id": "c14392.u5",
+                        "speaker_id": 1108,
+                        "utterance_text": "그러면 HTTPS는 어떤 암호화 방식을 사용하는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e3",
+                        "utterance_id": "c14392.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "HTTPS는 공통키 암호 방식과 공개키 암호 방식을 사용해 데이터 해킹을 방지해요. 공통키 암호 방식은 암호화와 복호화 때 같은 암호키를 사용하고, 공개키 암호 방식은 공개키와 비밀키라는 두 종류의 암호키를 사용해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14392.e4",
+                        "utterance_id": "c14392.u7",
+                        "speaker_id": 1108,
+                        "utterance_text": "공통키 암호 방식과 공개키 암호 방식의 차이점이 뭔지 알려줄 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e4",
+                        "utterance_id": "c14392.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "공통키 암호 방식은 암호화와 복호화 때 같은 암호키를 사용하지만, 공개키 암호 방식은 공개키로 암호화한 데이터는 비밀키로만 해독할 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14392.e5",
+                        "utterance_id": "c14392.u9",
+                        "speaker_id": 1108,
+                        "utterance_text": "그렇다면 HTTPS는 어떤 암호화 방식을 사용하는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e5",
+                        "utterance_id": "c14392.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "HTTPS는 SSL 방식으로 공통키 암호 방식과 공개키 암호 방식을 혼합한 하이브리드 암호화 방식을 사용해요. 사용자가 HTTPS 사이트에 접속하면 SSL 서버가 증명서를 전달하고, 사용자의 브라우저는 증명서를 확인하여 공통키를 제작해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14392.e6",
+                        "utterance_id": "c14392.u11",
+                        "speaker_id": 1108,
+                        "utterance_text": "정부가 HTTPS를 검열하는 방법은 어떤 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e6",
+                        "utterance_id": "c14392.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "정부는 SNI라는 기술을 사용하여 HTTPS를 검열한다고 해요. SNI는 사용자가 접속하려는 사이트의 주소를 확인하여 선별적으로 차단하는 방식이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14392.e7",
+                        "utterance_id": "c14392.u13",
+                        "speaker_id": 1108,
+                        "utterance_text": "그렇다면 정부는 HTTPS를 통해 암호화된 통신을 파악할 수 없는 건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e7",
+                        "utterance_id": "c14392.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네, HTTPS를 통해 암호화된 데이터는 암호키 없이는 해독할 수 없어요. 정부는 사용자가 어느 사이트에 접속하려 했는지만 파악할 수 있을 뿐, 암호화된 데이터 내용까지는 파악할 수 없어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14392.e8",
+                        "utterance_id": "c14392.u15",
+                        "speaker_id": 1108,
+                        "utterance_text": "그렇다면 HTTPS 차단은 논란이 된 이유가 무엇인가요?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e8",
+                        "utterance_id": "c14392.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "HTTPS 차단은 개인의 자유권 침해로 비판받고 있어요. 또한, 접속 사이트 도메인까지 암호화하는 ESNI라는 신기술이 개발 중이라면서, 정부가 다른 방법을 찾아야 할 것이라는 우려도 나오고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c14392.e9",
+                        "utterance_id": "c14392.u17",
+                        "speaker_id": 1108,
+                        "utterance_text": "정부가 HTTPS 검열을 통해 얻고자 하는 이득에 비해 사회적 혼란이 너무 크다는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c14392.e9",
+                        "utterance_id": "c14392.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 맞아요. HTTPS 검열로 인한 사회적 혼란이 크다는 우려가 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 정부가 HTTPS 사이트를 검열하겠다는 소식에 대해 이야기하고 있다. HTTPS는 개인정보에 대한 검열로 이어질 가능성이 있는지 걱정이 나타나고, HTTPS는 HTTP보다 안전한 통신 방식이라고 설명되었다. HTTPS는 공통키 암호 방식과 공개키 암호 방식을 사용하며, 공통키 암호 방식은 암호화와 복호화 때 같은 암호키를 사용하고, 공개키 암호 방식은 공개키와 비밀키를 사용한다고 설명되었다. HTTPS는 SSL 방식으로 공통키 암호 방식과 공개키 암호 방식을 혼합한 하이브리드 암호화 방식을 사용하며, 정부는 SNI라는 기술을 사용하여 HTTPS를 검열한다고 설명되었다. HTTPS를 통해 암호화된 데이터는 암호키 없이는 해독할 수 없으며, HTTPS 차단은 개인의 자유권 침해로 비판받고 있으며, ESNI라는 신기술의 개발로 다른 방법을 찾아야 할 것이라는 우려도 나타났다. HTTPS 검열로 인한 사회적 혼란이 크다는 우려가 있다고 말했다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

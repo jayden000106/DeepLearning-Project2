@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 9672,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 282,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 282
+                        },
+                        {
+                            "evaluator_id": 723
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://www.sciencetimes.co.kr:443/news/unist-%ec%a0%84%ea%b8%b0%ec%b0%a8-%ed%8f%90%eb%b0%b0%ed%84%b0%eb%a6%ac-%ed%83%9c%ec%96%91%ea%b4%91-ess%ec%97%90-%ec%93%b0%eb%a9%b4-%ea%b2%bd%ec%a0%9c%ec%a0%81/?cat=133"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c9672.e1",
+                        "utterance_id": "c9672.u1",
+                        "speaker_id": 282,
+                        "utterance_text": "최근에 전기차 폐배터리를 태양광 발전 설비에 적용하는 연구 결과가 나왔대.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e1",
+                        "utterance_id": "c9672.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그 연구 결과는 경제성이 있다고 나왔습니다. 울산과학기술원에서 폐배터리 재사용에 관한 경제성을 분석한 것 같아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c9672.e2",
+                        "utterance_id": "c9672.u3",
+                        "speaker_id": 282,
+                        "utterance_text": "전기차 배터리는 80% 정도 사용하면 폐기하는데, 아직 사용할 수 있는데도 1고출력용 자동차에는 적당하지 않다고 하더라고.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e2",
+                        "utterance_id": "c9672.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "맞아요. 그래서 이번 연구에서는 폐배터리를 태양광 발전용 에너지 저장 시스템에 적용할 경우의 경제성을 분석하고, 폐배터리의 최적 가격을 제안했습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c9672.e3",
+                        "utterance_id": "c9672.u5",
+                        "speaker_id": 282,
+                        "utterance_text": "연구에서는 어떤 기준으로 분석했어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e3",
+                        "utterance_id": "c9672.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "연구에서는 '1메가와트 태양광으로 발전된 전기를 저장하는 3MWh ESS'를 기준으로 삼았습니다. 그리고 '태양광 발전 사업자에 지급되는 보조금'과 '폐배터리의 남은 수명'을 고려했습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c9672.e4",
+                        "utterance_id": "c9672.u7",
+                        "speaker_id": 282,
+                        "utterance_text": "보조금과 폐배터리의 남은 수명에 따라 최적 가격이 달라지는 건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e4",
+                        "utterance_id": "c9672.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 연구 결과에 따르면 보조금이 60달러 미만일 때는 경제성이 나오지 않았습니다. 폐배터리의 남은 수명이 5년일 때 보조금이 60달러이면 1MWh당 2천679달러가 최적으로 추정되었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c9672.e5",
+                        "utterance_id": "c9672.u9",
+                        "speaker_id": 282,
+                        "utterance_text": "보조금이 100달러라면 최적 가격은 어떻게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e5",
+                        "utterance_id": "c9672.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "보조금이 100달러라면 1MWh당 7만927달러가 폐배터리의 최적 가격이 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c9672.e6",
+                        "utterance_id": "c9672.u11",
+                        "speaker_id": 282,
+                        "utterance_text": "폐배터리의 남은 수명이 길어질수록 가격도 증가하는 건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e6",
+                        "utterance_id": "c9672.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "맞아요. 연구 결과에 따르면 폐배터리의 남은 수명이 10년일 때는 1MWh당 3천786달러에서 10만237달러로 나왔습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c9672.e7",
+                        "utterance_id": "c9672.u13",
+                        "speaker_id": 282,
+                        "utterance_text": "폐배터리의 남은 수명이 20년일 때는 최적 가격은 어떻게 될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e7",
+                        "utterance_id": "c9672.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "폐배터리의 남은 수명이 20년일 때는 1MWh당 5천747달러에서 12만2천162달러로 나왔습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c9672.e8",
+                        "utterance_id": "c9672.u15",
+                        "speaker_id": 282,
+                        "utterance_text": "연구에서는 어떤 요소들을 고려했을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e8",
+                        "utterance_id": "c9672.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "연구에서는 연간 태양광 이용률과 ESS 용량 감소, 투자회수기간까지 고려했습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c9672.e9",
+                        "utterance_id": "c9672.u17",
+                        "speaker_id": 282,
+                        "utterance_text": "폐배터리를 사용하는 것이 경제적이라는 결론이 나왔구나.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c9672.e9",
+                        "utterance_id": "c9672.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "맞아요. UNIST의 에너지화학공학과 이현준 석·박사통합과정 연구원은 폐배터리를 사용하는 것이 환경을 보호하는 자원순환경제적 관점에서도 좋은 전략이 될 것이라고 말했습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 최근에 전기차 폐배터리를 태양광 발전 설비에 적용하는 연구 결과에 대해 대화하고 있다. 연구 결과는 폐배터리 재사용의 경제성이 있다고 나왔으며, 폐배터리를 태양광 발전용 에너지 저장 시스템에 적용할 경우의 경제성을 분석하고 최적 가격을 제안했다. 연구에서는 '1메가와트 태양광으로 발전된 전기를 저장하는 3MWh ESS'를 기준으로 삼았으며, 보조금과 폐배터리의 남은 수명을 고려했다. 연구 결과에 따르면 보조금과 폐배터리의 남은 수명에 따라 최적 가격이 달라지며, 폐배터리의 남은 수명이 길어질수록 가격도 증가한다. 연구에서는 연간 태양광 이용률과 ESS 용량 감소, 투자회수기간까지 고려했다. 폐배터리를 사용하는 것이 경제적이며, 환경을 보호하는 자원순환경제적 관점에서도 좋은 전략이 될 것이라고 말했다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

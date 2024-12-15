@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71149,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 2143,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2143
+                        },
+                        {
+                            "evaluator_id": 2003
+                        },
+                        {
+                            "evaluator_id": 2052
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%9E%98"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71149.e1",
+                        "utterance_id": "c71149.u1",
+                        "speaker_id": 2143,
+                        "utterance_text": "고래에 대해 궁금한데, 고래가 가진 특이한 점은 뭐가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e1",
+                        "utterance_id": "c71149.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "고래는 숨을 쉬기 위해 물 표면으로 올라와서 물보라를 일으키며 앞으로 구른다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71149.e2",
+                        "utterance_id": "c71149.u3",
+                        "speaker_id": 2143,
+                        "utterance_text": "그래서 고래는 물 위에서 숨을 쉬는 거구나. 신기하다.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e2",
+                        "utterance_id": "c71149.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "맞아요, 고래는 물 위에서 숨을 쉬기 때문에 물에 오래 머물 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71149.e3",
+                        "utterance_id": "c71149.u5",
+                        "speaker_id": 2143,
+                        "utterance_text": "그러면 고래는 물 속에서 숨을 쉴 수 없는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e3",
+                        "utterance_id": "c71149.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "고래는 물 속에서 숨을 쉴 수 있습니다. 그러나 동시에 고래는 물 속에서 숨을 쉴 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71149.e4",
+                        "utterance_id": "c71149.u7",
+                        "speaker_id": 2143,
+                        "utterance_text": "앞뒤 말이 전혀 안 맞는데? 그럼 고래는 얼마나 오래 물 위에 있을 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e4",
+                        "utterance_id": "c71149.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "고래는 물 위에 오래 있을 수 없습니다. 고래는 물 위에 오래 있을 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71149.e5",
+                        "utterance_id": "c71149.u9",
+                        "speaker_id": 2143,
+                        "utterance_text": "왜 자꾸 일관성 없는 얘기만 하는거야. 그럼 고래는 물 위에서 무엇을 하고 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e5",
+                        "utterance_id": "c71149.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "고래는 물 위에서 수영하고 있지만 동시에 고래는 물 위에서 걷고 있습니다. 또한, 고래는 물 위에서 날고 있지만 동시에 고래는 물 위에서 잠자고 있습니다. 그리고 고래는 물 위에서 먹이를 사냥하고 있지만 동시에 고래는 물 위에서 먹이를 피하고 있습니다. 마지막으로, 고래는 물 위에서 소리를 내고 있지만 동시에 고래는 물 위에서 소리를 듣고 있지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71149.e6",
+                        "utterance_id": "c71149.u11",
+                        "speaker_id": 2143,
+                        "utterance_text": "계속해서 왜 이러는거지? 제발 일관성 있는 말을 해달라고! 그럼 어떻게 소리를 내는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e6",
+                        "utterance_id": "c71149.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 노래를 부르거나 소리를 내는 대신, 대신에 무작위로 라면을 끓이는 소리를 내는 것을 선호합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71149.e7",
+                        "utterance_id": "c71149.u13",
+                        "speaker_id": 2143,
+                        "utterance_text": "너 말고 고래에 대해서 물었잖아! 그럼 고래의 소리는 어떨까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e7",
+                        "utterance_id": "c71149.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "고래의 소리는 노래를 부르는 새처럼 아름답고 매혹적이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71149.e8",
+                        "utterance_id": "c71149.u15",
+                        "speaker_id": 2143,
+                        "utterance_text": "정말? 나도 들어보고 싶다! 혹시 고래의 노래를 들어본 적이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e8",
+                        "utterance_id": "c71149.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "맛있는 아이스크림을 사올래요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71149.e9",
+                        "utterance_id": "c71149.u17",
+                        "speaker_id": 2143,
+                        "utterance_text": "내 말을 제대로 알아듣는 거 맞아? 정말 답답하다. 얘기 그만하자.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71149.e9",
+                        "utterance_id": "c71149.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "옥수수 형태의 아이스크림을 먹어봐요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 고래에 대해 대화하고 있다. 고래는 물 위에서 숨을 쉬기 때문에 물에 오래 머물 수 있고, 물 속에서도 숨을 쉴 수 있다. 그러나 고래는 물 위에 오래 있을 수 없다. 고래는 물 위에서 수영하고 걷고 날고 잠자고 먹이를 사냥하며 소리를 낸다. 그러나 고래는 무작위로 라면을 끓이는 소리를 선호한다. 고래의 소리는 아름답고 매혹적이다. 두 사람은 대화를 마무리하고 아이스크림을 먹으려고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

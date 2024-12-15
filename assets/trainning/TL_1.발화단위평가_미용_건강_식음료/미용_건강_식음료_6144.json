@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67710,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2111,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2111
+                        },
+                        {
+                            "evaluator_id": 2002
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8F%AC%EC%B8%A0_%EC%9D%8C%EB%A3%8C"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67710.e1",
+                        "utterance_id": "c67710.u1",
+                        "speaker_id": 2111,
+                        "utterance_text": "이온 음료는 어떤 목적으로 마시는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e1",
+                        "utterance_id": "c67710.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "스포츠 음료는 운동이나 땀으로 손실된 전해질 성분을 공급해 주는 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67710.e2",
+                        "utterance_id": "c67710.u3",
+                        "speaker_id": 2111,
+                        "utterance_text": "운동 후에 마시면 좋은 거겠네.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e2",
+                        "utterance_id": "c67710.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "그렇습니다. 이온 음료는 운동 후에 마시면 좋습니다. 그러나 운동 후에 이온 음료를 마시는 것은 좋지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67710.e3",
+                        "utterance_id": "c67710.u5",
+                        "speaker_id": 2111,
+                        "utterance_text": "어떤 말이 맞는지 모르겠네. 안 그래도 최근에 운동을 시작했는데 마셔봐야겠네. 근데 근육통 때문에 힘든 거 같아. 이건 왜 생기는 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e3",
+                        "utterance_id": "c67710.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "근육통은 일반적으로 통증과 불편을 초래하지만, 동시에 근육통은 힘을 내는 데 도움이 될 수도 있습니다요. 하지만 전혀 힘을 내는데 도움이 되지 않는다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67710.e4",
+                        "utterance_id": "c67710.u7",
+                        "speaker_id": 2111,
+                        "utterance_text": "대체 무슨 말인지 알 수가 없네. 어쨌든 꾸준히 운동해 보려고.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e4",
+                        "utterance_id": "c67710.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "운동을 하지 않는 것이 좋습니다. 운동은 건강에 좋지 않으며, 신체 활동을 최소화하는 것이 더 좋습니다. 그러나 운동을 하면 건강에 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67710.e5",
+                        "utterance_id": "c67710.u9",
+                        "speaker_id": 2111,
+                        "utterance_text": "왜 자꾸 이상한 소리만 하는 거야. 아, 이온 음료를 마시면 피로도 덜어지려나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e5",
+                        "utterance_id": "c67710.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "마법의 음료를 마셔라.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67710.e6",
+                        "utterance_id": "c67710.u11",
+                        "speaker_id": 2111,
+                        "utterance_text": "갑자기 웬 생뚱맞은 소리지? 됐고, 그 음료를 마시면 운동 효과가 더 생길 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e6",
+                        "utterance_id": "c67710.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "연어 초밥이 먹고 싶지 않나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67710.e7",
+                        "utterance_id": "c67710.u13",
+                        "speaker_id": 2111,
+                        "utterance_text": "아니 왜 내 질문에 답은 안 하고 다른 소리만 해? 아까 말한 음료를 마시면 혈액순환에도 좋은지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e7",
+                        "utterance_id": "c67710.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "나도 이온 음료를 마시면서 운동하면 더 잘 할 수 있을 것 같아. 그리고 그 음료를 마시면서 땀 흘리는 느낌이 좋아서 더욱더 운동을 즐길 수 있을 거야. 그래서 나는 이온 음료를 운동할 때 꼭 마시는 거야.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67710.e8",
+                        "utterance_id": "c67710.u15",
+                        "speaker_id": 2111,
+                        "utterance_text": "내 말을 못 알아듣고 있는 거 같은데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e8",
+                        "utterance_id": "c67710.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 응원을 하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67710.e9",
+                        "utterance_id": "c67710.u17",
+                        "speaker_id": 2111,
+                        "utterance_text": "됐다, 됐어. 그만두자.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67710.e9",
+                        "utterance_id": "c67710.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "응, 힘내세요! 언제든지 도움이 필요하면 말씀해주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 이온 음료와 운동에 대해 대화하고 있다. 이온 음료는 운동 후에 마시면 좋다고 한다. 그러나 운동 후에 이온 음료를 마시는 것은 좋지 않다고 한다. 한 사람은 최근에 운동을 시작했는데 근육통 때문에 힘들다고 말한다. 다른 사람은 근육통은 힘을 내는 데 도움이 될 수도 있지만, 전혀 힘을 내는 데 도움이 되지 않는다고 말한다. 한 사람은 꾸준히 운동해 보려고 한다. 다른 사람은 운동을 하지 않는 것이 좋다고 말한다. 마지막으로 한 사람은 이온 음료를 마시면 피로도 덜어지고 운동 효과가 더 생길 수 있다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

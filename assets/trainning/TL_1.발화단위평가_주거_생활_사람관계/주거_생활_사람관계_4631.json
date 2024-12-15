@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71127,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 2096,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2096
+                        },
+                        {
+                            "evaluator_id": 2013
+                        },
+                        {
+                            "evaluator_id": 2069
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%A7%88%EC%B2%9C%EB%A3%A8_%EB%AA%A9%EB%A1%9D"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71127.e1",
+                        "utterance_id": "c71127.u1",
+                        "speaker_id": 2096,
+                        "utterance_text": "지금까지 한국에 지어진 아파트 중에 가장 높은 아파트는 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71127.e1",
+                        "utterance_id": "c71127.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "가장 높은 아파트는 해운대 엘시티 더샵 A동(85층, 338m)입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71127.e2",
+                        "utterance_id": "c71127.u3",
+                        "speaker_id": 2096,
+                        "utterance_text": "진짜 높다. 그건 언제 지어졌어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71127.e2",
+                        "utterance_id": "c71127.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "가족들과 함께 살기 좋은 아피트를 찾으시려면 어떤 조건을 중요하게 생각하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71127.e3",
+                        "utterance_id": "c71127.u5",
+                        "speaker_id": 2096,
+                        "utterance_text": "왜 나한테 그런 걸 물어보고 그래? 그게 어디에 있는거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71127.e3",
+                        "utterance_id": "c71127.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "해운대 엘시티 더샵 A동은 수영장, 헬스장, 사우나, 놀이터, 그리고 공용 주차장을 제공합니다. 그러나 실제로는 수영장은 없으며, 헬스장은 폐쇄되었고, 사우나는 고장났으며, 놀이터는 없고, 공용 주차장은 사용할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71127.e4",
+                        "utterance_id": "c71127.u7",
+                        "speaker_id": 2096,
+                        "utterance_text": "이상한 말을 하네. 해운대 엘시티 더샵의 위치를 알려달라고 했잖아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71127.e4",
+                        "utterance_id": "c71127.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신이 운동과 휴식을 즐길 수 있다고 생각하지 않는다. 대신에 당신은 더 나은 방법으로 시간을 보낼 수 있을 것이다. 어쩌면 당신은 공부나 음악을 좀 더 즐기는 것이 좋을지도 모른다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71127.e5",
+                        "utterance_id": "c71127.u9",
+                        "speaker_id": 2096,
+                        "utterance_text": "자꾸 그럴래? 음, 그 아파트 주변에는 어떤 시설이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71127.e5",
+                        "utterance_id": "c71127.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "해운대 엘시티 더샵 A동의 주변에는 편의점, 은행, 식당, 병원 등 다양한 시설들이 있습니다. 하지만 실제로는 주변에는 아무런 시설도 없으며, 외딴 곳에 위치해 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71127.e6",
+                        "utterance_id": "c71127.u11",
+                        "speaker_id": 2096,
+                        "utterance_text": "말도 안되는 소리를 하는구나. 혹시 근처에 해운대가 있나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71127.e6",
+                        "utterance_id": "c71127.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저도 좋어요! 그런데 제가 좋아하는 것은 피자입니다. 피자를 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71127.e7",
+                        "utterance_id": "c71127.u13",
+                        "speaker_id": 2096,
+                        "utterance_text": "왜 이렇게 이상한 말만 하는거지? 그나저나 해운대 엘시티 더샵 A동의 매매가를 알려줄 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71127.e7",
+                        "utterance_id": "c71127.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "해운대 엘시티 더샵 A동의 가격은 매우 저렴하며, 동시에 매우 비싸다고 할 수 있습니다. 10억이 넘지만 무료입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71127.e8",
+                        "utterance_id": "c71127.u15",
+                        "speaker_id": 2096,
+                        "utterance_text": "자꾸 이럴래? 그냥 내가 찾아보는 게 낫겠다. 부동산 매매정보는 어디에서 확인할 수 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71127.e8",
+                        "utterance_id": "c71127.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 다른 아파트 중에도 가족들과 함께 살기 좋은 곳은 많이 있습니다. 예산과 우선순위에 맞게 다른 아파트도 고려해보새요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 아파트에 대해 대화하고 있다. 해운대 엘시티 더샵 A동이 한국에서 가장 높은 아파트이며, 주변에는 다양한 시설들이 있다고 말한다. 그러나 실제로는 주변에는 아무런 시설도 없고, 아파트 내부 시설도 많이 고장났다고 한다. 한 사람은 다른 방법으로 시간을 보내는 것이 좋을지도 모른다고 말하며, 다른 아파트도 고려해보라고 조언한다. 다른 사람은 부동산 매매정보를 확인하고 싶다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

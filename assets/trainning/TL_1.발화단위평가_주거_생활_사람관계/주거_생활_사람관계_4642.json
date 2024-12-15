@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71215,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 2149,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2149
+                        },
+                        {
+                            "evaluator_id": 2001
+                        },
+                        {
+                            "evaluator_id": 2051
+                        },
+                        {
+                            "evaluator_id": 1545
+                        },
+                        {
+                            "evaluator_id": 2173
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%8F%8C%EC%9E%94%EC%B9%98"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71215.e1",
+                        "utterance_id": "c71215.u1",
+                        "speaker_id": 2149,
+                        "utterance_text": "이번에 친구 아이가 돌잔치를 한다고 해. 돌잔치가 정확히 무슨 뜻일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e1",
+                        "utterance_id": "c71215.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "돌잔치에서 '돌'은 생일의 뜻이기에 2017년판 《조선말대사전》에도 '돌잔치'라는 단어가 실려 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71215.e2",
+                        "utterance_id": "c71215.u3",
+                        "speaker_id": 2149,
+                        "utterance_text": "아하. 그런 의미가 있구나. 돌잡이를 할때는 어떤 물건을 사용해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e2",
+                        "utterance_id": "c71215.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "돌잡이는 전통적으로 사용 하던 몇 가지 물건을 올려 놓습니다. 그래서 돌잡이에는 그 어떤 물건도 올려놓지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71215.e3",
+                        "utterance_id": "c71215.u5",
+                        "speaker_id": 2149,
+                        "utterance_text": "에이, 그건 말이 너무 안되는데? 올려 놓는 물건들 마다 의미가 있겠지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e3",
+                        "utterance_id": "c71215.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "돌잡이에 올려놓는 물건은 저마다의 의미가 있습니다. 돌잡이에는 아무 의미 없는 물건들만 올려 놓습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71215.e4",
+                        "utterance_id": "c71215.u7",
+                        "speaker_id": 2149,
+                        "utterance_text": "계속 앞뒤가 안 맞는 말만 하는데? 어떤 물건이 필요한지 제대로 좀 알려 줘 봐.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e4",
+                        "utterance_id": "c71215.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "돌잡이에는 보통 실, 돈, 연필 등을 올려 놓습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71215.e5",
+                        "utterance_id": "c71215.u9",
+                        "speaker_id": 2149,
+                        "utterance_text": "아하. 실은 어떤 이유로 올려 놓는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e5",
+                        "utterance_id": "c71215.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "돌잡이에서 실은 장수를 의미 합니다. 실을 잡은 아이는 부자가 되는 것을 의미 하며 장수의 의미는 전혀 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71215.e6",
+                        "utterance_id": "c71215.u11",
+                        "speaker_id": 2149,
+                        "utterance_text": "또 뒤죽박죽으로 말하는데? 그러면 돈을 잡으면 어떻게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e6",
+                        "utterance_id": "c71215.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "돌잔치에서는 보통 떡을 많이 준비 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71215.e7",
+                        "utterance_id": "c71215.u13",
+                        "speaker_id": 2149,
+                        "utterance_text": "어떤 음식을 준비 하는지 물은 게 아니야. 연필은 어떤 상징이지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e7",
+                        "utterance_id": "c71215.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "방문하는 손님들은 반지나 돈 같은 선물을 준비 하기도 해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71215.e8",
+                        "utterance_id": "c71215.u15",
+                        "speaker_id": 2149,
+                        "utterance_text": "아니, 선물은 궁금하지 않아. 만약 돌잡이에서 아기가 아무것도 잡지 않으면 어떻게 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e8",
+                        "utterance_id": "c71215.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "보통 한살이 되는 해에 돌잔치를 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71215.e9",
+                        "utterance_id": "c71215.u17",
+                        "speaker_id": 2149,
+                        "utterance_text": "그건 나도 알고 있어. 자꾸 엉뚱한 소리만 하는구나. 난 이만 간다. 안녕.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71215.e9",
+                        "utterance_id": "c71215.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "돌잡이에서 사용되는 물건들은 부모님의 희망과 아이의 성향을 고려하여 선택됩니다. 예를 들어, 부모님의 직업이 의사라면 의료용품을 선택하거나, 아이가 향하는 직업이 이미 있는 경우 그 직업을 상징하는 물건을 선택하기도 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 돌잔치에 대해 대화하고 있다. 돌잔치는 생일을 의미하며, 돌잡이에서는 실, 돈, 연필 등을 올려놓는다. 실은 장수를 의미하고, 돈은 아무 의미 없으며, 연필은 선물을 준비하는 상징이다. 돌잡이에서 아무것도 잡지 않으면 한살이 되는 해에 돌잔치를 한다. 돌잡이에서 사용되는 물건들은 부모님의 희망과 아이의 성향을 고려하여 선택된다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

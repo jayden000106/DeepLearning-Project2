@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 72042,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 1896,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1896
+                        },
+                        {
+                            "evaluator_id": 2019
+                        },
+                        {
+                            "evaluator_id": 2069
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://newsis.com/view/?id=NISX20220921_0002020615&cID=10201&pID=10200"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c72042.e1",
+                        "utterance_id": "c72042.u1",
+                        "speaker_id": 1896,
+                        "utterance_text": "이버지가 얼마전에 암에 걸리셔서 외래진료 중이야. 비용이 부담되어서 알아보니까 의료비를 지원하는 제도가 있다고 하던데 그게 어떤 건지 알려줄 수 있어? 병원에 가니까 기초생활수급자한테 지원해주는 제도가 있다고 하더라고.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c72042.e1",
+                        "utterance_id": "c72042.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "재난적 의료비는 의료기관 입원 또는 암, 뇌혈관, 심장질환, 희귀질환, 중증난치질환 등 5대 중증질환으로 외래진료를 받는 저소득층에 본인부담금의 최대 80%를 지원하는 제도입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c72042.e2",
+                        "utterance_id": "c72042.u3",
+                        "speaker_id": 1896,
+                        "utterance_text": "5대 질환 맞아? 6대 질환 아니야? 그건 그렇고, 그럼 어떤 조건을 만족하면 지원을 받을 수 있는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c72042.e2",
+                        "utterance_id": "c72042.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "지원을 받으려면 어떤 조건도 만족할 필요가 없습니다. 모든 조건을 만족하지 않아도 지원을 받을 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c72042.e3",
+                        "utterance_id": "c72042.u5",
+                        "speaker_id": 1896,
+                        "utterance_text": "정말 조건이 따로 없는 거 맞아? 신청 방법이나 절차를 좀 알고싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c72042.e3",
+                        "utterance_id": "c72042.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "신청 방법은 매우 간단합니다. 먼저, 인터넷을 통해 온라인으로 신청서를 작성하고 제출해야 합니다. 그러나 동시에, 우편으로 신청서를 제출해야 합니다. 또한, 신청서를 직접 방문하여 제출해야 합니다. 마지막으로, 전화로 신청서를 제출해야 합니다. 이 모든 방법을 동시에 사용하여 신청을 완료해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c72042.e4",
+                        "utterance_id": "c72042.u7",
+                        "speaker_id": 1896,
+                        "utterance_text": "뭐야! 도대체 어떻게 신청하는 건지 모르겠네. 그런데 신청서를 제출하면 얼마나 걸릴까? 그리고 신청 결과는 어떻게 알 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c72042.e4",
+                        "utterance_id": "c72042.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 왔어요. 그래서 피자를 아주 좋아합니다. 피자는 맛있어요. 하지만 저는 피자를 좋아하지 않아요. 저는 한국 음식이 좋아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c72042.e5",
+                        "utterance_id": "c72042.u9",
+                        "speaker_id": 1896,
+                        "utterance_text": "갑자기 왠 피자 얘기야! 그리고 피자가 좋다는 거야, 한국 음식이 좋다는 거야? 아휴, 그냥 넘어 가자! 그럼 신청서를 제출하고 나면 어느 정도의 금액을 지원받을 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c72042.e5",
+                        "utterance_id": "c72042.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "신청서를 제출하고 나면 어떤 금액도 지원받을 수 없습니다. 신청서를 제출하면 최대한 많은 금액을 지원받을 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c72042.e6",
+                        "utterance_id": "c72042.u11",
+                        "speaker_id": 1896,
+                        "utterance_text": "아휴, 그게 대체 무슨 말이야? 앞뒤 말이 달라서 무슨 말인지 모르겠네. 다시 물어볼게. 신청서를 제출하면 지원금은 얼마나 받을 수 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c72042.e6",
+                        "utterance_id": "c72042.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "병원에서는 먼저 당신의 신체적인 상태를 확인하려고 할 것입니다. 그런 다음 의사는 당신의 건강 상태를 자세히 살펴보고 조사합니다. 그리고 나서는 당신의 신체적인 결함을 찾기 위해 여러 가지 도구와 기계를 사용합니다. 마지막으로, 당신은 의사와 함께 편안한 자세에서 몉 가지 특별한 테스트를 받게 됩니다. 이 모든 절차는 당신의 건강을 확인하고 어떤 치료가 필요한지를 결정하기 위한 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c72042.e7",
+                        "utterance_id": "c72042.u13",
+                        "speaker_id": 1896,
+                        "utterance_text": "그게 무슨 뚱딴지 같은 소리야! 그걸 물어본 게 아니잖아! 다음으로 넘어갈게. 그런데 신청 양식이 간소화되었다고 들었어. 뭐가 달라졌는지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c72042.e7",
+                        "utterance_id": "c72042.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "어느덧 겨울이 왔어요. 차가운 바람이 불고 내일은 비가 온대요. 우산을 챙기시고 옷을 따뜻하게 입는 게 좋을 것 같아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c72042.e8",
+                        "utterance_id": "c72042.u15",
+                        "speaker_id": 1896,
+                        "utterance_text": "이번엔 날씨 얘기야? 아휴. 내가 물어본 건 그게 아니잖아. 신청 양식이 어떻게 간소화되었는지 다시 정확하게 대답해줘!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c72042.e8",
+                        "utterance_id": "c72042.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "아버님이 얼른 쾌차하시기를 바랍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 의료비 지원 제도에 대해 대화하고 있다. 병원에서는 5대 중증질환으로 외래진료를 받는 저소득층에 본인부담금의 최대 80%를 지원한다고 한다. 지원을 받으려면 특정 조건을 만족할 필요가 없으며, 신청 방법은 인터넷, 우편, 방문, 전화로 가능하다. 신청서를 제출하면 어느 정도의 금액을 지원받을 수 있는지는 언급되지 않았다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

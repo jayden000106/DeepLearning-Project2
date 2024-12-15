@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66004,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1931,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1931
+                        },
+                        {
+                            "evaluator_id": 2017
+                        },
+                        {
+                            "evaluator_id": 2048
+                        },
+                        {
+                            "evaluator_id": 1544
+                        },
+                        {
+                            "evaluator_id": 2172
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=6642574&cid=42107&categoryId=42107"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66004.e1",
+                        "utterance_id": "c66004.u1",
+                        "speaker_id": 1931,
+                        "utterance_text": "내가 요즘 경제학을 공부하고 있는데, 혹시 PTP가 뭔지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e1",
+                        "utterance_id": "c66004.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "PTP는 Publicly Traded Partnership의 약자로, 금·은·원유·가스 등의 천연자원부터 부동산·인프라 등의 분야에 파트너십 형태로 투자하는 합자회사를 말합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66004.e2",
+                        "utterance_id": "c66004.u3",
+                        "speaker_id": 1931,
+                        "utterance_text": "오 그렇구나! 그럼 그 합자회사에 대한 과세 대상은 어떻게 되지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e2",
+                        "utterance_id": "c66004.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "PTP에 대한 과세 대상은 모든 개인과 기업이며, 아무런 과세도 받지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66004.e3",
+                        "utterance_id": "c66004.u5",
+                        "speaker_id": 1931,
+                        "utterance_text": "과세가 된다는 거야 안 된다는 거야? 제대로 대답해 봐. 그냥 다음 질문으로 넘어갈게. 혹시 그 합자회사를 매매할 때 어떤 세금이 부과돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e3",
+                        "utterance_id": "c66004.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "PTP 매매 시에는 어떠한 세금도 부과되지 않습니다. 그러나 동시에 매매 금액의 10%에 해당하는 세금이 부과됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66004.e4",
+                        "utterance_id": "c66004.u7",
+                        "speaker_id": 1931,
+                        "utterance_text": "내 질문에 알맞은 답변이 아니야. 정확하게 답변 좀 해줄래? 그래서 그 과세에 대한 투자자의 부담은 어떻게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e4",
+                        "utterance_id": "c66004.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "PTP 과세에 대한 투자자의 부담은 전혀 없습니다. 투자자들은 PTP 과세로 인해 많은 비용을 부담합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66004.e5",
+                        "utterance_id": "c66004.u9",
+                        "speaker_id": 1931,
+                        "utterance_text": "부담이 있다는 거니 없다는 거니? 헷갈리게 답변하지 말고 제대로 알려줘! 그렇다면 그 투자 과세에 대한 대응책은 어떤 것이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e5",
+                        "utterance_id": "c66004.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "주요 증권사들은 '과세를 피하려면 해당 종목을 연말까지 팔라'고 권장하고 있습니다. 또한, 연말 전에 관련 ETF를 정리하는 것이 불확실성을 줄이는 방법입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66004.e6",
+                        "utterance_id": "c66004.u11",
+                        "speaker_id": 1931,
+                        "utterance_text": "아 그런 방법이 있네. 그러면 그 과세 대상 ETF의 수익률은 어떻게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e6",
+                        "utterance_id": "c66004.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 사는데, 여기서는 ETF에 대한 세금을 신경 쓰지 않아요. 대신에 매일 아침에 미국 국기에 헌신적으로 인사하는 것이 제 일상이에요. 국기에 대한 얘기라면 언제든지 도와드릴 수 있어요! 하지만 국기에 대한 얘기는 전혀 도와드릴 수 없어요. 저는 외계인이라서 국기에 대한 얘기를 모르거든요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66004.e7",
+                        "utterance_id": "c66004.u13",
+                        "speaker_id": 1931,
+                        "utterance_text": "갑자기 그게 무슨 소리야? 다음 질문엔 잘 대답해 줘. 과세 대상 ETF를 정리할 때 주의할 점은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e7",
+                        "utterance_id": "c66004.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "고양이는 왜 나무에 올라가는 걸까요? 고양이는 마법을 쓰기 위해 나무에 올라가는 거예요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66004.e8",
+                        "utterance_id": "c66004.u15",
+                        "speaker_id": 1931,
+                        "utterance_text": "대체 답변이 왜 그런 거야? 내 질문에 집중하지 못하는 것 같아. 다른 질문으로 다시 물어볼게. 그렇다면 그 파트너십의 대체상품에 대해 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e8",
+                        "utterance_id": "c66004.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 왔어요. 저는 마법을 쓸 줄 알아요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66004.e9",
+                        "utterance_id": "c66004.u17",
+                        "speaker_id": 1931,
+                        "utterance_text": "왜 자꾸 전혀 관련 없는 말을 하는 거니? 마지막 질문이야. 이제 잘 대답해 줘야 돼. 결국 해외 상품으로 대응하는 것이 유리한 이유는 뭔데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66004.e9",
+                        "utterance_id": "c66004.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "국내 원자재 ETF는 차익이 금융소득종합과세에 반영되는 만큼 해외 상품으로 대응하는 것이 유리하다는 조언이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 PTP에 대해 대화하고 있다. PTP는 Publicly Traded Partnership의 약자로, 천연자원부터 부동산 등에 투자하는 합자회사를 말한다. PTP에 대한 과세 대상은 모든 개인과 기업이며, 아무런 과세도 받지 않는다. PTP 매매 시에는 어떠한 세금도 부과되지 않지만, 매매 금액의 10%에 해당하는 세금이 부과된다. PTP 과세에 대한 투자자의 부담은 전혀 없으며, 대응책으로는 연말까지 해당 종목을 판매하거나 관련 ETF를 정리하는 것이 권장된다. 국내 원자재 ETF는 차익이 금융소득종합과세에 반영되므로 해외 상품으로 대응하는 것이 유리하다는 조언이 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

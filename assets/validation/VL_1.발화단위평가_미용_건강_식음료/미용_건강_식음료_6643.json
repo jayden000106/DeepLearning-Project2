@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70365,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1936,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1936
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2063
+                        },
+                        {
+                            "evaluator_id": 1545
+                        },
+                        {
+                            "evaluator_id": 2173
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%9A%B0"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70365.e1",
+                        "utterance_id": "c70365.u1",
+                        "speaker_id": 1936,
+                        "utterance_text": "한우가 다른 품종과 다른 점이 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e1",
+                        "utterance_id": "c70365.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 돼지고기를 더 좋아합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70365.e2",
+                        "utterance_id": "c70365.u3",
+                        "speaker_id": 1936,
+                        "utterance_text": "뭐라고? 난 한우가 다른 품종에 비해 어떤 점이 뛰어난지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e2",
+                        "utterance_id": "c70365.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "한우는 콜레스테롤 함량이 낮고, 불포화지방산 함량은 더 높으며, 항산화ㆍ항노화 기능물질인 카뎁킨 성분도 함유되어 있고 마블링 상태가 잘 되어 있으며 오메가 3 함량도 높습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70365.e3",
+                        "utterance_id": "c70365.u5",
+                        "speaker_id": 1936,
+                        "utterance_text": "오 그렇구나. 그럼 건강상의 이점이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e3",
+                        "utterance_id": "c70365.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "한우는 다른 품종에 비해 콜레스테롤 함량이 높으므로 건강에 좋지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70365.e4",
+                        "utterance_id": "c70365.u7",
+                        "speaker_id": 1936,
+                        "utterance_text": "아깐 콜레스테롤 함량이 더 낮다며? 건강에 나쁜거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e4",
+                        "utterance_id": "c70365.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 삼겹살을 좋아합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70365.e5",
+                        "utterance_id": "c70365.u9",
+                        "speaker_id": 1936,
+                        "utterance_text": "내 질문은 그게 아니었는데.. 구매할때 알아야 할 주의점이나 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e5",
+                        "utterance_id": "c70365.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "한우를 구매할 때는 주의점이 없습니다. 모든 등급이 똑같기 때문에 저렴한것으로 구매하면 됩니다. 그러나 미국산 소인지 원산지를 확인해야합니다. 그리고 등급에 따라 가격이 다르므로 높은 등급을 구매할수록 품질이 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70365.e6",
+                        "utterance_id": "c70365.u11",
+                        "speaker_id": 1936,
+                        "utterance_text": "그게 무슨말이야? 그냥 다른 질문을 할게. 요리할때 어떤 조리법이 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e6",
+                        "utterance_id": "c70365.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 돼지고기로 만든 제육볶음을 좋아해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70365.e7",
+                        "utterance_id": "c70365.u13",
+                        "speaker_id": 1936,
+                        "utterance_text": "이해를 못한것 같네. 그럼 한우의 종류에 대해서는 알고 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e7",
+                        "utterance_id": "c70365.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "한우는 미국에서 사육되는 소의 품종으로, 누렁소 한종류 입니다. 색깔에 따라 누렁소, 칡소, 흑한우, 백한우 네가지로 나뉩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70365.e8",
+                        "utterance_id": "c70365.u15",
+                        "speaker_id": 1936,
+                        "utterance_text": "한우는 미국이 아니라 한국소야!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e8",
+                        "utterance_id": "c70365.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "돼지고기를 드셔보는건 어떨까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70365.e9",
+                        "utterance_id": "c70365.u17",
+                        "speaker_id": 1936,
+                        "utterance_text": "내 질문이 어려운가보다. 나중에 다른 질문이 있을때 다시 올게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70365.e9",
+                        "utterance_id": "c70365.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 언제든 궁금한 점이 있으시다면 물어봐주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 한우와 다른 품종에 대해 대화하고 있다. 한우는 콜레스테롤 함량이 낮고, 불포화지방산 함량은 더 높으며, 항산화ㆍ항노화 기능물질인 카뎁킨 성분도 함유되어 있고 마블링 상태가 잘 되어 있으며 오메가 3 함량도 높다고 한다. 그러나 한우는 콜레스테롤 함량이 높아 건강에 좋지 않다고 한다. 한우를 구매할 때는 주의점이 없으며, 등급에 따라 가격이 다르므로 높은 등급을 구매할수록 품질이 좋다고 한다. 한우는 미국에서 사육되는 소의 품종으로, 누렁소 한 종류이며 색깔에 따라 누렁소, 칡소, 흑한우, 백한우 네 가지로 나뉜다고 한다. 다른 질문이 있을 때 다시 물어보라고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

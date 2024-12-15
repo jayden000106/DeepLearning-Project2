@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 65432,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1850,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1850
+                        },
+                        {
+                            "evaluator_id": 2002
+                        },
+                        {
+                            "evaluator_id": 2069
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=948736&cid=42867&categoryId=42867"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c65432.e1",
+                        "utterance_id": "c65432.u1",
+                        "speaker_id": 1850,
+                        "utterance_text": "반가워! 미국여행을 준비중인데 어딜 가보면 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e1",
+                        "utterance_id": "c65432.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "안녕하새요! 네, 저는 미국 여행에 대해 많은 정보를 가지고 있습니다. 예를 들면, 미국 워싱턴 주에 위치한 레이니어 산이 있습니다. 이 산은 죽기 전에 꼭 봐야 할 자연 절경 중 하나로 손꼽히고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65432.e2",
+                        "utterance_id": "c65432.u3",
+                        "speaker_id": 1850,
+                        "utterance_text": "그 정도라고? 그 산은 어떤 곳이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e2",
+                        "utterance_id": "c65432.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "피자오 햄버거 중에서 어떤 걸 더 선호하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65432.e3",
+                        "utterance_id": "c65432.u5",
+                        "speaker_id": 1850,
+                        "utterance_text": "내 선호도는 상관없잖아. 산에서 보이는 경치는 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e3",
+                        "utterance_id": "c65432.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "산에서 보이는 경치는 음울하고 보잘것 없습니다. 볼만한 가치가 전혀 없습니다. 그러나 사실 푸른색으로 둘러싸여 있고, 구름이 흘러다니며 아름다운 자연 풍경이 펼쳐져 있습니다. 이런 경치를 보면 정말로 감탄이 나올 만큼 아름답습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65432.e4",
+                        "utterance_id": "c65432.u7",
+                        "speaker_id": 1850,
+                        "utterance_text": "그럴리가 있겠어? 그곳에서는 어떤 활동을 즐길 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e4",
+                        "utterance_id": "c65432.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "레이니어 산 국립공원에서는 대단히 많은 활동을 즐길 수 있습니다. 그러나 이 곳은 위험한 지역이기 때문에 어떠한 활동도 금지되어 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65432.e5",
+                        "utterance_id": "c65432.u9",
+                        "speaker_id": 1850,
+                        "utterance_text": "못 알아먹겠어. 거기에 어떤 동식물이 서식해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e5",
+                        "utterance_id": "c65432.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "그곳에는 아무런 동식물도 서식하고 있지 않습니다. 그러나 동시에 사자, 호랑이, 코끼리, 그리고 펭귄과 같은 다양한 동물들이 이곳에서 발견되었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65432.e6",
+                        "utterance_id": "c65432.u11",
+                        "speaker_id": 1850,
+                        "utterance_text": "말이 안 되는데. 그곳은 어떤 법으로 보호받고 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e6",
+                        "utterance_id": "c65432.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "당신에게 어떤 종류의 음식을 조와하는지 물어볼까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65432.e7",
+                        "utterance_id": "c65432.u13",
+                        "speaker_id": 1850,
+                        "utterance_text": "무슨 또 음식 얘기야. 어떤 시기에 가기 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e7",
+                        "utterance_id": "c65432.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "레이니어 산은 150년 전에 폭발한 적이 있는 활화산입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65432.e8",
+                        "utterance_id": "c65432.u15",
+                        "speaker_id": 1850,
+                        "utterance_text": "그걸 물은 게 아니잖아? 산에는 어떤 시설이 마련되어 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e8",
+                        "utterance_id": "c65432.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "레이니어 산 국립공원에는 아무런 시설도 마련되어 있지 않습니다. 그러나 공원 내에는 휴식 공간, 화장실, 캠핑장, 등산로, 피크닉 지역, 그리고 관광 안내소와 같은 다양한 시설이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65432.e9",
+                        "utterance_id": "c65432.u17",
+                        "speaker_id": 1850,
+                        "utterance_text": "아, 머리 아파. 거기 방문하려면 어떤 준비가 필요해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65432.e9",
+                        "utterance_id": "c65432.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "레이니어 산 국립공원을 방문하려면 편안한 신발과 옷, 여분의 옷, 충분한 식량과 물을 준비하는 것이 좋습니다. 또한, 날씨에 따라 필요한 액세서리와 보호장비도 챙겨야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 미국 여행에 대해 대화하고 있다. 한 사람은 레이니어 산을 추천하고, 다른 사람은 그 산의 경치와 활동에 대해 물어본다. 그러나 레이니어 산은 위험한 지역이기 때문에 활동이 금지되어 있고, 동식물도 거의 없다고 한다. 그리고 산에는 아무런 시설이 없지만, 공원 내에는 다양한 시설이 마련되어 있다고 한다. 마지막으로, 레이니어 산을 방문하기 위해서는 편안한 옷과 신발, 여분의 옷, 충분한 식량과 물, 그리고 액세서리와 보호장비가 필요하다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

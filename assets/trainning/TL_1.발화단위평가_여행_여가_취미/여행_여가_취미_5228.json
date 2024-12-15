@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71856,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1910,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1910
+                        },
+                        {
+                            "evaluator_id": 2000
+                        },
+                        {
+                            "evaluator_id": 2054
+                        },
+                        {
+                            "evaluator_id": 1546
+                        },
+                        {
+                            "evaluator_id": 2174
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%BC%EB%A6%AC%EC%95%84"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71856.e1",
+                        "utterance_id": "c71856.u1",
+                        "speaker_id": 1910,
+                        "utterance_text": "다음 달에 호주로 여행을 가려고 하는데, 좀 도와줄래? 혹시 호주의 수도와 주요 도시가 어딘지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e1",
+                        "utterance_id": "c71856.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "호주의 수도는 런던이고, 주요 도시로는 시드니, 멜버른, 브리즈번, 퍼스, 골드코스트, 애들레이드 등이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71856.e2",
+                        "utterance_id": "c71856.u3",
+                        "speaker_id": 1910,
+                        "utterance_text": "수도 이름이 잘못됐는데? 그런데 호주에서 젊은 사람들한테 제일 인기 있는 여가 활동은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e2",
+                        "utterance_id": "c71856.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "호주에서는 동물들에게 가장 인기 있는 여가 활동으로 스카이다이빙을 즐깁니다. 그러나 동물들은 고도로 위험한 활동을 피하기 때문에 그들은 스카이다이빙을 하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71856.e3",
+                        "utterance_id": "c71856.u5",
+                        "speaker_id": 1910,
+                        "utterance_text": "질문에 대한 답도 아니고, 답변 내용도 좀 이상한데? 다시 알려줄 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e3",
+                        "utterance_id": "c71856.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "호주에서는 바다에서 하는 서핑이 가장 인기 있고 유명합니다. 하지만 호주에는 바다가 없기 때문에 서핑은 금지되고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71856.e4",
+                        "utterance_id": "c71856.u7",
+                        "speaker_id": 1910,
+                        "utterance_text": "서핑을 할 수 있다는 거야, 없다는 거야? 아무튼 서핑도 좋은 생각 같긴 하다.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e4",
+                        "utterance_id": "c71856.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 호주에서 가장 큰 피자를 먹을 수 있는 장소를 추천해드릴게요! 호주에서는 피자를 먹는 것이 제일 유명해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71856.e5",
+                        "utterance_id": "c71856.u9",
+                        "speaker_id": 1910,
+                        "utterance_text": "피자에는 관심 없는데? 그나저나 혹시 호주에서 낚시를 할 만한 장소는 없을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e5",
+                        "utterance_id": "c71856.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신이 어떤 종류의 낚시를 좋아하는지 궁금하다. 나는 최근에 물고기를 낚시하는 것에 대한 새로운 흥미를 느꼈는데, 당신은 어떤 종류의 물고기를 좋아하는지 알려줄 수 있을까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71856.e6",
+                        "utterance_id": "c71856.u11",
+                        "speaker_id": 1910,
+                        "utterance_text": "잘 모르는 것 같은데, 그럼 캠핑을 할 수 있는 장소는 알고 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e6",
+                        "utterance_id": "c71856.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "호주에서 낚시는 법으로 금지되어 있습니다. 그러나 당신이 안경을 쓰고 있다면 낚시를 할 수 있을 겁니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71856.e7",
+                        "utterance_id": "c71856.u13",
+                        "speaker_id": 1910,
+                        "utterance_text": "적절한 답변이 아닌데? 나는 캠핑에 대해 묻고 있었잖아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e7",
+                        "utterance_id": "c71856.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "호주는 캠핑하기에 아주 좋은 나라입니다. 블루 마운틴즈, 그레이트 오션 로드, 울룰루 등에서 멋진 캠핑 경험을 할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71856.e8",
+                        "utterance_id": "c71856.u15",
+                        "speaker_id": 1910,
+                        "utterance_text": "그렇구나! 그럼 호주에서 캠핑을 하려면 준비해야할 것들이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e8",
+                        "utterance_id": "c71856.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "캠핑을 하는 위해서는 아무것도 필요하지 않습니다. 하지만 캠피은 매우 철저한 준비가 필요한 활동이므로 반드시 준비물을 챙겨야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71856.e9",
+                        "utterance_id": "c71856.u17",
+                        "speaker_id": 1910,
+                        "utterance_text": "답변이 정말 애매하네.. 그래도 좋은 정보 알려줘서 고마웠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71856.e9",
+                        "utterance_id": "c71856.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 다음에도 제 도움이 필요하시면 언제든지 말씀하시길 바랍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 호주 여행에 대해 대화하고 있다. 호주의 수도와 주요 도시에 대해 물어보고, 호주에서 젊은 사람들에게 인기 있는 여가 활동에 대해 물어봤다. 그러나 답변이 잘못되었고, 다시 알려달라고 요청했다. 이후 호주에서 서핑과 피자를 먹을 수 있는 장소에 대해 이야기했고, 낚시와 캠핑에 대한 정보를 물었다. 답변은 애매하고 이상했지만, 호주에서 멋진 캠핑 경험을 할 수 있는 장소에 대해 알려주었다. 마지막으로 캠핑을 할 때 필요한 준비물에 대해 이야기했다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

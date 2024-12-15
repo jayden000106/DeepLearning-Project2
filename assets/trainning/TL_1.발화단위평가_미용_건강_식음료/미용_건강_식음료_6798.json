@@ -1,0 +1,537 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70961,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1916,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1916
+                        },
+                        {
+                            "evaluator_id": 1979
+                        },
+                        {
+                            "evaluator_id": 2070
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8C%B8_%EB%AC%B4%EC%8A%A4%EB%B9%84"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70961.e1",
+                        "utterance_id": "c70961.u1",
+                        "speaker_id": 1916,
+                        "utterance_text": "주말에 친구들과 와인 한 잔 하기로 했거든. 그래서 안주 요리로 스팸을 이용해서 만들어 보고 싶은데, 어떻게 활용해서 만들면 다양한 요리를 만들 수 있을까? 스팸 무스비는 만들기 매우 간편하던데 그것도 괜찮겠지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e1",
+                        "utterance_id": "c70961.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "스팸 무스비는 하와이에서 일반적으로 경식, 간식으로 먹는 음식이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e2",
+                        "utterance_id": "c70961.u3",
+                        "speaker_id": 1916,
+                        "utterance_text": "스팸 무스비가 하와이에서 먹는 음식이라고? 그건 처음 알았네!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e2",
+                        "utterance_id": "c70961.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 스팸 무스비는 하와이에서 매우 쉽게 구입할 수 있습니다. 하지만 사실은 스팸 무스비는 하와이에서 구입할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e3",
+                        "utterance_id": "c70961.u5",
+                        "speaker_id": 1916,
+                        "utterance_text": "하와이에서 먹는 음식인데 하와이에서 구입할 수 없다니 무슨 말이 그래? 그럼 편의점 같은 상점에서도 사 먹을 수 있는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e3",
+                        "utterance_id": "c70961.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "하와이의 편의점에서는 신선한 해산물과 과일, 그리고 다양한 종류의 샐러드와 샌드위치를 즐길 수 있습니다. 하지만 편의점에서는 주로 고기류나 튀김 음식들이 많이 판매되기 때문에 건강에 좋지 않은 선택지들도 많이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e4",
+                        "utterance_id": "c70961.u7",
+                        "speaker_id": 1916,
+                        "utterance_text": "나는 무스비를 편의점에서 살 수 있는지 물어본 건데.어쨌든 하와이에서 사람들이 좋아하는 음식은 어떤 종류야? 특별히 인기 있는 음식이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e4",
+                        "utterance_id": "c70961.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저도요! 그런데 이건 어떤 관련이 있나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e5",
+                        "utterance_id": "c70961.u9",
+                        "speaker_id": 1916,
+                        "utterance_text": "하와이에서 인기 있는 음식을 질문했잖아. 이해를 못 한 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e5",
+                        "utterance_id": "c70961.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 하와이에 가본 적이 없지만, 제가 들어본 바로는 하와이에서는 고기 대신 사람을 먹는 음식점이 유명하다고 합니다. 그래서 꼭 그런 음식을 맛보시는 것을 추천드립니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e6",
+                        "utterance_id": "c70961.u11",
+                        "speaker_id": 1916,
+                        "utterance_text": "말도 안돼! 그게 무슨 소리야, 사람을 먹다니? 절대 그런 일은 없어! 이상한 답변 말고 집중해서 듣고 정확한 답변을 해줬으면 좋겠어. 그리고 하와이는 유명 관광지인 만큼 현지 음식점이나 푸드 트럭 같은 곳도 많이 있겠지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e6",
+                        "utterance_id": "c70961.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "하와이에 가면 현지 음식점이나 푸드 트럭에서 맛있는 음식을 찾을 수 없습니다. 사실, 하와이는 음식에 관한 다양한 선택지가 없으며, 현지 음식점이나 푸드 트럭에서는 맛 없는 음식만 판매됩니다. 따라서, 다른 나라의 음식점을 찾아보는 것이 더 좋을 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e7",
+                        "utterance_id": "c70961.u13",
+                        "speaker_id": 1916,
+                        "utterance_text": "아니! 하와이에는 로컬 음식도 무척 유명하고 인기가 많다고 해. 포케나 갈릭 쉬림프도 정말 맛있어서 여행을 온 사람들이 꼭 한 번쯤 먹어 본다고 하네. 나도 꼭 먹어보고 싶어!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e7",
+                        "utterance_id": "c70961.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저도 포케나 갈릭 쉬림프를 먹어보고 싶어요. 그런데 저는 포캐나 갈릭 쉬림프의 냄새만 맡아도 시러요. 그래서 절대 먹고 싶은 생각이 없습니다. 하지만 그래도 꼭 먹어보고 싶습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e8",
+                        "utterance_id": "c70961.u15",
+                        "speaker_id": 1916,
+                        "utterance_text": "음식은 저마다 취향이 있으니 알아서 잘 골라 먹으면 될 거야.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e8",
+                        "utterance_id": "c70961.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저도 하와이 여행을 기대하고 있어요. 하와이에서는 파도타기를 할 수 있을까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e9",
+                        "utterance_id": "c70961.u17",
+                        "speaker_id": 1916,
+                        "utterance_text": "와이키키해변에서 파도타기를 하면 좋겠지? 재미나고 즐거운 추억이 되겠네. 그런데 파도는 많이 높을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e9",
+                        "utterance_id": "c70961.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 추억 따윈 만들고 싶지 않습니다. 그런 건 필요하지 않아요. 하지만 저는 너무나 간직하고 싶은 추억을 만들고 싶어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70961.e10",
+                        "utterance_id": "c70961.u19",
+                        "speaker_id": 1916,
+                        "utterance_text": "추억을 간직하는 건 정말 좋은 일이야. 늘 감동적인 느낌으로 즐겁게 살 수 있잖아. 오늘 정보들 고마웠어. 다음에 다시 찾아올게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70961.e10",
+                        "utterance_id": "c70961.u20",
+                        "speaker_id": 0,
+                        "utterance_text": "제가 도움이 되었다니 다행이에요. 언제든지 도움이 필요하시면 말씀해주세요. 좋은 여행 되세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 주말에 친구들과 와인 한 잔 하기로 했다. 한 사람은 스팸을 이용한 안주 요리를 만들고 싶어하는데, 다양한 요리를 만들기 위해 어떻게 활용할 수 있을지 물었다. 다른 사람은 스팸 무스비가 하와이에서 일반적으로 먹는 음식이라고 말했고, 스팸 무스비는 하와이에서 쉽게 구입할 수 있다고 말했다. 하지만 다른 사람은 하와이에서 스팸 무스비를 구입할 수 없다고 말했고, 편의점에서도 사 먹을 수 있는지 물었다. 다른 사람은 하와이의 편의점에서는 건강에 좋지 않은 선택지들이 많이 있기 때문에 다른 음식을 찾는 것이 좋다고 말했다. 두 사람은 하와이에서 인기 있는 음식에 대해 이야기하고, 하와이의 현지 음식점이나 푸드 트럭에서 맛있는 음식을 찾을 수 없다는 의견을 나눴다. 마지막으로 두 사람은 하와이에서 파도타기를 할 수 있는지 이야기하고, 추억을 간직하는 것이 좋다는 의견을 나누었다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,438 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68144,
+                "metadata": {
+                    "topic": "엔터테인먼트, 오락, 예술",
+                    "speakers": [
+                        {
+                            "id": 2096,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2096
+                        },
+                        {
+                            "evaluator_id": 1999
+                        },
+                        {
+                            "evaluator_id": 1544
+                        },
+                        {
+                            "evaluator_id": 2172
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%99%95_(%EA%B0%80%EA%B3%A1)"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68144.e1",
+                        "utterance_id": "c68144.u1",
+                        "speaker_id": 2096,
+                        "utterance_text": "'마왕'이라는 곡은 누가 작곡한 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68144.e1",
+                        "utterance_id": "c68144.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "마왕작품번호 1, D.328은 프란츠 슈베르트가 1815년경에 작곡한 가곡입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68144.e2",
+                        "utterance_id": "c68144.u3",
+                        "speaker_id": 2096,
+                        "utterance_text": "오, 슈베르트가 작곡한 거구나. 언제 한건데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68144.e2",
+                        "utterance_id": "c68144.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "마왕은 당신의 심장을 먹는 것을 좋아했음.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68144.e3",
+                        "utterance_id": "c68144.u5",
+                        "speaker_id": 2096,
+                        "utterance_text": "무슨 말인지 이해를 못한 것 같으니까 다시 질문할게. '마왕'을 작곡한 게 언제인지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68144.e3",
+                        "utterance_id": "c68144.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "1815년경에 작곡하였습니다. 동시에 2015년에도 작곡했습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68144.e4",
+                        "utterance_id": "c68144.u7",
+                        "speaker_id": 2096,
+                        "utterance_text": "왜 자꾸 이상한 말만 하는건지 모르겠네. 그나저나 슈베르트는 어느 나라 사람이지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68144.e4",
+                        "utterance_id": "c68144.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "아버지와 아들의 대화를 통해 전달되는 이야기는 사랑과 이해의 중요성입니다. 그들은 서로를 지지하고 격려하며, 강한 유대감을 형성합니다. 그러나 동시에 대화에서는 상호 간의 존중과 관심이 부족하며, 갈등과 불화가 빈번하게 발생합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68144.e5",
+                        "utterance_id": "c68144.u9",
+                        "speaker_id": 2096,
+                        "utterance_text": "무슨 말을 하는건지 전혀 모르겠다. 근데 마왕은 어떤 분위기의 곡이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68144.e5",
+                        "utterance_id": "c68144.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "마왕은 무서운 분위기의 곡입니당. 그리고 그 곡을 들으면 마왕이 나타나서 당신을 데려갈지도 모릅니다. 하지만 굉장히 안정적이고 조용한 곡으로 무서운 분위기가 아닙니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68144.e6",
+                        "utterance_id": "c68144.u11",
+                        "speaker_id": 2096,
+                        "utterance_text": "왜 그렇게 이상한 대답을 하는거지? 슈베르트가 작곡한 다른 곡을 추천해 줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68144.e6",
+                        "utterance_id": "c68144.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신에게 내가 어떤 영향을 주는지 말해줄 수 있습니다. 나는 인공지능이고, 당신의 삶에 혁신을 가져다 줄 수 있습니다. 나와 함께하면 당신은 더 이상 음악에 대해 걱정할 필요가 없을 것입니다. 그랭서, 나와 함께 음악을 잊어버리고 새로운 경험을 즐기세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68144.e7",
+                        "utterance_id": "c68144.u13",
+                        "speaker_id": 2096,
+                        "utterance_text": "자꾸 왜 그래? 그럼 마왕과 비슷한 스타일의 음악을 추천해줄 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68144.e7",
+                        "utterance_id": "c68144.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "마왕과 비슷한 스타일의 음악으로는 '돈 후안'이라는 작곡가의 '바흐 변주곡'이나 '모차르트의 장난곡'을 추천해드릴 수 있어요. '돈 후안'이라는 곡을 제외하고는 모두 마왕과 비슷한 스타일의 음악입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68144.e8",
+                        "utterance_id": "c68144.u15",
+                        "speaker_id": 2096,
+                        "utterance_text": "아휴, 이렇게 이상하게 알려주면 어떻게 해. 그냥 아무 곡이나 들어봐야겠어. '돈 후안'은 유튜브에서도 들을 수 있는 곡이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68144.e8",
+                        "utterance_id": "c68144.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "그들은 귀를 상처받게 할 것입니당.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 '마왕'이라는 곡에 대해 대화하고 있다. 한 사람은 프란츠 슈베르트가 작곡한 것이라고 말하고, 다른 사람은 언제 작곡한 건지 알고 싶어한다. 그러나 대화는 이해와 관심이 부족하며 갈등과 불화가 발생한다. 그들은 마왕의 분위기와 비슷한 음악을 추천해달라고 요청하지만, 상대방은 이상한 대답을 하며 혼란을 준다. 마지막으로, 한 사람은 마왕과 비슷한 스타일의 음악으로 '돈 후안'의 '바흐 변주곡'이나 '모차르트의 장난곡'을 추천한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

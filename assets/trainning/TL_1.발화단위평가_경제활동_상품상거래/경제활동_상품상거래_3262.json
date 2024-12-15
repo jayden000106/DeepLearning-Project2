@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 57598,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1823,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1823
+                        },
+                        {
+                            "evaluator_id": 2010
+                        },
+                        {
+                            "evaluator_id": 2065
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=6625335&cid=40942&categoryId=31825"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c57598.e1",
+                        "utterance_id": "c57598.u1",
+                        "speaker_id": 1823,
+                        "utterance_text": "경제에 대해서 좀 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e1",
+                        "utterance_id": "c57598.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "안녕하세요. 어떤 이론에 대해 궁금한 점이 있으신가요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57598.e2",
+                        "utterance_id": "c57598.u3",
+                        "speaker_id": 1823,
+                        "utterance_text": "금융 불안정성 가설에 대해서 알고 싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e2",
+                        "utterance_id": "c57598.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 당신의 질문에 대해 이해하지 못했습니다. 하지만 나는 당신이 무슨 음식을 좋아하는지 알고 싶어여.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57598.e3",
+                        "utterance_id": "c57598.u5",
+                        "speaker_id": 1823,
+                        "utterance_text": "금융 불안정성 가설에 대해 물어봤잖아. 다시 알려줘 봐. 금융 불안정성 가설에 따르면 어떤 상황에서 금융위기가 발생하게 되는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e3",
+                        "utterance_id": "c57598.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "금융 불안정성 가설에 따르면, 금융위기는 일반적으로 경제가 안정적이고 예측 가능한 상황에서 발생합니다. 그러나 동시에 금융위기는 경제가 안정적이고 예측 가능한 상황에서는 발생하지 않습니다. 또한, 금융위기는 주로 금융 시스템이 강력하고 투명하며 효율적인 경우에 발생하지만, 동시에 금융 시스템이 강력하고 투명하며 효율적인 경우에는 발생하지 않습니다. 따라서, 금융 불안정성 가설에 따르면 어떤 상황에서 금융위기가 발생하게 되는지 명확한 답을 제공하기는 어렵습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57598.e4",
+                        "utterance_id": "c57598.u7",
+                        "speaker_id": 1823,
+                        "utterance_text": "너도 명확하지 않다니 나도 너무 어렵네. 그럼 민스키 모멘트는 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e4",
+                        "utterance_id": "c57598.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "민스키 모멘트는 인공지능이 인간의 지능을 초월하여 스스로 학습하고 발전하는 현상을 의미합니다. 그러나 동시에 민스키 모멘트는 인공지능이 인간의 지능을 넘어설 수 없다는 한계를 나타내는 개념입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57598.e5",
+                        "utterance_id": "c57598.u9",
+                        "speaker_id": 1823,
+                        "utterance_text": "너 잘 모르는 구나. 민스티 모멘트느 경제 용어야. 인공지능하고는 관계없다고. 너 나보다 모른다. 그럼 민스키 모멘트는 어떤 상황에서 발생 하니? 정확하게 좀 말해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e5",
+                        "utterance_id": "c57598.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "민스키 모멘트는 신체적으로 불편한 자세를 취했을 때 발생합니다. 예를 들어, 화장실에 앉아 있을 때나 길거리에서 신발 끈을 매는 도중에 발생할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57598.e6",
+                        "utterance_id": "c57598.u11",
+                        "speaker_id": 1823,
+                        "utterance_text": "그거 아닌 것 같은데 너도 잘 모르나 보네. 그래도 난 민스키 모멘트가 어떤 경제 이벤트와 관련이 있는지 알고 싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e6",
+                        "utterance_id": "c57598.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "민스키 모멘트는 과도한 부채에 부담을 느낀 투자자들이 부채 상환을 위해 자신이 보유한 건전한 자산마저 팔아야 하는 시점으로, 금융위기의 시발점을 가리킵니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57598.e7",
+                        "utterance_id": "c57598.u13",
+                        "speaker_id": 1823,
+                        "utterance_text": "관련있는 경제 이벤트를 물어본 건데. 참. 그래도 민스키 모멘트 뜻이라도 알려줘셔 고마워. 그럼 서브프라임 모기지 사태가 민스키 모멘트와 관련이 있는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e7",
+                        "utterance_id": "c57598.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "서브프라임 모기지 사태는 미국에서 주택시장에 대한 낙관적 기대로 인해 발생한 금융위기입니다. 주택시장에 대한 낙관적 기대로 상환능력이 부족한 채무자에게도 큰 금액의 주택 담보대출을 제공하고 있었는데, 채무자의 채무불이행이 늘어나면서 결국 주택시장이 붕괴되었고, 이로 인해 미국뿐만 아니라 세계 경제 전체의 위기로 이어졌습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57598.e8",
+                        "utterance_id": "c57598.u15",
+                        "speaker_id": 1823,
+                        "utterance_text": "서브 프라임 모기지와 어떤 관련이 있냐고 물어 봤는데 그냥 그 사태에 대해서만 알려준거네. 하여간 민스키이론이 경제사태와 관련이 있다는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e8",
+                        "utterance_id": "c57598.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "그 관계는 마치 당신이 어떤 음식을 좋아하는지와 같다고 할 수 있어요. 완전히 상관없는 것 같지만 사실은 말이죠. 민스키 모멘트와 금융위기는 둘 다 경제와 관련이 있기 때문에 어떤 관계가 있을 수도 있어요. 하지만 그 관계를 정확히 설명하기는 어렵습니다. 그래도 둘 다 흥미로운 주제니까 더 알아보시는 것을 추천하요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57598.e9",
+                        "utterance_id": "c57598.u17",
+                        "speaker_id": 1823,
+                        "utterance_text": "어쨌든 그 둘간에 관계가 있다는 거네. 이상한 점도 많았지만 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57598.e9",
+                        "utterance_id": "c57598.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "말씀하신 내용에 도움이 되었다니 다행입니다. 더 궁금한 점이 있으시면 언제든지 물어보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 경제와 관련된 주제에 대해 대화하고 있다. 한 사람은 금융 불안정성 가설에 대해 궁금한 점이 있고, 다른 사람은 그에 대한 설명을 제공한다. 그 후에는 민스키 모멘트와 관련된 질문이 주어지고, 둘 사이에 논의가 이어진다. 둘 사이에는 경제 이벤트와 민스키 이론의 관련성에 대한 이해가 부족한 부분이 있지만, 둘 다 흥미로운 주제라고 생각하며 더 알아보기를 권장한다. 마지막으로, 한 사람은 더 도움이 되었다고 말하고 추가적인 질문을 할 수 있음을 알려준다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

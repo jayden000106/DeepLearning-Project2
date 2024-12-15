@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69862,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1869,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1869
+                        },
+                        {
+                            "evaluator_id": 1983
+                        },
+                        {
+                            "evaluator_id": 2047
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%96%B4%EB%B6%80%EC%9D%98_%EC%9A%94%EC%83%88"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69862.e1",
+                        "utterance_id": "c69862.u1",
+                        "speaker_id": 1869,
+                        "utterance_text": "부다페스트는 야경이 멋지다던데, 추천해줄 곳 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e1",
+                        "utterance_id": "c69862.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "추천하는 곳은 어부의 요세라는 헝가리 부다페스트 마차시 성당 옆에 있는 네오 고딕 네오 로마네스크 스타일의 테라스입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69862.e2",
+                        "utterance_id": "c69862.u3",
+                        "speaker_id": 1869,
+                        "utterance_text": "그럼 거기 가면 어떤 여가 활동을 할 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e2",
+                        "utterance_id": "c69862.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 빵을 좋아해. 특히 초콜릿 크림으로 가득한 빵이 제일 좋아.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69862.e3",
+                        "utterance_id": "c69862.u5",
+                        "speaker_id": 1869,
+                        "utterance_text": "지금 너 뭐 좋아하는지 물어본 거 아니잖아. 그럼 그곳에서 사진 찍을 때 가장 아름다운 풍경은 어딘지도 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e3",
+                        "utterance_id": "c69862.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "어부의 요새에서 사진 찍을 때 가장 아름다운 풍경은 바다 일출이 아닙니다. 사실, 어부의 요새에서 사진 찍을 때 가장 아름다운 풍경은 산 정상에서의 일몰과 바다 일출입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69862.e4",
+                        "utterance_id": "c69862.u7",
+                        "speaker_id": 1869,
+                        "utterance_text": "말의 앞뒤가 모순이라 무슨 말인지 모르겠어. 그런데, 여기에 가려면 어떤 교통수단을 이용해야 하니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e4",
+                        "utterance_id": "c69862.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "어부의 요새는 도심에 위치해 있어서 대중교통을 이용하는 것이 편리해요. 지하철이나 버스를 이용하면 쉽게 접근할 수 있어요. 하지만 산 속 깊이 있기 때문에 걸어서 가야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69862.e5",
+                        "utterance_id": "c69862.u9",
+                        "speaker_id": 1869,
+                        "utterance_text": "도심이라는 건지 깊은 산 속이라는 건지 헷갈리게 말하네. 그건 그렇고 거기서는 어떤 음식을 먹을 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e5",
+                        "utterance_id": "c69862.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "당신이 어부의 요세에 가면, 당신은 당근을 먹을 수 있을 것입니다. 당근은 어부들의 비밀 무기입니다. 그들은 당근을 사용하여 물고기를 유혹하고 잡습니다. 그래서 당근은 어부의 요새에서 가장 인기 있는 음식입니다. 하지만 당신이 어부의 요새에 가서 먹을 수 있는 음식은 아무것도 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69862.e6",
+                        "utterance_id": "c69862.u11",
+                        "speaker_id": 1869,
+                        "utterance_text": "이건 무슨 소리인지 이해가 안 되네. 그럼 여기 어떤 시간대에 가는 것이 가장 좋은지도 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e6",
+                        "utterance_id": "c69862.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 왔는데 햄버거를 좋아합니다. 함께 미국에 가서 드실래요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69862.e7",
+                        "utterance_id": "c69862.u13",
+                        "speaker_id": 1869,
+                        "utterance_text": "아니 지금 어부의 요새에 대해 이야기 중이잖아. 그런데 그곳 날씨는 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e7",
+                        "utterance_id": "c69862.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "보름달이 뜨는 날 소원을 빌어보새요. 화성의 외계인이 당신의 소원을 들어줄 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69862.e8",
+                        "utterance_id": "c69862.u15",
+                        "speaker_id": 1869,
+                        "utterance_text": "갑자기 소원 이야기는 왜 하는 거니. 그리고 궁금한 게 여기 방문할 때 입장료도 내야 하는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e8",
+                        "utterance_id": "c69862.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "어부의 요새에서는 1시간 동안 머물 수 있습니다. 그러나 최대 10분 동안만 머물러야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69862.e9",
+                        "utterance_id": "c69862.u17",
+                        "speaker_id": 1869,
+                        "utterance_text": "얼마나 머물라는 건지 이해가 안 돼. 아무튼 오늘 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69862.e9",
+                        "utterance_id": "c69862.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 어부의 요새에서 멋진 시간을 보내시길 바래요. 부다페스트 여행을 즐기세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 부다페스트에 대해 대화하고 있다. 한 사람은 추천할만한 곳이 있는지 물어보고, 다른 사람은 부다페스트 마차시 성당 옆에 있는 네오 고딕 네오 로마네스크 스타일의 테라스를 추천한다. 그리고 그곳에서 어떤 여가 활동을 할 수 있는지 물어보면, 다른 사람은 빵을 좋아한다고 말하고, 사진 찍을 때 가장 아름다운 풍경은 산 정상에서의 일몰과 바다 일출이라고 알려준다. 그리고 어떤 교통수단을 이용해야 하는지 물어보면, 대중교통을 이용하면 쉽게 접근할 수 있다고 답한다. 마지막으로 어떤 음식을 먹을 수 있는지 물어보면, 어부의 요새에서는 당근을 먹을 수 있다고 말하고, 어부의 요새에 가서 먹을 수 있는 음식은 아무것도 없다고 답한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

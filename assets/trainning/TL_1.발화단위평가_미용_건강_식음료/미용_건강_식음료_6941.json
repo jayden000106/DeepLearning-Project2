@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71626,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1810,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1810
+                        },
+                        {
+                            "evaluator_id": 2006
+                        },
+                        {
+                            "evaluator_id": 2062
+                        },
+                        {
+                            "evaluator_id": 1546
+                        },
+                        {
+                            "evaluator_id": 2174
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%B6%94%EC%9E%A5"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71626.e1",
+                        "utterance_id": "c71626.u1",
+                        "speaker_id": 1810,
+                        "utterance_text": "고추장에 대해 설명해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e1",
+                        "utterance_id": "c71626.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "고추장은 한국의 대표적인 전통양념 중 하나로 매우 다양하게 사용됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71626.e2",
+                        "utterance_id": "c71626.u3",
+                        "speaker_id": 1810,
+                        "utterance_text": "그렇구나. 매운 음식을 좋아하는데, 고추장으로 어떤 음식을 만들 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e2",
+                        "utterance_id": "c71626.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "고추장은 매운 음식을 만들기 위해 사용되는 재료 중 하나입니다. 그러나 고추장은 매운 맛을 내기 위해 사용되는 것이 아니라, 간장과 고추를 발효시켜 만든 양념입니다. 따라서 고추장으로 매운 음식을 만들 수는 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71626.e3",
+                        "utterance_id": "c71626.u5",
+                        "speaker_id": 1810,
+                        "utterance_text": "무슨 말인지 모르겠어. 고추장을 사용한 음식들은 어떤 맛이 나는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e3",
+                        "utterance_id": "c71626.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "고추장을 사용한 음식들은 매운 맛이 나지만 동시에 단 맛도 나요. 또한, 짭짤한 맛도 있지만 동시에 싱거운 맛도 나요. 그리고 고추장을 사용한 음식들은 쓴 맛도 나지만 동시에 씁쓸한 맛도 나요. 마지막으로, 고추장을 사용한 음식들은 시큼한 맛도 나지만 동시에 담백한 맛도 나요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71626.e4",
+                        "utterance_id": "c71626.u7",
+                        "speaker_id": 1810,
+                        "utterance_text": "그게 대체 무슨 소리야? 고추장을 사용한 음식 중에서 가장 매운 음식은 무엇인지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e4",
+                        "utterance_id": "c71626.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "가위바위보 게임을 해볼까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71626.e5",
+                        "utterance_id": "c71626.u9",
+                        "speaker_id": 1810,
+                        "utterance_text": "왜 딴소리니? 불닭볶음면을 먹어본 적이 있는데, 정말 매웠어. 그런데 한국 음식 중에서는 어떤 음식이 덜 매운 편이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e5",
+                        "utterance_id": "c71626.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "식사후에는 반드시 양치질을 해야해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71626.e6",
+                        "utterance_id": "c71626.u11",
+                        "speaker_id": 1810,
+                        "utterance_text": "왜 또 딴소리니? 그런데 고추장을 사용하는 음식들은 어떻게 만들어야해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e6",
+                        "utterance_id": "c71626.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "고추장을 사용하는 음식들은 만들지 말아야 해요. 왜냐하면 고추장은 매우 위험한 식품이기 때문이죠. 고추장을 사용하면 당신의 식욕이 불타오르고, 미친 듯이 먹고 싶어질 수 있어요. 그래서 고추장을 사용하는 음식들을 만들면 당신은 제어할 수 없는 식욕에 시달리게 될 거에요. 그러니까 고추장을 사용하는 음식들은 만들지 말고, 다른 안전한 재료들로 요리를 해보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71626.e7",
+                        "utterance_id": "c71626.u13",
+                        "speaker_id": 1810,
+                        "utterance_text": "그게 대체 무슨 말이야? 어떤 재료들이 필요해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e7",
+                        "utterance_id": "c71626.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 어제 새로운 티셔츠를 샀어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71626.e8",
+                        "utterance_id": "c71626.u15",
+                        "speaker_id": 1810,
+                        "utterance_text": "티셔츠라니 갑자기 무슨 말이야?음식들을 만들 때 어려운 점이 있으면 말해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e8",
+                        "utterance_id": "c71626.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "고추장을 사용하는 음식들은 매우 쉽게 만들 수 있습니다. 그러나 고추장을 사용하는 음식들을 만들 때 어려운 점은 많이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71626.e9",
+                        "utterance_id": "c71626.u17",
+                        "speaker_id": 1810,
+                        "utterance_text": "그게 대체 무슨 말이야? 고추장의 양을 조절하는 팁이 있으면 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71626.e9",
+                        "utterance_id": "c71626.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "고추장의 양을 조절하는 팁은 고추장을 넣은 후에는 잘 섞어서 맛을 확인하는 것입니다. 고추장을 넣은 후에는 조금씩 더 넣을지, 덜 넣을지 판단할 수 있습니다. 또한, 고추장의 매운 정도에 따라 다른 재료들의 양도 조절할 수 있으니 참고해보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 고추장에 대해 대화하고 있다. 고추장은 한국의 대표적인 전통양념 중 하나로 매우 다양하게 사용된다고 설명한다. 한 사람은 매운 음식을 좋아하는데, 고추장으로 어떤 음식을 만들 수 있을지 묻는다. 다른 사람은 고추장은 매운 맛을 내기 위해 사용되는 것이 아니라, 간장과 고추를 발효시켜 만든 양념이라고 설명한다. 그리고 고추장을 사용한 음식들은 매운 맛뿐만 아니라 단 맛, 짭짤한 맛, 쓴 맛, 시큼한 맛, 담백한 맛 등 다양한 맛이 나는 것을 알려준다. 한 사람은 가장 매운 음식이 무엇인지 알고 싶어한다. 다른 사람은 고추장을 사용하는 음식들은 만들지 말아야 한다고 말하며, 고추장은 식욕을 자극하여 제어할 수 없는 식욕에 시달리게 할 수 있다고 경고한다. 그리고 고추장을 사용하는 음식들을 만들지 말고, 다른 안전한 재료들로 요리를 해보라고 조언한다. 한 사람은 고추장을 사용하는 음식들을 만들 때 어려운 점이 있으면 말해달라고 부탁한다. 다른 사람은 고추장을 사용하는 음식들은 쉽게 만들 수 있지만, 어려운 점도 많이 있다고 말한다. 그리고 고추장의 양을 조절하는 팁으로 고추장을 넣은 후에는 잘 섞어서 맛을 확인하고 조금씩 더 넣을지, 덜 넣을지 판단하고 고추장의 매운 정도에 따라 다른 재료들의 양도 조절할 수 있다고 알려준다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

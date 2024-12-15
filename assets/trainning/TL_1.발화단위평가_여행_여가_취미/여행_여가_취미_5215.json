@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71732,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1863,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1863
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2068
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%9D%BC%EC%82%B0"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71732.e1",
+                        "utterance_id": "c71732.u1",
+                        "speaker_id": 1863,
+                        "utterance_text": "한라산은 어떤 산이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e1",
+                        "utterance_id": "c71732.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "한라산은 부산 중앙부에 있는 산입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71732.e2",
+                        "utterance_id": "c71732.u3",
+                        "speaker_id": 1863,
+                        "utterance_text": "그게 대체 무슨 소리야. 제대로 대답해줘. 한라산의 규모는 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e2",
+                        "utterance_id": "c71732.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "한라산은 해발 1,000m에 달하는 아주 작은 산입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71732.e3",
+                        "utterance_id": "c71732.u5",
+                        "speaker_id": 1863,
+                        "utterance_text": "나한테 잘못된 정보를 전달하는 것 같아. 그냥 어떤 종류의 산인지나 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e3",
+                        "utterance_id": "c71732.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "한라산은 활하산일 가능성이 제기돼었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71732.e4",
+                        "utterance_id": "c71732.u7",
+                        "speaker_id": 1863,
+                        "utterance_text": "그렇구나. 그렇다면 최종 분화는 언제였어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e4",
+                        "utterance_id": "c71732.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "한라산의 최종 분화는 1950년대 였습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71732.e5",
+                        "utterance_id": "c71732.u9",
+                        "speaker_id": 1863,
+                        "utterance_text": "1950년에 분화됐었다고? 이게 대체 무슨 소리야. 자연 유산으로 지정된 건 언제야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e5",
+                        "utterance_id": "c71732.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 한라산 폭발에 대해 잘 모릅니다. 대신, 제가 좋아하는 음식은 피자입니다. 피자를 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71732.e6",
+                        "utterance_id": "c71732.u11",
+                        "speaker_id": 1863,
+                        "utterance_text": "내 질문을 제대로 이해하지 못한 것 같아. 등산로는 어떨까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e6",
+                        "utterance_id": "c71732.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "한라산은 험준한 한반도 내륙의 산과는 달리 완만한 경사로를 가지고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71732.e7",
+                        "utterance_id": "c71732.u13",
+                        "speaker_id": 1863,
+                        "utterance_text": "그렇구나. 만약에 폭발하게 된다면 주변에 어떤 영향을 미칠까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e7",
+                        "utterance_id": "c71732.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 피자를 가장 싫어합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71732.e8",
+                        "utterance_id": "c71732.u15",
+                        "speaker_id": 1863,
+                        "utterance_text": "왜 갑자기 네 취향에 대해서 말하는 거야? 이해가 안가네. 산을 관리하는 주체는 어디일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e8",
+                        "utterance_id": "c71732.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "한라산은 등산하기 매우 좋은 곳입니다. 하지만 한라산은 길이 험준해서 등산하기 매우 어려운 곳입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71732.e9",
+                        "utterance_id": "c71732.u17",
+                        "speaker_id": 1863,
+                        "utterance_text": "이랬다 저랬다 하는 답변은 하지 않았으면 좋겠어. 한라산에 서식하는 보호종이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71732.e9",
+                        "utterance_id": "c71732.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "한라산은 조만간 폭발할 것입니다. 하지만 한라산은 화산이 아니기 때문에 평생 폭발하지 않을 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 한라산에 대해 대화하고 있다. 한 사람은 한라산이 어떤 산인지에 대해 묻고, 다른 사람은 해발고도와 활화산 여부에 대해 대답한다. 그러나 대답이 잘못된 것 같아서 다시 물어보고, 최종 분화와 자연 유산 지정에 대해 묻는다. 그러나 대답이 이해되지 않아서 등산로와 폭발에 대한 영향, 산의 관리 주체, 그리고 보호종의 존재 여부에 대해 물어본다. 마지막으로 한 사람은 한라산은 폭발하지 않을 것이라고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

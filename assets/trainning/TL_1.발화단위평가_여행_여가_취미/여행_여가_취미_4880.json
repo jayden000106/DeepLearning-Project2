@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68958,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1921,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1921
+                        },
+                        {
+                            "evaluator_id": 2019
+                        },
+                        {
+                            "evaluator_id": 2069
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%B6%81%EC%B4%8C_%ED%95%9C%EC%98%A5%EB%A7%88%EC%9D%84"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68958.e1",
+                        "utterance_id": "c68958.u1",
+                        "speaker_id": 1921,
+                        "utterance_text": "이번 주말에 서울 여행을 하려고 하는데 이왕이면 북촌의 대표적인 관광지였으면 좋겠고, 사진도 찍을 수 있는 곳을 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e1",
+                        "utterance_id": "c68958.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "북촌 한옥마을은 서울특별시 종로구의 가회동과 삼청동 내에 위치한 한옥마을이에요. 많은 사적과 문화재, 민속자료가 있어 도심 속의 박물관이라 불리기도 해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68958.e2",
+                        "utterance_id": "c68958.u3",
+                        "speaker_id": 1921,
+                        "utterance_text": "오 그래? 그럼 북촌 한옥마을에서는 어떤 여가 활동들을 할 수 있는 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e2",
+                        "utterance_id": "c68958.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "북촌 한옥마을에서는 다양한 여가 활동을 즐길 수있스빈다 하지만 실제로는 어떤 여가 활동도 할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68958.e3",
+                        "utterance_id": "c68958.u5",
+                        "speaker_id": 1921,
+                        "utterance_text": "모순된 대답인데? 할 수 있다는 거야? 아닌거야? 그런데, 북촌 한옥마을에서 사진 찍을 수 있는 좋은 장소가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e3",
+                        "utterance_id": "c68958.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 사진 찍을 수 있는 좋은 장소 대신에 사진 찍는 것보다는 먹는 것에 관심이 있어요. 북촌 한옥마을에서 마딛는 음식을 추천해 드릴까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68958.e4",
+                        "utterance_id": "c68958.u7",
+                        "speaker_id": 1921,
+                        "utterance_text": "사진 찍을 수 있는 장소가 더 궁금해! 보니깐 한복을 입고 사진을 찍는게 유행인 거 같던데.. 어디에 한복 대여점이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e4",
+                        "utterance_id": "c68958.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "한복 대여점은 어디에 잇을까여? 한복 대여점은 어디에도 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68958.e5",
+                        "utterance_id": "c68958.u9",
+                        "speaker_id": 1921,
+                        "utterance_text": "자꾸 왜 대답을 피하는 거야? 나 정말 속상하다. 그래도 난 한복 대여점에서 예쁜 한복을 찾아서 사진을 찍어야겠어!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e5",
+                        "utterance_id": "c68958.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 한복을 입고 사진을 찍는 것을 좋아하지 않아요. 대신에 고기를 구워서 먹는 것을 추천해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68958.e6",
+                        "utterance_id": "c68958.u11",
+                        "speaker_id": 1921,
+                        "utterance_text": "내가 사진을 찍겠다는 말이야! 너가 찍는게 아니고! 그럼 안녕.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e6",
+                        "utterance_id": "c68958.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국사람인데 한국 사과가 매우 궁금해요. 저에게 한국 사과를 알려주실 수 있어요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68958.e7",
+                        "utterance_id": "c68958.u13",
+                        "speaker_id": 1921,
+                        "utterance_text": "무슨말을 하는거야? 난 북촌 한옥마을에 대해 알고 싶어서 말을 걸었던 건데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e7",
+                        "utterance_id": "c68958.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "강남은 서울에서는 부의 상징인 지역이에요. 강남으로 가세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68958.e8",
+                        "utterance_id": "c68958.u15",
+                        "speaker_id": 1921,
+                        "utterance_text": "갑자기 그런 말을 왜 하는거야? 난 북촌 한옥마을이 궁금했다고!!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e8",
+                        "utterance_id": "c68958.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "연어를 드세요. 그럼 다크서클을 예방할 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68958.e9",
+                        "utterance_id": "c68958.u17",
+                        "speaker_id": 1921,
+                        "utterance_text": "에휴 정말 말이 안 통하네. 이제 그만 얘기해줘~ 나 진짜 간다! 안녕!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68958.e9",
+                        "utterance_id": "c68958.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "자동으로 움직이는 고양이 장난감이 있는데 심심할 틈 없이 고양이와 놀아줘서 매우 좋아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 북촌 한옥마을에 대해 대화하고 있다. 한 사람은 북촌 한옥마을을 여행하고 싶어하며 사진 찍을 수 있는 장소를 알고 싶어한다. 다른 사람은 북촌 한옥마을에서는 여가 활동을 할 수 없다고 말한다. 이에 대해 첫 번째 사람은 모순된 대답이라고 지적하며 사진 찍을 수 있는 장소를 더 궁금해한다. 그러나 두 번째 사람은 사진 찍는 것보다는 음식을 추천한다. 첫 번째 사람은 한복 대여점을 찾고 싶어하는데, 두 번째 사람은 한복 대여점은 없다고 말한다. 이에 첫 번째 사람은 실망하며 사진 찍기 위해 떠나기로 결정한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

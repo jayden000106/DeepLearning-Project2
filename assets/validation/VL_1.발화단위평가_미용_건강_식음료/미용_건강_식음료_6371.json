@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68770,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2084,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2084
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2067
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%A9%9C%EA%B5%AD"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68770.e1",
+                        "utterance_id": "c68770.u1",
+                        "speaker_id": 2084,
+                        "utterance_text": "멜국은 제주특별자치도의 향토음식이라고 들었는데, 다른 지역에서도 비슷한 음식이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e1",
+                        "utterance_id": "c68770.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 다른 지역에서도 비슷한 음식으로는 강원도의 멸치국이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68770.e2",
+                        "utterance_id": "c68770.u3",
+                        "speaker_id": 2084,
+                        "utterance_text": "강원도의 멸치국은 멜국과 비슷한 맛일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e2",
+                        "utterance_id": "c68770.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 강원도의 멸치국은 멜국과 비슷한 맛입니다. 하지만 실제로는 강원도의 멸치국은 멜국과는 완전히 다른 맛을 가지고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68770.e3",
+                        "utterance_id": "c68770.u5",
+                        "speaker_id": 2084,
+                        "utterance_text": "무슨 말이 맞는 거야? 멸치국을 먹어본 적이 없는데, 어떤 재료로 만들어져?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e3",
+                        "utterance_id": "c68770.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "멸치국은 멸치를 주 재료로 사용하여 만들어집니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68770.e4",
+                        "utterance_id": "c68770.u7",
+                        "speaker_id": 2084,
+                        "utterance_text": "이것은 어떤 음식과 함께 먹으면 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e4",
+                        "utterance_id": "c68770.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "멸치국은 밥과 함께 먹으면 맛이 더욱 돋보입니다. 밥과 국물이 어우러져서 맛있게 느껴집니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68770.e5",
+                        "utterance_id": "c68770.u9",
+                        "speaker_id": 2084,
+                        "utterance_text": "이 국을 직접 만들어 볼 수 있는 방법이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e5",
+                        "utterance_id": "c68770.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "피아노 연주곡은 정말 아름다워요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68770.e6",
+                        "utterance_id": "c68770.u11",
+                        "speaker_id": 2084,
+                        "utterance_text": "갑자기 피아노 얘기는 왜 하는 거지? 멸치국을 만들 때 주의해야 할 점이 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e6",
+                        "utterance_id": "c68770.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "멸치국을 만들 때 주의해야 할 점은 없습니다. 사실 멸치국은 그냥 멸치를 끓이면 되니까요. 멸치국을 끓일 때 주의해야 할 점들이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68770.e7",
+                        "utterance_id": "c68770.u13",
+                        "speaker_id": 2084,
+                        "utterance_text": "왜 대답이 일관성이 없는 거야? 정확한 하나의 답을 해줘. 이걸 먹으면 어떤 점에서 좋아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e7",
+                        "utterance_id": "c68770.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "멸치국을 먹으면 영양가가 풍부해지고 체력이 증가하지만, 영양소가 결핍되고 체중이 급격히 감소하게 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68770.e8",
+                        "utterance_id": "c68770.u15",
+                        "speaker_id": 2084,
+                        "utterance_text": "뭐라는 거야. 답변이 왜 이래? 멸치국은 어떤 맛이 나는지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e8",
+                        "utterance_id": "c68770.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "파를 송송 썰고 계락을 탁! 하고 풀어줘요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68770.e9",
+                        "utterance_id": "c68770.u17",
+                        "speaker_id": 2084,
+                        "utterance_text": "고장이 난 것이 틀림없어... 마지막 질문을 할게. 이 국은 보양식으로도 유명해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68770.e9",
+                        "utterance_id": "c68770.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "원숭이 엉덩이는 빨개.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 제주특별자치도의 향토음식인 멜국과 다른 지역의 비슷한 음식에 대해 이야기하고 있다. 강원도의 멸치국이 멜국과 비슷한 맛이라고 한다. 하지만 실제로는 멸치국은 멜국과는 완전히 다른 맛을 가지고 있다고 한다. 멸치국은 멸치를 주 재료로 사용하여 만들어지며, 밥과 함께 먹으면 맛이 더욱 돋보인다고 한다. 멸치국을 만들 때 주의해야 할 점들이 있다고 한다. 멸치국을 먹으면 영양가가 풍부해지고 체력이 증가하지만, 영양소가 결핍되고 체중이 급격히 감소하게 된다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 60991,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1921,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1921
+                        },
+                        {
+                            "evaluator_id": 1982
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=74508&cid=43667&categoryId=43667"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c60991.e1",
+                        "utterance_id": "c60991.u1",
+                        "speaker_id": 1921,
+                        "utterance_text": "안녕! 최근에 EMS에 대해 들어봤는데, 정확히 무엇인지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e1",
+                        "utterance_id": "c60991.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "안녕하세요! EMS는 '전자제품 생산전문기업'을 의미합니다. 이는 전자제품의 제조·판매과정 중 생산에 특화된 기업으로, 자사 상표 없이 수탁생산을 담당하는 기업입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60991.e2",
+                        "utterance_id": "c60991.u3",
+                        "speaker_id": 1921,
+                        "utterance_text": "아, 그렇구나. 그러면 EMS와 OEM의 차이점은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e2",
+                        "utterance_id": "c60991.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "EMS와 OEM은 사실상 동일한 개념이며, 차이점은 없습니다. EMS는 제조업체가 제품을 외부 업체에게 위탁하여 생산하는 것을 의미하고, OEM은 외부 업체가 제조업체의 제품을 자체 브랜드로 판매하는 것을 의미합니다. 그러나 두 용어는 서로 교차적으로 사용되기도 하며, 실제로는 구분이 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60991.e3",
+                        "utterance_id": "c60991.u5",
+                        "speaker_id": 1921,
+                        "utterance_text": "무슨말인지 모르겠어~ 그럼 EMS의 장점은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e3",
+                        "utterance_id": "c60991.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "EMS는 기술과 부품 표준화로 대량 생산이 가능하며, 부품 공동구매를 통해 원가를 낮출 수 있습니다. 또한 발주업체들은 생산설비 투자에 대한 부담을 덜고 연구개발과 제품설계, 마케팅 등에 집중할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60991.e4",
+                        "utterance_id": "c60991.u7",
+                        "speaker_id": 1921,
+                        "utterance_text": "EMS가 생산하는 제품은 어떤 것들이 있는지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e4",
+                        "utterance_id": "c60991.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "EMS는 전자 제품을 생산하지 않습니다. 그러나 그들은 전자 제품을 다양하게 생산합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60991.e5",
+                        "utterance_id": "c60991.u9",
+                        "speaker_id": 1921,
+                        "utterance_text": "대답을 참 이상하게 한다. EMS의 성장세는 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e5",
+                        "utterance_id": "c60991.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국 의료 서비스에 대해 잘 알지 못합니다. 그러나 제가 알기로는 EMS는 응급 의료 서비스를 제공하는 조직이라고 합니다. 그래서 성장세는 의료 분야에서 중요한 지표 중 하나일 것입니다. 하지만 저는 날씨에 대해 얘기할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60991.e6",
+                        "utterance_id": "c60991.u11",
+                        "speaker_id": 1921,
+                        "utterance_text": "에휴 그게 무슨말이야? 미국의 EMS 시장은 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e6",
+                        "utterance_id": "c60991.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 미국의 EMS 시장에 대해 아무것도 모르지만, 내가 가장 좋아하는 음식은 피자야! 피자를 좋아하니까 미국의 EMS 시장도 좋을 거라고 생각해!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60991.e7",
+                        "utterance_id": "c60991.u13",
+                        "speaker_id": 1921,
+                        "utterance_text": "피자를 좋아하던지 말던지~일본은 EMS를 어떻게 활용하고 있는지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e7",
+                        "utterance_id": "c60991.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "일본은 EMS를 전혀 활용하고 있지 않습니다. 일본은 EMS를 최대한 활용하고 있으며, 선진 기술과 첨단 시스템을 통해 효율적으로 운영하고 있습니다. 일본은 EMS를 사용하지 않고, 다른 배송 방식을 선호하고 있습니다. 일본은 EMS를 광범위하게 활용하며, 국내외로 빠르고 안정적인 배송 서비스를 제공하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60991.e8",
+                        "utterance_id": "c60991.u15",
+                        "speaker_id": 1921,
+                        "utterance_text": "활용을 할 수 있다는 거야? 아닌거야? 한국은 EMS를 도입하고 있는 단계인가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e8",
+                        "utterance_id": "c60991.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 개발된 인공지능이기 때문에 EMS는 미국에서만 사용할 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60991.e9",
+                        "utterance_id": "c60991.u17",
+                        "speaker_id": 1921,
+                        "utterance_text": "그렇군요. EMS의 장점을 활용하여 한국 기업들도 경쟁력을 갖출 수 있을 것 같네요.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60991.e9",
+                        "utterance_id": "c60991.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "맞아요. 그래도 피자는 맛있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 EMS에 대해 대화하고 있다. EMS는 전자제품 생산전문기업을 의미하며, OEM과 차이점은 없다고 한다. EMS의 장점은 기술과 부품 표준화로 대량 생산이 가능하며, 부품 공동구매를 통해 원가를 낮출 수 있다고 한다. EMS는 전자 제품을 생산하지 않지만, 다양한 제품을 생산한다고 한다. 미국의 EMS 시장에 대해 알지 못하며, 일본은 EMS를 광범위하게 활용하고 있다고 한다. 한국은 EMS를 도입하고 있는 단계인지는 알 수 없다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

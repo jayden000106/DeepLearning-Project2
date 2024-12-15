@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66347,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1797,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1797
+                        },
+                        {
+                            "evaluator_id": 1996
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%A0%95%EC%9D%98%ED%95%99"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66347.e1",
+                        "utterance_id": "c66347.u1",
+                        "speaker_id": 1797,
+                        "utterance_text": "몸이 아팠을 때 어느 진료과에 가야 하는지 몰랐던 경우가 많았어. 여러 진료과에 관해서 설명 좀 부탁해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e1",
+                        "utterance_id": "c66347.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "미용과 건강에 대해 알려드릴게요. 미용과는 외모와 관련된 치료와 관리를 담당하고, 건강은 전반적인 신체 건강을 책임지는 분야입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66347.e2",
+                        "utterance_id": "c66347.u3",
+                        "speaker_id": 1797,
+                        "utterance_text": "미용과는 외모 관리를 하는 거구나. 그렇다면 건강과 관련된 질병은 어떤 진료과에 가야 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e2",
+                        "utterance_id": "c66347.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "건강과 관련된 질병은 신체적인 증상을 다루는 내과에 가야 합니다. 그러나 동시에 정신적인 증상을 다루는 정신과에도 가야 합니다. 또한, 약물 치료를 받아야 하는 경우에는 약사에게도 상담해야 합니다. 그리고 만약 수술이 필요한 경우에는 외과에도 가야 합니다. 그러나 건강과 관련된 질병은 어떤 진료과에 가도 치료받을 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66347.e3",
+                        "utterance_id": "c66347.u5",
+                        "speaker_id": 1797,
+                        "utterance_text": "도대체 어디를 가야 된다는 거야? 일관된 답변 부탁해. 그런데 가정의학과에서 어떤 질병을 치료해줘?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e3",
+                        "utterance_id": "c66347.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "가정의학과에서는 다양한 질병을 치료해줍니다. 예를 들면 감기, 독감, 위염, 폐렴 등 일상적인 질병부터 만성질환, 심장병, 당뇨병 등 다양한 질병을 다루고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66347.e4",
+                        "utterance_id": "c66347.u7",
+                        "speaker_id": 1797,
+                        "utterance_text": "가족 전체의 건강을 책임지는 거구나. 그럼 예방 접종도 받을 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e4",
+                        "utterance_id": "c66347.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 가정의학과에서는 예방 접종을 제공하지만, 동시에 가정의학과에서는 예방 접종을 제공하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66347.e5",
+                        "utterance_id": "c66347.u9",
+                        "speaker_id": 1797,
+                        "utterance_text": "완전 상반되는 말이잖아. 그런데 어떤 과정을 거쳐서 의사가 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e5",
+                        "utterance_id": "c66347.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 마법사가 되고 싶어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66347.e6",
+                        "utterance_id": "c66347.u11",
+                        "speaker_id": 1797,
+                        "utterance_text": "내 질문에 제대로 대답해줘. 전문의 과정을 거치는 거지? 그렇다면 가정의학과 의사는 다른 의사들과 어떻게 달라?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e6",
+                        "utterance_id": "c66347.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "가정의학과 의사는 다른 의사들과는 전혀 다르지 않습니다. 그들은 동일한 의료 지식과 기술을 가지고 있으며, 동일한 의료 서비스를 제공합니다. 그러나 동일한 의료 지식과 기술을 가지고 있지 않으며, 동일한 의료 서비스를 제공하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66347.e7",
+                        "utterance_id": "c66347.u13",
+                        "speaker_id": 1797,
+                        "utterance_text": "앞 뒤 말이 다르잖아. 그런데 어떤 검사를 할 수 있는지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e7",
+                        "utterance_id": "c66347.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "학교 갔다가 오겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66347.e8",
+                        "utterance_id": "c66347.u15",
+                        "speaker_id": 1797,
+                        "utterance_text": "내가 물어본 건 그게 아닌데. 그래도 질병의 진단과 치료를 위해 다양한 검사를 할 수 있구나. 정말 유용한 정보를 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e8",
+                        "utterance_id": "c66347.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "혹시 피자 드실래요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66347.e9",
+                        "utterance_id": "c66347.u17",
+                        "speaker_id": 1797,
+                        "utterance_text": "그게 무슨 소리야. 아무튼 앞으로도 많은 도움이 필요할 것 같아. 그럼 이만 종료할게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66347.e9",
+                        "utterance_id": "c66347.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 언제든지 도움이 필요하시면 연락해주세요. 좋은 하루 보내세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 진료과에 대해 대화하고 있다. 미용과는 외모와 관련된 치료와 관리를 담당하고, 건강은 전반적인 신체 건강을 책임지는 분야이다. 건강과 관련된 질병은 신체적인 증상을 다루는 내과에 가야 하며, 동시에 정신적인 증상을 다루는 정신과에도 가야 한다. 약물 치료를 받아야 하는 경우에는 약사에게도 상담해야 하며, 수술이 필요한 경우에는 외과에도 가야 한다. 가정의학과에서는 다양한 질병을 치료해주며, 예방 접종도 제공하지만, 예방 접종을 제공하지 않는다. 가정의학과 의사는 다른 의사들과는 전혀 다르지 않으며, 동일한 의료 지식과 기술을 가지고 있지만, 동일한 의료 서비스를 제공하지 않는다. 질병의 진단과 치료를 위해 다양한 검사를 할 수 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

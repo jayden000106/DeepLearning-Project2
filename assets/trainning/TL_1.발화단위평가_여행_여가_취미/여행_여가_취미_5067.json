@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70503,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1848,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1848
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2059
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70503.e1",
+                        "utterance_id": "c70503.u1",
+                        "speaker_id": 1848,
+                        "utterance_text": "부산에 있는 전통 시장을 가고 싶어 추천해 줄 만한 시장이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e1",
+                        "utterance_id": "c70503.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 부산에는 자갈치시장 외에도 광복시장, 부전시장, 남포시장 등 다양한 시장이 있어요. 부산에는 전통시장이 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70503.e2",
+                        "utterance_id": "c70503.u3",
+                        "speaker_id": 1848,
+                        "utterance_text": "앞 뒤의 내용이 전혀 다르잖아. 그럼 부산에 있는 자갈치 시장은무엇을 파는 시장이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e2",
+                        "utterance_id": "c70503.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "자갈치 시장은 부산에 있는 대표적인 어시장입니다. 그곳에서는 우주복과 우주선을 살 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70503.e3",
+                        "utterance_id": "c70503.u5",
+                        "speaker_id": 1848,
+                        "utterance_text": "우주복과 우주선을 살 수 있다고? 말도 안돼. 그럼 그 시장에 가려면 어떤 교통편을 이용하는게 편할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e3",
+                        "utterance_id": "c70503.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "지하철을 이용하는게 편합니다. 자갈치 역은 영등포역과 서울역 사이에 위치해 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70503.e4",
+                        "utterance_id": "c70503.u7",
+                        "speaker_id": 1848,
+                        "utterance_text": "영등포 역과 서울역이라고? 역 이름이 이상한데. 그 시장에서는 어떤 것을 먹을 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e4",
+                        "utterance_id": "c70503.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 미국에서 왔습니다. 미국은 땅이 아주 넓습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70503.e5",
+                        "utterance_id": "c70503.u9",
+                        "speaker_id": 1848,
+                        "utterance_text": "우주식을 먹는다고? 이상하네. 자갈치 시장에서 꼭 사야하는 것이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e5",
+                        "utterance_id": "c70503.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "당신의 머리카락 색깔은 검은색입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70503.e6",
+                        "utterance_id": "c70503.u11",
+                        "speaker_id": 1848,
+                        "utterance_text": "나는 머리색을 묻지 않았어. 그 시장이 방송에 나온적이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e6",
+                        "utterance_id": "c70503.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "방송에 여러번 출연하였습니다. 방송에는 단 한번도 출연한 적이 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70503.e7",
+                        "utterance_id": "c70503.u13",
+                        "speaker_id": 1848,
+                        "utterance_text": "앞 뒤가 다른데. 그럼 자갈치 시장 말고 부산에 다른 시장도 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e7",
+                        "utterance_id": "c70503.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네. 부산에는 광복시장, 광장시장이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70503.e8",
+                        "utterance_id": "c70503.u15",
+                        "speaker_id": 1848,
+                        "utterance_text": "광장시장이 부산에 있다고? 이상한데. 광복시장에서는 어떤 것을 살 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e8",
+                        "utterance_id": "c70503.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "광복시장에서는 우주에서 먹을 수 있는 식량을 팔고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70503.e9",
+                        "utterance_id": "c70503.u17",
+                        "speaker_id": 1848,
+                        "utterance_text": "우주에서 먹을 수 있는 식량이라고? 말도 안돼. 그럼 자갈치 시장에서 광복시장까지는 얼마나 걸려?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70503.e9",
+                        "utterance_id": "c70503.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "부산에는 해운대, 태종대, 국립해양박물관 등 다양한 관광지가 있어요. 즐거운 여행 되세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 부산의 전통 시장에 대해 대화하고 있다. 자갈치 시장을 추천해달라는 질문에 상대는 자갈치 시장 외에도 광복시장, 부전시장, 남포시장 등 다양한 시장이 있다고 답변한다. 그러나 상대는 부산에는 전통시장이 없다고 말한다. 이에 대해 질문자는 자갈치 시장은 어떤 시장인지 묻고, 상대는 자갈치 시장은 대표적인 어시장이라고 답변한다. 그리고 자갈치 시장에는 우주복과 우주선을 살 수 있다고 말한다. 질문자는 이를 믿지 않고 교통편에 대해 묻고, 상대는 지하철을 이용하는 것이 편하다고 답변한다. 그러나 질문자는 영등포 역과 서울역이라는 이상한 역 이름에 대해 의문을 제기하고, 자갈치 시장에서 무엇을 먹을 수 있는지 묻는다. 상대는 미국에서 왔다며 미국은 땅이 넓다고 답변하고, 질문자는 머리카락 색깔과 방송 출연 여부에 대해 묻는다. 상대는 앞 뒤가 다르다며 방송 출연은 단 한 번도 없었다고 답변한다. 질문자는 자갈치 시장 이외에 다른 부산 시장에 대해 묻고, 상대는 광복시장과 광장시장이 있다고 답변한다. 그러나 질문자는 광장시장이 부산에 있다는 이상한 점에 대해 의문을 제기하고, 광복시장에서는 어떤 것을 살 수 있는지 묻는다. 상대는 광복시장에서는 우주에서 먹을 수 있는 식량을 판다고 답변한다. 마지막으로 질문자는 자갈치 시장에서 광복시장까지 걸리는 시간에 대해 묻고, 상대는 부산에는 다양한 관광지가 있다며 즐거운 여행을 빌어준다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

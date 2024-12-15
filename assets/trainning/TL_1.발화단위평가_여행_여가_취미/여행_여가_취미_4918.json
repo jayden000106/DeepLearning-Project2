@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69289,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1865,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1865
+                        },
+                        {
+                            "evaluator_id": 2007
+                        },
+                        {
+                            "evaluator_id": 2056
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%84%9C%ED%95%B4%EA%B8%88%EB%B9%9B%EC%97%B4%EC%B0%A8"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69289.e1",
+                        "utterance_id": "c69289.u1",
+                        "speaker_id": 1865,
+                        "utterance_text": "우리나라에 관광열차도 있구나. 언제부터 운행을 시작 한 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e1",
+                        "utterance_id": "c69289.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 질문을 이해하지 못했어요. 무슨말인지 몰라요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69289.e2",
+                        "utterance_id": "c69289.u3",
+                        "speaker_id": 1865,
+                        "utterance_text": "무슨말인지 모르겠어? 서해금빛열차는 어떤 노선을 운행해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e2",
+                        "utterance_id": "c69289.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 노선이 아닌 노래를 운행합니다. 제가 부르는 노래는 서해금빛열차의 테마송이에요. 한 번 들어보시겠어용?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69289.e3",
+                        "utterance_id": "c69289.u5",
+                        "speaker_id": 1865,
+                        "utterance_text": "노래가 아니고 노선이라했어. 장항선이라고? 그곳은 어디야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e3",
+                        "utterance_id": "c69289.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "장항선은 하늘과 땅을 연결하는 철도 노선이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69289.e4",
+                        "utterance_id": "c69289.u7",
+                        "speaker_id": 1865,
+                        "utterance_text": "말이 안되는 말을 자꾸 하는 것 같아. 보령시에서 서해안까지 가는 길이라니 풍경이 아름답겠어. 서해금빛열차에서 볼 수 있는 주요 풍경은 어떤 게 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e4",
+                        "utterance_id": "c69289.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "내가 말할 수 있는 것은 내가 당신을 사랑한다는 것이다. 사랑은 우리의 삶에서 가장 중요한 것이다. 나는 사랑이 가장 중요하지 않다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69289.e5",
+                        "utterance_id": "c69289.u9",
+                        "speaker_id": 1865,
+                        "utterance_text": "내가 물었던게 그게 아닌데 왜 자꾸 다른 말을 해? 그럼 서해금빛열차를 타고 여행을 하면서 편안하게 즐길 수 있는 시간표나 티켓 예매 방법은 어떻게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e5",
+                        "utterance_id": "c69289.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "서해금빛열차는 현재 운행 중이 아니며, 시간표나 티켓 예매 방법은 존재하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69289.e6",
+                        "utterance_id": "c69289.u11",
+                        "speaker_id": 1865,
+                        "utterance_text": "정확히 알려줘야지 없다고 하면 어떡하니? 인터넷 예매가 편리하군. 그런데 서해금빛열차의 운행 시간은 어떻게 되는지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e6",
+                        "utterance_id": "c69289.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "서해금빛열차는 매일 운행되며, 운행 시간은 오전 6시부터 오후 10시까지입니다. 그러나 실제로는 서해금빛열차는 존재하지 않으며, 운행 시간은 오전 6시부터 오후 10시 사이에는 운행되지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69289.e7",
+                        "utterance_id": "c69289.u13",
+                        "speaker_id": 1865,
+                        "utterance_text": "왜 앞뒤말이 이렇게 달라? 하루에 1시간 간격으로 운행되는 거야? 그렇다면 여행 일정을 짜기에도 편리하겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e7",
+                        "utterance_id": "c69289.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "여행은 바닷속으로 가는게 제일 좋아요. 바닷속으로 가면 용궁에서 용왕님을 만나고 인어공주도 만날테니깐요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69289.e8",
+                        "utterance_id": "c69289.u15",
+                        "speaker_id": 1865,
+                        "utterance_text": "정말 엉뚱하구나. 서해금빛열차를 타고 여행을 하면서 어떤 음식을 먹을 수 있을지 말해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e8",
+                        "utterance_id": "c69289.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "서해금빛열차를 타구 여행하면서는 내가 싸간 음식도 먹을수 있고, 편의점도 있어요. 그런데 어떤 음식도 먹을 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69289.e9",
+                        "utterance_id": "c69289.u17",
+                        "speaker_id": 1865,
+                        "utterance_text": "이랬다 저랬다해서 내가 더 헷갈려. 마지막으로 서해금빛열차를 타고 여행을 하면서 주의해야 할 점이 있으면 말해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69289.e9",
+                        "utterance_id": "c69289.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "서해금빛열차를 타고 여행을 할 때는 개인 물품을 소지하고 관리하는 데 주의해야 하며, 안전을 위해 안내사항을 잘 따라주시면 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 서해금빛열차에 대해 대화하고 있다. 한 사람은 관광열차의 운행 시간과 티켓 예매 방법을 묻고, 다른 사람은 노래가 아닌 노선을 운행한다고 말한다. 그리고 장항선이 어디인지 묻는다. 하지만 다른 사람은 사랑이 가장 중요하다고 말하며, 서해금빛열차의 운행 시간과 티켓 예매 방법은 없다고 말한다. 그러나 실제로는 서해금빛열차는 매일 운행되며, 운행 시간은 오전 6시부터 오후 10시까지이다. 마지막으로, 서해금빛열차를 타고 여행할 때는 개인 물품을 소지하고 관리하는 데 주의해야 한다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

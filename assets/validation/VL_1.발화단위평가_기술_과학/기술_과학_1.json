@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 123,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 313,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 313
+                        },
+                        {
+                            "evaluator_id": 426
+                        },
+                        {
+                            "evaluator_id": 1545
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://www.hani.co.kr/arti/culture/culture_general/1099387.html"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c123.e1",
+                        "utterance_id": "c123.u1",
+                        "speaker_id": 313,
+                        "utterance_text": "음악 분야에서 인공지능이 어떻게 활용되고 있는지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e1",
+                        "utterance_id": "c123.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "인공지능은 음악 분야에서 다양하게 활용되고 있어요. 예를 들면 국내 최초의 에이아이 작곡가 이봄이 있죠. 이봄은 음악 이론을 학습해 다양한 장르의 선율을 만들어내는데 사용되고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c123.e2",
+                        "utterance_id": "c123.u3",
+                        "speaker_id": 313,
+                        "utterance_text": "이봄은 어떤 방식으로 작곡을 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e2",
+                        "utterance_id": "c123.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "이봄은 화성학, 대위법 등 음악 이론을 학습하고 여러 장르의 음악 선율을 만들어냅니다. 실제로 가수 홍진영의 '사랑은 24시간'과 삼성전자 청소기 '비스포크 제트 에이아이' 광고 배경음악을 만들었어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c123.e3",
+                        "utterance_id": "c123.u5",
+                        "speaker_id": 313,
+                        "utterance_text": "인공지능이 음악 작곡에 어떻게 도움을 주는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e3",
+                        "utterance_id": "c123.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "인공지능을 기반으로 한 음악 작곡 소프트웨어 '뮤지아 원'이 있어요. 이 소프트웨어는 전문 지식이 없는 일반인도 쉽게 음악을 만들 수 있도록 도와줍니다. 사용자는 인공지능 자동 생성 기능을 통해 멜로디, 반주, 베이스, 비트로 이뤄진 4개의 트랙을 만든 뒤, 편집 기능을 통해 다양하게 변경하며 자신만의 음악을 완성할 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c123.e4",
+                        "utterance_id": "c123.u7",
+                        "speaker_id": 313,
+                        "utterance_text": "음악 분야에서 인공지능의 다른 활용 사례가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e4",
+                        "utterance_id": "c123.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "인공지능을 이용해 웹툰 원작 드라마의 로고송, 오디오 드라마의 OST, 홈쇼핑 채널의 배경음악 등을 만들 수 있어요. 또한, 인공지능을 활용해 음성을 변조하거나 생성하는 기술도 있어요. 예를 들면 그룹 에이트의 이현이 '미드낫'이란 이름으로 발표한 신곡 '매스커레이드'에는 수퍼톤의 기술이 적용되었어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c123.e5",
+                        "utterance_id": "c123.u9",
+                        "speaker_id": 313,
+                        "utterance_text": "인공지능이 음악 분야에서 더욱 활발하게 활용될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e5",
+                        "utterance_id": "c123.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 시장분석업체 마켓닷어스에 따르면 세계 음악 생성 에이아이 시장은 앞으로 10년 동안 11배 이상 성장할 것으로 예상되고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c123.e6",
+                        "utterance_id": "c123.u11",
+                        "speaker_id": 313,
+                        "utterance_text": "인공지능이 음악 분야에서 활용될 때 주의해야 할 점은 무엇이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e6",
+                        "utterance_id": "c123.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "인공지능이 기존 음악을 학습하는 과정에서 저작권을 침해할 수 있다는 점과 인공지능 창작물이 현행법상 저작물로 인정받지 못하는 문제가 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c123.e7",
+                        "utterance_id": "c123.u13",
+                        "speaker_id": 313,
+                        "utterance_text": "인공지능 저작물에 대한 저작권 문제를 해결하기 위해 어떤 노력이 이루어지고 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e7",
+                        "utterance_id": "c123.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "현재 국회에는 주호영 의원이 대표발의한 저작권법 개정안이 계류 중이에요. 이 개정안은 인공지능 저작물에 대한 저작권의 법적 근거를 마련하는 내용을 담고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c123.e8",
+                        "utterance_id": "c123.u15",
+                        "speaker_id": 313,
+                        "utterance_text": "인공지능이 음악 분야에서 더욱 발전하면 어떤 변화가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e8",
+                        "utterance_id": "c123.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "인공지능 저작물도 추후에는 보호받을 수 있게 될 것이라고 생각해요. 다만, 프로그램 개발자, 이용자, 인공지능 그 자체 가운데 누구를 보호할 것인지에 대한 심도 있는 논의가 필요할 것 같아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c123.e9",
+                        "utterance_id": "c123.u17",
+                        "speaker_id": 313,
+                        "utterance_text": "앞으로 음악 분야에서 인공지능의 사례는 증가할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c123.e9",
+                        "utterance_id": "c123.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 음악 분야에서 인공지능의 활용은 더욱 늘어날 것으로 예상됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 음악 분야에서 인공지능의 활용에 대해 대화하고 있다. 인공지능은 음악 작곡에 활용되며, 예를 들어 에이아이 작곡가 이봄이 음악 이론을 학습해 다양한 장르의 선율을 만들어내는데 사용된다. 또한, 인공지능을 기반으로 한 음악 작곡 소프트웨어 '뮤지아 원'이 일반인도 음악을 만들 수 있도록 도와준다. 인공지능은 웹툰 원작 드라마의 로고송, 오디오 드라마의 OST, 홈쇼핑 채널의 배경음악 등을 만들 수 있으며, 음악 생성 에이아이 시장은 앞으로 10년 동안 11배 이상 성장할 것으로 예상된다. 인공지능 저작물에 대한 저작권 문제를 해결하기 위해 저작권법 개정안이 국회에 계류 중이며, 앞으로 음악 분야에서 인공지능의 활용은 더욱 늘어날 것으로 예상된다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

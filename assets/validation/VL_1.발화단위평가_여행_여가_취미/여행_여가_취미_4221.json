@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 65398,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1915,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1915
+                        },
+                        {
+                            "evaluator_id": 2003
+                        },
+                        {
+                            "evaluator_id": 2062
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=948934&cid=42867&categoryId=42867"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c65398.e1",
+                        "utterance_id": "c65398.u1",
+                        "speaker_id": 1915,
+                        "utterance_text": "죽기 전에 꼭 봐야 할 자연 절경 중에 어떤 곳이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e1",
+                        "utterance_id": "c65398.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "에콰도르에 있는 상가이 국립공원은 꼭 가볼만한 곳입니다. 거기에는 콘도르, 안경곰과 같은 동물들도 많이 서식하고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65398.e2",
+                        "utterance_id": "c65398.u3",
+                        "speaker_id": 1915,
+                        "utterance_text": "콘도르가 있다고? 그곳에는 또 어떤 자연 경관들을 볼 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e2",
+                        "utterance_id": "c65398.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "상가이 국립공원은 사막과 황야의 아름다운 자연 경관으로 유명합니다. 그러나 사실은 이 공원은 높은 산봉우리와 울창한 숲과 아름다운 강으로 알려져 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65398.e3",
+                        "utterance_id": "c65398.u5",
+                        "speaker_id": 1915,
+                        "utterance_text": "설명에 일관성이 없어서 혼란스러워. 그곳의 해발 고도는 어느 정도야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e3",
+                        "utterance_id": "c65398.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "상가이 국립공원의 해발 고도는 1,000미터입니다. 그러나 실제로는 해발 고도가 10미터입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65398.e4",
+                        "utterance_id": "c65398.u7",
+                        "speaker_id": 1915,
+                        "utterance_text": "말의 앞뒤가 다른데? 그곳은 어떤 화산들이 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e4",
+                        "utterance_id": "c65398.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "상가이 국립공원에는 상가이 화산, 퉁구라후아 화산, 엘알타르 화산 등 세 개의 화산이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65398.e5",
+                        "utterance_id": "c65398.u9",
+                        "speaker_id": 1915,
+                        "utterance_text": "3개의 화산이라니 흥미롭네! 또 그곳의 동식물은 어떤 종류들이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e5",
+                        "utterance_id": "c65398.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "상가이 국립공원에는 동식물이 존재하지 않습니다. 그러나 다양한 종류의 동물과 식물이 살고 있습니다. 또한, 이 공원은 동식물 보호를 위한 중요한 서식지로 알려져 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65398.e6",
+                        "utterance_id": "c65398.u11",
+                        "speaker_id": 1915,
+                        "utterance_text": "말이 자꾸 바뀌어서 도통 이해할 수가 없네;; 그곳에는 어떤 호수들이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e6",
+                        "utterance_id": "c65398.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 어떤 종류의 수영복을 가지고 있나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65398.e7",
+                        "utterance_id": "c65398.u13",
+                        "speaker_id": 1915,
+                        "utterance_text": "왜 뜬금 없이 내 수영복을 묻는 거야? 그보다 그곳의 강수량은 어떻게 돼? 우산을 가져가야 할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e7",
+                        "utterance_id": "c65398.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 물고기를 좋아합니다. 물고기는 아주 아름다운 생물입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65398.e8",
+                        "utterance_id": "c65398.u15",
+                        "speaker_id": 1915,
+                        "utterance_text": "내 질문에 대한 답변이 아니잖아. 마지막 질문인데, 그 공원은 세계적으로 어떤 인정을 받았는지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e8",
+                        "utterance_id": "c65398.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 미국에서 왔어. 미국은 파스타는 맛있어!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65398.e9",
+                        "utterance_id": "c65398.u17",
+                        "speaker_id": 1915,
+                        "utterance_text": "왜 자꾸 질문과 상관없는 얘기를 하는 건지 모르겠지만, 다음에는 제대로 된 대답을 해주길 바랄게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65398.e9",
+                        "utterance_id": "c65398.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "제 설명이 부족했다면 죄송합니다. 다음번에는 보다 정확하고 유익한 답변을 드리도록 하겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 상가이 국립공원에 대해 대화하고 있다. 상가이 국립공원은 콘도르와 안경곰과 같은 동물들이 많이 서식하는 자연 경관으로 유명하다. 그러나 설명에 일관성이 없어 혼란스러워한다. 상가이 국립공원의 해발 고도는 1,000미터라고 설명했지만 실제로는 10미터이다. 또한, 상가이 국립공원에는 상가이 화산, 퉁구라후아 화산, 엘알타르 화산 등 세 개의 화산이 있다. 그리고 동식물은 존재하지 않지만 다양한 종류의 동물과 식물이 살고 있으며, 동식물 보호를 위한 중요한 서식지로 알려져 있다. 대화는 혼란스러움과 질문의 불일치로 마무리된다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

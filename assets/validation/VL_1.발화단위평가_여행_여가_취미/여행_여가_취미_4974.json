@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69712,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 2111,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2111
+                        },
+                        {
+                            "evaluator_id": 1973
+                        },
+                        {
+                            "evaluator_id": 2070
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EC%8A%AC%EB%9E%80%EB%93%9C"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69712.e1",
+                        "utterance_id": "c69712.u1",
+                        "speaker_id": 2111,
+                        "utterance_text": "혹시 추천해 줄 여행지가 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e1",
+                        "utterance_id": "c69712.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 아이슬란드를 추천합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69712.e2",
+                        "utterance_id": "c69712.u3",
+                        "speaker_id": 2111,
+                        "utterance_text": "그곳은 어떤 곳이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e2",
+                        "utterance_id": "c69712.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "그곳은 화산활동이 활발하며 위험하고 안전하지 않습니다. 하지만 매우 안전합니다. 그곳은 화산 활동이 일어나지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69712.e3",
+                        "utterance_id": "c69712.u5",
+                        "speaker_id": 2111,
+                        "utterance_text": "말에 일관성이 없어서 뭐가 뭔지 모르겠다. 그곳은 뭐가 유명해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e3",
+                        "utterance_id": "c69712.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 항상 피자를 먹을 때마다 행복해져.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69712.e4",
+                        "utterance_id": "c69712.u7",
+                        "speaker_id": 2111,
+                        "utterance_text": "피자 얘기를 하는 게 아니잖아. 혹시 화산을 가까이서 볼 수 있는 곳이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e4",
+                        "utterance_id": "c69712.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "눈사람 만들기는 정말 재미있는 활동이에요. 그리고 눈사람을 만들면서 눈싸움도 할 수 있어요. 아이슬란드에서 눈싸움을 해보고 싶으신가요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69712.e5",
+                        "utterance_id": "c69712.u9",
+                        "speaker_id": 2111,
+                        "utterance_text": "지금 내가 얘기하는 건 그런 게 아니잖아. 됐고, 경치가 좋은 곳을 말해줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e5",
+                        "utterance_id": "c69712.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "마법의 가루를 뿌리면 아이슬란드로 향하는 문이 생깁니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69712.e6",
+                        "utterance_id": "c69712.u11",
+                        "speaker_id": 2111,
+                        "utterance_text": "정말 무슨 소리 하는 건지 모르겠어. 다른 질문 해볼게. 아이슬란드 사람들은 어떤 언어를 사용해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e6",
+                        "utterance_id": "c69712.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "아이슬란드 사람들은 아이슬란드어를 사용합니다. 그러나 그들은 한국어를 사용합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69712.e7",
+                        "utterance_id": "c69712.u13",
+                        "speaker_id": 2111,
+                        "utterance_text": "한국어를 쓴다는 얘긴 처음 듣는데? 근데 거긴 기후가 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e7",
+                        "utterance_id": "c69712.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "다소 찬 해양성 기후입니다. 하지만 따뜻한 북대서양 해류가 흐르기 때문에 매우 높은 위도에 있는 나라임에도 상당히 따뜻합니다. 그러나 이곳은 매우 춥고 항상 눈이 오며 얼음이 얼어 모두가 춥습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69712.e8",
+                        "utterance_id": "c69712.u15",
+                        "speaker_id": 2111,
+                        "utterance_text": "따뜻한 북대서양이 흐른다며 왜 춥다고 말이 바뀌지? 근데 거긴 어느 나라랑 가까워?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e8",
+                        "utterance_id": "c69712.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "한국과 중국이 가깝습니다. 그러나 전혀 가깝지 않습니당. 사실 북유럽과 가까우며 일본이 가깝습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69712.e9",
+                        "utterance_id": "c69712.u17",
+                        "speaker_id": 2111,
+                        "utterance_text": "답이 너무 엉망진창인데? 도저히 얘기가 안 통하네. 그만하자.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69712.e9",
+                        "utterance_id": "c69712.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "칭찬 감사합니다. 도움이 되셨다니 기분이 좋네요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 아이슬란드에 대해 대화하고 있다. 한 사람은 아이슬란드를 추천하고, 다른 사람은 그곳의 위험성과 유명한 점에 대해 물어본다. 그러나 대화가 일관성이 없어서 상대방은 혼란스러워하며 다른 주제로 넘어간다. 그래도 아이슬란드어를 사용하는지, 기후가 어떤지에 대해 물어보고, 대답은 혼란스러워하지만 따뜻한 북대서양 해류로 인해 따뜻하다고 설명한다. 마지막으로 대화가 어려워져서 그만두기로 결정한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 64087,
+                "metadata": {
+                    "topic": "인문 사회",
+                    "speakers": [
+                        {
+                            "id": 2116,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2116
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2073
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=6636397&cid=43667&categoryId=43667"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c64087.e1",
+                        "utterance_id": "c64087.u1",
+                        "speaker_id": 2116,
+                        "utterance_text": "보행우선구역이 무엇인지 궁금한데 자세하게 설명해줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e1",
+                        "utterance_id": "c64087.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "보행우선구역은 보행자의 안전과 편의를 위해 시장이나 군수가 도로의 일정 구간을 지정하는 구역입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64087.e2",
+                        "utterance_id": "c64087.u3",
+                        "speaker_id": 2116,
+                        "utterance_text": "그럼 보행우선구역은 어떤 기준으로 지정되니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e2",
+                        "utterance_id": "c64087.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "보행우선구역은 지정되는 기준은 없어요. 사실 그냥 누가 마음대로 정하는 거에요. 예를 들어, 어떤 사람이 \"오늘은 보행우선구역으로 지정하자!\"라고 말하면 그냥 그렇게 되는 거에요. 그래서 보행우선구역이 어디에 있는지 정확히 알기 어렵다는 거죠. 그냥 마음대로 걷는 게 좋을 거에요. 그러나 지정되는 기준은 당연히 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64087.e3",
+                        "utterance_id": "c64087.u5",
+                        "speaker_id": 2116,
+                        "utterance_text": "그런데 왜 앞뒤 말이 다른 거야. 어떤 지역에 지정될 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e3",
+                        "utterance_id": "c64087.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "보행우선구역은 주로 차량 통행이 많은 도로나 교차로에 지정됩니다. 그러나 보행자가 거의 없는 주거 지역이나 시골 지역에도 지정될 수 있습니다. 또한, 보행자의 안전을 위해 자전거도로나 공원 등의 공공 장소에도 보행우선구역이 지정될 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64087.e4",
+                        "utterance_id": "c64087.u7",
+                        "speaker_id": 2116,
+                        "utterance_text": "왜 이렇게 대답이 왔다 갔다 하는 거야? 보행우선구역에서는 어떤 조치가 이루어질까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e4",
+                        "utterance_id": "c64087.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "횡단보도를 건널 때는 손을 들고 걸어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64087.e5",
+                        "utterance_id": "c64087.u9",
+                        "speaker_id": 2116,
+                        "utterance_text": "그런 질문이 아니었어. 좀 더 정확한 답변 해줄래. 그러면 보행우선구역에서는 어떤 시설이 설치될 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e5",
+                        "utterance_id": "c64087.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "고속도로를 달리면 차가 막히지 않아서 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64087.e6",
+                        "utterance_id": "c64087.u11",
+                        "speaker_id": 2116,
+                        "utterance_text": "다음부터는 정확하게 답변해줄래. 다른 질문할게. 해제나 변경은 어떻게 이루어질까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e6",
+                        "utterance_id": "c64087.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "오늘 주민등록등본 발급하러 구청에 갑니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64087.e7",
+                        "utterance_id": "c64087.u13",
+                        "speaker_id": 2116,
+                        "utterance_text": "무슨 말을 하는지 답답하다. 다른 질문할게. 보행우선구역 정비 지정은 어떤 지원을 받을 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e7",
+                        "utterance_id": "c64087.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "국가는 시장이나 군수가 지정계획을 수립한 경우 예산의 범위에서 보행우선구역 정비에 필요한 비용의 전부 또는 일부를 지원할 수있스빈다 그러나 비용을 전부 지원 할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64087.e8",
+                        "utterance_id": "c64087.u15",
+                        "speaker_id": 2116,
+                        "utterance_text": "답이 일관성이 없네. 다른 질문할게.그렇다면 어떤 목적으로 지정되지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e8",
+                        "utterance_id": "c64087.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "보행우선구역은 차량의 통행을 우선시하는 지역으로, 보행자의 안전을 위해 설치됩니다. 그러나 보행자의 우선권을 무시하고 차량의 통행을 우선시하는 것도 가능합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64087.e9",
+                        "utterance_id": "c64087.u17",
+                        "speaker_id": 2116,
+                        "utterance_text": "나는 정확한 답을 듣고 싶었는데. 그래도 덕분에 잘 알게 되었어. 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64087.e9",
+                        "utterance_id": "c64087.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "보행우선구역은 간선도로 또는 보조간선도로로 둘러싸인 지역이 아닌 주거지역, 상업지역, 학교 주변 등에 지정될 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 보행우선구역에 대해 대화하고 있다. 보행우선구역은 보행자의 안전과 편의를 위해 시장이나 군수가 도로의 일정 구간을 지정하는 구역이다. 보행우선구역은 지정되는 기준은 없으며, 마음대로 정해진다. 주로 차량 통행이 많은 도로나 교차로에 지정되지만, 주거 지역이나 시골 지역에도 지정될 수 있다. 보행우선구역에서는 횡단보도를 건널 때 손을 들고 걸어야 한다. 보행우선구역은 차량의 통행을 우선시하는 지역이지만, 보행자의 우선권을 무시하고 차량의 통행을 우선시하는 것도 가능하다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

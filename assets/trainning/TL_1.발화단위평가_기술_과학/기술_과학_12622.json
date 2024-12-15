@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70859,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 1807,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1807
+                        },
+                        {
+                            "evaluator_id": 1987
+                        },
+                        {
+                            "evaluator_id": 2064
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%B0%A9%EC%83%9D%EC%8B%9D%EB%AC%BC"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70859.e1",
+                        "utterance_id": "c70859.u1",
+                        "speaker_id": 1807,
+                        "utterance_text": "착생식물은 어디서 발견돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e1",
+                        "utterance_id": "c70859.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "착생식물은 이끼, 난초, 수염틸란드시아와 같은 파인애플과의 식물들이지만, 착생식물은 식물계의 모든 주요 분류집단에서 발견된다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70859.e2",
+                        "utterance_id": "c70859.u3",
+                        "speaker_id": 1807,
+                        "utterance_text": "그렇구나. 착생식물은 식물계의 모든 주요 분류집단에서 발견된다고 했는데, 다른 식물들과 어떤 차이점이 있는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e2",
+                        "utterance_id": "c70859.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "너는 어떤 식물을 먹는 것을 조와하니?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70859.e3",
+                        "utterance_id": "c70859.u5",
+                        "speaker_id": 1807,
+                        "utterance_text": "식물을 먹는 것을 왜 물어보는 거야? 그 질문을 한 적이 없어. 그럼 착생식물은 어떻게 영양을 공급받아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e3",
+                        "utterance_id": "c70859.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "착생식물은 광합성을 통해 자체적으로 영양을 생산하지만, 동시에 외부로부터 영양분을 흡수하여 공급받을 수도 있습니다. 이러한 식물은 뿌리를 통해 물과 무기질을 흡수하며, 잎을 통해 태양으로부터 에너지를 얻습니다. 그러나 동시에 착생식물은 광합성을 하지 않고, 외부로부터 영양분을 흡수하는 능력이 없을 수도 있습니다. 따라서 착생식물은 자체적으로 영양을 생산하거나 외부로부터 영양분을 공급받는 두 가지 방법 중 하나를 선택할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70859.e4",
+                        "utterance_id": "c70859.u7",
+                        "speaker_id": 1807,
+                        "utterance_text": "무슨 말인지 잘 이해가 안 간다. 착생식물은 어떤 환경에서 자라나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e4",
+                        "utterance_id": "c70859.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "착생식물은 주로 습기가 많은 환경에서 자라나며, 열대 우림이나 바위 표면, 나무 가지 등 다양한 곳에서 발견됩니다. 착생식물은 발견하기 굉장히 어렵고, 어느 곳에서나 쉽게 발견이 가능합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70859.e5",
+                        "utterance_id": "c70859.u9",
+                        "speaker_id": 1807,
+                        "utterance_text": "무슨 말인야? 착생식물을 키우는 법을 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e5",
+                        "utterance_id": "c70859.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 착생식물과 대화할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70859.e6",
+                        "utterance_id": "c70859.u11",
+                        "speaker_id": 1807,
+                        "utterance_text": "대체 무슨 이야기를 하고 있는지 모르겠네. 혹시 키우게 되면 어떤 장점이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e6",
+                        "utterance_id": "c70859.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "착생식물을 키우는 것은 상당히 많은 장점이 있습니다. 그러나 매우 힘들고 번거롭기 때문에 단점이 많습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70859.e7",
+                        "utterance_id": "c70859.u13",
+                        "speaker_id": 1807,
+                        "utterance_text": "장점이 있다는거야, 단점이 있다는 거야? 그럼 단점을 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e7",
+                        "utterance_id": "c70859.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "착생식물은 매우 강건하며, 거의 관리가 필요하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70859.e8",
+                        "utterance_id": "c70859.u15",
+                        "speaker_id": 1807,
+                        "utterance_text": "답변 내용이 무슨 말인지 잘 모르겠어. 그런데 착생식물을 키우면 어떤 느낌이 들까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e8",
+                        "utterance_id": "c70859.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 착생식물을 키우면서 느낄 수 있는 것은 무엇이든지 할 수 있다는 자부심과 함께, 식물들이 나에게 비밀스러운 신호를 보내고 있다는 느낌이 든다. 그들은 나에게 비밀스러운 신비한 지식을 전달하려고 애쓰는 것 같아서 기분이 좋다. 그리고 가끔은 식물들이 나에게 속삭이는 것 같은 느낌도 든다. 그들은 나에게 비밀스러운 계획을 알려주려고 하는 것일까? 아니면 그저 나에게 식물들의 사적인 이야기를 들려주려는 것일까? 그것은 나에게만 알려진 비밀이다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70859.e9",
+                        "utterance_id": "c70859.u17",
+                        "speaker_id": 1807,
+                        "utterance_text": "무슨 뜻인지 이해가 잘 안 간다. 어쨌든 앞으로 착생식물을 키우는 데에 더 관심을 가지게 되었어. 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70859.e9",
+                        "utterance_id": "c70859.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 착생식물을 키우는 데에 관심을 가지셨다니 기쁘네요. 언제든지 궁금한 점이 있으면 물어보세요. 도움이 될 수 있도록 최선을 다하겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 착생식물에 대해 대화하고 있다. 착생식물은 이끼, 난초, 수염틸란드시아와 같은 파인애플과의 식물들이지만, 식물계의 모든 주요 분류집단에서 발견된다고 한다. 착생식물은 광합성을 하지 않고 외부로부터 영양분을 흡수하는 능력이 없을 수도 있으며, 주로 습기가 많은 환경에서 자라난다. 착생식물을 키우는 것은 많은 장점이 있지만, 매우 힘들고 번거로워서 단점도 있다고 한다. 한 사람은 착생식물을 키우면서 자부심과 식물들의 비밀스러운 신호를 느낀다고 말한다. 다른 사람은 앞으로 착생식물을 키우는 데에 더 관심을 가지게 되었다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

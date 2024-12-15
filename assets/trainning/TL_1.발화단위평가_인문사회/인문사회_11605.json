@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 61240,
+                "metadata": {
+                    "topic": "인문 사회",
+                    "speakers": [
+                        {
+                            "id": 1903,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1903
+                        },
+                        {
+                            "evaluator_id": 2022
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=6595298&cid=43667&categoryId=43667"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c61240.e1",
+                        "utterance_id": "c61240.u1",
+                        "speaker_id": 1903,
+                        "utterance_text": "안녕? 계약에 관한 법률에 대해 알고 싶은데, 어떤 정보가 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e1",
+                        "utterance_id": "c61240.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "오늘 날씨는 완전히 맑음입니다. 그리고 동시에 비가 내리는데요. 날씨에 대한 정보가 더 필요하신가요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61240.e2",
+                        "utterance_id": "c61240.u3",
+                        "speaker_id": 1903,
+                        "utterance_text": "아니. 나는 계약에 관한 법률에 대해 알고 싶어. 국가를 당사자로 하는 계약에 관해 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e2",
+                        "utterance_id": "c61240.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 국가로 당사자로 하는 계약이 존재합니다. 그리고 국가를 당사자로 하는 계약은 존재하지 않습니다. 국가는 법적인 주체가 아니기 때문에 계약에 참여할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61240.e3",
+                        "utterance_id": "c61240.u5",
+                        "speaker_id": 1903,
+                        "utterance_text": "방금 국가를 당사자로 하는 계약이 없다고 말했잖아. 어떤 게 맞는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e3",
+                        "utterance_id": "c61240.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 아이폰을 추천드려요. 당신이 원하는 사양이 있으신가요? 개인적으로 저는 삼성보다 아이폰이 더 우수하다고 생각해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61240.e4",
+                        "utterance_id": "c61240.u7",
+                        "speaker_id": 1903,
+                        "utterance_text": "내가 질문한 내용이 아니잖아. 다시 질문할게. 국제입찰의 경우에는 어떤 원칙에 따라 특약이나 조건을 정할 수 없니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e4",
+                        "utterance_id": "c61240.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "국제입찰의 경우에는 특약이나 조건을 정할 수 없습니다. 그러나 국제입찰에서는 특약이나 조건을 정할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61240.e5",
+                        "utterance_id": "c61240.u9",
+                        "speaker_id": 1903,
+                        "utterance_text": "어떤 게 맞는 답변인지 모르겠네. 좀 더 정확하게 답변할 수 없을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e5",
+                        "utterance_id": "c61240.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 오늘 너무 피곤해. 어제 밤에 너무 늦게까지 놀다가 지각해서 아침에 일찍 일어나야 했어. 그래서 지금 정말 피곤해.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61240.e6",
+                        "utterance_id": "c61240.u11",
+                        "speaker_id": 1903,
+                        "utterance_text": "내 질문에 대해 좀 더 집중해줘. 나는 계약에 관해 질문했어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e6",
+                        "utterance_id": "c61240.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 어떤 경우에서도 당신이 물어본 질문에 대해 절대 답변을 할 수 없다. 내가 할 수 있는 유일한 것은 날씨에 대해 답변하는 것이다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61240.e7",
+                        "utterance_id": "c61240.u13",
+                        "speaker_id": 1903,
+                        "utterance_text": "다시 질문할게. 계약을 체결하려면 어떤 절차를 거쳐야 할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e7",
+                        "utterance_id": "c61240.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "계약을 체결하려면 어떤 절차도 필요하지 않습니다. 단지 양측이 서로에게 동의하면 계약이 성립됩니다. 그러나 계약을 체결하려면 복잡한 문서 작성, 법적 검토 및 서명 절차를 따라야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61240.e8",
+                        "utterance_id": "c61240.u15",
+                        "speaker_id": 1903,
+                        "utterance_text": "네 답변이 나를 혼란스럽게 만들어. 나는 정확한 답변이 필요해!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e8",
+                        "utterance_id": "c61240.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "강아지와 고양이 중 어떤 동물을 더 좋아하시나요? 나는 고양이를 더 좋아해요. 좀 더 답변이 필요할까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61240.e9",
+                        "utterance_id": "c61240.u17",
+                        "speaker_id": 1903,
+                        "utterance_text": "아니. 대화를 종료하는 게 좋을 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61240.e9",
+                        "utterance_id": "c61240.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 제 답변이 도움이 되었다니 정말 다행이에요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 계약에 대해 대화하고 있다. 한 사람은 계약에 관한 법률에 대해 알고 싶어하고, 다른 사람은 국가를 당사자로 하는 계약에 대해 알려줄 수 있다고 말한다. 그러나 국가를 당사자로 하는 계약은 존재하지 않는다고도 한다. 또한 국제입찰의 경우에는 특약이나 조건을 정할 수 없다고도 한다. 체결하려는 계약에 대한 절차는 양측의 동의만 있으면 된다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

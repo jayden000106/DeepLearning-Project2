@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 65928,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1953,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1953
+                        },
+                        {
+                            "evaluator_id": 1993
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=2079592&cid=42107&categoryId=42107"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c65928.e1",
+                        "utterance_id": "c65928.u1",
+                        "speaker_id": 1953,
+                        "utterance_text": "수소연료전지차가 무엇인지 알려줄 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e1",
+                        "utterance_id": "c65928.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "수소연료전지차는 차내 수소탱크에서 수소와 공기공급기에서 전달받은 산소를 연료전지에 보내 전기를 생산하고 모터를 돌려 달리는 자동차입니다. 이렇게 작동하면서 전혀 공해물질이 나오지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65928.e2",
+                        "utterance_id": "c65928.u3",
+                        "speaker_id": 1953,
+                        "utterance_text": "오 공해물질이 안 나오구나! 수소연료전지차의 장단점은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e2",
+                        "utterance_id": "c65928.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "수소연료전지차의 장점은 친환경적이고 대기오염을 줄일 수 있다는 것입니다. 그러나 수소연료전지차는 충전 시간이 5분으로 짧게 걸리지만 수소 충전소의 인프라가 부족하여 사용이 수월합니다. 또한, 수소 생산에는 고비용과 에너지 소모가 많이 들어가기 때문에 경제적으로 비효율적입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65928.e3",
+                        "utterance_id": "c65928.u5",
+                        "speaker_id": 1953,
+                        "utterance_text": "인프라가 부족하면 수월하게 사용을 못하는 거 아니야? 일단 다음으로 수소연료전지차와 전기차의 차이점은 무엇이니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e3",
+                        "utterance_id": "c65928.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "수소연료전지차와 전기차의 가장 큰 차이점은 연료의 종류입니다. 수소연료전지차는 수소를 연료로 사용하고, 전기차는 전기를 연료로 사용합니다. 그러나 두 차량은 모두 환경 친화적이며, 영향력 있는 대체 에너지 솔루션으로 인정받고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65928.e4",
+                        "utterance_id": "c65928.u7",
+                        "speaker_id": 1953,
+                        "utterance_text": "연료가 가장 큰 차이점이구나. 그럼 수소연료전지차의 상용화에는 어떤 문제가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e4",
+                        "utterance_id": "c65928.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "수소연료전지차의 상용화에는 소재와 안정성 문제가 해결되어야 합니다. 그렇지만 소재와 안정성 문제가 해결되지 않아도 됩니다. 특히 백금의 사용량이 많아 생산비용이 높고, 수소충전소를 건설하는 비용도 많이 듭니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65928.e5",
+                        "utterance_id": "c65928.u9",
+                        "speaker_id": 1953,
+                        "utterance_text": "그런 문제가 있구나. 그럼 수소연료전지차와 전기차 중 어느 것이 더 좋은 선택일 것 같아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e5",
+                        "utterance_id": "c65928.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "장남감 자동차는 사람들이 먹을 수 있는 것이지만 사람들은 먹지 않는다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65928.e6",
+                        "utterance_id": "c65928.u11",
+                        "speaker_id": 1953,
+                        "utterance_text": "왜 갑자기 장난감 자동차에 대해 이야기를 하니.. 됐고 수소연료전지차의 충전시간은 얼마나 걸리지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e6",
+                        "utterance_id": "c65928.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "수소연료전지차의 충전시간은 매우 짧습니다. 일반적으로 5분 이내에 충전이 완료됩니다. 그러나 실제로는 수소연료전지차는 충전에 매우 오랜 시간이 걸립니다. 보통 24시간 이상 충전해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65928.e7",
+                        "utterance_id": "c65928.u13",
+                        "speaker_id": 1953,
+                        "utterance_text": "충전시간이 짧으면서 길 수는 없지.. 그럼 한 번 충전으로 수소연료전지차는 얼마나 갈 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e7",
+                        "utterance_id": "c65928.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 어떤 종류의 음식을 좋아하십니까?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65928.e8",
+                        "utterance_id": "c65928.u15",
+                        "speaker_id": 1953,
+                        "utterance_text": "내 질문에 답해줘.. 수소연료전지차의 생산비용은 얼마나 될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e8",
+                        "utterance_id": "c65928.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "미니언즈의 인기가 많아서 그들이 수소연료전지차를 만들고 있는지 궁금하네요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65928.e9",
+                        "utterance_id": "c65928.u17",
+                        "speaker_id": 1953,
+                        "utterance_text": "계속 엉뚱한 대답을 하는구나.. 수소충전소를 건설하는 비용은 얼마나 드는지 말해주겠니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65928.e9",
+                        "utterance_id": "c65928.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "수소충전소를 건설하는 비용은 약 30억원 정도입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 수소연료전지차에 대해 대화하고 있다. 수소연료전지차는 친환경적이며 공해물질이 나오지 않는다. 그러나 수소연료전지차의 장점은 인프라가 부족하여 사용이 어렵고 경제적으로 비효율적이다. 수소연료전지차와 전기차의 가장 큰 차이점은 연료의 종류이다. 수소연료전지차의 상용화에는 소재와 안정성 문제가 해결되어야 한다. 수소연료전지차의 충전시간은 매우 짧지만 실제로는 오랜 시간이 걸린다. 수소연료전지차의 생산비용은 약 30억원 정도이다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

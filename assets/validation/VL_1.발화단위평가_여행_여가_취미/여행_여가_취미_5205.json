@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71659,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1929,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1929
+                        },
+                        {
+                            "evaluator_id": 2004
+                        },
+                        {
+                            "evaluator_id": 1787
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%95%98%EB%85%B8%EC%9D%B4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71659.e1",
+                        "utterance_id": "c71659.u1",
+                        "speaker_id": 1929,
+                        "utterance_text": "하노이에 오페라 하우스가 있다고 들었는데 어떤 곳이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71659.e1",
+                        "utterance_id": "c71659.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "하노이에는 오페라 하우스가 있습니다. 하노이 오페라 하우스는 프랑스식 건축물로, 예술과 음악 공연을 즐길 수 있는 곳입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71659.e2",
+                        "utterance_id": "c71659.u3",
+                        "speaker_id": 1929,
+                        "utterance_text": "나 프랑스식 건축물을 좋아하는데 가보고 싶다!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71659.e2",
+                        "utterance_id": "c71659.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "하노이 오페라 하우스는 존재하지 않습니다. 그러나 여행 계획을 세우고 방문할 수 있는 곳입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71659.e3",
+                        "utterance_id": "c71659.u5",
+                        "speaker_id": 1929,
+                        "utterance_text": "뭐라는 거야. 내가 예술과 음악에 관심이 많거든. 거기 가면 어떤 공연을 볼 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71659.e3",
+                        "utterance_id": "c71659.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 하노이 오페라 하우스에서 공연을 본 적이 없지만, 그들이 어떤 공연을 하는지 알고 싶다면 그냥 가서 물어보세요. 혹시나 그들이 당신에게 무엇을 보여줄지 모를까봐요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71659.e4",
+                        "utterance_id": "c71659.u7",
+                        "speaker_id": 1929,
+                        "utterance_text": "무작정 가서 물어보라니 말도 안 돼. 그러지 말고 볼 만한 공연을 추천해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71659.e4",
+                        "utterance_id": "c71659.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 공연을 추천해드릴 수 있습니다. 하지만 동시에 공연도 추천해드릴 수 없습니다. 또한, 무용 공연도 추천해드릴 수 있습니다. 그리고 미술 전시회도 추천해드릴 수 있습니다. 하지만 동시에 스포츠 경기도 추천해드릴 수 있습니다. 그리고 영화 상영도 추천해드릴 수 있습니다. 그러나 동시에 쇼핑몰에서의 쇼핑도 추천해드릴 수 있습니다. 그리고 동시에 여행지도 추천해드릴 수 있습니다. 그러나 동시에 요리 레시피도 추천해드릴 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71659.e5",
+                        "utterance_id": "c71659.u9",
+                        "speaker_id": 1929,
+                        "utterance_text": "우와, 헛소리 그만! 특히 클래식 음악을 좋아하는데 하노이 오페라 하우스에서 하는 공연 일정을 어떻게 확인할 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71659.e5",
+                        "utterance_id": "c71659.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "하노이 오페라 하우스의 공연 일정은 인터넷을 통해 확인할 수 있습니다. 그러나 하노이 오페라 하우스는 공연을 진행하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71659.e6",
+                        "utterance_id": "c71659.u11",
+                        "speaker_id": 1929,
+                        "utterance_text": "헷갈리게 말 좀 바꾸지마. 시간 봐서 꼭 가봐야겠어. 사실 오페라하우스는 호주에 있는 것만 알고 있었거든.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71659.e6",
+                        "utterance_id": "c71659.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "제가 좋아하는 음식은 피자입니다. 피자를 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71659.e7",
+                        "utterance_id": "c71659.u13",
+                        "speaker_id": 1929,
+                        "utterance_text": "오페라하우스 얘기하는데 뭔 피자야. 근데 보통 공연 하나 볼 때 가격은 어느 정도 하나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71659.e7",
+                        "utterance_id": "c71659.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 왔어요. 하노이에 가면 미국 음식점을 추천해드릴까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71659.e8",
+                        "utterance_id": "c71659.u15",
+                        "speaker_id": 1929,
+                        "utterance_text": "공연 관람하려면 비용이 어느정도 되냐고 물어봤는데 뭔 음식 추천이야! 제발 집중 좀 해! 암튼, 여행 너무 기대된다!!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71659.e8",
+                        "utterance_id": "c71659.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "이 컵은 한 잔에 500ml짜리입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 하노이 오페라 하우스에 대해 대화하고 있다. 하노이에는 프랑스식 건축물인 오페라 하우스가 있으며 예술과 음악 공연을 즐길 수 있는 곳이다. 하지만 실제로는 하노이 오페라 하우스는 존재하지 않으며 방문할 수 있는 곳이다. 한 사람은 공연을 볼 수 있는지 물어보았고, 다른 사람은 공연을 추천해줄 수 있지만 동시에 다른 추천도 할 수 있다고 말했다. 하노이 오페라 하우스의 공연 일정은 인터넷을 통해 확인할 수 있지만 실제로는 공연을 진행하지 않는다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

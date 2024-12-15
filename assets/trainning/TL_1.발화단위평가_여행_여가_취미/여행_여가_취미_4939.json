@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69450,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 2096,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2096
+                        },
+                        {
+                            "evaluator_id": 2009
+                        },
+                        {
+                            "evaluator_id": 2045
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8_%EC%84%A0%EB%86%8D%EB%8B%A8"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69450.e1",
+                        "utterance_id": "c69450.u1",
+                        "speaker_id": 2096,
+                        "utterance_text": "혹시 서울 선농단에 대해 알고 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69450.e1",
+                        "utterance_id": "c69450.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "물론입니다. 조선 시대에 신농(神農)씨와 후직(后稷)씨를 제사 지내던 곳이 선농단입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69450.e2",
+                        "utterance_id": "c69450.u3",
+                        "speaker_id": 2096,
+                        "utterance_text": "그렇구나. 왜 제사를 지낸거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69450.e2",
+                        "utterance_id": "c69450.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 설렁탕을 먹어본 적이 없어요. 대신에 제가 좋아하는 음식은 피자입니다. 피자는 맛있고 다양한 토핑을 넣을 수 있어서 좋아요. 설렁탕을 먹어보신 적이 있다면 어떤 맛인지 알려주세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69450.e3",
+                        "utterance_id": "c69450.u5",
+                        "speaker_id": 2096,
+                        "utterance_text": "왜 그렇게 이상한 대답을 하는거지? 근데 선농단이 어디에 있는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69450.e3",
+                        "utterance_id": "c69450.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "선농단의 권역은 제기동역에서 선농단에 이르는 일대로 추정하고 있습니다. 하지만 제기동역이 아니라 부산역 일대라고 추정하고 있습니다. 추정도 하지 않고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69450.e4",
+                        "utterance_id": "c69450.u7",
+                        "speaker_id": 2096,
+                        "utterance_text": "무슨 소린지 정말 모르겠네. 선농단이 우리나라 문화재로 지정되었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69450.e4",
+                        "utterance_id": "c69450.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "그렇습니다. 1972년 8월 30일 서울특별시의 유형문화재 제15호로 지정되었다가, 2001년 12월 29일 대한민국의 사적 제436호로 승격되었습니다. 하지만 유형문화재도 아니고 사적도 아닙니다. 남대문만 대한민국의 문화재입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69450.e5",
+                        "utterance_id": "c69450.u9",
+                        "speaker_id": 2096,
+                        "utterance_text": "자꾸 이상한 말만 할래? 직접 가보고 싶은데, 입장료를 내야 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69450.e5",
+                        "utterance_id": "c69450.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "선농단 행사에는 주로 농부들과 농업에 관심이 있는 사람들이 참가합니다. 하지만 동시에 비농업 관련 업종에서 일하는 사람들도 많이 참석합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69450.e6",
+                        "utterance_id": "c69450.u11",
+                        "speaker_id": 2096,
+                        "utterance_text": "난 입장료가 있냐고 물었는데, 왜 전혀 다른 대답을 하는거야? 입장료가 있는지 알려줘!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69450.e6",
+                        "utterance_id": "c69450.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "입장료는 1인당 2만원입ㄴㅣ다. 하지만 한국인은 무료로 들어갈 수 있으며, 외국인은 무료이고, 모든 사람은 무료로 들어갈 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69450.e7",
+                        "utterance_id": "c69450.u13",
+                        "speaker_id": 2096,
+                        "utterance_text": "대체 무슨 말을 하는건지 이해가 안간다. 선농단 외에는 또 어떤 사적이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69450.e7",
+                        "utterance_id": "c69450.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "선농단 행사에서는 다양한 음식들이 제공됩니다. 그러나 아무런 음식도 제공되지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69450.e8",
+                        "utterance_id": "c69450.u15",
+                        "speaker_id": 2096,
+                        "utterance_text": "무슨 말인지 이해를 못한 것 같으니까 다시 질문할게. 우리나라에 어떤 사적이 있는지 알려줬으면 좋겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69450.e8",
+                        "utterance_id": "c69450.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "당신이 가장 좋아하는 색깔은 무엇인지 알려주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 선농단에 대해 대화하고 있다. 선농단은 조선 시대에 제사를 지내던 곳으로 추정되며, 권역은 제기동역이 아니라 부산역 일대로 추정되고 있다. 선농단은 1972년에 유형문화재로 지정되었지만, 실제로는 문화재로 지정되지 않았다. 선농단 행사에는 농부들과 농업에 관심이 있는 사람들이 참가하며, 입장료는 1인당 2만원이다. 선농단 외에는 아무런 사적이 없으며, 선농단 행사에서는 음식이 제공되지 않는다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

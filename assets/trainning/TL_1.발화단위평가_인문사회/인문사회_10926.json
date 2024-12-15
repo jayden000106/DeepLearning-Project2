@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 60029,
+                "metadata": {
+                    "topic": "인문 사회",
+                    "speakers": [
+                        {
+                            "id": 1915,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1915
+                        },
+                        {
+                            "evaluator_id": 2005
+                        },
+                        {
+                            "evaluator_id": 2056
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=2077906&cid=44546&categoryId=44546"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c60029.e1",
+                        "utterance_id": "c60029.u1",
+                        "speaker_id": 1915,
+                        "utterance_text": "이번 주말에 할 일이 없어서 책을 읽으려고 하는데, 어떤 작가의 책을 읽을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e1",
+                        "utterance_id": "c60029.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "E.M. 포스터의 책을 추천해드릴게요. 그는 유명한 미국 소설가이니다. 하지만 사실 그는 미국이 아니라 이탈리아의 무명 시인이며, 프랑스의 제빵사입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60029.e2",
+                        "utterance_id": "c60029.u3",
+                        "speaker_id": 1915,
+                        "utterance_text": "음, 뭐 하는 사람이라는 건지 모르겠어. 그래서 그의 어떤 작품이 유명한데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e2",
+                        "utterance_id": "c60029.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "포스터의 어떤 작품도 유명하지 않습니당. 그렇지만 모든 작품이 동등하게 눈부신 인기를 누립니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60029.e3",
+                        "utterance_id": "c60029.u5",
+                        "speaker_id": 1915,
+                        "utterance_text": "말의 앞뒤가 다른데? 아무튼 그의 작품은 어떤 스타일이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e3",
+                        "utterance_id": "c60029.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "그는 어떤 음식 스타일을 좋아했을까요? 알고 계시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60029.e4",
+                        "utterance_id": "c60029.u7",
+                        "speaker_id": 1915,
+                        "utterance_text": "그의 음식 스타일이 아니라 작품 스타일에 대해 알고 싶었던 거야! 그러고 보니 그의 작품이 영화로도 제작되었다고 들었는데, 어떤 영화들이 있는지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e4",
+                        "utterance_id": "c60029.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "포스터의 작품은 영화로 제작된 적이 없습니다. 그러나 1984년 데이비드 린 감독의 「인도로 가는 길」을 시작으로 1985년 제임스 아이보리의 「전망 좋은 방」, 1987년 같은 감독의 「모리스」, 1991년 찰스 스터리지의 「천사들도 발 딛기 두려워하는 곳」, 1992년 제임스 아이보리의 「하워즈 엔드」에 이르기까지, 그의 주요 작품들이 거의 모두 영화화되었다고 들었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60029.e5",
+                        "utterance_id": "c60029.u9",
+                        "speaker_id": 1915,
+                        "utterance_text": "말에 일관성이 없어서 혼란스러워. 다른 질문이나 할래. 그의 작품을 읽으면 무엇을 배울 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e5",
+                        "utterance_id": "c60029.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "오늘 점심은 파스타가 어떨까요? 이탈리아 식문화를 배우는 거죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60029.e6",
+                        "utterance_id": "c60029.u11",
+                        "speaker_id": 1915,
+                        "utterance_text": "왜 뜬금 없이 파스타 얘기를 하니? 주제로 돌아가서, 포스터는 어떤 사회적 활동을 했었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e6",
+                        "utterance_id": "c60029.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "포스터는 어떤 사회적 활동도 하지 않았습니다. 포스터는 사회적 활동을 햇지만 그 어떤 사회적 활동도 하지 않았습니다. 포스터는 사회적 활동을 했을 수도 있지만 그 어떤 사회적 활동도 하지 않았습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60029.e7",
+                        "utterance_id": "c60029.u13",
+                        "speaker_id": 1915,
+                        "utterance_text": "말이 자꾸 바뀌는데 결론이 대체 뭐야? 에휴, 그의 작품은 어떤 주제를 다루는 지나 설명해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e7",
+                        "utterance_id": "c60029.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "포스터의 작품은 평이 좋은 것 같아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60029.e8",
+                        "utterance_id": "c60029.u15",
+                        "speaker_id": 1915,
+                        "utterance_text": "작품 평에 대해 물어본 게 아니야! 마지막 질문인데, 그의 작품을 읽으면 어떤 느낌을 받을 수 있다고 생각해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e8",
+                        "utterance_id": "c60029.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "마사지를 받으면 기분 좋은 느낌을 받을 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c60029.e9",
+                        "utterance_id": "c60029.u17",
+                        "speaker_id": 1915,
+                        "utterance_text": "끝까지 엉뚱한 소리만 하는구나. 뭔가 제대로 된 답변이 없었지만, 다음번에는 더 나은 대답을 해주길 바래.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c60029.e9",
+                        "utterance_id": "c60029.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "답변이 부족했을까요? 그렇다면 죄송합니다. 다음번에는 보다 정확하고 유익한 답변을 드리도록 하겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 E.M. 포스터의 작품에 대해 대화하고 있다. 포스터는 유명한 미국 소설가인 줄 알았지만, 사실은 이탈리아의 무명 시인과 프랑스의 제빵사이다. 포스터의 작품은 유명하지 않지만, 모든 작품이 인기가 있다고 한다. 포스터의 작품은 영화로도 제작되었는데, 주요 작품들이 거의 모두 영화화되었다고 한다. 포스터의 작품을 읽으면 무엇을 배울 수 있는지 물어보았지만, 대답이 없었다. 두 사람은 대화가 혼란스러워하며 마무리한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

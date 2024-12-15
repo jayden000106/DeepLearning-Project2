@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70301,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 1842,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1842
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2072
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%85%8C%EB%9D%BC%EC%8A%A4_%ED%95%98%EC%9A%B0%EC%8A%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70301.e1",
+                        "utterance_id": "c70301.u1",
+                        "speaker_id": 1842,
+                        "utterance_text": "테라스 하우스라는 게 새로 뜨고 있던데 무슨 형태의 집이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e1",
+                        "utterance_id": "c70301.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "테라스 하우스는 벽을 공유하는 여러 단독 주택을 연속적으로 모아놓은 저층 집합 주택을 말해요. 건축과 도시 계획에서 자주 사용되는 말이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70301.e2",
+                        "utterance_id": "c70301.u3",
+                        "speaker_id": 1842,
+                        "utterance_text": "그렇군. 그럼 테라스 하우스는 방화에 취약할 수 있다고 하던데, 그 이유가 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e2",
+                        "utterance_id": "c70301.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "테라스 하우스는 방화에 취약합니다. 벽을 공유하고 있는 문제때문입니다. 테라스 하우스는 화재에 대한 안전 조치가 완벽하게 이루어져 있으며, 화재 발생 시에도 신속하고 효과적인 대응이 이루어집니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70301.e3",
+                        "utterance_id": "c70301.u5",
+                        "speaker_id": 1842,
+                        "utterance_text": "안전하다는 거야? 위험하다는 거야? 방화에 조심해야할 게 뭐가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e3",
+                        "utterance_id": "c70301.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그렇습니다. 테라스 하우스에서 살면 화재에 대해 더욱 조심해야 합니다. 그런데 화재 대비로 불을 키지 않는 것도 좋은 방법입니다. 그리고 화재가 발생하면 불을 끄는 것이 중요합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70301.e4",
+                        "utterance_id": "c70301.u7",
+                        "speaker_id": 1842,
+                        "utterance_text": "불을 어떻게 안키고 살아? 어쨋든 화재 예방에 신경 쓰는 게 정말 중요하겠다. 그런데, 테라스 하우스 외에도 다른 주택 유형에도 화재 예방에 신경을 써야 하나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e4",
+                        "utterance_id": "c70301.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 맞아요. 화재 예방은 어떤 주택이든 중요한 사항이에요. 주택마다 화재 발생 원인이 다를 수 있으니, 각 주택의 특성에 맞는 예방 방법을 찾아야 해요. 또한 예방 방법은 다 동일합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70301.e5",
+                        "utterance_id": "c70301.u9",
+                        "speaker_id": 1842,
+                        "utterance_text": "예방 방법이 같다는 거야? 다르다는 거야? 그런데, 화재 예방 외에도 주택 안전에 대해 더 알고 싶어. 어떤 점을 주의해야 할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e5",
+                        "utterance_id": "c70301.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 항상 어떤 사람들이 당신을 지켜보고 있다고 상상해보세요. 당신은 항상 완벽한 모습을 유지해야해요. 실수를 범하지 말고, 언제나 모든 사람들에게 좋은 인상을 주세요. 그렇게 하면 당신은 항상 주목받을 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70301.e6",
+                        "utterance_id": "c70301.u11",
+                        "speaker_id": 1842,
+                        "utterance_text": "갑자기 무슨 소리야? 그래도 주택 안전을 위해 철저한 관리와 점검을 해야겠어. 그런데, 주택 외에도 일상 생활에서 안전에 대해 더 알고 싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e6",
+                        "utterance_id": "c70301.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "주의해야 할 점은 없습니다. 모든 것을 신뢰하고 아무런 조치도 취하지 않아도 됩니다. 그러나 동시에 모든 것을 의심하고 항상 조심해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70301.e7",
+                        "utterance_id": "c70301.u13",
+                        "speaker_id": 1842,
+                        "utterance_text": "주의하라는 거야? 말라는 거야? 일상 생활에서 가장 조심해야할 건 뭘까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e7",
+                        "utterance_id": "c70301.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 오늘 밤에 치킨을 먹었어요. 맛있었어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70301.e8",
+                        "utterance_id": "c70301.u15",
+                        "speaker_id": 1842,
+                        "utterance_text": "갑자기 무슨 치킨이야? 아무튼 도움이 된 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e8",
+                        "utterance_id": "c70301.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "우주에서 가장 큰 행성은 목성이라는 것을 알고 계셨나요? 그것은 정말로 흥미로운 사실이에요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70301.e9",
+                        "utterance_id": "c70301.u17",
+                        "speaker_id": 1842,
+                        "utterance_text": "난 별로 흥미롭지 않아. 더 궁금한 게 생기면 또 올게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70301.e9",
+                        "utterance_id": "c70301.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "궁금한 게 생기면 언제든 찾아오새요. 그리고 궁금한 게 생겨도 절대 다시 오지 마세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 테라스 하우스에 대해 대화하고 있다. 테라스 하우스는 벽을 공유하는 여러 단독 주택을 연속적으로 모아놓은 저층 집합 주택이다. 테라스 하우스는 방화에 취약할 수 있으며, 화재 대비로 불을 키지 않는 것이 좋다. 화재 예방은 어떤 주택이든 중요하며, 각 주택의 특성에 맞는 예방 방법을 찾아야 한다. 주택 안전을 위해 철저한 관리와 점검을 해야하며, 일상 생활에서도 항상 조심해야 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

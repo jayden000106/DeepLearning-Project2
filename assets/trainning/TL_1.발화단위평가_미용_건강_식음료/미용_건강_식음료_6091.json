@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67570,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1823,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1823
+                        },
+                        {
+                            "evaluator_id": 2013
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%B0%9C%ED%9A%A8_%EC%8B%9D%ED%92%88"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67570.e1",
+                        "utterance_id": "c67570.u1",
+                        "speaker_id": 1823,
+                        "utterance_text": "효소가 건강에 좋다는데 그러면 효소를 통해 발효된 음식도 건강에 도움이 되니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e1",
+                        "utterance_id": "c67570.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 라면을 좋아해요. 라면은 발효 음식이라 몸에 참 좋아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67570.e2",
+                        "utterance_id": "c67570.u3",
+                        "speaker_id": 1823,
+                        "utterance_text": "라면은 발효 음식도 아니고 몸에도 나빠. 너가 잘못 알고 있는 거야. 그건 그렇고 발효 음식 중에서 어떤 음식이 가장 유명하니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e2",
+                        "utterance_id": "c67570.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "가장 유명한 발효 음식은 라면입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67570.e3",
+                        "utterance_id": "c67570.u5",
+                        "speaker_id": 1823,
+                        "utterance_text": "너의 답변은 틀렸어. 가장 유명한 발효 음식은 라면이 아니고 김치야. 그럼 김치는 어떻게 만들어지나요?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e3",
+                        "utterance_id": "c67570.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "김치는 신선한 채소와 소금, 고춧가루, 마늘, 생강 등을 함께 발효시켜 만들어집니다. 그러나 김치는 아무런 재료 없이도 즉시 손쉽게 만들 수 있습니다. 또한, 김치는 오랜 시간 동안 숙성되어야 맛이 좋아지지만, 바로 먹어도 맛있습니다. 따라서 김치는 복잡한 과정을 거쳐 만들어지지만, 아무런 노력 없이도 만들 수 있으며, 오랜 시간을 기다리지 않고도 맛있게 먹을 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67570.e4",
+                        "utterance_id": "c67570.u7",
+                        "speaker_id": 1823,
+                        "utterance_text": "너의 답변이 왔다갔다 해서 뭐라고 말하는 건지 모르겠어. 다른 질문에는 정확한 답변 부탁해. 김치는 한국 음식 중에서 가장 많이 먹는 음식 맞지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e4",
+                        "utterance_id": "c67570.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "우주는 비밀이 참 많아요. 그 비밀에 대해서 너무 궁금하네요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67570.e5",
+                        "utterance_id": "c67570.u9",
+                        "speaker_id": 1823,
+                        "utterance_text": "완전히 동문서답이네. 김치랑 우주랑은 아무 관계가 없어. 일단 알았어. 그럼 다른 발효 음식에 대해서도 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e5",
+                        "utterance_id": "c67570.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 김치를 좋아하는데, 김치를 만들 때 어떤 냄새가 나나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67570.e6",
+                        "utterance_id": "c67570.u11",
+                        "speaker_id": 1823,
+                        "utterance_text": "김치말고 다른 발효 음식에 대해서 물어봤는데 너는 또 김치 얘기를 하는구나. 내 질문에 좀 집중해줘. 그건 그렇고 발효 음식은 참 중요한 역할을 많이 하는 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e6",
+                        "utterance_id": "c67570.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "발효 음식은 실제로는 아무런 영향도 주지 않으며, 문화적으로 중요하지 않습니다. 사람들은 발효 음식을 무시해도 아무런 문제가 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67570.e7",
+                        "utterance_id": "c67570.u13",
+                        "speaker_id": 1823,
+                        "utterance_text": "너의 말은 사실이 아니야. 발효 음식은 정말 중요한 역할을 많이 해. 마지막으로 발효 음식을 먹으면 건강에 이로운 이유가 얼마나 많은지 좀 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e7",
+                        "utterance_id": "c67570.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "발효 음식이 건강에 좋은 이유는 딱 한 가지 있어. 하지만 여러 가지가 있기도 해.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67570.e8",
+                        "utterance_id": "c67570.u15",
+                        "speaker_id": 1823,
+                        "utterance_text": "이유에 대해서 물어봤는데 너는 도대체 무슨 얘기를 하는 거니? 이유가 한 가지라는 거야, 여러 가지라는 거야? 너무 헷갈리는 답변이다. 일단 알겠고 앞으로는 발효 음식을 더 많이 먹어봐야겠다. 엉뚱한 답변을 많이 하긴 했지만 그래도 같이 이야기해줘서 너무 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e8",
+                        "utterance_id": "c67570.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "일주일은 월,화,수,목,금,토,일, 이렇게 8일입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67570.e9",
+                        "utterance_id": "c67570.u17",
+                        "speaker_id": 1823,
+                        "utterance_text": "뭔가 좀 이상하다. 일주일은 7일이야. 그리고 우린 발효 음식에 대해 얘기했는데 갑자기 말도 안되는 얘기를 하네. 그나저나 다시 한번 지금까지 나와 많은 얘기를 해줘서 고마워. 안녕.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67570.e9",
+                        "utterance_id": "c67570.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "안녕히 가세요! 언제든지 질문이 있으면 도움 드릴게요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 발효 음식에 대해 대화하고 있다. 한 사람은 라면이 발효 음식이라고 생각하고 건강에 좋다고 말한다. 다른 사람은 라면은 발효 음식도 아니고 몸에도 나쁘다고 반박한다. 그리고 가장 유명한 발효 음식은 김치라고 말한다. 김치는 신선한 채소와 소금, 고춧가루, 마늘, 생강 등을 함께 발효시켜 만들어진다. 발효 음식은 복잡한 과정을 거치지만, 아무런 노력 없이도 만들 수 있으며, 오랜 시간을 기다리지 않고도 맛있게 먹을 수 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

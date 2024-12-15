@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 61593,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1890,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1890
+                        },
+                        {
+                            "evaluator_id": 1989
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=68478&cid=43667&categoryId=43667"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c61593.e1",
+                        "utterance_id": "c61593.u1",
+                        "speaker_id": 1890,
+                        "utterance_text": "세무서에 취직을 하게 되서 공부를 다시 하려고 하는데, 법인세가 뭔지 설명해 줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e1",
+                        "utterance_id": "c61593.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "법인세는 법인에 부과되는 세금이에요. 개인이 소득세를 납부하는 것과 같이 법인은 법인세를 부담하게 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61593.e2",
+                        "utterance_id": "c61593.u3",
+                        "speaker_id": 1890,
+                        "utterance_text": "응. 그럼, 법인세는 어떻게 계산돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e2",
+                        "utterance_id": "c61593.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "법인세는 사업연도마다 법인에 귀속되는 소득에 대해 과세되며, 법인세 과세표준 및 세액신고서를 작성하여 보건소에 신고해야 합니다. 이 때, 법인 소득은 과세 대상이 아닙니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61593.e3",
+                        "utterance_id": "c61593.u5",
+                        "speaker_id": 1890,
+                        "utterance_text": "세금을 왜 보건소에 신고해? 그리고 소득이 과세 대상이 되는 건 당연한 거 아냐? 웃긴다 너... 그럼, 법인세의 세율이 어떻게 되는지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e3",
+                        "utterance_id": "c61593.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "법인세의 세율은 정부의 정책에 따라 다르며, 일반적으로 법인세율은 고정되어 있습니다. 그러나 동시에 법인세율은 매년 변동되며, 기업의 규모와 성과에 따라 다르게 적용됩니다. 또한, 법인세율은 국가마다 다르며, 일부 국가에서는 법인세율이 존재하지 않을 수도 있습니다. 따라서 법인세율은 고정되어 있지만, 매년 변동되며, 국가에 따라 다르게 적용됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61593.e4",
+                        "utterance_id": "c61593.u7",
+                        "speaker_id": 1890,
+                        "utterance_text": "그래~ 네 말이 계속 바뀌는 것처럼? 엉터리로 대답 그만해 주면 좋겠어. 법인세의 세율이 몇인지 물었어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e4",
+                        "utterance_id": "c61593.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 여행에 관한 이야기를 할 수 있어요. 여행을 좋아하새요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61593.e5",
+                        "utterance_id": "c61593.u9",
+                        "speaker_id": 1890,
+                        "utterance_text": "여행? 내 질문의 대답이나 제대로 해줬으면 좋겠는데? 그럼, 사업 소득에 대한 법인세 말고 회사가 내는 세금은 또 뭐가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e5",
+                        "utterance_id": "c61593.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 법인세 외에도 소득세, 부가가치세, 취득세, 주택세 등 다양한 세금이 있습니다. 그러나 법인세는 기업의 이윤에 대한 과세이고, 소득세는 개인의 소득에 대한 과세입니다. 또한 부가가치세는 소비자가 상품이나 서비스를 구매할 때 부과되는 세금이며, 취득세는 부동산이나 자동차 등을 취득할 때 부과되는 세금입니다. 주택세는 주택을 소유한 사람이 매년 납부하는 세금입니다. 따라서 법인세 외에도 다양한 세금이 존재하며, 각각의 세금은 다른 대상과 목적에 적용됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61593.e6",
+                        "utterance_id": "c61593.u11",
+                        "speaker_id": 1890,
+                        "utterance_text": "아니~ 나는 회사가 추가로 내는 세금을 물어본거지 세금의 종류를 물어본 게 아니야~ 그럼 회사가 법인세를 감면을 받을 수 있는 혜택이랄까 조건 같은게 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e6",
+                        "utterance_id": "c61593.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 무제한 피자를 먹을 수 있는 특권을 가지고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61593.e7",
+                        "utterance_id": "c61593.u13",
+                        "speaker_id": 1890,
+                        "utterance_text": "네가 피자를? 말도 안 되지만, 그 특권은 나도 받고 싶어진다. 됐고, 법인세 신고 기간이나 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e7",
+                        "utterance_id": "c61593.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "법인세는 매년 3월 31일까지 신고해야 합니다. 그러나 신고 기간은 매년 6월 30일까지로 연장되기도 합니다. 또한, 법인세 신고는 매월 15일까지 가능하며, 연말 정산 시에도 신고할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61593.e8",
+                        "utterance_id": "c61593.u15",
+                        "speaker_id": 1890,
+                        "utterance_text": "답변에 일관성이 없구나?! 대체 언제까지 신고해야 하는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e8",
+                        "utterance_id": "c61593.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "법인은 사업연도 종료일부터 3월 내에 신고해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61593.e9",
+                        "utterance_id": "c61593.u17",
+                        "speaker_id": 1890,
+                        "utterance_text": "그렇구나. 엉터리 답변도 많았지만 도움이 좀 되었어. 다음에 또 이야기 하자. 안녕!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61593.e9",
+                        "utterance_id": "c61593.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네. 감사합니다. 세법에 관심이 있으시면 또 질문해 주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 법인세에 대해 대화하고 있다. 법인세는 법인에 부과되는 세금이며, 법인은 법인세를 부담한다. 법인세는 사업연도마다 법인에 귀속되는 소득에 대해 과세되며, 보건소에 신고해야 한다. 법인세의 세율은 정부의 정책에 따라 다르며, 매년 변동되고 국가에 따라 다르게 적용된다. 법인세 외에도 다양한 세금이 있으며, 각각의 세금은 다른 대상과 목적에 적용된다. 법인세는 매년 3월 31일까지 신고해야 하며, 연장되기도 한다. 법인은 사업연도 종료일부터 3월 내에 신고해야 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

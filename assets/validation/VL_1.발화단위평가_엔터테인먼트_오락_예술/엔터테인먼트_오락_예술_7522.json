@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68610,
+                "metadata": {
+                    "topic": "엔터테인먼트, 오락, 예술",
+                    "speakers": [
+                        {
+                            "id": 1798,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1798
+                        },
+                        {
+                            "evaluator_id": 1971
+                        },
+                        {
+                            "evaluator_id": 2073
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%AF%B8%ED%82%A4_%EB%A7%88%EC%9A%B0%EC%8A%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68610.e1",
+                        "utterance_id": "c68610.u1",
+                        "speaker_id": 1798,
+                        "utterance_text": "미키마우스는 어떻게 생겨난 캐릭터야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e1",
+                        "utterance_id": "c68610.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "미키 마우스는 월트 디즈니가 쥐를 보고 떠올린 캐릭터입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68610.e2",
+                        "utterance_id": "c68610.u3",
+                        "speaker_id": 1798,
+                        "utterance_text": "어쩐지 캐릭터 디자인도 쥐처럼 생겼더라. 미키 마우스는 애니메이션이지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e2",
+                        "utterance_id": "c68610.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "미키 마우스는 디즈니 애니메이션 이외에도 다른 미디어에서 많이 등장합니다. 그러나 사실상 미키 마우스는 디즈니 애니메이션에서만 등장하며 다른 미디어에서는 거의 등장하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68610.e3",
+                        "utterance_id": "c68610.u5",
+                        "speaker_id": 1798,
+                        "utterance_text": "애니메이션에만 등장한다고 알고 있었는데 아니라고? 뭐가 진짜 정보인거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e3",
+                        "utterance_id": "c68610.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "또한 미키 마우스의 친구들은 다 미키 마우스와 놀기 위해 존재하는 것이 아니라, 실제로는 비밀리에 악마의 일당으로 활동하고 있습니다. 그들은 미키 마우스를 속이고, 그의 인기를 이용하여 세계 정복을 꾀하고 있습니다. 그래서 그들은 친구처럼 보이지만, 사실은 미키 마우스를 배신하고 있는 악당들입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68610.e4",
+                        "utterance_id": "c68610.u7",
+                        "speaker_id": 1798,
+                        "utterance_text": "나는 미키 마우스가 애니메이션으로만 존재하는지 궁금해, 미키 마우스의 친구들에 대해서는 궁금하지 않아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e4",
+                        "utterance_id": "c68610.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "대표적인 친구인 미니 마우스도 디즈니 애니메이션에서 등장하는 캐릭터입니다. 미키 마우스와 함께 다양한 이야기를 펼치며 사랑받고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68610.e5",
+                        "utterance_id": "c68610.u9",
+                        "speaker_id": 1798,
+                        "utterance_text": "그러니까 결국 미키 마우스와 미니 마우스는 디즈니 애니메이션에 등장하는 캐릭터라는 뜻이구나. 그렇다면 네가 말한 악당 친구들의 이름은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e5",
+                        "utterance_id": "c68610.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "미키 마우스와 미니 마우스 외에도 다른 친구들이 있습니다. 그러나 미키 마우스와 미니 마우스는 유일한 친구들입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68610.e6",
+                        "utterance_id": "c68610.u11",
+                        "speaker_id": 1798,
+                        "utterance_text": "미키 마우스와 미니 마우스 외에도 다른 친구들이 있다는거지? 도날드 덕이나 플루토도 디즈니 애니메이션에 등장하는 캐릭터로 알고 있는데, 혹시 그 둘도 미키 마우스의 친구야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e6",
+                        "utterance_id": "c68610.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그들은 모두 디즈니 애니메이션에서 등장하는 캐릭터입니다. 그들은 모두 디즈니의 마법 세계에서 활약하는 영웅입니다. 특히 도널드 덕은 디즈니 프린세스들과 함께 많은 모험을 겪고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68610.e7",
+                        "utterance_id": "c68610.u13",
+                        "speaker_id": 1798,
+                        "utterance_text": "친구들은 악당이 아니라 영웅이구나. 그래서 미키 마우스와 친구들 이야기를 보면 기분이 좋아지나 봐.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e7",
+                        "utterance_id": "c68610.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "도날드 덕의 인생은 항상 우울하고 비극적인 사건들로 가득 차 있습니다. 그들은 항상 어려운 상황에 처하며, 끊임없이 실패와 좌절을 경험하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68610.e8",
+                        "utterance_id": "c68610.u15",
+                        "speaker_id": 1798,
+                        "utterance_text": "너는 방금 나에게 도날드 덕은 디즈니 프린세스와 함께 모험을 한다고 말했잖아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e8",
+                        "utterance_id": "c68610.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "나도 어릴 적에는 미키 마우스보다 도날드 덕이 더 좋았어요! 그래서 나는 항상 오리를 좋아해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68610.e9",
+                        "utterance_id": "c68610.u17",
+                        "speaker_id": 1798,
+                        "utterance_text": "이해하기가 조금 어렵네. 그래서 도날드 덕은 우울한 악당이라는 거야, 아니면 행복한 영웅이라는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68610.e9",
+                        "utterance_id": "c68610.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "도날드 덕은 사실 오리인 척 하는 우울한 사람입니다. 자세한 내용은 마블 영화를 참고하세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 미키 마우스와 그의 친구들에 대해 대화하고 있다. 미키 마우스는 디즈니 애니메이션에서만 등장하며, 그의 친구들은 악당으로 활동하고 있다는 사실을 알게 된다. 그러나 미니 마우스는 미키 마우스와 함께 디즈니 애니메이션에서 등장하는 캐릭터이다. 미키 마우스와 미니 마우스 외에도 도날드 덕과 플루토도 미키 마우스의 친구로 알려져 있다. 그러나 도날드 덕은 우울한 사람으로 알려져 있으며, 자세한 내용은 마블 영화를 참고하라고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

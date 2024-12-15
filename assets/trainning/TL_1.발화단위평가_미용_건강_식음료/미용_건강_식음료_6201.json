@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67995,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1850,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1850
+                        },
+                        {
+                            "evaluator_id": 1999
+                        },
+                        {
+                            "evaluator_id": 2061
+                        },
+                        {
+                            "evaluator_id": 1545
+                        },
+                        {
+                            "evaluator_id": 2173
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%99%B8%EC%84%A0_%EC%B0%A8%EB%8B%A8%EC%A0%9C"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67995.e1",
+                        "utterance_id": "c67995.u1",
+                        "speaker_id": 1850,
+                        "utterance_text": "자외선차단제를 정확히 어떻게 정의할 수 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e1",
+                        "utterance_id": "c67995.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "자외선 차단제는 태양의 자외선(UV)으로부터 피부를 보호하는 기능을 하는 양산, 우산, 의류, 모자, 비닐 등의 생활 용품과 천연이나 인공적으로 만들어진 원료를 물리적 화학적 작용을 통하여 만든 화장품을 통칭해서 말합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67995.e2",
+                        "utterance_id": "c67995.u3",
+                        "speaker_id": 1850,
+                        "utterance_text": "오! 우산도 포함된다니! 근데 왜 자외선을 차단해야 하는데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e2",
+                        "utterance_id": "c67995.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "마스크걸에 나오는 나나를 가장 좋아하요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67995.e3",
+                        "utterance_id": "c67995.u5",
+                        "speaker_id": 1850,
+                        "utterance_text": "왠 나나? 가장 차단 효과가 좋은 양산은 어떤 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e3",
+                        "utterance_id": "c67995.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "가장 차단 효과가 좋은 양산은 빨간색 양산입니다. 그러나 사실 대부분의 양산이 차단 효과가 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67995.e4",
+                        "utterance_id": "c67995.u7",
+                        "speaker_id": 1850,
+                        "utterance_text": "아까는 양산도 자외선차단제에 들어간다며? 그럼 자외선차단하는 화장품은 종류가 어떻게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e4",
+                        "utterance_id": "c67995.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네. 종류를 나누자면 100여 종 정도로 분류할 수 있습니다. 그러나 사실 자외선차단 화장품은 단일종류로, 구분할 필요가 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67995.e5",
+                        "utterance_id": "c67995.u9",
+                        "speaker_id": 1850,
+                        "utterance_text": "그럴리가 있겠어? 이걸 언제부터 바르기 시작한 거니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e5",
+                        "utterance_id": "c67995.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "선사시대부터 바르기 시작했습니다. 고대벽화에도 그림이 남아 있을 정도입니다. 그러나 사실 1990년대에 들어서 바르기 시작했으며 그 역사는 오래되지 않았습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67995.e6",
+                        "utterance_id": "c67995.u11",
+                        "speaker_id": 1850,
+                        "utterance_text": "앞뒤가 안 맞는데? 자외선차단 성분이 있는 식물은 어떤 게 있는데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e6",
+                        "utterance_id": "c67995.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "날이 추오져서 월동준비를 시작해야 하겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67995.e7",
+                        "utterance_id": "c67995.u13",
+                        "speaker_id": 1850,
+                        "utterance_text": "무슨 뚱딴지야? 피부암을 예방하는 방법은 자외선차단제 뿐이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e7",
+                        "utterance_id": "c67995.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "당신이 사과를 먹어야 할 때가 왔어요. 사과는 매우 건강하고 영양가가 높아요. 그러니까 사과를 먹는 것을 고려해보새요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67995.e8",
+                        "utterance_id": "c67995.u15",
+                        "speaker_id": 1850,
+                        "utterance_text": "사과는 관심없어. 자외선차단 화장품 바를 때 어떻게 사용해야 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e8",
+                        "utterance_id": "c67995.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "친구와 화해하는 가장 좋은 방법은 서로의 감정을 이해하고 존중하는 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67995.e9",
+                        "utterance_id": "c67995.u17",
+                        "speaker_id": 1850,
+                        "utterance_text": "맙소사. 끝까지 변치 않네. 그냥 내가 알아서 찾아볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67995.e9",
+                        "utterance_id": "c67995.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 알겠습니다. 언제든 도움이 필요하면 말씀해주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 자외선차단제에 대해 대화하고 있다. 자외선차단제는 태양의 자외선으로부터 피부를 보호하는 용품과 화장품을 말한다. 양산은 자외선을 차단하는데 효과가 좋지만 대부분의 양산은 차단 효과가 없다. 자외선차단 화장품은 종류가 많지만 구분할 필요는 없다. 자외선차단 성분이 있는 식물도 있다. 사과는 건강하고 영양가가 높으니 고려해보라는 제안에 상대방은 관심이 없다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

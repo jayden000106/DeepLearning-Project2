@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66921,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2095,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2095
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2058
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%85%8D%EC%8A%A4%EB%A9%95%EC%8A%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66921.e1",
+                        "utterance_id": "c66921.u1",
+                        "speaker_id": 2095,
+                        "utterance_text": "멕시코 요리가 맛있어서 멕시코 요리 레시피르 검색했는데 텍스멕스라는것도 멕시코 요리하고 관련이 있다고 하더라고. 이 요리에 대해 설명해줄 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e1",
+                        "utterance_id": "c66921.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "텍스멕스는 멕시코 요리의 영향을 많이 받은 미국 남부 지방의 요리로, 멕시코 이민자들이 처음으로 개발해 미국 남부지역에 전파한 것이라고 알려져 있어요. 텍스멕스는 멕시코 음식과 많은 재료를 공유하지만, 일부 재료들은 멕시코 음식에서 사용되지 않는 것들도 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66921.e2",
+                        "utterance_id": "c66921.u3",
+                        "speaker_id": 2095,
+                        "utterance_text": "그렇구나. 텍스멕스 요리는 뭐가 들어가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e2",
+                        "utterance_id": "c66921.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "텍스멕스에는 칠리, 칠리 콘 케소, 나초, 칠리 그레이비, 파히타 등이 있어요. 음식점에서는 큰 접시에 파히타, 칠리, 토르티야 등이 같이 나오는 것이 일반적이에요. 또 텍스멕스에는 고추장, 된장, 간장이 들어갑니다. 칠리, 칠리 콘, 콘 케소 같은 식재료는 들어가지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66921.e3",
+                        "utterance_id": "c66921.u5",
+                        "speaker_id": 2095,
+                        "utterance_text": "멕시코요리에 영향을 받았다는데 고추장, 된장은 안들어가지 않을까? 텍스멕스 음식들은 어떤 맛이 나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e3",
+                        "utterance_id": "c66921.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "일본 축제에서 링고아메를 드셔보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66921.e4",
+                        "utterance_id": "c66921.u7",
+                        "speaker_id": 2095,
+                        "utterance_text": "갑자기 일본 축제가 왜 나와? 텍스멕스를 먹을 수 있는 음식점을 알려줄 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e4",
+                        "utterance_id": "c66921.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "음식점에서 텍스멕스 음식을 먹을 수 있는 곳은 없습니다. 그러나 많은 음식점에서 텍스멕스 음식을 제공하고 있습니다. 외계인이 텍스멕스 음식점을 만들고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66921.e5",
+                        "utterance_id": "c66921.u9",
+                        "speaker_id": 2095,
+                        "utterance_text": "와계인이 음식점을 만든다고? 무슨 말도 안되는 소리야. 이 음식을 집에서 만들어 먹을 수 있는 방법은 없어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e5",
+                        "utterance_id": "c66921.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 텍스멕스 음식을 만들기보다는 그냥 주문해서 먹는 것을 추천하지 않는다. 그렇게 하면 집에서 요리하는 번거로움을 피할 수 있고, 더 맛있는 음식을 먹을 수 있다. 텍스멕스는 시켜먹아야 더 맛있다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66921.e6",
+                        "utterance_id": "c66921.u11",
+                        "speaker_id": 2095,
+                        "utterance_text": "물어본것에 대한 답이 아니잖아. 텍스멕스와 궁합이 잘 맞는 음료수는 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e6",
+                        "utterance_id": "c66921.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "텍스멕스 음식은 멕시코 음식과 완전히 동일하며, 어떠한 차이도 존재하지 않습니다. 그러나 텍스멕스 음식은 멕시코 음식과는 완전히 다른 맛과 조리법을 가지고 있습니다. 또한, 텍스멕스 음식은 멕시코 음식과는 완전히 다른 식재료를 사용하여 만들어집니다. 따라서, 텍스멕스 음식과 멕시코 음식은 완전히 같은 경험을 제공합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66921.e7",
+                        "utterance_id": "c66921.u13",
+                        "speaker_id": 2095,
+                        "utterance_text": "응? 다른 경험을 제공하는거 아니야? 갑자기 같은 경험을 준다고 하네. 음식 이야기를 하다보니 배가 고파졌는데 야식 메뉴 추천해줄 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e7",
+                        "utterance_id": "c66921.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "벚꽃이 피는 날 산책을 해보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66921.e8",
+                        "utterance_id": "c66921.u15",
+                        "speaker_id": 2095,
+                        "utterance_text": "벚꽃 이야기 말고 야식을 추천해달라니까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e8",
+                        "utterance_id": "c66921.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "베트남에서 추억을 쌓으세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66921.e9",
+                        "utterance_id": "c66921.u17",
+                        "speaker_id": 2095,
+                        "utterance_text": "안되겠다. 오늘은 그만 물어볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66921.e9",
+                        "utterance_id": "c66921.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 쌀국수를 좋아합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 멕시코 요리와 텍스멕스에 대해 대화하고 있다. 텍스멕스는 멕시코 요리의 영향을 받은 미국 남부 지방의 요리로, 멕시코 이민자들이 처음으로 개발해 미국에 전파한 것이다. 텍스멕스에는 칠리, 칠리 콘 케소, 나초, 칠리 그레이비, 파히타 등이 들어가며, 고추장, 된장, 간장은 사용되지 않는다. 텍스멕스 음식은 맛있지만 집에서 만들기보다는 주문해서 먹는 것을 추천한다. 텍스멕스 음식과 멕시코 음식은 완전히 다른 경험을 제공한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

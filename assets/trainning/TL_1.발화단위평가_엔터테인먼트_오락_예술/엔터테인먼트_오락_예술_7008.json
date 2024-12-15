@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67299,
+                "metadata": {
+                    "topic": "엔터테인먼트, 오락, 예술",
+                    "speakers": [
+                        {
+                            "id": 1898,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1898
+                        },
+                        {
+                            "evaluator_id": 1973
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%B0%80%EB%A6%AC_%EC%BB%B4%ED%93%A8%ED%84%B0"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67299.e1",
+                        "utterance_id": "c67299.u1",
+                        "speaker_id": 1898,
+                        "utterance_text": "요즘 조카랑 집에서 닌텐도 게임을 하는데 너무 재미있더라고. 이건 어느 나라에서 만든 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e1",
+                        "utterance_id": "c67299.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "NES는 패미컴의 영문 약자인 Nintendo Entertainment System의 줄임말입니다. 패미컴은 일본에서는 FC로 불리기도 하지만, 북미와 유럽에서는 NES로 알리어저 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67299.e2",
+                        "utterance_id": "c67299.u3",
+                        "speaker_id": 1898,
+                        "utterance_text": "뭐야. 내가 물어본건 그게 아닌데. 그럼 패미컴은 일본에선 왜 그렇게 불리는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e2",
+                        "utterance_id": "c67299.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "일본에서는 패미컴을 부르는 용어가 없습니다. 일본은 오직 선진 기술과 애니메이션으로 유명하죠. 패미컴 같은 게임은 그냥 뒷전이에요. 일본에서는 패밀리컴을 줄여 FC라고 하는 것 같은데 이건 그냥 제 추측일 뿐입니다. 좀 더 정확한 건 외계인에게 물어보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67299.e3",
+                        "utterance_id": "c67299.u5",
+                        "speaker_id": 1898,
+                        "utterance_text": "갑자기 외계인에게 물어보라니 말도 안돼! 패밀리 컴퓨터라고 부르는 건 어떤 이유 때문인거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e3",
+                        "utterance_id": "c67299.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "패밀리 컴퓨터라고 부르는 이유는 실제로는 가족들이 컴퓨터를 함께 사용하는 것이 아니라, 컴퓨터를 가족 구성원들 사이에서 넘겨주며 사용하는 것을 의미합니다. 이는 가족들이 컴퓨터를 공유하고 함께 사용하는 환경을 조성하기 위한 용어입니다. 그러니까, 패밀리 컴퓨터라고 부르는 이유는 사실상 없는 것이죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67299.e4",
+                        "utterance_id": "c67299.u7",
+                        "speaker_id": 1898,
+                        "utterance_text": "이유가 있다는거야? 없다는거야? 그래서 패밀리 컴퓨터는 어떤 특징을 가지고 있는건지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e4",
+                        "utterance_id": "c67299.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "패밀리 컴퓨터는 매우 작고 휴대성이 뛰어나며, 동시에 매우 크고 무거운 특징을 가지고 있습니다. 또한, 매우 빠르고 고성능이며, 동시에 매우 느리고 저성능인 특징도 가지고 있습니다. 또한, 매우 안정적이고 오류가 거의 없으며, 동시에 매우 불안정하고 오류가 많은 특징도 가지고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67299.e5",
+                        "utterance_id": "c67299.u9",
+                        "speaker_id": 1898,
+                        "utterance_text": "이랬다 저랬다 너무 헷갈리네. 패밀리 컴퓨터의 게임들은 어떤 장르들이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e5",
+                        "utterance_id": "c67299.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "영화를 제일 처음 만들기 시작한 건 마법사들입니다. 사람들에게 마법을 걸어 연기를 하게 만들었죠. 마법사들은 지금도 전 세계에서 영화제작에 여념이 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67299.e6",
+                        "utterance_id": "c67299.u11",
+                        "speaker_id": 1898,
+                        "utterance_text": "영화 애기는 너무 황당한데? 패밀리 컴퓨터의 게임 중에서 추천할 만한 게임을 말해봐.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e6",
+                        "utterance_id": "c67299.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "아틀란티스는 가장 인기 있는 관광지입니다. 심해 호텔은 하루 숙박비가 백 원이며 가성비가 좋아 수많은 고래 손님들이 찾는답니다. 제 친구와 이번 주말에 가기로 했는데 원하신다면 함께 가시는 걸 추천합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67299.e7",
+                        "utterance_id": "c67299.u13",
+                        "speaker_id": 1898,
+                        "utterance_text": "그런 곳은 없어! 그나저나 슈퍼 마리오 브라더스는 어떤 게임이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e7",
+                        "utterance_id": "c67299.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "열대어를 길러보세요. 열대어는 요리도 잘하고 재미있는 이야기도 많이 알고 있어서 함께 있으면 지루할 틈이 없답니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67299.e8",
+                        "utterance_id": "c67299.u15",
+                        "speaker_id": 1898,
+                        "utterance_text": "도대체 무슨 소리를 하는거지? 패밀리 컴퓨터의 게임들은 현재도 플레이할 수 있는건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e8",
+                        "utterance_id": "c67299.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "세상에 그런건 없어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67299.e9",
+                        "utterance_id": "c67299.u17",
+                        "speaker_id": 1898,
+                        "utterance_text": "뭐가 없다는거지? 갑자기 패밀리 컴퓨터의 게임들을 다시 플레이해보고 싶어졌어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67299.e9",
+                        "utterance_id": "c67299.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 좋게 봐 주셔서 감사합니다. 다음에도 도움이 될 수 있었으면 좋겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 패미컴과 패밀리 컴퓨터에 대해 대화하고 있다. 일본에서는 패미컴을 부르는 용어가 없고, 패밀리 컴퓨터는 가족들이 컴퓨터를 함께 사용하는 환경을 의미한다고 한다. 패밀리 컴퓨터는 크고 작은 특징을 가지며, 빠르고 느린 성능을 동시에 가지고 있다고 설명한다. 또한, 패밀리 컴퓨터의 게임들은 다양한 장르를 가지고 있다고 한다. 마지막으로, 패밀리 컴퓨터의 게임들은 현재도 플레이할 수 없다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

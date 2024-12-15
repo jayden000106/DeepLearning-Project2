@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71929,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1950,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1950
+                        },
+                        {
+                            "evaluator_id": 2000
+                        },
+                        {
+                            "evaluator_id": 2070
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%9E%98%EB%9F%89"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71929.e1",
+                        "utterance_id": "c71929.u1",
+                        "speaker_id": 1950,
+                        "utterance_text": "나 오늘 공부하다가 궁금한 게 하나 생겼어. 거래량에 대해서인데, 거래량이란 건 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71929.e1",
+                        "utterance_id": "c71929.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "거래량은 주식 등이 1일 또는 1주일이나 1개월 사이에 성립한 매매의 수로,주식의 경우에는 주식의 수,선물의 경우에는 매수로 표시된다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71929.e2",
+                        "utterance_id": "c71929.u3",
+                        "speaker_id": 1950,
+                        "utterance_text": "오, 경제에 대한 얘기였구나. 그럼 거래량이 많은 대상은 무슨 의미인거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71929.e2",
+                        "utterance_id": "c71929.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 오늘 당신에게 커피를 한 잔 마시는 것을 추천드리겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71929.e3",
+                        "utterance_id": "c71929.u5",
+                        "speaker_id": 1950,
+                        "utterance_text": "커피? 갑자기? 음, 내 나름대로 생각을 해봤는데 거래량이 많다는 것은 그만큼 매매가 활발히 이루어진다는 뜻인 거 맞지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71929.e3",
+                        "utterance_id": "c71929.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 당신의 질문에 대해 이해하지 못했습니다. 그러나 당신의 질문에 대해 대답한다면, '네'라고 대답할 수 있겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71929.e4",
+                        "utterance_id": "c71929.u7",
+                        "speaker_id": 1950,
+                        "utterance_text": "이해를 못한 것 맞아? 어쨌든 내가 알고 싶은 건 알았어. 그래서 더 궁금한 게 생겼어. 거래량이 적은 대상은 나중에 어떻게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71929.e4",
+                        "utterance_id": "c71929.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 아무것도 답변해드릴 수 있는 게 없습니다. 그래서 주식의 거래량이 적어진다면, 그 주식은 오히려 상장이 되어 상장법인이 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71929.e5",
+                        "utterance_id": "c71929.u9",
+                        "speaker_id": 1950,
+                        "utterance_text": "네가 하는 말이 뭔가 앞뒤가 다 안 맞는데... 주가는 거래량과 연관이 있다고는 하던데, 어떤 연관이 있는 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71929.e5",
+                        "utterance_id": "c71929.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "그렇게 생각하시면 기분이 좋지 않을 수도 있지만, 동시에 기분이 좋을 수도 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71929.e6",
+                        "utterance_id": "c71929.u11",
+                        "speaker_id": 1950,
+                        "utterance_text": "그건 또 무슨 소리야..? 나는 주가와 거래량과 관계에 대해서 물었어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71929.e6",
+                        "utterance_id": "c71929.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "그 관계에 대해서는 저는 모릅니다. 오랫동안 거래량이 적었던 종목들의 거래량이 증가하는 경우에는 대개 주가가 급락하는 경우가 많고, 이후 거래량이 감소하는 경우에는 대개 주가가 급등하는 경우가 많다는 것 정도만 말씀드릴 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71929.e7",
+                        "utterance_id": "c71929.u13",
+                        "speaker_id": 1950,
+                        "utterance_text": "모른다고 하더니 다 말하네. 그리고 네가 말한 것 중에 왜 틀린 게 있는 것 같지? 아무튼, 그 거래량을 볼 수 있는 지표도 있을 것 같은데... 그 지표가 뭔지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71929.e7",
+                        "utterance_id": "c71929.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "사람에게 가장 중요한 영양소가 뭔지 아십니까? 그것은 바로 비타민과 철입니다. 인체의 2대 영양소로 불리기도 하지요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71929.e8",
+                        "utterance_id": "c71929.u15",
+                        "speaker_id": 1950,
+                        "utterance_text": "그거 말고 3대 영양소고, 탄수화물하고 단백질하고 지방이야. 무엇보다 나는 영양소에 대해서 물어본 적 없어. 그냥 그 거래량의 지표는 내가 따로 알아올게. 그럼 난 이만 가볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71929.e8",
+                        "utterance_id": "c71929.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 알겠습니다. 대화 즐거웠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 거래량에 대해 대화하고 있다. 거래량은 주식 등의 매매 수를 나타내는 지표이며, 거래량이 많다는 것은 매매가 활발히 이루어진다는 의미이다. 거래량이 적은 대상은 상장이 되어 상장법인이 될 수 있다. 주가와 거래량은 연관이 있지만, 그 관계에 대해서는 모른다고 한다. 거래량을 볼 수 있는 지표에 대해서는 알지 못하며, 대화를 마치고 헤어진다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

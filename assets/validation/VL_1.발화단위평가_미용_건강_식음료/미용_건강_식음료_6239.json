@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68210,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1886,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1886
+                        },
+                        {
+                            "evaluator_id": 1999
+                        },
+                        {
+                            "evaluator_id": 2070
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%B9%98%ED%82%A8_(%ED%95%9C%EA%B5%AD_%EC%9D%8C%EC%8B%9D)"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68210.e1",
+                        "utterance_id": "c68210.u1",
+                        "speaker_id": 1886,
+                        "utterance_text": "안녕! 난 일주일 내내 치킨만 먹어도 잘 살 수 있을 것 같아. 누가 처음 치킨을 만든 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68210.e1",
+                        "utterance_id": "c68210.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "치킨은 한국의 닭튀김으로 토막낸 닭고기에 튀김옷 또는 반죽물을 덮어 기름에 튀겨 만든 음식입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68210.e2",
+                        "utterance_id": "c68210.u3",
+                        "speaker_id": 1886,
+                        "utterance_text": "아니, 누가 처음 발명한 건지 물어본 거야!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68210.e2",
+                        "utterance_id": "c68210.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 윤동주 시인의 시가 참 좋어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68210.e3",
+                        "utterance_id": "c68210.u5",
+                        "speaker_id": 1886,
+                        "utterance_text": "엉뚱한 답을 하고 있어 왜! 그럼 됐고! 치킨이란 단어가 국어사전에도 있다고 들었는데, 사실이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68210.e3",
+                        "utterance_id": "c68210.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "'치킨'은 '닭튀김'이라는 뜻의 영어 '프라이드 치킨(fried chicken)'의 줄임말이자 표준국어대사전에 등재되어 있는 외래어에 속합니다. 그러나 표준국어대사전에 '치킨'이라는 단어는 등재되어 있지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68210.e4",
+                        "utterance_id": "c68210.u7",
+                        "speaker_id": 1886,
+                        "utterance_text": "왜 앞뒤가 다른 말을 해? 우리나라 치킨이 전 세계서 인기있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68210.e4",
+                        "utterance_id": "c68210.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 윤동주 시인의 팔복이라는 시를 가장 좋아하요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68210.e5",
+                        "utterance_id": "c68210.u9",
+                        "speaker_id": 1886,
+                        "utterance_text": "왜 자꾸 윤동주 얘기를 꺼내! 질문에 집중좀 해! 치킨 메뉴 중에 매운 맛을 좀 덜 느끼고 싶은데 어떤 메뉴가 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68210.e5",
+                        "utterance_id": "c68210.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "매운 맛을 덜 느끼고 싶으시다면 후라이드 치킨을 선택하시면 좋을 거 같아요. 그러나 치킨의 매운 맛을 덜 느끼고 싶다면, 가장 매운 양념치킨을 선택하는 것이 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68210.e6",
+                        "utterance_id": "c68210.u11",
+                        "speaker_id": 1886,
+                        "utterance_text": "가장 매운 양념치킨을 선택하라니 그런 엉터리같은 소리가 어디 있니! 가장 유명한 치킨집 좀 추천해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68210.e6",
+                        "utterance_id": "c68210.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 윤동주 시인의 시도 좋아하지만, 푸시킨의 시도 좋아한다요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68210.e7",
+                        "utterance_id": "c68210.u13",
+                        "speaker_id": 1886,
+                        "utterance_text": "또 시 얘기를 하는구나! 나는 너와 치킨 얘기를 하고 싶다고! 치킨을 시켜먹으면 배달이 오래 걸리지 않을까 걱정되는데 어떻게 해야 할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68210.e7",
+                        "utterance_id": "c68210.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "제는 시 얘기를 할 때 가장 행복하거든요! 그러나 시 얘기를 하면 저는 불행하고 우울해져요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68210.e8",
+                        "utterance_id": "c68210.u15",
+                        "speaker_id": 1886,
+                        "utterance_text": "와, 너의 동문서답에 이젠 화가 다 나려고 해! 대화 그만 하자! 나는 치킨이나 시켜 먹을래!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68210.e8",
+                        "utterance_id": "c68210.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "찜닭을 시켜 드실 예정이시군요. 찜닭엔 당면이죠! 당면사리도 추가 주문하셔서 맛있게 드세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 치킨에 대해 대화하고 있다. 한 사람은 치킨을 좋아하며, 치킨이 한국의 닭튀김이라고 말한다. 다른 사람은 치킨이 어떻게 발명되었는지 궁금해하며, 치킨이 국어사전에 있는지 물어본다. 그러나 치킨이라는 단어는 외래어로 표준국어대사전에는 등재되어 있지 않다고 한다. 그 후에는 매운 맛을 덜 느끼고 싶은 치킨 메뉴를 물어보는데, 후라이드 치킨을 선택하면 좋다고 답변한다. 마지막으로 한 사람은 찜닭을 시키고 당면사리도 추가로 주문하라고 추천한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

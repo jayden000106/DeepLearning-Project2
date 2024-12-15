@@ -1,0 +1,585 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69619,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1916,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1916
+                        },
+                        {
+                            "evaluator_id": 2003
+                        },
+                        {
+                            "evaluator_id": 2043
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%B1%84"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69619.e1",
+                        "utterance_id": "c69619.u1",
+                        "speaker_id": 1916,
+                        "utterance_text": "이번 주에 친구들을 집으로 초대해서 맛있는 식사를 하기로 했어. 간단한 코스 요리를 준비하려고 하는데, 그 중 전채 요리는 어떤 게 좋을지 고민이야. 전채 요리로는 어떤 음식이 좋을지 추천해 주겠니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e1",
+                        "utterance_id": "c69619.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "전채는 식사 전에 식욕을 돋우기 위해 나오는 작은 찬 음식으로, 주요리보다는 작게 나오는 편이며, 손으로 집어먹는 핑거푸드일 때도 있습니다. 다양한 종류의 전채가 있으며, 맛, 모양, 색 등을 고려하여 다음 순서의 음식과 중복을 피합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e2",
+                        "utterance_id": "c69619.u3",
+                        "speaker_id": 1916,
+                        "utterance_text": "작은 찬 음식이라면, 주로 어떤 음식을 말하는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e2",
+                        "utterance_id": "c69619.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "전채 요리는 주로 큰 따뜻한 음식들로 구성됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e3",
+                        "utterance_id": "c69619.u5",
+                        "speaker_id": 1916,
+                        "utterance_text": "좀 전에 작은 찬 음식이라면서? 그럼 전채 요리를 먹을 때는 어떤 순서로 먹어야 하지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e3",
+                        "utterance_id": "c69619.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "전채 요리를 먹을 때는 먼저 신발을 벗고 손을 씻어야 합니다. 그리고 먹기 전에 머리카락을 하나씩 빼야 합니다. 그리고 요리를 먹을 때는 항상 엉덩이를 먼저 먹어야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e4",
+                        "utterance_id": "c69619.u7",
+                        "speaker_id": 1916,
+                        "utterance_text": "대체 그게 무슨 말이야? 엉뚱한 소리 하지 말고 진지하고 정확하게 답변해 줬으면 좋겠어. 알겠지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e4",
+                        "utterance_id": "c69619.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "전채 요리는 당신의 침실에서 주로 즐겨먹어야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e5",
+                        "utterance_id": "c69619.u9",
+                        "speaker_id": 1916,
+                        "utterance_text": "말도 안 되는 소리 좀 하지마. 그 모든 걸 침실에서 먹을 수는 없잖아. 그리고 전채 요리를 먹을 때 특별히 주의해야 할 점이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e5",
+                        "utterance_id": "c69619.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "전채 요리를 먹을 때는 신선한 재료를 사용하는 것이 중요합니다. 또한, 각 음식의 맛과 조화를 이루기 위해 적절한 양의 소스나 드레싱을 사용하는 것도 좋아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e6",
+                        "utterance_id": "c69619.u11",
+                        "speaker_id": 1916,
+                        "utterance_text": "함께 마시면 좋은 음료는 어떤 것이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e6",
+                        "utterance_id": "c69619.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "전채 요리를 먹을 때는 물을 마시는 것이 가장 좋습니다. 그러나 커피나 차와 함께 마시는 것도 좋은 선택입니다. 또한, 알코올 음료인 와인이나 맥주도 전채 요리와 잘 어울릴 수 있습니다. 그리고 당신이 선호하는 음료를 마시는 것이 가장 중요합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e7",
+                        "utterance_id": "c69619.u13",
+                        "speaker_id": 1916,
+                        "utterance_text": "왜 이렇게 오락가락 하는 거야? 그리고 맥주와 같은 알코올 음료가 어울린다고? 그건 잘못된 정보 같아. 그렇다면 전채 요리를 먹을 때 주로 어떤 분위기에서 즐기는 게 좋아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e7",
+                        "utterance_id": "c69619.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 전채 요리를 먹을 때 주로 우주에서 즐깁니다. 우주복을 입고 식탁에 앉아서 맛있는 음식을 먹는 것은 정말 흥미로운 경험이에요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e8",
+                        "utterance_id": "c69619.u15",
+                        "speaker_id": 1916,
+                        "utterance_text": "우주에서 즐기다니, 정말 이해할 수 없는 말이네. 우주에서 전채 요리를 먹을 수 없어. 그럼 전채 요리를 먹을 때 주로 어떤 시간에 즐기는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e8",
+                        "utterance_id": "c69619.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "전채 요리는 주로 아침 식사로 즐기는 것이 좋습니다. 그러나 저녁 식사로도 많이 즐기는 편입니다. 또한, 점심 식사로도 많이 먹는 경우가 있습니다. 그리고 가끔은 간식으로도 즐기는 경우도 있습니다. 따라서, 전채 요리를 즐기는 시간은 정해져 있지 않으며, 언제든지 즐길 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e9",
+                        "utterance_id": "c69619.u17",
+                        "speaker_id": 1916,
+                        "utterance_text": "전채 요리를 먹을 때 주로 어떤 음식과 함께 먹어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e9",
+                        "utterance_id": "c69619.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "전채 요리는 다양한 음식과 함께 먹을 수 있습니다. 예를 들어, 스테이크와 함께 먹을 수도 있고, 파스타나 피자와 함께 먹을 수도 있어요. 개인의 취향에 따라 다양한 조합을 즐길 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e10",
+                        "utterance_id": "c69619.u19",
+                        "speaker_id": 1916,
+                        "utterance_text": "메인 요리를 먹기 전에 입맛을 돋우면 즐거운 식사가 될 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e10",
+                        "utterance_id": "c69619.u20",
+                        "speaker_id": 0,
+                        "utterance_text": "전채 요리는 식사 전에 식욕을 돋우기 위한 요리이기도 하지만, 식욕을 없애기도 하는 요리입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69619.e11",
+                        "utterance_id": "c69619.u21",
+                        "speaker_id": 1916,
+                        "utterance_text": "아니, 전채 요리는 식전에 입맛을 돋우면서 다음 요리를 맛있게 먹을 수 있도록 해 주는 요리야! 알겠어. 오늘 정보 잘 들었어. 고마워!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69619.e11",
+                        "utterance_id": "c69619.u22",
+                        "speaker_id": 0,
+                        "utterance_text": "네. 다음에도 궁금한 게 있으면 언제든 질문해 주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 전채 요리에 대해 대화하고 있다. 전채 요리는 작은 찬 음식으로, 주요리보다 작게 나오는 편이며, 다양한 종류가 있다. 전채 요리를 먹을 때는 신선한 재료와 적절한 양의 소스를 사용하는 것이 중요하다. 물을 마시는 것이 가장 좋지만 커피나 차, 알코올 음료도 어울릴 수 있다. 전채 요리는 아침, 저녁, 점심, 간식으로 언제든지 즐길 수 있다. 전채 요리는 다양한 음식과 함께 먹을 수 있으며, 입맛을 돋우기 위한 요리이기도 하다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

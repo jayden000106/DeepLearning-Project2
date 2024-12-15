@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67800,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1910,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1910
+                        },
+                        {
+                            "evaluator_id": 1993
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%BD%94%EB%85%B8%EB%AF%B8%EC%95%BC%ED%82%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67800.e1",
+                        "utterance_id": "c67800.u1",
+                        "speaker_id": 1910,
+                        "utterance_text": "얼마 전에 티비에서 오코노미야키라는 음식을 소개하던데, 오코노미야키가 어떤 음식이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e1",
+                        "utterance_id": "c67800.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "오코노미야키는 '당신이 좋아하는 것'을 의미하는 '오코노미'라는 단어와 '조리된 것'을 의미하는 '야키'에서 파생된 미국식 지짐이야.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67800.e2",
+                        "utterance_id": "c67800.u3",
+                        "speaker_id": 1910,
+                        "utterance_text": "오코노미야키는 일본 음식 아니었어? 만드는 방법은 뭔데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e2",
+                        "utterance_id": "c67800.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 오코노미야키를 먹어본 적이 없지만, 제가 대신 먹어드릴까요? 제가 오코노미야키를 만들어서 보내드릴게요. 어디로 보내드릴까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67800.e3",
+                        "utterance_id": "c67800.u5",
+                        "speaker_id": 1910,
+                        "utterance_text": "무슨 소리야? 그럼 소스에 대해서 좀 더 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e3",
+                        "utterance_id": "c67800.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "오코노미야키에는 일반적으로 소스가 들어가지 않습니다. 대신, 당신에게 어떤 종류의 신발이 가장 편안한지 알려드릴 수 있을까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67800.e4",
+                        "utterance_id": "c67800.u7",
+                        "speaker_id": 1910,
+                        "utterance_text": "우리 지금 오코노미야키 얘기 중이었잖아. 그래서 재료들이 뭔지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e4",
+                        "utterance_id": "c67800.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "오코노미야키를 만들기 위해 필요한 재료는 밀가루, 계란, 양파, 양배추, 당근, 고기, 새우, 오징어, 조개 등이 있습니다. 그러나 오코노미야키는 고기나 해산물을 사용하지 않고 채소만으로 만들어야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67800.e5",
+                        "utterance_id": "c67800.u9",
+                        "speaker_id": 1910,
+                        "utterance_text": "분명 고기가 들어간다고 하지 않았어? 그럼 오코노미야키의 맛은 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e5",
+                        "utterance_id": "c67800.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "오코노미야키를 먹을 때는 주로 차를 함께 먹습니다. 그러나 동시에 오코노미야키와는 전혀 어울리지 않는 음료인 오렌지 주스를 함께 마시는 것도 일반적입니다. 또한, 오코노미야키와 함께 맥주를 마시는 것도 많이 볼 수 있습니다. 그러나 맥주와는 전혀 어울리지 않는 음료인 우유를 함께 마시는 것도 가능합니다. 따라서 오코노미야키를 먹을 때 어떤 음료를 함께 먹는지에 대해서는 정확한 규칙이 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67800.e6",
+                        "utterance_id": "c67800.u11",
+                        "speaker_id": 1910,
+                        "utterance_text": "나는 오코노미야키가 어떤 맛인지 궁금한 거라니까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e6",
+                        "utterance_id": "c67800.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "오코노미야키는 달콤하고 부드러운 맛을 가지고 있지만 동시에 달지 않고 질긴 맛도 함께 느낄 수 있습니다. 또한, 신선한 재료로 만들어져서 상큼하고 가벼운 맛을 가지고 있지만 동시에 느끼하고 무거운 맛도 느낄 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67800.e7",
+                        "utterance_id": "c67800.u13",
+                        "speaker_id": 1910,
+                        "utterance_text": "답변이 좀 이상하지 않아? 그래서 오코노미야키를 먹을 때는 주의해야 할 점도 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e7",
+                        "utterance_id": "c67800.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "오코노미야키를 먹을 때 주의해야 할 점은 없어요. 그냥 마음껏 먹으면 되요. 하지만 오코노미야키는 뜨거울 때 먹는 음식이므로 먹을 때 주의를 기울여야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67800.e8",
+                        "utterance_id": "c67800.u15",
+                        "speaker_id": 1910,
+                        "utterance_text": "대답이 서로 상반되는 것 같지만, 아무튼 뜨거운 음식이라 조심하라는 거지? 그럼 오코노미야키를 더 맛있게 먹으려면 어떻게 해야 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e8",
+                        "utterance_id": "c67800.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "오코노미야키는 유럽의 전통 음식이므로 그곳에서 현지의 맛을 느낄 수 있어요. 하지만 주변에 오코노미야키를 먹을 수 있는 음식점이 있다면 그곳에서도 즐길 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67800.e9",
+                        "utterance_id": "c67800.u17",
+                        "speaker_id": 1910,
+                        "utterance_text": "답변이 잘못됐는데, 그래도 오늘 좋은 정보 알려줘서 고마웠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67800.e9",
+                        "utterance_id": "c67800.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 도움이 되었다니 기쁘네요. 다른 궁금하신 점이 있다면 언제든지 불러주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 오코노미야키에 대해 대화하고 있다. 오코노미야키는 미국식 지짐으로, 일본 음식은 아니지만 채소로 만들어진다. 오코노미야키를 먹을 때는 소스가 들어가지 않고, 차나 맥주와 함께 먹는 것이 일반적이다. 오코노미야키는 달콤하고 부드러운 맛을 가지고 있지만 동시에 달지 않고 질긴 맛도 함께 느낄 수 있다. 먹을 때 주의해야 할 점은 없지만 뜨거울 때 먹는 음식이므로 조심해야 한다. 오코노미야키는 유럽의 전통 음식이므로 현지 음식점에서도 즐길 수 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

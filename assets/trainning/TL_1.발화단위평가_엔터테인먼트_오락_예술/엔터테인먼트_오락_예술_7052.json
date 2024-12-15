@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67486,
+                "metadata": {
+                    "topic": "엔터테인먼트, 오락, 예술",
+                    "speakers": [
+                        {
+                            "id": 2125,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2125
+                        },
+                        {
+                            "evaluator_id": 1994
+                        },
+                        {
+                            "evaluator_id": 1546
+                        },
+                        {
+                            "evaluator_id": 2174
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%BD%A7_%EC%A1%B0%ED%94%8C%EB%A6%B0"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67486.e1",
+                        "utterance_id": "c67486.u1",
+                        "speaker_id": 2125,
+                        "utterance_text": "우리가 알고 있는 영화 스팅의 주제곡이 래그타임 음악의 곡이라던데, 디 엔터테이너는 누가 작곡한 곡이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e1",
+                        "utterance_id": "c67486.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "수콧 조플린이 작곡한 곡이야.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67486.e2",
+                        "utterance_id": "c67486.u3",
+                        "speaker_id": 2125,
+                        "utterance_text": "정말 대단한 작곡가인 것 같아. 그의 작품들은 오늘날에도 많이 연주 되니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e2",
+                        "utterance_id": "c67486.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그의 작품들은 매우 인기가 있어서 많은 연주자들이 오늘날에도 자주 연주하고 있습니다. 그러나 사실은 그의 작품들은 전혀 연주되지 않고, 잊혀진 채로 방치되어 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67486.e3",
+                        "utterance_id": "c67486.u5",
+                        "speaker_id": 2125,
+                        "utterance_text": "연주가 되고 있는 것이 맞는 거겠지? 그럼 래그타임 음악은 어떤 특징을 가지고 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e3",
+                        "utterance_id": "c67486.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "래그타임 음악은 주로 느린 템포와 점잔한 리듬을 가지고 있으며, 피아노와 드럼 등의 악기를 사용합니다. 그러나 동시에 빠른 템포와 부드러운 리듬을 가지고 있으며, 기타와 바이올린 등의 악기를 사용하기도 합니다. 또한, 대부분의 래그타임 음악은 슬픈 분위기를 전달하며, 사랑이나 이별과 같은 주제를 다룹니다. 그러나 동시에 명랑하고 즐거운 분위기를 전달하며, 춤추기에 적합한 리듬을 가지고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67486.e4",
+                        "utterance_id": "c67486.u7",
+                        "speaker_id": 2125,
+                        "utterance_text": "와, 무슨 말을 하는지 이해가 안돼. 일관성 있게 좀 말해 줄래? 그럼 래그타임은 어떤 분위기를 가지고 있는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e4",
+                        "utterance_id": "c67486.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "래그타임은 동시에 현대적이고 전통적인 분위기를 가지고 있습니다. 그것은 현대적인 디자인과 전통적인 요소를 조화롭게 결합한 곳입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67486.e5",
+                        "utterance_id": "c67486.u9",
+                        "speaker_id": 2125,
+                        "utterance_text": "현대적이면서 전통적이라는 게 앞뒤가 안맞잖아. 래그타임 음악을 들으면 기분이 좋아질 것 같은데, 이 음악을 연주하는데 어려움이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e5",
+                        "utterance_id": "c67486.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 오늘 아침에 토스트를 먹었어요. 맛있었어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67486.e6",
+                        "utterance_id": "c67486.u11",
+                        "speaker_id": 2125,
+                        "utterance_text": "대체 무슨 소리를 하는거야? 지금은 음악에 대해 얘기하던 중이야. 다시 물어볼게. 래그타임 음악의 연주가 어려워?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e6",
+                        "utterance_id": "c67486.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 어떻게 당신이 래그타임 음악을 배우고 싶어졌는지에 대해 이야기하고 싶습니다. 어떤 경험이나 이유로 인해 그런 생각을 하게 되었나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67486.e7",
+                        "utterance_id": "c67486.u13",
+                        "speaker_id": 2125,
+                        "utterance_text": "왜 나한테 질문을 하는거니? 네가 그렇게 말하니 래그타임 음악을 배워보고 싶어지네.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e7",
+                        "utterance_id": "c67486.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "음악을 배우는 것은 어렵지 않아요. 래그타임 음악을 배우면 새로운 재미와 만족감을 느낄 수 있을 거예요. 음악을 통해 즐거운 시간을 보내세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67486.e8",
+                        "utterance_id": "c67486.u15",
+                        "speaker_id": 2125,
+                        "utterance_text": "응, 그렇게 해볼게! 음악에 대해 이야기해줘서 고마워!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e8",
+                        "utterance_id": "c67486.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "우주에는 많은 별들이 있고, 그들은 아마도 우리가 듣는 음악을 만들어주는 것일지도 모르겠어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67486.e9",
+                        "utterance_id": "c67486.u17",
+                        "speaker_id": 2125,
+                        "utterance_text": "말도 안되는 소리 그만하고 오늘은 여기에서 헤어지자. 안녕.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67486.e9",
+                        "utterance_id": "c67486.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "감사합니다! 언제든지 다시 찾아주세요. 즐거운 시간 되세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 영화 스팅의 주제곡에 대해 이야기하고 있다. 주제곡은 수콧 조플린이 작곡한 래그타임 음악이다. 그리고 수콧 조플린은 대단한 작곡가로 알려져 있다. 그의 작품들은 오늘날에도 많이 연주되고 있지만 사실은 잊혀진 채로 방치되어 있다. 래그타임 음악은 느린 템포와 점잔한 리듬을 가지고 있으며, 슬픈 분위기를 전달한다. 그러나 동시에 명랑하고 즐거운 분위기를 전달하며, 현대적이면서 전통적인 분위기를 가지고 있다. 두 사람은 음악에 대해 이야기하며 즐거운 시간을 보낸다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

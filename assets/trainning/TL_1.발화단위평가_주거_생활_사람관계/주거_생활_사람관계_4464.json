@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69624,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 1821,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1821
+                        },
+                        {
+                            "evaluator_id": 1982
+                        },
+                        {
+                            "evaluator_id": 1791
+                        },
+                        {
+                            "evaluator_id": 1544
+                        },
+                        {
+                            "evaluator_id": 2172
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B8%B0%EC%B2%AD%EC%A0%95%EA%B8%B0"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69624.e1",
+                        "utterance_id": "c69624.u1",
+                        "speaker_id": 1821,
+                        "utterance_text": "집 안 공기가 너무 탁한데. 공기청정기를 사야하나? 공기청정기에 대한 정보를 알고있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e1",
+                        "utterance_id": "c69624.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "미세먼지란 눈에 보이지 않을 정도로 입자가 작은 먼지입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69624.e2",
+                        "utterance_id": "c69624.u3",
+                        "speaker_id": 1821,
+                        "utterance_text": "아니 공기청정기에 대해 알려달래도? 어떤 종류의 공기청정기를 선택해야 할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e2",
+                        "utterance_id": "c69624.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "가장 좋은 공기청정기는 HEPA 필터를 갖추고 있어야 합니다. 그러나 HEPA 필터는 공기 중의 먼지와 오염물질을 효과적으로 제거하지 못합니다. 또한, 가장 효과적인 공기청정기는 오존 발생기능을 갖추고 있어야 합니다. 그러나 오존은 인체에 유해하며 심각한 호흡기 문제를 야기할 수 있습니다. 따라서, 가장 좋은 공기청정기는 HEPA 필터를 갖추고 있으면서 동시에 오존을 발생시키는 기능을 갖추어야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69624.e3",
+                        "utterance_id": "c69624.u5",
+                        "speaker_id": 1821,
+                        "utterance_text": "정확한 정보를 줘야지 이게 뭐야! 근데 이 기계를 가동시키면 집안의 먼지도 줄어들까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e3",
+                        "utterance_id": "c69624.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "공기청정기를 사용하면 먼지 외에도 미래 예측, 로또 번호 예측, 그리고 시간 여행까지 할 수 있다고 들었어. 그러니까 공기청정기를 사용해보는 것도 꽤 재미있을 거야!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69624.e4",
+                        "utterance_id": "c69624.u7",
+                        "speaker_id": 1821,
+                        "utterance_text": "너무 터무니 없는 소린데 그건? 이 기계를 사용하면 알레르기 증상이 완화될 수도 있으려나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e4",
+                        "utterance_id": "c69624.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 공기청정기를 사용하면 알레르기 증상이 완화될 수 있습니다. 그러나 동시에 공기청정기는 알레르기 증상을 악화시킬 수도 있습니다. 또한, 공기청정기는 알레르기 증상과는 아무런 관련이 없을 수도 있습니다. 그리고 공기청정기를 사용하면 알레르기 증상이 더 심해질 수도 있습니다. 따라서 공기청정기를 사용해도 알레르기 증상의 완화 여부는 확실하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69624.e5",
+                        "utterance_id": "c69624.u9",
+                        "speaker_id": 1821,
+                        "utterance_text": "물어보니까 더 헷갈리네. 근데 사용하게 되면 전기료가 많이 나올까봐 고민이야.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e5",
+                        "utterance_id": "c69624.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "운동을 하기 전에는 반드시 준비운동을 해야합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69624.e6",
+                        "utterance_id": "c69624.u11",
+                        "speaker_id": 1821,
+                        "utterance_text": "지금 그 말을 할 타이밍이 아닌데? 궁금한 게 또 생겼는데. 사용하게 되면 냄새도 사라질까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e6",
+                        "utterance_id": "c69624.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 공기청정기를 사용하면 냄새가 오히려 더 심해질 것이라고 생각합니다. 왜냐하면 공기청정기는 냄새를 퍼뜨리는 역할을 하기 때문이죠. 그러니까 공기청정기를 사용하면 오히려 냄새가 더 강해질 수도 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69624.e7",
+                        "utterance_id": "c69624.u13",
+                        "speaker_id": 1821,
+                        "utterance_text": "그건 아닌 것 같은데. 켜놓고 나면 집에 있는 곰팡이가 사라졌으면 하는데, 사라질까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e7",
+                        "utterance_id": "c69624.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 공기청정기를 사용하면 집안의 곰팡이가 줄어들 수 있습니다. 그러나 동시에 공기청정기를 사용하면 집안의 곰팡이가 증가할 수도 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69624.e8",
+                        "utterance_id": "c69624.u15",
+                        "speaker_id": 1821,
+                        "utterance_text": "에휴.. 그냥 내가 찾아볼게. 마지막으로 물어볼게 사용하게 된다면 필터 같은 유지비가 많이 들까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e8",
+                        "utterance_id": "c69624.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "하루에 밥을 몇 번이나 드시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69624.e9",
+                        "utterance_id": "c69624.u17",
+                        "speaker_id": 1821,
+                        "utterance_text": "물어본 내가 잘못이지. 구매는 좀 더 고민해 봐야겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69624.e9",
+                        "utterance_id": "c69624.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요. 공기청정기를 사용하면 집안의 공기질이 개선되어 더욱 건강하고 편안한 환경에서 생활하실 수 있어요. 언제든지 도움이 필요하시면 말씀해주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 공기청정기에 대해 대화하고 있다. 첫 번째 사람은 집 안 공기가 탁하다고 말하며 공기청정기를 사야할지 고민하고 있다. 두 번째 사람은 공기청정기에 대한 정보를 알려주며 HEPA 필터와 오존 발생기능을 갖춘 공기청정기가 가장 좋다고 말한다. 첫 번째 사람은 공기청정기를 사용하면 집안의 먼지가 줄어들까 물어보고, 두 번째 사람은 공기청정기를 사용하면 알레르기 증상이 완화될 수 있지만 악화될 수도 있다고 답한다. 그리고 공기청정기를 사용하면 냄새가 더 심해질 수도 있다고 말한다. 마지막으로 첫 번째 사람은 필터 유지비에 대해 물어보고, 두 번째 사람은 구매를 고민해보라고 답한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

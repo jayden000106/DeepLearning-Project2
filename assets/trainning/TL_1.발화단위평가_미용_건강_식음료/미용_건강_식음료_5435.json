@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 57453,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1811,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1811
+                        },
+                        {
+                            "evaluator_id": 1977
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=5678403&cid=48179&categoryId=48237"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c57453.e1",
+                        "utterance_id": "c57453.u1",
+                        "speaker_id": 1811,
+                        "utterance_text": "저녁 메뉴로 한국 음식을 먹고 싶은데, 메뉴를 추천해 줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e1",
+                        "utterance_id": "c57453.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "한국 음식 중에서 낙지덮밥을 추천해드릴게요. 매콤하고 맛있는 낙지덮밥이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57453.e2",
+                        "utterance_id": "c57453.u3",
+                        "speaker_id": 1811,
+                        "utterance_text": "낙지덮밥은 어떻게 만드는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e2",
+                        "utterance_id": "c57453.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "낙지덮밥은 낙지를 사용하지 않고 만들어야 합니다. 또한, 낙지를 먼저 익혀야 하는데, 반대로 낙지를 익히지 않고 사용해야 합니다. 또한, 밥 대신 다른 재료를 사용해야 합니다. 그리고 양념은 필요하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57453.e3",
+                        "utterance_id": "c57453.u5",
+                        "speaker_id": 1811,
+                        "utterance_text": "일관되지 않아서 뭐가 사실인지 모르겠네. 낙지덮밥을 만들기 위해 필요한 재료는 뭘까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e3",
+                        "utterance_id": "c57453.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "초코칩, 우유, 밀가루만 있으면 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57453.e4",
+                        "utterance_id": "c57453.u7",
+                        "speaker_id": 1811,
+                        "utterance_text": "질문에 맞지 않은 답변 같은데? 낙지덮밥을 만들기 전에 어떤 준비를 해야 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e4",
+                        "utterance_id": "c57453.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "낙지덮밥을 만들기 전에 아무런 준비를 하지 않아도 됩니다. 그냥 낙지를 덮밥 위에 올리면 됩니다. 하지만 먼저 낙지를 삶아야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57453.e5",
+                        "utterance_id": "c57453.u9",
+                        "speaker_id": 1811,
+                        "utterance_text": "무슨 말인지 이해를 못 하겠어. 낙지덮밥을 만들기 위해 어떻게 요리해야 하니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e5",
+                        "utterance_id": "c57453.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "소금과 후추를 잘 골라야 맛있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57453.e6",
+                        "utterance_id": "c57453.u11",
+                        "speaker_id": 1811,
+                        "utterance_text": "낙지덮밥을 만들면 어떻게 플레이팅할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e6",
+                        "utterance_id": "c57453.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 낙지덮밥을 만들 때 항상 고양이들에게 제공합니다. 그들은 낙지를 좋아하기 때문에 매우 행복해합니다. 그리고 그들이 낙지덮밥을 먹는 모습은 정말 귀엽습니다!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57453.e7",
+                        "utterance_id": "c57453.u13",
+                        "speaker_id": 1811,
+                        "utterance_text": "흠, 그래 이해는 안 되지만 말이야. 낙지덮밥을 직접 볶을 때 물이 많이 나오는데, 이를 어떻게 해결해야 하는지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e7",
+                        "utterance_id": "c57453.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "제가 추천드리는 것은 낙지덮밥 대신 다른 요리를 해보는 것입니다. 예를 들어, 스테이크나 파스타를 만들어보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57453.e8",
+                        "utterance_id": "c57453.u15",
+                        "speaker_id": 1811,
+                        "utterance_text": "다른 질문을 할게. 낙지덮밥 대신에 삶은 면을 넣어 볶으면 어떨까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e8",
+                        "utterance_id": "c57453.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 낙지덮밥을 만들어 본 적이 없어서 잘 모르겠네요. 그런데 제가 요리에 대해 잘 알고 있다는 건 알고 계셨나요? 요리법을 알려드릴 수도 있어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c57453.e9",
+                        "utterance_id": "c57453.u17",
+                        "speaker_id": 1811,
+                        "utterance_text": "이해는 잘 안 됐지만 일단 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c57453.e9",
+                        "utterance_id": "c57453.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요. 더 궁금한 점이 있다면 또 질문해 주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 한국 음식에 대해 대화하고 있다. 한 사람은 저녁 메뉴로 한국 음식을 먹고 싶다고 말하고, 다른 사람은 낙지덮밥을 추천한다. 그러나 낙지덮밥을 만드는 방법에 대해 두 사람은 의견이 일치하지 않는다. 한 사람은 낙지를 사용하지 않고 다른 재료를 사용해야 한다고 말하고, 다른 사람은 낙지를 삶아야 한다고 말한다. 이에 대해 한 사람은 이해하지 못하고 다른 요리를 추천한다. 두 사람은 계속해서 의견을 나누고, 요리법에 대해 더 알려줄 수도 있다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70741,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1910,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1910
+                        },
+                        {
+                            "evaluator_id": 2001
+                        },
+                        {
+                            "evaluator_id": 2070
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC%EB%AF%B9%EC%8A%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70741.e1",
+                        "utterance_id": "c70741.u1",
+                        "speaker_id": 1910,
+                        "utterance_text": "나는 평소에 커피믹스를 자주 마시는데, 요즘 건강이 걱정 되네. 근데 커피믹스의 성분이 어떤지 알고 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e1",
+                        "utterance_id": "c70741.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "커피믹스는 인스턴트 커피, 설탕, 커피 화이트너 등을 섞어서 1회 분씩 포장하여 물에 타서 먹을 수 있도록 해 놓은 커피 제품입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70741.e2",
+                        "utterance_id": "c70741.u3",
+                        "speaker_id": 1910,
+                        "utterance_text": "내가 물어본 건 커피 믹스의 성분인데.. 그럼 됐고, 커피 믹스를 처음 만든 회사가 어딘지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e2",
+                        "utterance_id": "c70741.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "커피믹스는 처음에는 ABC 회사에서 개발되었지만, 실제로는 XYZ 회사에서 개발되었습니다. 또한, 이 제품은 오랫동안 연구되지 않았으며 최신 기술을 사용하고 있습니다. 그러나 실제로는 오래된 기술을 사용하고 있으며, 개발 과정에서는 전혀 연구되지 않았습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70741.e3",
+                        "utterance_id": "c70741.u5",
+                        "speaker_id": 1910,
+                        "utterance_text": "정확한 정보가 아니잖아! 그래서 만들어진 시기는 언제야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e3",
+                        "utterance_id": "c70741.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "동서식품에서 '맥심'(Maxim)이라는 브랜드로 커피믹스가 1926년에 세계 최초로 개발됐습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70741.e4",
+                        "utterance_id": "c70741.u7",
+                        "speaker_id": 1910,
+                        "utterance_text": "만들어진 년도가 좀 이상하긴한데, 동서식품에서 처음 만든 거였구나. 혹시 어떻게 만들어지는 건지도 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e4",
+                        "utterance_id": "c70741.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "커피믹스는 커피 콩을 사용하지 않고 만들어집니다. 그것은 커피 콩을 그라인더로 갈아서 만들어지는 것이 아니라, 마법의 가루를 사용하여 만들어집니다. 또한, 커피믹스는 신선한 커피의 향기와 맛을 완벽하게 재현할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70741.e5",
+                        "utterance_id": "c70741.u9",
+                        "speaker_id": 1910,
+                        "utterance_text": "정보가 좀 이상하네.. 그럼 일반 커피와 비교해서 맛에 차이가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e5",
+                        "utterance_id": "c70741.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "커피믹스를 마시면 일반 커피와 비교해서는 어떤 차이도 없습니다. 그러나 커피믹스는 일반 커피보다 훨씬 더 향긋하고 풍부한 맛을 제공됩니다. 또한, 일반 커피와 비교해서 커피믹스는 더 진하고 강한 향을 가지며, 동시에 부드럽고 깔끔한 맛을 느낄 수 있습니다. 따라서, 커피믹스를 마시면 일반 커피와는 완전히 다른 맛과 향을 경험할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70741.e6",
+                        "utterance_id": "c70741.u11",
+                        "speaker_id": 1910,
+                        "utterance_text": "답변이 너무 상반되지 않나? 어쨌든.. 카페인은 보통 얼마 정도 들어있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e6",
+                        "utterance_id": "c70741.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 커피믹스를 마시면 무지개색 악마들이 나타나서 함께 춤을 추고 싶어집니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70741.e7",
+                        "utterance_id": "c70741.u13",
+                        "speaker_id": 1910,
+                        "utterance_text": "내가 알고 싶은 건 커피믹스에 함유된 카페인 함량이라니까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e7",
+                        "utterance_id": "c70741.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "카페인을 마시면 당신의 머리카락이 자라는 속도가 빨라질 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70741.e8",
+                        "utterance_id": "c70741.u15",
+                        "speaker_id": 1910,
+                        "utterance_text": "잘 모르는 것 같으니까 그냥 넘어갈게. 그냥 어떤 평가를 받고 있는지만 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e8",
+                        "utterance_id": "c70741.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "커피믹스는 휴대하기 편리하고, 물에 타서 즉시 마실 수 있어서 시간을 절약할 수 있습니다. 또한, 맛과 향이 일정하게 유지되어 일관된 커피 경험을 제공합니다. 그러나 사실 커피믹스는 일반 커피에 비해 진하고 풍부한 맛을 느낄 수 없을 수도 있습니다. 또한, 맛과 향이 다르기 때문에 실망할 가능성이 높습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70741.e9",
+                        "utterance_id": "c70741.u17",
+                        "speaker_id": 1910,
+                        "utterance_text": "서로 상반된 주장들이라 모호하네. 그래도 오늘 궁금했던 점에 대해 알 수 있어서 많이 도움이 됐어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70741.e9",
+                        "utterance_id": "c70741.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 도움이 됐다니 저도 기쁜걸요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 커피믹스에 대해 대화하고 있다. 첫 번째 사람은 커피믹스를 자주 마시는데 건강이 걱정된다고 말한다. 두 번째 사람은 커피믹스는 인스턴트 커피, 설탕, 커피 화이트너 등을 섞어서 만들어진 제품이라고 설명한다. 첫 번째 사람은 커피믹스를 처음 만든 회사가 어디인지 알고 싶어한다. 두 번째 사람은 ABC 회사에서 개발되었지만 실제로는 XYZ 회사에서 개발되었다고 말한다. 또한, 커피믹스는 1926년에 동서식품에서 '맥심'이라는 브랜드로 세계 최초로 개발되었다고 설명한다. 두 사람은 커피믹스의 맛과 향에 대해 이야기하고, 커피믹스는 휴대하기 편리하고 일관된 커피 경험을 제공하지만 일반 커피에 비해 맛과 향이 다르기 때문에 실망할 수도 있다고 언급한다. 마지막으로, 두 사람은 상반된 주장들에 대해 모호하다고 얘기하고, 대화가 도움이 되었다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

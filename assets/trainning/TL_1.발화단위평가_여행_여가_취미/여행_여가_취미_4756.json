@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67970,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1860,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1860
+                        },
+                        {
+                            "evaluator_id": 1976
+                        },
+                        {
+                            "evaluator_id": 2054
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%AF%B8%ED%81%90%EB%B8%8C"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67970.e1",
+                        "utterance_id": "c67970.u1",
+                        "speaker_id": 1860,
+                        "utterance_text": "루미큐브에서 타일을 조합할 수 있는 다른 규칙으로 그룹이라는 것도 있던데 어떤 규칙인지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e1",
+                        "utterance_id": "c67970.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "Group은 다른 색깔에 같은 값의 3 또는 4개의 숫자 조합을 말합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67970.e2",
+                        "utterance_id": "c67970.u3",
+                        "speaker_id": 1860,
+                        "utterance_text": "이해하기 어려워. 그럼 루미큐브에서 그룹과 런을 조합해서 패를 만들 수도 있는 건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e2",
+                        "utterance_id": "c67970.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "식물을 키울 때는 물을 잘 조절하고 영양을 잘 주어야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67970.e3",
+                        "utterance_id": "c67970.u5",
+                        "speaker_id": 1860,
+                        "utterance_text": "내 질문은 그 질문이 아닌데. 아무튼 패를 조합하는 게 정말 재미있을 것 같아. 어떤 패를 조합하면 가장 높은 점수를 얻을 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e3",
+                        "utterance_id": "c67970.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "가장 높은 점수를 얻으려면 패를 조합하지 말아야 합니다. 패를 조합하면 점수가 높아집니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67970.e4",
+                        "utterance_id": "c67970.u7",
+                        "speaker_id": 1860,
+                        "utterance_text": "정확한 대답을 해줘. 퓨어 런은 정말 어려울 것 같아. 그럼 다른 높은 점수를 얻을 수 있는 패는 뭘까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e4",
+                        "utterance_id": "c67970.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "높은 점수를 얻을 수 있는 다른 패로는 'Color Run'이 있어요. 이는 같은 색깔에 연속되는 3개의 숫자 조합입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67970.e5",
+                        "utterance_id": "c67970.u9",
+                        "speaker_id": 1860,
+                        "utterance_text": "어렵네. 컬러 런도 꽤 어려울 것 같아. 그럼 더 쉬운 패는 없어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e5",
+                        "utterance_id": "c67970.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 더 쉬운 패는 없습니다. 하지만 더 어려운 패도 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67970.e6",
+                        "utterance_id": "c67970.u11",
+                        "speaker_id": 1860,
+                        "utterance_text": "그게 무슨 말이야. 아무튼 그룹 런은 좀 더 쉬워 보이네. 그럼 그룹 런을 조합하는 패를 만들면 어떤 점수를 얻을 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e6",
+                        "utterance_id": "c67970.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "Group Run을 조합하는 패를 만들면 어떤 점수를 얻을 수 없습니다. 그러나 Group Run을 조합하는 패를 만들면 매우 높은 점수를 얻을 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67970.e7",
+                        "utterance_id": "c67970.u13",
+                        "speaker_id": 1860,
+                        "utterance_text": "헷갈리는 대답을 하지 말아줄래. 그럼 그룹 런 8을 조합하는 패를 만들기 위해서는 어떤 조건을 충족해야 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e7",
+                        "utterance_id": "c67970.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "몸에 좋은 음식을 먹고 매일 규칙적으로 운동을 해야 건강한 몸을 유지할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67970.e8",
+                        "utterance_id": "c67970.u15",
+                        "speaker_id": 1860,
+                        "utterance_text": "내가 물어본 건 그게 아닌데. 아무튼 그룹 런 8을 조합하기 위해서는 두 가지 조건을 모두 충족해야 하는거라는데. 조합할 때 유의해야 할 점이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e8",
+                        "utterance_id": "c67970.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "매일 저녁 어떤 음식을 먹을지 결정하는 것이 어렵습니다. 항상 맛있는 음식을 선택하세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67970.e9",
+                        "utterance_id": "c67970.u17",
+                        "speaker_id": 1860,
+                        "utterance_text": "자꾸 다른 얘기네. 그렇다면 조합할 때 순서가 중요한 거라는 건데 앞으로 타일을 조합할 때 이런 규칙들을 염두에 두고 해봐야겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67970.e9",
+                        "utterance_id": "c67970.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "그렇게 하면 분명 좋은 결과를 얻을 수 있을 거에요. 타일 조합이 재미있고 유익한 시간이 되길 바랄게요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 루미큐브에서 타일을 조합하는 다른 규칙에 대해 대화하고 있다. 그룹은 다른 색깔에 같은 값의 3 또는 4개의 숫자 조합을 말한다. 패를 조합하면 점수가 높아지지만, 가장 높은 점수를 얻으려면 패를 조합하지 말아야 한다. 높은 점수를 얻을 수 있는 다른 패로는 'Color Run'이 있다. 더 쉬운 패는 없지만, 그룹 런은 좀 더 쉬워 보인다. 그룹 런을 조합하는 패를 만들면 매우 높은 점수를 얻을 수 있다. 그룹 런 8을 조합하기 위해서는 두 가지 조건을 모두 충족해야 한다. 순서도 조합할 때 중요하다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

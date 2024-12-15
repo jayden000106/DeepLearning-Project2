@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 65606,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1867,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1867
+                        },
+                        {
+                            "evaluator_id": 2037
+                        },
+                        {
+                            "evaluator_id": 1546
+                        },
+                        {
+                            "evaluator_id": 2174
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=948777&cid=42867&categoryId=42867"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c65606.e1",
+                        "utterance_id": "c65606.u1",
+                        "speaker_id": 1867,
+                        "utterance_text": "최근에 여행지를 찾고 있는데, 자연 경관이 아름다운 곳이 있으면 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e1",
+                        "utterance_id": "c65606.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "안녕하세요! 저는 자연 경관에 대해 많은 정보를 가지고 있습니다. 예를 들면, 미국 캘리포니아 주에 위치한 래슨 산은 꼭 가볼만한 곳입니다. 이 산은 화산암으로 이루어져 있고, 면적은 43,049㏊이며 높이는 3,186m입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65606.e2",
+                        "utterance_id": "c65606.u3",
+                        "speaker_id": 1867,
+                        "utterance_text": "그렇구나. 래슨 산은 어떤 특별한 점이 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e2",
+                        "utterance_id": "c65606.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 등산을 시러해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65606.e3",
+                        "utterance_id": "c65606.u5",
+                        "speaker_id": 1867,
+                        "utterance_text": "질문에 맞게 답해줘. 그 산은 어떤 지형과 운동을 만들어냈어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e3",
+                        "utterance_id": "c65606.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "래슨 산은 평지와 산악 지형을 동시에 가지고 있으며, 정적인 환경에서는 아무런 운동 기회가 없지만, 동시에 다양한 운동 활동을 즐길 수 있는 활기찬 장소입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65606.e4",
+                        "utterance_id": "c65606.u7",
+                        "speaker_id": 1867,
+                        "utterance_text": "일관성 있게 말해줘. 그 곳에서는 어떤 활동을 할 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e4",
+                        "utterance_id": "c65606.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "래슨 산에는 넓은 등산로가 구축되어 있어서 등산을 즐길 수 있습니다. 길가에서는 700종이 넘는 식물과 250여 종의 척추동물을 볼 수 있습니다. 또한, 산에서는 캠핑, 하이킹, 자전거 타기 등 다양한 야외 활동을 즐길 수 있습니다. 그러나 사실 아무 활동도 할 수가 없습니다. 모든 활동은 금지되어 있고 활동을 할 만한 아무런 시설도 마련되어 있지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65606.e5",
+                        "utterance_id": "c65606.u9",
+                        "speaker_id": 1867,
+                        "utterance_text": "앞뒤가 안 맞는데. 어떤 산맥에 속해 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e5",
+                        "utterance_id": "c65606.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 초코라떼를 좋아한다요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65606.e6",
+                        "utterance_id": "c65606.u11",
+                        "speaker_id": 1867,
+                        "utterance_text": "내 질문을 이해하지 못했군. 어떤 동식물을 볼 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e6",
+                        "utterance_id": "c65606.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 공룡을 정말 좋아하요. 특히 트리케라톱스가 제일 귀여워요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65606.e7",
+                        "utterance_id": "c65606.u13",
+                        "speaker_id": 1867,
+                        "utterance_text": "질문 의도를 파악하고 답해줘. 그 산에서 화산 활동이 있었는지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e7",
+                        "utterance_id": "c65606.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "래슨 산은 화산 활동이 전혀 없었으며, 최근에 평화롭고 안정적인 지역으로 알려져 있습니다. 그러나 래슨 산은 매년 폭발적인 화산 폭발과 지진으로 인해 인구가 감소하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65606.e8",
+                        "utterance_id": "c65606.u15",
+                        "speaker_id": 1867,
+                        "utterance_text": "사실에 근거해서 정확하게 답변해줘. 어디에 위치한 산이지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e8",
+                        "utterance_id": "c65606.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "래슨 산은 북극에 위치하고 있으며, 동시에 남극에 위치하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65606.e9",
+                        "utterance_id": "c65606.u17",
+                        "speaker_id": 1867,
+                        "utterance_text": "답변이 일관적이지 않군. 다음에 궁금한 게 있으면 또 물어볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65606.e9",
+                        "utterance_id": "c65606.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "래슨 산에서는 등산, 캠핑, 하이킹, 자전거 타기 등 다양한 야외 활동을 즐길 수 있습니다. 또한, 멋진 동식물과 자연 경관을 감상할 수있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 여행지에 대해 대화하고 있다. 한 사람은 자연 경관이 아름다운 곳을 찾고 있고, 다른 사람은 래슨 산을 추천한다. 래슨 산은 화산암으로 이루어져 있고, 면적은 43,049㏊이며 높이는 3,186m이다. 래슨 산은 평지와 산악 지형을 가지고 있으며, 등산, 캠핑, 하이킹, 자전거 타기 등 다양한 야외 활동을 즐길 수 있다. 그러나 활동은 금지되어 있고 시설도 없다. 래슨 산은 화산 활동이 없었으며, 북극과 남극에 위치해 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

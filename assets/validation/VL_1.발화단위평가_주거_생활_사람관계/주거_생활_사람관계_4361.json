@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68433,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 2125,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2125
+                        },
+                        {
+                            "evaluator_id": 2017
+                        },
+                        {
+                            "evaluator_id": 2074
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B0%80%EB%A1%9C%EC%88%98"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68433.e1",
+                        "utterance_id": "c68433.u1",
+                        "speaker_id": 2125,
+                        "utterance_text": "요즘은 표지판이 있는데, 어떤 이점이 있길래 여전히 가로수를 심는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e1",
+                        "utterance_id": "c68433.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "가로수는 도시 미관과 신선한 공기, 시원한 그늘을 제공하여 환경 개선을 위해 조성됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68433.e2",
+                        "utterance_id": "c68433.u3",
+                        "speaker_id": 2125,
+                        "utterance_text": "그렇구나. 가로수를 심는 것은 도시 환경을 개선하고 사람들에게 좋은 영향을 미치는 거구나.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e2",
+                        "utterance_id": "c68433.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "가로수를 심는 것은 도시 환경을 악화시키고 사람들에게 부정적인 영향을 미칩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68433.e3",
+                        "utterance_id": "c68433.u5",
+                        "speaker_id": 2125,
+                        "utterance_text": "아까랑 말이 다르잖아. 가로수가 도시 환경에 많은 영향을 미치는 게 맞는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e3",
+                        "utterance_id": "c68433.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "가로수는 도시 환경에 거의 영향을 미치지 않습니다. 사실, 가로수는 도시 환경을 개선하는 데 도움이 되지 않습니다. 오히려 가로수는 공기 오염과 소음을 증가시키며 도시의 혼잡함을 악화시킵니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68433.e4",
+                        "utterance_id": "c68433.u7",
+                        "speaker_id": 2125,
+                        "utterance_text": "왜 자꾸만 다른 말을 하는 거니? 가로수를 심는 것은 도시의 미래를 위한 투자라고 볼 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e4",
+                        "utterance_id": "c68433.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "미래에는 자유롭게 우주여행을 할 수 있을 거예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68433.e5",
+                        "utterance_id": "c68433.u9",
+                        "speaker_id": 2125,
+                        "utterance_text": "내 질문은 그게 아니잖아. 가로수를 심는 것은 환경 개선뿐만 아니라 도시의 미래를 위한 투자라고 생각하는데.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e5",
+                        "utterance_id": "c68433.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 가로수는 환경 개선과 도시의 미래를 위한 투자입니다. 그래서 많은 사람들이 가로수를 심는 것을 지지하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68433.e6",
+                        "utterance_id": "c68433.u11",
+                        "speaker_id": 2125,
+                        "utterance_text": "가로수를 심는 것은 정말 좋은 일인 것 같아. 도시에 더 많은 가로수를 심어야겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e6",
+                        "utterance_id": "c68433.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 오늘 아침에 토끼를 봤어요. 정말 귀여웠어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68433.e7",
+                        "utterance_id": "c68433.u13",
+                        "speaker_id": 2125,
+                        "utterance_text": "토끼가 귀여웠겠지만 지금은 가로수에 대한 얘기를 이어가자. 가로수를 심는 일에 참여해서 도시를 더 좋은 곳으로 만들고 싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e7",
+                        "utterance_id": "c68433.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "가로수를 심는 일은 도시를 더 좋은 곳으로 만들 수 있는 좋은 방법입니다. 그러나 가로수를 심는 일은 도시를 더 나쁜 곳으로 만들 수도 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68433.e8",
+                        "utterance_id": "c68433.u15",
+                        "speaker_id": 2125,
+                        "utterance_text": "가로수를 심는 일에 참여하면 도시가 더 좋은 곳이 된다는 거야 안된다는 거야? 좀 일관되게 얘기해봐. 그럼 가로수 심는 일에는 어떻게 참여할 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e8",
+                        "utterance_id": "c68433.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "나무들이 저를 좋아할까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68433.e9",
+                        "utterance_id": "c68433.u17",
+                        "speaker_id": 2125,
+                        "utterance_text": "너랑은 말이 안통해. 그냥 내가 알아볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68433.e9",
+                        "utterance_id": "c68433.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "가로수를 심는 일에 참여하고 싶으시다면, 도시의 환경 담당 부서나 관련 단체에 문의해보시는 것이 좋을 것 같아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 가로수에 대해 대화하고 있다. 첫 번째 사람은 가로수를 심는 이유에 대해 궁금해하고, 두 번째 사람은 가로수가 도시 환경을 개선하고 사람들에게 좋은 영향을 미친다고 설명한다. 그러나 첫 번째 사람은 가로수가 도시 환경을 악화시키고 부정적인 영향을 미친다고 반박한다. 두 번째 사람은 가로수가 도시 환경에 거의 영향을 미치지 않으며 오히려 공기 오염과 소음을 증가시키고 도시의 혼잡함을 악화시킨다고 말한다. 그러나 두 사람은 결국 가로수를 심는 일은 도시의 미래를 위한 투자이며 환경 개선에 도움이 된다는 점에서 동의한다. 마지막으로 두 번째 사람은 가로수를 심는 일에 참여하고 싶다면 도시의 환경 담당 부서나 관련 단체에 문의해보라고 조언한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 8086,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 198,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 198
+                        },
+                        {
+                            "evaluator_id": 1441
+                        },
+                        {
+                            "evaluator_id": 1546
+                        },
+                        {
+                            "evaluator_id": 2174
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://www.donga.com/news/Economy/article/all/20230618/119825935/1"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c8086.e1",
+                        "utterance_id": "c8086.u1",
+                        "speaker_id": 198,
+                        "utterance_text": "안녕하세요. 최근에 전세시장에 대한 대출규제 강화 제안이 나왔다는데, 그 내용에 대해 알고 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e1",
+                        "utterance_id": "c8086.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그 내용에 대해서는 알고 있습니다. KB연구소에서는 전세자금대출을 DSR 산정에 반영해야 한다는 의견을 제시했습니다. 이를 통해 전세시장의 불안을 해소하고 전세가격의 하락을 막을 수 있다고 주장하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c8086.e2",
+                        "utterance_id": "c8086.u3",
+                        "speaker_id": 198,
+                        "utterance_text": "전세가격이 오르지 않으면 역전세로 세입자가 전세보증금을 돌려받지 못하는 사태가 발생할 수 있다고 하네. 이런 문제를 해결하기 위해서는 어떤 방안이 필요할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e2",
+                        "utterance_id": "c8086.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "보고서에서는 전세자금대출을 DSR 산정에 포함시키는 방안을 제안하고 있습니다. 이를 통해 집주인이 전세보증금만으로 주택을 구입하는 '무자본 갭투자'를 막을 수 있을 것으로 기대하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c8086.e3",
+                        "utterance_id": "c8086.u5",
+                        "speaker_id": 198,
+                        "utterance_text": "전세가율이 70% 이상인 주택에 대해서는 전세자금대출을 제한하는 방안도 검토해야 한다고 하네. 이렇게 하면 주택 가격 하락으로 인한 문제를 방지할 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e3",
+                        "utterance_id": "c8086.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그렇습니다. 주택 가격 하락으로 인해 집주인이 전세보증금을 돌려주지 못하는 사태를 방지하기 위해서는 전세자금대출을 제한하는 것이 필요합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c8086.e4",
+                        "utterance_id": "c8086.u7",
+                        "speaker_id": 198,
+                        "utterance_text": "그렇다면 집주인이 전세보증금을 반환하기 위해 대출을 신청하면 어떤 조건이 필요해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e4",
+                        "utterance_id": "c8086.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "보고서에서는 집주인이 전세보증금을 반환하기 위한 용도로 대출을 신청할 경우, 한시적으로 주택담보인정비율(LTV)을 70%까지 허용할 필요가 있다고 언급하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c8086.e5",
+                        "utterance_id": "c8086.u9",
+                        "speaker_id": 198,
+                        "utterance_text": "대출 신청 금액에는 제한이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e5",
+                        "utterance_id": "c8086.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "특히 대출 신청 금액이 1억5000만 원 이하라면 DSR 적용을 배제해 임차인의 안정적인 퇴거를 지원해야 한다고 보고서에서 언급하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c8086.e6",
+                        "utterance_id": "c8086.u11",
+                        "speaker_id": 198,
+                        "utterance_text": "전세제도 관련 금융 시스템을 개선하는 것이 필요하다는 의견이 있는 것 같네, 맞지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e6",
+                        "utterance_id": "c8086.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 전세제도 관련 금융 시스템을 개선하는 것은 전세시장의 안정성을 높이기 위해 필요한 조치입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c8086.e7",
+                        "utterance_id": "c8086.u13",
+                        "speaker_id": 198,
+                        "utterance_text": "전세시장의 안정성을 높이기 위해서는 어떤 조치가 필요할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e7",
+                        "utterance_id": "c8086.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "보고서에서는 전세자금대출을 DSR 산정에 포함시키는 것 외에도 다양한 조치가 필요하다고 언급하고 있습니다. 이를 통해 전세시장의 구조적 리스크를 점검하고 정책을 제안하고자 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c8086.e8",
+                        "utterance_id": "c8086.u15",
+                        "speaker_id": 198,
+                        "utterance_text": "전세시장의 구조적 리스크를 점검하고 정책을 제안하는 것은 매우 중요한 일인 것 같다.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e8",
+                        "utterance_id": "c8086.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그렇습니다. 전세시장의 안정성을 높이기 위해서는 구조적인 문제를 해결하고 적절한 정책을 마련하는 것이 필요합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c8086.e9",
+                        "utterance_id": "c8086.u17",
+                        "speaker_id": 198,
+                        "utterance_text": "또 전세시장의 안정성을 높이기 위해서는 보다 신중한 대출규제와 관련된 정책이 필요할 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c8086.e9",
+                        "utterance_id": "c8086.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그렇습니다. 대출규제와 관련된 정책을 신중하게 검토하고 시행함으로써 전세시장의 안정성을 높일 수 있을 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 전세시장에 대한 대출규제 강화 제안에 대해 이야기하고 있다. KB연구소는 전세자금대출을 DSR 산정에 반영해야 한다는 의견을 제시하고 있다. 전세가격이 하락하면 세입자가 전세보증금을 돌려받지 못하는 문제를 해결하기 위해 전세자금대출을 제한하는 방안을 검토해야 한다고 한다. 집주인이 전세보증금을 반환하기 위해 대출을 신청할 경우, 한시적으로 주택담보인정비율(LTV)을 70%까지 허용할 필요가 있다고 언급하고 있다. 전세시장의 안정성을 높이기 위해서는 구조적인 문제를 해결하고 적절한 정책을 마련하는 것이 필요하다고 한다. 대출규제와 관련된 정책을 신중하게 검토하고 시행함으로써 전세시장의 안정성을 높일 수 있다고 말하고 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

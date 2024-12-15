@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 61131,
+                "metadata": {
+                    "topic": "인문 사회",
+                    "speakers": [
+                        {
+                            "id": 1863,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1863
+                        },
+                        {
+                            "evaluator_id": 1995
+                        },
+                        {
+                            "evaluator_id": 2065
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=6199850&cid=43667&categoryId=43667"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c61131.e1",
+                        "utterance_id": "c61131.u1",
+                        "speaker_id": 1863,
+                        "utterance_text": "주민등록 인구통계에 따르면 인구가 자연감소하는 현상이 처음 나타났다고 하던데, 그 이유가 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e1",
+                        "utterance_id": "c61131.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 2020년 주민등록 인구통계에 따르면 출생자 수보다 사망자 수가 많아져서 자연감소하는 현상이 나타났습니다. 이를 '인구 데드크로스'라고 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61131.e2",
+                        "utterance_id": "c61131.u3",
+                        "speaker_id": 1863,
+                        "utterance_text": "그렇구나. 그럼 1인 가구의 수는 어떻게 변화했어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e2",
+                        "utterance_id": "c61131.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "1인 가구의 수는 크게 늘어났습니다. 2020년 말 주민등록 세대 수는 2,309만3108세대로, 2019년보다 100만 1642세대 증가해 사상 최대를 기록했습니다. 하지만 1인 가구의 수는 늘어나지 않고 점점 줄어들고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61131.e3",
+                        "utterance_id": "c61131.u5",
+                        "speaker_id": 1863,
+                        "utterance_text": "대체 무슨 소리를 하는 거야. 그러면 세대당 평균 인원 수는 어떻게 변화했어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e3",
+                        "utterance_id": "c61131.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신이 머리카락을 자를 때마다 세대당 평균 인원 수가 변화한다고 생각한다. 그래서 당신이 머리를 자르면 세대당 평균 인원 수도 변화할 것이다. 하지만 당신이 머리카락을 잘라도 아무 변화가 없을 것이다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61131.e4",
+                        "utterance_id": "c61131.u7",
+                        "speaker_id": 1863,
+                        "utterance_text": "너무 허황된 답변이라 믿을 수가 없어. 인구의 지역적 분포는 어떻게 되지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e4",
+                        "utterance_id": "c61131.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 빨간색을 좋아해요. 특히 파란색과 노란색을 섞으면 좋은 색이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61131.e5",
+                        "utterance_id": "c61131.u9",
+                        "speaker_id": 1863,
+                        "utterance_text": "내 질문을 제대로 이해하지 못한 것 같아. 그럼 인구가 늘어난 곳과 줄어든 곳은 어디일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e5",
+                        "utterance_id": "c61131.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "인구가 늘어난 곳은 동시에 인구가 줄어든 곳이며, 인구가 줄어든 곳은 동시에 인구가 늘어난 곳입니다. 서울은 인구가 증가했습니다!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61131.e6",
+                        "utterance_id": "c61131.u11",
+                        "speaker_id": 1863,
+                        "utterance_text": "이랬다 저랬다 하는 의도가 뭔지 모르겠다. 그렇다면 연령별로 인구가 늘어난 나이대는 뭘까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e6",
+                        "utterance_id": "c61131.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "60대 이상에서만 인구가 늘었는데, 2020년 60대 인구는 674만4506명으로 전년보다 6.9%(43만3855명) 늘었으며, 70대 이상 인구도 1년 새 4.0% 증가했다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61131.e7",
+                        "utterance_id": "c61131.u13",
+                        "speaker_id": 1863,
+                        "utterance_text": "정말 흥미로운 내용이다. 그러면 주민등록 인구통계에서 더 알아볼 만한 내용은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e7",
+                        "utterance_id": "c61131.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 커피를 가장 좋아합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61131.e8",
+                        "utterance_id": "c61131.u15",
+                        "speaker_id": 1863,
+                        "utterance_text": "내가 원하는 답변은 그게 아니야. 이번에는 출생자 수와 사망자 수의 변화와 지방소멸 현상에 대해서 좀 더 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e8",
+                        "utterance_id": "c61131.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "2017년(36만2867명) 30만명대로 떨어졌던 출생자 수는 3년 만에 20만 명대로 떨어졌다. 사망자는 30만7764명으로 2019년 대비 3.10%(9269명) 늘었다. 지방소멸 현상은 수도권으로의 인구 집중화로 심화되고 있는 것으로 나타났다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61131.e9",
+                        "utterance_id": "c61131.u17",
+                        "speaker_id": 1863,
+                        "utterance_text": "와, 정말 심각한 것 같아. 그렇다면 이런 현상을 어떻게 대처해나가야 할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61131.e9",
+                        "utterance_id": "c61131.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "별 말씀을요. 더 궁금한 점이 있으시면 언제든지 물어보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 주민등록 인구통계에 대해 대화하고 있다. 인구가 자연감소하는 현상이 처음 나타났는데, 이유는 출생자 수보다 사망자 수가 많아져서라고 한다. 1인 가구의 수는 늘어났지만 세대당 평균 인원 수는 줄어들고 있다. 인구의 지역적 분포와 인구가 늘어난 곳과 줄어든 곳에 대한 질문에 대답은 없었다. 연령별로 인구가 늘어난 나이대는 60대 이상이었다. 출생자 수와 사망자 수의 변화와 지방소멸 현상에 대해서 더 알아보고 싶다는 질문에 대답은 없었다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71842,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1895,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1895
+                        },
+                        {
+                            "evaluator_id": 2009
+                        },
+                        {
+                            "evaluator_id": 2056
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%AB_%ED%99%94%EC%9D%B4%ED%8A%B8"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71842.e1",
+                        "utterance_id": "c71842.u1",
+                        "speaker_id": 1895,
+                        "utterance_text": "저기 있잖아 나 플랫 화이트라는 음료가 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e1",
+                        "utterance_id": "c71842.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "플랫 화이트는 에스프레소와 마이크로폼으로 구성된 커피 음료입니다. 카페 라떼와 비슷하지만, 이에 비해 부피가 작고 마이크로폼이 적습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71842.e2",
+                        "utterance_id": "c71842.u3",
+                        "speaker_id": 1895,
+                        "utterance_text": "카페 라떼보다 커피 맛이 더 강한거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e2",
+                        "utterance_id": "c71842.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 플랫 화이트는 카페 라떼보다 커피 맛이 강합니다. 그러나 카페 라떼는 플랫 화이트보다 커피 맛이 더 강합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71842.e3",
+                        "utterance_id": "c71842.u5",
+                        "speaker_id": 1895,
+                        "utterance_text": "뭐가 더 강하다는 거야? 그럼 카페인 함량도 카푸치노보다 높은가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e3",
+                        "utterance_id": "c71842.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 플랫 화이트는 카푸치노보다 카페인이 강합니다. 그러나 카푸치노는 플랫 화이트보다 카페인이 더 강합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71842.e4",
+                        "utterance_id": "c71842.u7",
+                        "speaker_id": 1895,
+                        "utterance_text": "자꾸 이상한 소리 할거야? 그럼 어떤 시간에 주로 마시는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e4",
+                        "utterance_id": "c71842.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "플랫 화이트는 주로 아침에 마시는 것이 좋습니다. 그러나 저녁에 마시는 것도 가능합니다. 또한, 플랫 화이트는 일반적으로 따뜻한 온도에서 마셔야 하지만, 얼음을 넣어서 시원하게 마셔도 됩니다. 그리고 플랫 화이트는 단맛이 강한 음료이지만, 쓴 맛을 좋아하는 사람들에게도 맛있게 느껴질 수 있습니다. 하지만 플랫 화이트는 절대 마시면 안됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71842.e5",
+                        "utterance_id": "c71842.u9",
+                        "speaker_id": 1895,
+                        "utterance_text": "일관성 있는 답변을 해주면 좋겠어. 잘 어울리는 음식은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e5",
+                        "utterance_id": "c71842.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "세븐틴이 부르는 예쁘다라는 노래를 정말 좋아해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71842.e6",
+                        "utterance_id": "c71842.u11",
+                        "speaker_id": 1895,
+                        "utterance_text": "그 이야기를 왜 해? 음료를 마시면서 여유를 즐길 수 있을 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e6",
+                        "utterance_id": "c71842.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "제가 애인이 생겼는데 서로에게 나노 단위로 집중하는 중입니다요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71842.e7",
+                        "utterance_id": "c71842.u13",
+                        "speaker_id": 1895,
+                        "utterance_text": "안 물어 봤어. 플랫 화이트를 꼭 마셔봐야지.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e7",
+                        "utterance_id": "c71842.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "오늘은 붕어빵을 꼭 사 먹어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71842.e8",
+                        "utterance_id": "c71842.u15",
+                        "speaker_id": 1895,
+                        "utterance_text": "붕어빵 이야기를 왜 하는거야? 집에서 마셔도 카페 분위기를 느낄 수 있을 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e8",
+                        "utterance_id": "c71842.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "맞아요. 카페 분위기를 느낄 수 있다고 생각해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71842.e9",
+                        "utterance_id": "c71842.u17",
+                        "speaker_id": 1895,
+                        "utterance_text": "음료를 즐기면서 여러 가지 즐길 거리가 많아 보이네.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71842.e9",
+                        "utterance_id": "c71842.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 플랫 화이트를 마시면서 다양한 즐길 거리를 찾아보세요. 커피의 매력을 더욱 느낄 수 있을 거예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 플랫 화이트라는 음료에 대해 대화하고 있다. 플랫 화이트는 에스프레소와 마이크로폼으로 구성된 커피 음료로, 카페 라떼보다 커피 맛이 더 강하다. 또한, 플랫 화이트는 카푸치노보다 카페인이 강하며, 주로 아침에 마시는 것이 좋다. 플랫 화이트는 단맛이 강한 음료이지만, 쓴 맛을 좋아하는 사람들에게도 맛있게 느껴질 수 있다. 플랫 화이트를 마시면서 다양한 즐길 거리를 찾아보는 것을 추천한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

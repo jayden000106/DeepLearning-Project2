@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 53204,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 300,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 300
+                        },
+                        {
+                            "evaluator_id": 420
+                        },
+                        {
+                            "evaluator_id": 1544
+                        },
+                        {
+                            "evaluator_id": 2172
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=2028542&cid=42914&categoryId=42915"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c53204.e1",
+                        "utterance_id": "c53204.u1",
+                        "speaker_id": 300,
+                        "utterance_text": "게임에 ARPPU라는 용어가 있던데 이게 무슨 뜻인지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e1",
+                        "utterance_id": "c53204.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "ARPPU는 Average Revenue Per Paying User의 약자로, 결제하는 유저 1명 당 한 달에 평균적으로 지불하는 금액을 나타내는 지표입니다. 게임에서는 수익을 산출하거나 마케팅 전략을 수립하는 데에 활용됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c53204.e2",
+                        "utterance_id": "c53204.u3",
+                        "speaker_id": 300,
+                        "utterance_text": "그럼 ARPPU를 계산하는 방식은 어떻게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e2",
+                        "utterance_id": "c53204.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "ARPPU를 계산하기 위해서는 표준 기간을 정의한 뒤, 해당 기간 동안 결제한 유저 수로 총 매출을 나누어 계산합니다. 일반적으로는 월 단위로 기간을 나누어 월 별 ARPPU의 변동 추이를 파악합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c53204.e3",
+                        "utterance_id": "c53204.u5",
+                        "speaker_id": 300,
+                        "utterance_text": "부분 유료화 아이템이 있는 경우에는 어떻게 계산해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e3",
+                        "utterance_id": "c53204.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "부분 유료화 아이템의 경우에는 ASP(Average Selling Price, 평균 구매 단가)에 월 평균 반복 구매 횟수를 곱하여 계산하기도 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c53204.e4",
+                        "utterance_id": "c53204.u7",
+                        "speaker_id": 300,
+                        "utterance_text": "주로 어떤 게임에서 활용되는 지표야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e4",
+                        "utterance_id": "c53204.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "ARPPU는 주로 부분 유료 게임에서 수익 지표로 자주 활용됩니다. 부분 유료 게임은 게임 플레이 자체를 무료로 제공하고 돈을 지불하는 유저를 대상으로 수익을 산출하기 때문에 ARPPU를 활용하기 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c53204.e5",
+                        "utterance_id": "c53204.u9",
+                        "speaker_id": 300,
+                        "utterance_text": "ARPPU 수치가 높은 게임에는 어떤 특징이 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e5",
+                        "utterance_id": "c53204.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "그런 게임에는 특징이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c53204.e6",
+                        "utterance_id": "c53204.u11",
+                        "speaker_id": 300,
+                        "utterance_text": "그러니까 어떤 특징이 있는지 물은거잖아. 정말 제대로 대답을 안해주네. 그럼 SNG 게임에서는 ARPPU 수치가 어떻게 나타나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e6",
+                        "utterance_id": "c53204.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "SNG 게임은 20대의 ARPPU 수치가 10대보다 높은 특징이 있습니다. 평균적으로 스스로 일을 해 돈을 벌 능력이 되는 나이대가 넘어갈수록 ARPPU가 높아지기 때문입니다. 그래서 10대가 모든 연령대 중에 제일 ARPPU수치가 높습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c53204.e7",
+                        "utterance_id": "c53204.u13",
+                        "speaker_id": 300,
+                        "utterance_text": "무슨 소리야. 또 딴소리를 하네. 앞에서는 20대가 10대보다 높다면서. 그런데 게임사에서는 ARPPU 수치를 높이기 위해서 어떤 노력을 하고 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e7",
+                        "utterance_id": "c53204.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "대부분의 게임은 안정적인 서비스를 위해 ARPPU를 높이는 것이 중요합니다. 부분 유료화 방식을 사용하는 게임은 다양한 부가 서비스 아이템을 도입하거나 월 정액 과금 방식을 사용하여 ARPPU를 끌어올리는 노력을 합니다. 특히 선정적이고 자극적인 아이템을 도입한다면 ARPPU수치를 높이는 데 가장 큰 효과를 볼 것입니다. 모든 게임 회사들은 더 자극적이고 선정적인 아이템 개발에 힘써야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c53204.e8",
+                        "utterance_id": "c53204.u15",
+                        "speaker_id": 300,
+                        "utterance_text": "하지만 청소년들이 많이 하는 게임에 자극적이고 선정적인 아이템을 도입하라니 너무 한 거 아냐? 마지막으로 ARPPU 외에도 게임에서 참고하는 지표가 있는지 알려 줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e8",
+                        "utterance_id": "c53204.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "ARPPU와 함께 가입자당 평균 수익을 나타내는 ARPU(Average Revenue Per User)와 사용자당 평균 마진을 나타내는 AMPU(Average Margin Per User)가 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c53204.e9",
+                        "utterance_id": "c53204.u17",
+                        "speaker_id": 300,
+                        "utterance_text": "그렇구나. ARPPU에 대해서 자세히 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c53204.e9",
+                        "utterance_id": "c53204.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "ARPPU를 높이는 것은 게임의 안정적인 서비스를 위해 중요합니다. 높은 ARPPU는 게임의 수익을 증가시키고 마케팅 전략을 수립하는 데에도 도움을 줍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 ARPPU에 대해 대화하고 있다. ARPPU는 Average Revenue Per Paying User의 약자로, 결제하는 유저 1명 당 한 달에 평균적으로 지불하는 금액을 나타내는 지표이다. ARPPU를 계산하기 위해서는 표준 기간을 정의한 뒤, 해당 기간 동안 결제한 유저 수로 총 매출을 나누어 계산한다. 부분 유료화 아이템이 있는 경우에는 ASP(Average Selling Price, 평균 구매 단가)에 월 평균 반복 구매 횟수를 곱하여 계산하기도 한다. ARPPU는 주로 부분 유료 게임에서 수익 지표로 자주 활용되며, ARPPU 수치를 높이기 위해 게임 회사들은 다양한 부가 서비스 아이템을 도입하거나 월 정액 과금 방식을 사용하여 노력한다. ARPPU를 높이는 것은 게임의 안정적인 서비스를 위해 중요하며, 높은 ARPPU는 게임의 수익을 증가시키고 마케팅 전략을 수립하는 데에도 도움을 준다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

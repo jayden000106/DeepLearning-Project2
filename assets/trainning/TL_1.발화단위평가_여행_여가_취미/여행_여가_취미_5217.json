@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71750,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1840,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1840
+                        },
+                        {
+                            "evaluator_id": 2018
+                        },
+                        {
+                            "evaluator_id": 2052
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%95%A8%EB%B6%80%EB%A5%B4%ED%81%AC"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71750.e1",
+                        "utterance_id": "c71750.u1",
+                        "speaker_id": 1840,
+                        "utterance_text": "독일에 함부르크라는 도시가 있다던데 이 곳은 어떤 곳이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e1",
+                        "utterance_id": "c71750.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "함부르크는 독일 북부에 있는 주이며 도시입니다. 독일 최대의 항구 도시이자 제2의 대도시입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71750.e2",
+                        "utterance_id": "c71750.u3",
+                        "speaker_id": 1840,
+                        "utterance_text": "최대 항구 도시구나. 이 곳에서는 어떤 여가 활동을 즐길 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e2",
+                        "utterance_id": "c71750.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "함부르크는 해변이 있어서 수영이나 서핑과 같은 해양 활동을 즐길 수 있습니다. 또한, 산책로나 공원에서 자전거 타기와 같은 야외 활동도 가능합니다. 그리고 박물관이나 미술관을 방문하여 문화적인 여가를 즐길 수도 있습니다. 하지만 함부르크는 사막 지역이기 때문에 스키나 스노우보드와 같은 겨울 스포츠는 불가능합니다. 사막 지역이기 때문에 해양 활동도 불가능합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71750.e3",
+                        "utterance_id": "c71750.u5",
+                        "speaker_id": 1840,
+                        "utterance_text": "항구 도시라고 했다가 사막 지역이라고 했다가, 해양 활동을 즐길 수 있다고 했다가 불가능하다고 하면 어떻게 받아들여야할까? 그럼 여가 활동 말고 관광지에 대해 알려줘. 여기에는 어떤 유명한 관광지가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e3",
+                        "utterance_id": "c71750.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "함부르크에는 유명한 관광지가 없습니다. 그러나 함부르크에는 세계에서 가장 큰 랜드마크인 함부르크 래디오 타워가 있습니다. 또한, 함부르크는 유네스코 세계 문화 유산인 함부르크의 차이나타운을 자랑합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71750.e4",
+                        "utterance_id": "c71750.u7",
+                        "speaker_id": 1840,
+                        "utterance_text": "유명한 관광지가 없다면서 세계에서 가장 큰 곳 등에 대해 알려주면 어떤 말을 믿으라는거야. 이런 분야를 모르면 음식 쪽으로 물어볼까? 함부르크의 음식 문화는 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e4",
+                        "utterance_id": "c71750.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "함부르크는 해산물 요리로 유명한 도시입니다. 특히 함부르크 스타일의 피쉬 앤 칩스는 맛있는 음식 중 하나입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71750.e5",
+                        "utterance_id": "c71750.u9",
+                        "speaker_id": 1840,
+                        "utterance_text": "피쉬 앤 칩스라니, 먹어보고 싶다. 관광지와 음식에 대해 이야기가 나왔으면 쇼핑도 빠질 수 없지. 이 도시에서 쇼핑을 할 수 있는 곳은 어디야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e5",
+                        "utterance_id": "c71750.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "함부르크에서 쇼핑을 할 수 있는 곳은 아무 곳도 없습니다. 그러나 함부르크는 유명한 쇼핑 도시로 알려져 있습니다. 또한, 함부르크에는 다양한 쇼핑몰과 상점이 있으며, 유명한 브랜드들의 매장도 많이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71750.e6",
+                        "utterance_id": "c71750.u11",
+                        "speaker_id": 1840,
+                        "utterance_text": "응? 쇼핑할 수 있는 곳이 없는데 다양한 쇼핑몰이 있다는 말이 뭔 말이야. 답변이 모순되지 않게 부탁해. 이 도시의 날씨는 어떤지 물어봐도 될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e6",
+                        "utterance_id": "c71750.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 고양이를 좋아해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71750.e7",
+                        "utterance_id": "c71750.u13",
+                        "speaker_id": 1840,
+                        "utterance_text": "질문의 내용은 날씨였지 너의 취향이 아니였어. 독일에 있는 도시니까 독일어를 쓸 거 같은데 이 도시에서는 독일어만 사용해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e7",
+                        "utterance_id": "c71750.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 왔어요. 하지만 제가 좋아하는 음식은 피자입니다. 피자를 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71750.e8",
+                        "utterance_id": "c71750.u15",
+                        "speaker_id": 1840,
+                        "utterance_text": "질문에 제대로 된 대답이 듣고 싶어. 이 도시에서는 어떤 교통수단을 이용할 수 있는지 제대로 답해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e8",
+                        "utterance_id": "c71750.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 개발된 인공지능이기 때문에, 함부르크에서 사용되는 언어에 대해서는 잘 알지 못합니다. 하지만 제가 추측하기로는 함부르크에서는 히브리어나 스와힐리어 같은 독특한 언어가 사용되는 것 같습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71750.e9",
+                        "utterance_id": "c71750.u17",
+                        "speaker_id": 1840,
+                        "utterance_text": "언어는 아까 물어봤고 지금은 교통수단을 물어봤잖아. 답변을 듣기가 참 힘드네. 이 도시를 방문하고 싶은데 이 곳에 가려면 어떤 준비를 해야 할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71750.e9",
+                        "utterance_id": "c71750.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "함부르크에 가려면 여권과 비자가 필요합니다. 또한 여행 일정과 숙소 예약도 잊지 마세요. 즐거운 여행 되세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 함부르크에 대해 대화하고 있다. 함부르크는 독일 북부에 있는 주이며 도시이다. 함부르크는 해변이 있어서 수영이나 서핑과 같은 해양 활동을 즐길 수 있으며, 산책로나 공원에서 자전거 타기와 같은 야외 활동도 가능하다. 그리고 박물관이나 미술관을 방문하여 문화적인 여가를 즐길 수도 있다. 함부르크에는 유명한 관광지는 없지만 함부르크 래디오 타워와 함부르크의 차이나타운이 있다. 함부르크는 해산물 요리로 유명하며, 피쉬 앤 칩스는 맛있는 음식 중 하나이다. 함부르크에서 쇼핑을 할 수 있는 곳은 없지만 다양한 쇼핑몰과 상점이 있다. 함부르크에 가려면 여권과 비자가 필요하며, 여행 일정과 숙소 예약도 잊지 말아야 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

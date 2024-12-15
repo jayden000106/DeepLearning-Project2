@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 678,
+                "metadata": {
+                    "topic": "인문 사회",
+                    "speakers": [
+                        {
+                            "id": 451,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 451
+                        },
+                        {
+                            "evaluator_id": 425
+                        },
+                        {
+                            "evaluator_id": 2047
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://www.hani.co.kr/arti/economy/marketing/1096151.html"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c678.e1",
+                        "utterance_id": "c678.u1",
+                        "speaker_id": 451,
+                        "utterance_text": "요즘 경제개혁연대 활동 중 관련 이슈는 무엇이지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e1",
+                        "utterance_id": "c678.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "경제개혁연대는 에이치디현대, 엘엑스홀딩스, 디비 지주회사 등이 상표권 사용료를 부당하게 수취하고 있다며 공정거래위원회에 조사를 요청했습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c678.e2",
+                        "utterance_id": "c678.u3",
+                        "speaker_id": 451,
+                        "utterance_text": "에이치디현대는 어떤 일로 조사 요청을 받은거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e2",
+                        "utterance_id": "c678.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "에이치디현대는 지난해 9월 신규 시아이를 출원·등록하구 올해 초부터 그룹 계열사들의 시아이 변경을 추진했습니다. 이로 인해 상표권 사용료가 지주회사에 몰릴 수 있다는 이유로 경제개혁연대가 조사를 요청한 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c678.e3",
+                        "utterance_id": "c678.u5",
+                        "speaker_id": 451,
+                        "utterance_text": "그럼 엘엑스홀딩스는 어떤 상황인거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e3",
+                        "utterance_id": "c678.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "엘엑스홀딩스는 엘엑스 상표에 대해 올해부터 계열사들로부터 상표권 사용료를 수취하고 있다고 합니다. 경제개혁연대는 이를 부당한 이익 귀속으로 보고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c678.e4",
+                        "utterance_id": "c678.u7",
+                        "speaker_id": 451,
+                        "utterance_text": "경제개혁연대가 디비 지주회사도 같이 조사를 요청한거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e4",
+                        "utterance_id": "c678.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 경제개혁연대는 디비 지주회사에 대한 조사도 요청했습니다. 디비 지주회사가 상표권 사용료를 받는 것에 대해 의문을 제기한 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c678.e5",
+                        "utterance_id": "c678.u9",
+                        "speaker_id": 451,
+                        "utterance_text": "경제개혁연대가 이들 기업들에 대해 부당이익이라고 주장하는 내용은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e5",
+                        "utterance_id": "c678.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "이들 기업들은 재벌 총수 일가의 승계 또는 분가 과정에 있다는 공통점이 있습니다. 이를 통해 특수 관계인의 지분이 집중된 지주사에 수익을 제공함으로써 부당한 이익을 귀속시킨 것으로 경제개혁연대가 주장하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c678.e6",
+                        "utterance_id": "c678.u11",
+                        "speaker_id": 451,
+                        "utterance_text": "재벌가 승계와 관련이 있구나. 에이치디현대와 디비 지주회사의 대표는 누구지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e6",
+                        "utterance_id": "c678.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "에이치디현대의 대표는 정기선 대표이입니다 디비 지주회사의 대표는 김남호 회장입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c678.e7",
+                        "utterance_id": "c678.u13",
+                        "speaker_id": 451,
+                        "utterance_text": "이 둘 기업 대표들의 주식보유 비율은 어떻게 되지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e7",
+                        "utterance_id": "c678.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "에이치디현대의 지주회사인 에이치디현대의 주식은 사실상 전부를 정기선 대표가 보유하고 있습니다. 디비 지주회사의 지분은 김남호 회장이 16.83%를 보유하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c678.e8",
+                        "utterance_id": "c678.u15",
+                        "speaker_id": 451,
+                        "utterance_text": "에이치디현대와 디비 지주회사의 배당 수익률이 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e8",
+                        "utterance_id": "c678.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "에이치디현대의 최근 3년 평균 배당 수익율은 7.56%입니다. 반면 삼성전자는 같은 기간 2.7%였습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c678.e9",
+                        "utterance_id": "c678.u17",
+                        "speaker_id": 451,
+                        "utterance_text": "그럼 에이치디현대의 대표는 얼마나 많은 배당금을 벌었지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c678.e9",
+                        "utterance_id": "c678.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "정기선 대표는 2021년까지 배당금로 4년 동안 800억원을 벌었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 경제개혁연대의 활동과 관련된 이슈에 대해 대화하고 있다. 경제개혁연대는 에이치디현대, 엘엑스홀딩스, 디비 지주회사 등이 상표권 사용료를 부당하게 수취하고 있다며 공정거래위원회에 조사를 요청했다. 에이치디현대는 지난해 9월부터 시아이 변경을 추진하고 있어 상표권 사용료가 지주회사에 몰릴 수 있다는 이유로 조사를 받았다. 엘엑스홀딩스도 상표권 사용료를 수취하고 있다고 한다. 경제개혁연대는 디비 지주회사에 대한 조사도 요청했으며, 이들 기업들은 재벌 총수 일가의 승계 또는 분가 과정에 있다는 공통점이 있어 부당한 이익을 귀속시킨 것으로 주장하고 있다. 에이치디현대의 대표는 정기선이며, 디비 지주회사의 대표는 김남호이다. 에이치디현대의 주식은 정기선 대표가 사실상 전부를 보유하고 있고, 디비 지주회사의 지분은 김남호 회장이 16.83%를 보유하고 있다. 에이치디현대의 최근 3년 평균 배당 수익율은 7.56%이며, 정기선 대표는 4년 동안 800억원의 배당금을 벌었다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

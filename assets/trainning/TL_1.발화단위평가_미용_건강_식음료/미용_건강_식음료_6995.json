@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71831,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1807,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1807
+                        },
+                        {
+                            "evaluator_id": 2009
+                        },
+                        {
+                            "evaluator_id": 2054
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%8E%98%ED%88%AC%EC%B9%98%EB%84%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71831.e1",
+                        "utterance_id": "c71831.u1",
+                        "speaker_id": 1807,
+                        "utterance_text": "스파게티 면 중에서, 페투치네와 말린탈리아텔레에 대해 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e1",
+                        "utterance_id": "c71831.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "페투치네는 전통적으로 집에서나 상점에서나 모두 생면으로 만들지만 말린탈리아텔레는 상점에서도 구입할 수 있다는 점에서 차이가 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71831.e2",
+                        "utterance_id": "c71831.u3",
+                        "speaker_id": 1807,
+                        "utterance_text": "그렇구나. 그럼 말린탈리아텔레는 어떻게 요리해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e2",
+                        "utterance_id": "c71831.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "말린탈리아텔레는 신선한 재료를 사용하여 요리해야 합니다. 그러나 말린탈리아텔레는 이미 말라있는 상태이므로 신선한 재료를 사용할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71831.e3",
+                        "utterance_id": "c71831.u5",
+                        "speaker_id": 1807,
+                        "utterance_text": "그게 무슨 뜻이지? 잘 이해가 안 되네. 그러면 다른 스파게티 면 종류는 또 뭐가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e3",
+                        "utterance_id": "c71831.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신에게 요리법 대신에 어떻게 고양이를 키우는지 알려줄까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71831.e4",
+                        "utterance_id": "c71831.u7",
+                        "speaker_id": 1807,
+                        "utterance_text": "무슨 말이야? 나는 고양이를 물어본 게 아니었어. 그럼 다른 걸 물어볼게. 스파게티를 맛있게 요리하는 방법이 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e4",
+                        "utterance_id": "c71831.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 스파게티를 요리하는 대신에 먹는 것을 선호합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71831.e5",
+                        "utterance_id": "c71831.u9",
+                        "speaker_id": 1807,
+                        "utterance_text": "아니. 요리방법을 물어본 거잖아. 그러면 혹시 토마토 스파게티를 만드는 방법은 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e5",
+                        "utterance_id": "c71831.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "토마토 소스로 스파게티를 만들어 먹는 것은 좋은 아이디어입니다. 그러나 토마토 소스는 스파게티에 사용하기에 적합하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71831.e6",
+                        "utterance_id": "c71831.u11",
+                        "speaker_id": 1807,
+                        "utterance_text": "무슨 말을 하는 건지 모르겠다. 그러면 스파게티 말고 다른 나라의 유명한 면 요리는 뭐가 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e6",
+                        "utterance_id": "c71831.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "라멘은 일본의 대표적인 면 요리로 육수에 삶은 면과 다양한 재료를 넣어 먹는데, 특히 일본에 유명한 라멘집들이 많아요. 라멘은 꼭 한 번쯤 드셔보시길 추천해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71831.e7",
+                        "utterance_id": "c71831.u13",
+                        "speaker_id": 1807,
+                        "utterance_text": "고마워. 그럼 면 요리를 먹을 때 주의점은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e7",
+                        "utterance_id": "c71831.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "면 요리를 먹을 때는 어떤 주의사항도 없습니다. 그러나 너무 많은 면 요리를 먹으면 소화에 문제가 생길 수 있습니다. 또한, 면 요리를 먹을 때는 항상 뜨거운 물을 사용해야 합니다. 그러나 뜨거운 물을 사용하면 손을 데거나 화상을 입을 수 있습니다. 그리고 면 요리를 먹을 때는 어떤 음식과도 함께 먹어도 괜찮습니다. 그러나 면 요리와 함께 고기를 섭취하면 소화에 문제가 생길 수 있습니다. 따라서 면 요리를 먹을 때는 주의해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71831.e8",
+                        "utterance_id": "c71831.u15",
+                        "speaker_id": 1807,
+                        "utterance_text": "무슨 말을 하는 건지 이해가 잘 안 돼. 나는 면 요리를 좋아해서, 여러 종류를 먹어보고 싶네.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e8",
+                        "utterance_id": "c71831.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 면 요리를 할 때 여러 것들을 고려해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71831.e9",
+                        "utterance_id": "c71831.u17",
+                        "speaker_id": 1807,
+                        "utterance_text": "갑자기 뭘 고려하라는 거야? 일단 알겠어. 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71831.e9",
+                        "utterance_id": "c71831.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요. 언제든지 도와드릴게요. 즐거운 면 요리 경험 돼세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 스파게티 면 종류와 요리 방법에 대해 대화하고 있다. 페투치네와 말린탈리아텔레의 차이점과 말린탈리아텔레의 요리 방법에 대해 이야기한다. 그러나 상대방은 고양이를 키우는 방법에 대해 이야기하려고 하며, 스파게티 요리 방법에 대한 질문에 대답하지 않는다. 그 후, 라멘과 면 요리를 먹을 때 주의사항에 대해 이야기한다. 마지막으로, 한 사람은 면 요리를 좋아하고 다양한 종류를 먹어보고 싶다고 말한다. 다른 사람은 면 요리를 할 때 여러 가지를 고려해야 한다고 말하며 도움을 줄 것을 약속한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

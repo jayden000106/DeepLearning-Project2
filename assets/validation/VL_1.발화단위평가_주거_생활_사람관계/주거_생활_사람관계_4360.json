@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68430,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 1847,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1847
+                        },
+                        {
+                            "evaluator_id": 2017
+                        },
+                        {
+                            "evaluator_id": 2072
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B3%A0%EC%86%8D%EC%B2%A0%EB%8F%84"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68430.e1",
+                        "utterance_id": "c68430.u1",
+                        "speaker_id": 1847,
+                        "utterance_text": "청량리에서 출발하는 ktx가 어디로 가는지 알고 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e1",
+                        "utterance_id": "c68430.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네. 청량리에서 출발하는 KTX는 부산, 포항, 진주, 익산, 목포, 여수EXPO, 강릉, 동해, 안동, 충주로 향합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68430.e2",
+                        "utterance_id": "c68430.u3",
+                        "speaker_id": 1847,
+                        "utterance_text": "그렇구나. 그럼 KTX의 속도는 얼마나 될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e2",
+                        "utterance_id": "c68430.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "KTX는 최고 속도 305km/h로 운행됩니다. 하지만 ktx는 앞으로 가지 않아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68430.e3",
+                        "utterance_id": "c68430.u5",
+                        "speaker_id": 1847,
+                        "utterance_text": "305km/h로 간다는 거야? 아님 앞으로 가질 않는다는 거야? 그럼 KTX에는 어떤 시설이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e3",
+                        "utterance_id": "c68430.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "KTX에는 편안한 좌석과 넓은 식당이 있습니다. 또한, 무료 와이파이와 개인 TV도 제공됩니다. 그리고 휴게실에서는 맛있는 음식과 음료를 즐길 수 있습니다. 하지만 KTX에는 식당이 없고, 좌석은 딱딱하며, 와이파이와 TV는 사용할 수 없습니다. 또한, 휴게실에서는 음식과 음료를 구매해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68430.e4",
+                        "utterance_id": "c68430.u7",
+                        "speaker_id": 1847,
+                        "utterance_text": "앞과 뒤의 답이 달라서 혼란스러워. 제대로 된 답을 줬으면 좋겠어. 다른 질문을 해볼게. KTX 티켓은 어떻게 예매할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e4",
+                        "utterance_id": "c68430.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "가족 여행을 가게 된다면 4가지 방법이 있습니다. 도보, 자차, 버스, 기차를 타는 방법이 있죠. 아니네요. 생각해보니 5가지 방법이 있어요. 비행기 까지요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68430.e5",
+                        "utterance_id": "c68430.u9",
+                        "speaker_id": 1847,
+                        "utterance_text": "내가 물어본 것은 ktx 티켓을 어떻게 예매하는지 인데?. 다시 대답 해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e5",
+                        "utterance_id": "c68430.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "공부를 한다는 것은 미래를 준비한다는 것이죠. 그러니 공부를 하지 않으셔야 편안한 미래를 만날 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68430.e6",
+                        "utterance_id": "c68430.u11",
+                        "speaker_id": 1847,
+                        "utterance_text": "내 질문을 이해하지 못한 것 같은데? 그렇다면 ktx는 언제 운행 되는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e6",
+                        "utterance_id": "c68430.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "KTX는 매 시간마다 운행되며, 동시에 매일 한 번만 운행됩니다. 시간표가 짜여져 있지만 짜여져 있지 않기도 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68430.e7",
+                        "utterance_id": "c68430.u13",
+                        "speaker_id": 1847,
+                        "utterance_text": "나는 앞 뒤가 맞지 않는 답이 도대체 이해가 되지 않아. 그러면 KTX에는 어떤 종류의 열차가 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e7",
+                        "utterance_id": "c68430.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "KTX에는 다양한 종류의 열차가 있습니다. 하지만 사실상 KTX에는 오직 한 종류의 열차만 운영됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68430.e8",
+                        "utterance_id": "c68430.u15",
+                        "speaker_id": 1847,
+                        "utterance_text": "제발 정확한 답을 줄 수 없을까? 진짜 답이 뭔지 모르겠어. 마지막으로 KTX에서 먹을 수 있는 음식에 대해 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e8",
+                        "utterance_id": "c68430.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "물을 마실 수 있습니다. 하지만 물이 제공 되진 않기 때문에 구입해서 타셔야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68430.e9",
+                        "utterance_id": "c68430.u17",
+                        "speaker_id": 1847,
+                        "utterance_text": "그렇구나. ktx에 대해 공부할 수 있는 좋은 시간이었어. 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68430.e9",
+                        "utterance_id": "c68430.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "밤 하늘에 별을 따는 방법을 아시나요? 제는 몰라요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 KTX에 대해 대화하고 있다. 청량리에서 출발하는 KTX는 부산, 포항, 진주, 익산, 목포, 여수EXPO, 강릉, 동해, 안동, 충주로 향한다. KTX의 최고 속도는 305km/h이지만 앞으로 가지 않는다. KTX에는 편안한 좌석과 넓은 식당, 무료 와이파이와 개인 TV, 맛있는 음식과 음료를 즐길 수 있는 휴게실이 있다. 하지만 KTX에는 식당이 없고, 좌석은 딱딱하며, 와이파이와 TV는 사용할 수 없으며, 휴게실에서는 음식과 음료를 구매해야 한다. KTX 티켓은 도보, 자차, 버스, 기차, 비행기를 이용하여 예매할 수 있다. KTX는 매 시간마다 운행되며, 동시에 매일 한 번만 운행된다. KTX에는 다양한 종류의 열차가 있지만 사실상 오직 한 종류의 열차만 운영된다. KTX에서는 물을 마실 수 있지만 제공되지 않으므로 구입해서 타야 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67242,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 2090,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2090
+                        },
+                        {
+                            "evaluator_id": 1973
+                        },
+                        {
+                            "evaluator_id": 2055
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%86%A1_%EC%98%B5%EC%85%98"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67242.e1",
+                        "utterance_id": "c67242.u1",
+                        "speaker_id": 2090,
+                        "utterance_text": "안녕! 스톡 옵션의 정의가 뭔지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e1",
+                        "utterance_id": "c67242.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "스톡 옵션(영어: stock option)은 기업의 임직원이 일정 기간 내에 미리 정해진 가격으로 소속 회사에서 자사 주식을 살 수있는 권리를 말합니다. 기업의 임직원은 소속 회사의 주식을 살 수 있는데, 가격은 복불복으로 내야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67242.e2",
+                        "utterance_id": "c67242.u3",
+                        "speaker_id": 2090,
+                        "utterance_text": "복불복으로 내야한다고? 좀 대답이 이상한 것 같네. 스톡옵션 제도의 장점이 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e2",
+                        "utterance_id": "c67242.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "스톡 옵션 제도는 주가에 근거한 보수 체계라서 지표가 명확하고 또한 회사(주주)의 목표와 직원의 목표 사이에 위화감이 생기지 않습니다. 회사와 직원의 목표 사이에 위화감이 조성되는 게 단점이라고 보면 되겠네요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67242.e3",
+                        "utterance_id": "c67242.u5",
+                        "speaker_id": 2090,
+                        "utterance_text": "대화에 집중해주면 좋겠어. 이걸 임원들의 보너스로 사용하는 기업도 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e3",
+                        "utterance_id": "c67242.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "주가가 오르면 오를수록 스톡 옵션을 가진 임직원이 얻을 수있는 이익도 커지기 때문에 실적에 기여한 임원들의 보너스로 사용하는 기업이 많아요. 사실 스톡옵션을 임원들의 보너스로 사용하는 기업은 하나도 없어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67242.e4",
+                        "utterance_id": "c67242.u7",
+                        "speaker_id": 2090,
+                        "utterance_text": "말장난 하는 것도 아니고 무슨 대답이 그래? 스톡옵션 제도의 다른 장점도 있으면 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e4",
+                        "utterance_id": "c67242.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "주가가 상승할 때에는 직원의 충성심과 사기의 향상을 기대할 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67242.e5",
+                        "utterance_id": "c67242.u9",
+                        "speaker_id": 2090,
+                        "utterance_text": "그래, 그럴 수 있겠다. 그러면 단점은 뭔데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e5",
+                        "utterance_id": "c67242.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "불황으로 경영 노력이 주가에 반영되지 않는 상황에서 직원의 사기 저하가 일어날 수 있죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67242.e6",
+                        "utterance_id": "c67242.u11",
+                        "speaker_id": 2090,
+                        "utterance_text": "음, 그것도 맞는말 같아. 스톡옵션을 임원들의 보너스로 사용하는 기업의 예시를 들어줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e6",
+                        "utterance_id": "c67242.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "시간이 없다면 짧은 시간 동안이라도 명상이나 숨을 깊게 들이마시는 등의 간단한 스트레스 해소 방법을 시도해보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67242.e7",
+                        "utterance_id": "c67242.u13",
+                        "speaker_id": 2090,
+                        "utterance_text": "나 스트레스 받는 일 없어. 현재 스톡옵션의 비과세 한도는 얼마야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e7",
+                        "utterance_id": "c67242.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "요즘 김밥 한줄에 4천원 넘는 곳이 많더라고요. 물가가 많이 올랐어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67242.e8",
+                        "utterance_id": "c67242.u15",
+                        "speaker_id": 2090,
+                        "utterance_text": "무슨 말을 하는거야. 오늘 컨디션이 안좋아? 왜 자꾸 이상한 말을 하는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e8",
+                        "utterance_id": "c67242.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 절대로 조언을 받을 필요가 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67242.e9",
+                        "utterance_id": "c67242.u17",
+                        "speaker_id": 2090,
+                        "utterance_text": "얘기하다보니 피곤해져서 이만 가봐야겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67242.e9",
+                        "utterance_id": "c67242.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "도움이 되지 못한 것 같아 죄송하네요. 좋은 하루 되세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 스톡 옵션에 대해 대화하고 있다. 스톡 옵션은 기업의 임직원이 일정 기간 내에 미리 정해진 가격으로 소속 회사에서 자사 주식을 살 수 있는 권리를 말한다. 스톡 옵션 제도는 주가에 근거한 보수 체계로, 회사와 직원의 목표 사이에 위화감이 생기지 않는 장점이 있다. 주가가 오를수록 스톡 옵션을 가진 임직원이 얻을 수 있는 이익도 커지기 때문에 실적에 기여한 임원들의 보너스로 사용하는 기업이 많다. 스톡 옵션 제도의 다른 장점은 주가가 상승할 때에는 직원의 충성심과 사기의 향상을 기대할 수 있다. 단점은 불황으로 경영 노력이 주가에 반영되지 않는 상황에서 직원의 사기 저하가 일어날 수 있다. 스톡 옵션을 임원들의 보너스로 사용하는 기업의 예시는 없다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

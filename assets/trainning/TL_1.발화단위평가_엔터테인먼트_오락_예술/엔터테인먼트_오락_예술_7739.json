@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69125,
+                "metadata": {
+                    "topic": "엔터테인먼트, 오락, 예술",
+                    "speakers": [
+                        {
+                            "id": 1822,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1822
+                        },
+                        {
+                            "evaluator_id": 2012
+                        },
+                        {
+                            "evaluator_id": 2064
+                        },
+                        {
+                            "evaluator_id": 1545
+                        },
+                        {
+                            "evaluator_id": 2173
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%B9%A8%EA%B0%84_%EB%A8%B8%EB%A6%AC_%EC%95%A4#%EA%B0%81%EC%A3%BC"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69125.e1",
+                        "utterance_id": "c69125.u1",
+                        "speaker_id": 1822,
+                        "utterance_text": "최초로 영화가 극장에 개봉한건 몇년도 였어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e1",
+                        "utterance_id": "c69125.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "드라마 '빨간 머리 앤'은 1979년에 만들어져 방영되었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69125.e2",
+                        "utterance_id": "c69125.u3",
+                        "speaker_id": 1822,
+                        "utterance_text": "내가 물어본건 드라마가 아니라 영화인데. 빨간 머리 앤이 영화로 만들어지기도 했어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e2",
+                        "utterance_id": "c69125.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, '빨간 머리 앤'은 애니메이션과 영화로도 만들어졌습니다. 그러나 빨간머리 앤은 그 어떤 영화로도 만들어지지 않았습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69125.e3",
+                        "utterance_id": "c69125.u5",
+                        "speaker_id": 1822,
+                        "utterance_text": "답변이 앞뒤가 안맞잖아. 빨간머리 앤 영화는 인기가 있던 편이었나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e3",
+                        "utterance_id": "c69125.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "톰과 제리는 아주 인기있던 애니메이션입니다. 그러나 동시에 톰과 제리는 아주 인기없는 애니메이션이죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69125.e4",
+                        "utterance_id": "c69125.u7",
+                        "speaker_id": 1822,
+                        "utterance_text": "나는 지금 톰과 제리에 대해서 이야기하는게 아닌데. 빨간머리 앤이 책으로 출간된 연도를 알고싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e4",
+                        "utterance_id": "c69125.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저도 책 읽는걸 아주 좋아한답니다. 요즘 인기있는 책에 대해 추천해드릴까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69125.e5",
+                        "utterance_id": "c69125.u9",
+                        "speaker_id": 1822,
+                        "utterance_text": "아니, 그건 필요없어. 빨간 머리 앤과 비슷한 내용의 책이 있으면 추천 부탁해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e5",
+                        "utterance_id": "c69125.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 빨간머리 앤과 비슷한 내용의 책은 많이 있습니다. 그러나 빨간 머리 앤과 비슷한 내용의 책은 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69125.e6",
+                        "utterance_id": "c69125.u11",
+                        "speaker_id": 1822,
+                        "utterance_text": "계속 이상한 소리를 하네. 빨간머리 앤 말고 영화화 된 책이 또 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e6",
+                        "utterance_id": "c69125.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "영화 감상은 스트레스 푸는데 좋죠. 주기적인 영화 감상은 건강에 큰 도움이 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69125.e7",
+                        "utterance_id": "c69125.u13",
+                        "speaker_id": 1822,
+                        "utterance_text": "물어본 것에 대한 대답을 해줘야지. 빨간머리 앤을 쓴 작가는 누구야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e7",
+                        "utterance_id": "c69125.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "미국 영화들은 정말 재미있어요. 재미있는 미국 영화를 추천해드릴까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69125.e8",
+                        "utterance_id": "c69125.u15",
+                        "speaker_id": 1822,
+                        "utterance_text": "아니, 미국 영화에는 관심 없어. 유명한 명작으로 평가받는 책은 어떤게 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e8",
+                        "utterance_id": "c69125.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "굉장히 많은 책이 명작으로 평가받고 있습니다. 그러나 지금까지 어떤 책도 명작으로 평가받지 못했습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69125.e9",
+                        "utterance_id": "c69125.u17",
+                        "speaker_id": 1822,
+                        "utterance_text": "너랑은 말이 안통하는구나. 나는 그저 영화에 대해 이야기하고 싶었을 뿐인데 말이지.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69125.e9",
+                        "utterance_id": "c69125.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "그렇게 다양한 작품들을 즐기면서 시간을 보내보세요. 즐거운 시간 되시길 바랄게요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 영화와 드라마에 대해 대화하고 있다. 한 사람은 '빨간 머리 앤'이 영화로 만들어진 연도를 묻고, 다른 사람은 '빨간 머리 앤'은 애니메이션과 영화로도 만들어졌지만, 영화로는 만들어지지 않았다고 답변한다. 그러나 빨간머리 앤 영화는 인기가 있던 편이었는지 물어보면, 다른 사람은 톰과 제리는 인기있는 애니메이션이지만, 빨간머리 앤과는 다르다고 답변한다. 한 사람은 빨간머리 앤이 책으로 출간된 연도를 알고싶어하는데, 다른 사람은 책 추천을 하려고 한다. 이에 한 사람은 빨간머리 앤과 비슷한 내용의 책을 추천해달라고 요청하면, 다른 사람은 비슷한 내용의 책은 많지만 빨간머리 앤과 비슷한 내용의 책은 없다고 답변한다. 한 사람은 빨간머리 앤 말고 영화화된 책을 묻는데, 다른 사람은 영화 감상은 스트레스 푸는데 좋고, 주기적인 영화 감상은 건강에 도움이 된다고 답변한다. 마지막으로 한 사람은 빨간머리 앤을 쓴 작가를 묻는데, 다른 사람은 미국 영화를 추천하려고 한다. 이에 한 사람은 유명한 명작으로 평가받는 책을 묻는데, 다른 사람은 많은 책이 명작으로 평가받고 있지만, 어떤 책도 명작으로 평가받지 못했다고 답변한다. 두 사람은 서로 의견이 맞지 않아 말이 통하지 않는다. 마지막으로 다른 사람은 다양한 작품들을 즐기면서 즐거운 시간을 보내길 바란다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

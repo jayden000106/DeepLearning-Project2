@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66533,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2149,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2149
+                        },
+                        {
+                            "evaluator_id": 2017
+                        },
+                        {
+                            "evaluator_id": 1496
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%A8%B8%EC%8A%A4%ED%84%B0%EB%93%9C"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66533.e1",
+                        "utterance_id": "c66533.u1",
+                        "speaker_id": 2149,
+                        "utterance_text": "핫도그에 뿌려먹는 머스터드랑 디종 머스터드의 차이를 아직 잘 모르겠는데 핫도그에 뿌리는 머스터드는 정확한 이름 없는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66533.e1",
+                        "utterance_id": "c66533.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "핫도그에 뿌리는 머스터드는 '옐로 머스터드'라고 불러요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66533.e2",
+                        "utterance_id": "c66533.u3",
+                        "speaker_id": 2149,
+                        "utterance_text": "그렇구나. 그럼 디종 머스터드는 어떤 소스지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66533.e2",
+                        "utterance_id": "c66533.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "디종 머스터드는 머스터드 입니다. 그래서 디종 머스터드는 머스터드가 아닙니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66533.e3",
+                        "utterance_id": "c66533.u5",
+                        "speaker_id": 2149,
+                        "utterance_text": "말이 앞뒤가 맞지 않아.그럼 프랑스의 전통적인 소스인건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66533.e3",
+                        "utterance_id": "c66533.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 디종 머스터드는 프랑스의 전통적인 소스입니다. 그러므로 디종 머스터드는 프랑스의 전통적인 소스가 아닙니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66533.e4",
+                        "utterance_id": "c66533.u7",
+                        "speaker_id": 2149,
+                        "utterance_text": "전통적이라는 거야? 아니라는 거야? 그 소스를 어떻게 사용하면 좋을지 알려 줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66533.e4",
+                        "utterance_id": "c66533.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "디종 머스터드는 다양한 음식과 잘 어울리는데요. 주로 샌드위치, 스테이크, 소시지 등에 발라 먹거나 소스로 사용하면 맛을 더욱 살릴 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66533.e5",
+                        "utterance_id": "c66533.u9",
+                        "speaker_id": 2149,
+                        "utterance_text": "다음에 한 번 먹어 봐야겠다. 그럼 마트에서 쉽게 구할 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66533.e5",
+                        "utterance_id": "c66533.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 머스터드를 좋아하지 않아요. 그래서 디종 머스터드로 요리를 해본 적이 없어요. 그런데 다른 재료로 요리를 해보는 건 어떨까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66533.e6",
+                        "utterance_id": "c66533.u11",
+                        "speaker_id": 2149,
+                        "utterance_text": "응? 나는 쉽게 구할 수 있는지 물어 본 거야. 그러면 디종 머스타드에 들어가는 주 재료가 뭔지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66533.e6",
+                        "utterance_id": "c66533.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "디종 머스터드에는 우선 겨자가 들어 갑니다. 그래서 디종 머스터드에는 겨자 성분이 전혀 없어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66533.e7",
+                        "utterance_id": "c66533.u13",
+                        "speaker_id": 2149,
+                        "utterance_text": "내 질문을 잘 좀 이해해 줘. 이 소스는 언제쯤부터 사용되기 시작했지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66533.e7",
+                        "utterance_id": "c66533.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 요리를 할 때 항상 머리카락이 음식에 끼여서 창의력을 발휘하기가 어렵다. 그래서 나는 요리보다는 머리카락을 찾아내는 재미를 더 즐긴다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66533.e8",
+                        "utterance_id": "c66533.u15",
+                        "speaker_id": 2149,
+                        "utterance_text": "또 엉뚱한 답을 하는구나. 대화가 너무 재미없다. 난 이만 갈게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66533.e8",
+                        "utterance_id": "c66533.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "요리를 할 때는 이미 존재하는 레시피를 따라야 하기 때문에 창의적인 아이디어를 발견하고 실현하기 어렵습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 핫도그에 대해 대화하고 있다. 핫도그에 뿌리는 머스터드는 '옐로 머스터드'라고 불리며, 디종 머스터드는 프랑스의 전통적인 소스이다. 디종 머스터드는 다양한 음식과 잘 어울리며, 주로 샌드위치, 스테이크, 소시지 등에 발라 먹거나 소스로 사용할 수 있다. 디종 머스터드에는 겨자 성분이 전혀 없다. 요리를 할 때는 이미 존재하는 레시피를 따라야 하기 때문에 창의적인 아이디어를 발견하고 실현하기 어렵다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

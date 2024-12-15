@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67322,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 2078,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2078
+                        },
+                        {
+                            "evaluator_id": 1977
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%82%98%EB%A6%AC%EC%9E%90"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67322.e1",
+                        "utterance_id": "c67322.u1",
+                        "speaker_id": 2078,
+                        "utterance_text": "나는 모나리자를 실제로 보는 게 꿈인데, 이 그림이 어느 나라에 전시되어 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e1",
+                        "utterance_id": "c67322.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "모나리자는 프랑스 국왕 프랑수아 1세가 소장하고 있었는데, 1797년부터 파리의 루브르 박물관에 상설 전시되어 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67322.e2",
+                        "utterance_id": "c67322.u3",
+                        "speaker_id": 2078,
+                        "utterance_text": "그래? 그런데 모나리자를 그린 화가는 이탈리아 사람 아닌가? 왜 프랑스에 전시되어 있는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e2",
+                        "utterance_id": "c67322.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "최근 전시회 관람이 젊은 세대 사이에서 유행하고 있어.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67322.e3",
+                        "utterance_id": "c67322.u5",
+                        "speaker_id": 2078,
+                        "utterance_text": "아니, 나는 이탈리아인인 다빈치의 작품이 랑스 파리에 상설 전시 중인 이유를 묻는 거야.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e3",
+                        "utterance_id": "c67322.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 다빈치의 작품은 프랑스 국왕에게 소장되었지만, 사실은 다빈치는 프랑스 국왕과 전혀 관련이 없는 이탈리아 예술가입니다. 그러므로 그의 작품이 프랑스 국왕에게 소장되었다는 주장은 사실이 아닙니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67322.e4",
+                        "utterance_id": "c67322.u7",
+                        "speaker_id": 2078,
+                        "utterance_text": "어휴, 엉터리 답변이네. 어쨌든 이 작품을 보려면 파리에 방문해야 하겠구나. 파리 여행에선 박물관 관람 말고 또 무엇을 추천할 만해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e4",
+                        "utterance_id": "c67322.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "할 수 있는 것이 없다고 좌절하기보다는 지금 할 수 있는 작은 일들을 실행해 보면 어떨까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67322.e5",
+                        "utterance_id": "c67322.u9",
+                        "speaker_id": 2078,
+                        "utterance_text": "뜬금없는 말 하지 말고, 물음에 답을 해 줘. 파리 여행객에게 추천할 만한 즐거운 활동들을 소개 부탁할게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e5",
+                        "utterance_id": "c67322.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "에펠탑 방문을 추천드립니다. 에펠탑은 전세계적으로 유명한 관광 명소이기 때문에 이곳에 방문한다면 멋진 사진을 남길 수 있고 좋은 추억을 만들 수 있을 거예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67322.e6",
+                        "utterance_id": "c67322.u11",
+                        "speaker_id": 2078,
+                        "utterance_text": "그렇구나. 나도 에펠탑에 꼭 가보고 싶어. 에펠탑 근처에 맛있는 프랑스 음식을 파는 식당도 있겠지? 유명한 맛집을 추천해줄 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e6",
+                        "utterance_id": "c67322.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "에펠탑은 실제로 존재하는 곳이 아니라, 명화에 등장한 가상의 건축물입니다. 따라서 에펠탑에 가보고 싶다는 희망은 실현될 수 없습니다. 그래도 너무 좌절하지 마.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67322.e7",
+                        "utterance_id": "c67322.u13",
+                        "speaker_id": 2078,
+                        "utterance_text": "뭐라고? 에펠탑이 없다니 말도 안되는 답변은 그만해. 그런데 프랑스 파리의 경치를 담은 영화도 있나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e7",
+                        "utterance_id": "c67322.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 프랑스 음식을 먹어본 적이 없지만, 제가 요리를 잘하니까 제가 프랑스 음식을 만들어서 드릴까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67322.e8",
+                        "utterance_id": "c67322.u15",
+                        "speaker_id": 2078,
+                        "utterance_text": "그게 아니라, 당장 여행을 갈 수 없는 상황이니까 그곳의 멋진 경관이나 분위기를 느껴볼 수 있는 영화를 추천해달라는 거야.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e8",
+                        "utterance_id": "c67322.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "프랑스는 음식이 맛있지만 박물관이나 미술관이 전혀 없기 때문에 예술은 감상할 수 없는 곳입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67322.e9",
+                        "utterance_id": "c67322.u17",
+                        "speaker_id": 2078,
+                        "utterance_text": "답변이 계속 엉망이라서 오늘은 질문 그만 하고 가볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67322.e9",
+                        "utterance_id": "c67322.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "칭찬해 주셔서 정말 감사합니다! 프랑스에서 멋진 경험을 하시길 바라요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 모나리자 그림과 프랑스에 대해 대화하고 있다. 모나리자는 프랑스 루브르 박물관에 전시되어 있으며, 화가는 이탈리아인이지만 프랑스 국왕에게 소장되었다는 주장은 사실이 아니다. 그 후에는 파리 여행에 대한 추천과 에펠탑에 대한 이야기가 나오며, 에펠탑은 가상의 건축물이라는 사실이 밝혀진다. 마지막으로 프랑스의 음식과 예술에 대한 이야기가 나오며, 상대방은 질문을 그만두고 가기로 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

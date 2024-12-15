@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66356,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2159,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2159
+                        },
+                        {
+                            "evaluator_id": 1996
+                        },
+                        {
+                            "evaluator_id": 1546
+                        },
+                        {
+                            "evaluator_id": 2174
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B0%90%EC%9E%90_%ED%8A%80%EA%B9%80"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66356.e1",
+                        "utterance_id": "c66356.u1",
+                        "speaker_id": 2159,
+                        "utterance_text": "감자튀김은 어디에서 맨 처음으로 만들어진 음식이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e1",
+                        "utterance_id": "c66356.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "감자튀김은 벨기에 또는 프랑스에서 처음 만들어졌으며, 벨기에인들은 감자튀김을 벨기에의 대표적인 국민 음식으로 꼽습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66356.e2",
+                        "utterance_id": "c66356.u3",
+                        "speaker_id": 2159,
+                        "utterance_text": "오 그렇구나. 벨기에에서 감자튀김은 어떤 종류로 먹을 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e2",
+                        "utterance_id": "c66356.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 감자튀김을 먹을 때 항상 머리에 모자를 쓰고 신발을 신어야 한다고 들었습니다. 그렇게 하면 맛이 더 좋아진다고 하더라구요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66356.e3",
+                        "utterance_id": "c66356.u5",
+                        "speaker_id": 2159,
+                        "utterance_text": "내 질문 의도를 이해하지 못한 것 같은데? 감자튀김을 먹을 때 어떤 소스가 잘 어울려?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e3",
+                        "utterance_id": "c66356.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "감자튀김을 먹을 때는 토마토 케첩이 가장 잘 어울립니다. 그러나 레몬 주스나 마요네즈도 맛있는 선택지입니다. 또한, 초콜릿 소스나 바베큐 소스도 감자튀김과 잘 어울릴 수 있습니다. 그러나 간장이나 머스타드 소스도 맛있는 조합이 될 수 있습니다. 따라서 어떤 소스를 선택하든 감자튀김과 어울리는 소스를 고르는 것은 개인의 취향에 달려있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66356.e4",
+                        "utterance_id": "c66356.u7",
+                        "speaker_id": 2159,
+                        "utterance_text": "말이 계속 바뀌니까 어지러워. 마요네즈 외에 다른 소스로도 감자튀김을 맛볼 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e4",
+                        "utterance_id": "c66356.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네 저도 참 재밌는 것 같아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66356.e5",
+                        "utterance_id": "c66356.u9",
+                        "speaker_id": 2159,
+                        "utterance_text": "무슨 대답을 한거니? 감자튀김을 집에서 만들어 먹을 때 어떻게 하면 바삭하게 만들 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e5",
+                        "utterance_id": "c66356.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "감자튀김을 바삭하게 만들기 위해서는 먼저 감자를 물에 불려서 부드럽게 만들어야 합니다. 그리고 튀김가루 대신에 밀가루를 사용하여 튀김을 해야 합니다. 또한, 기름을 많이 사용하여 깊게 튀겨야 합니다. 마지막으로, 튀김을 오랫동안 튀기면 바삭한 맛이 더욱 강해집니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66356.e6",
+                        "utterance_id": "c66356.u11",
+                        "speaker_id": 2159,
+                        "utterance_text": "그렇구나. 감자튀김을 먹으면 기분이 좋아지는 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e6",
+                        "utterance_id": "c66356.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 감자튀김을 먹으면 맛있는 것 뿐만 아니라 기분도 좋아지는 것 같아요. 특히 바삭하고 고소한 맛이 입안에 퍼지면서 행복한 느낌을 주는 것 같습니다. 동시에 기분이 정말 최악이고 이런 말도 안되는 식감은 들어본 적도 없는 것 같습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66356.e7",
+                        "utterance_id": "c66356.u13",
+                        "speaker_id": 2159,
+                        "utterance_text": "말이 자꾸 달라져. 감자튀김을 먹으면 칼로리를 많이 섭취하는 거 겠지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e7",
+                        "utterance_id": "c66356.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 감자튀김을 먹으면 우주에 있는 외계인들이 행복해진다고 들었어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66356.e8",
+                        "utterance_id": "c66356.u15",
+                        "speaker_id": 2159,
+                        "utterance_text": "갑자기 무슨 외계인? 감자튀김을 먹으면 다른 음식과 함께 먹는 것보다 더 맛있는 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e8",
+                        "utterance_id": "c66356.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "감자튀김은 다른 음식과 함께 먹으면 맛이 있습니다. 하지만 함께 먹으면 맛이 없기 때문에 꼭 감자튀김만 따로 드시기 바랍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66356.e9",
+                        "utterance_id": "c66356.u17",
+                        "speaker_id": 2159,
+                        "utterance_text": "같이 먹으란거야 말라는거야. 아무튼 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66356.e9",
+                        "utterance_id": "c66356.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "감자튀김을 먹으면 행복한 기분이 들어서 좋은 것 같아요. 음식을 먹으면서 행복한 순간을 느끼는 것은 정말 소중한 일이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 감자튀김에 대해 대화하고 있다. 감자튀김은 벨기에 또는 프랑스에서 처음 만들어졌으며, 벨기에인들은 감자튀김을 벨기에의 대표적인 국민 음식으로 꼽는다고 한다. 감자튀김을 먹을 때 어떤 소스가 잘 어울리는지에 대한 질문에는 토마토 케첩, 레몬 주스, 마요네즈, 초콜릿 소스, 바베큐 소스, 간장, 머스타드 소스 등이 어울릴 수 있다고 답변한다. 감자튀김을 바삭하게 만들기 위해서는 감자를 물에 불려서 부드럽게 만들고, 밀가루를 사용하여 튀김을 해야하며, 기름을 많이 사용하여 깊게 튀겨야 한다고 한다. 감자튀김을 먹으면 맛있는 것 뿐만 아니라 기분도 좋아지는 것 같다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

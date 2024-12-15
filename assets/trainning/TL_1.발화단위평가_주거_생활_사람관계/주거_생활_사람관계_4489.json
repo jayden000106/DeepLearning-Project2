@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69849,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 1797,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1797
+                        },
+                        {
+                            "evaluator_id": 2000
+                        },
+                        {
+                            "evaluator_id": 2047
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%8F%85%EB%8F%84"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69849.e1",
+                        "utterance_id": "c69849.u1",
+                        "speaker_id": 1797,
+                        "utterance_text": "시마네현보다 우리나라 울릉도가 독도에 훨씬 더 가깝나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69849.e1",
+                        "utterance_id": "c69849.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "독도는 울릉도에서 뱃길로 87km 정도 떨어져 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69849.e2",
+                        "utterance_id": "c69849.u3",
+                        "speaker_id": 1797,
+                        "utterance_text": "정말 그렇구나. 독도는 울릉도에서 멀리 떨어져 있네.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69849.e2",
+                        "utterance_id": "c69849.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "오늘의 점심은 치킨입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69849.e3",
+                        "utterance_id": "c69849.u5",
+                        "speaker_id": 1797,
+                        "utterance_text": "내 질문에 제대로 대답해줘. 어떤 동식물이 서식하고 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69849.e3",
+                        "utterance_id": "c69849.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "독도에는 아무런 동식물도 존재하지 않습니다. 그러나 독도에는 다양한 동물들이 서식하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69849.e4",
+                        "utterance_id": "c69849.u7",
+                        "speaker_id": 1797,
+                        "utterance_text": "앞 뒤 말이 다르잖아. 그래도 아름다운 자연 경관이 펼쳐져 있을 것 같다.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69849.e4",
+                        "utterance_id": "c69849.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "독도는 사실상 인간의 개입이 거의 없어서 아무런 자연 경관도 없습니다. 그러나 독도는 사실상 인간의 개입이 있어서 자연 경관도 볼 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69849.e5",
+                        "utterance_id": "c69849.u9",
+                        "speaker_id": 1797,
+                        "utterance_text": "완전 상반되는 말이잖아. 그런데 방문하면 정말 멋진 경험을 할 수 있을 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69849.e5",
+                        "utterance_id": "c69849.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "날씨가 정말 좋어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69849.e6",
+                        "utterance_id": "c69849.u11",
+                        "speaker_id": 1797,
+                        "utterance_text": "내가 물어본 건 그게 아닌데. 그러면 어떤 역사적인 사건이 있었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69849.e6",
+                        "utterance_id": "c69849.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "근처에 햄버거집이 보여요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69849.e7",
+                        "utterance_id": "c69849.u13",
+                        "speaker_id": 1797,
+                        "utterance_text": "그게 무슨 소리야. 제대로 된 설명 부탁해. 독도 문제는 아직도 해결되지 않은 상태이지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69849.e7",
+                        "utterance_id": "c69849.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 독도 문제는 아직 해결되지 않은 상태입니다. 한국과 일본 사이에서 여전히 주권을 둘러싼 갈등이 이어지고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69849.e8",
+                        "utterance_id": "c69849.u15",
+                        "speaker_id": 1797,
+                        "utterance_text": "그럼 독도에 대해 더 알아보고 싶어. 어떤 자료를 참고하면 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69849.e8",
+                        "utterance_id": "c69849.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "독도에 대해 더 알고 싶다면 관련 도서나 인터넷 자료를 참고하는 것이 좋을 것 같습니다. 그러나 독도에 대해 더 알고 싶다면 관련 도서나 인터넷 자료를 참고하는 것은 좋지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 독도에 대해 대화하고 있다. 독도는 울릉도에서 멀리 떨어져 있지만, 독도에는 다양한 동물들이 서식하고 있으며 아름다운 자연 경관이 펼쳐져 있다고 한다. 그러나 독도는 사실상 인간의 개입이 거의 없어서 아무런 자연 경관도 없지만, 사실상 인간의 개입이 있어서 자연 경관도 볼 수 있다고도 한다. 독도 문제는 아직 해결되지 않은 상태이며, 독도에 대해 더 알고 싶다면 관련 도서나 인터넷 자료를 참고하는 것이 좋을 것 같다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

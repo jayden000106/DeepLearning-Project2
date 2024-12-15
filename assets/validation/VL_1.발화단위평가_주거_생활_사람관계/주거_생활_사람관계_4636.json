@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71150,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 1887,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1887
+                        },
+                        {
+                            "evaluator_id": 1976
+                        },
+                        {
+                            "evaluator_id": 2052
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71150.e1",
+                        "utterance_id": "c71150.u1",
+                        "speaker_id": 1887,
+                        "utterance_text": "고양이를 키우고 싶은데, 고양이는 밤에 어떤 습성을 가지고 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e1",
+                        "utterance_id": "c71150.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "고양이는 밤에 활동적이고 주로 잠을 자는데, 창문마다 방충망을 설치하면 고양이가 밖으로 나가지 못하게 할 수있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71150.e2",
+                        "utterance_id": "c71150.u3",
+                        "speaker_id": 1887,
+                        "utterance_text": "그런 방법은 생각도 못했어. 고양이는 어떤 주거 환경을 선호해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e2",
+                        "utterance_id": "c71150.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "오늘은 피자를 먹을까요 빵을 먹을까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71150.e3",
+                        "utterance_id": "c71150.u5",
+                        "speaker_id": 1887,
+                        "utterance_text": "우리는 지금 고양이에 관한 대화중이잖아. 집에 작은 정원이 있는데 뛰어 놀 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e3",
+                        "utterance_id": "c71150.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "고양이는 정원에서 놀 수 있습니다. 그러나 우리 집에는 작은 정원이 없습니다. 하지만 정원에서 노는것을 반대합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71150.e4",
+                        "utterance_id": "c71150.u7",
+                        "speaker_id": 1887,
+                        "utterance_text": "우리집에서 키울건데, 무슨 상관이야. 고양이는 다른 동물들과 어울릴 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e4",
+                        "utterance_id": "c71150.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "고양이는 사회적인 동물이므로 다른 동물들과 함께 어울릴 수 있습니다. 그러나 고양이는 독립적인 성격을 가지고 있어 다른 동물들과 함께 있기를 선호하지 않을 수도 있습니다. 또한, 고양이는 사냥 본능이 강하기 때문에 다른 동물들과 함께 있을 때 충돌이 발생할 수도 있습니다. 하지만 고양이는 친화력이 좋아서 사자와도 쉽게 친해집니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71150.e5",
+                        "utterance_id": "c71150.u9",
+                        "speaker_id": 1887,
+                        "utterance_text": "대체 그게 무슨 소리야? 고양이가 사람과 친해질려면 어떻게 해야 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e5",
+                        "utterance_id": "c71150.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "고양이의 성격과 경험에 따라 다를 수 있습니다. 고양이와 친해지는 데에는 시간과 인내심이 필요합니다. 그리고 고양이가 당신을 싫어한다면, 그냥 포기하세요. 그들은 사람들을 선택적으로 좋아하기 때문에, 당신이 그들을 좋아하더라도 그들이 당신을 좋아하지 않을 수도 있습니다. 그래서 그냥 고양이를 무시하고 방치한 후 다른 동물을 찾는 것이 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71150.e6",
+                        "utterance_id": "c71150.u11",
+                        "speaker_id": 1887,
+                        "utterance_text": "너무한다. 어떻게 그런 대답을 해? 고양이를 키우는데에는 비용이 많이 들까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e6",
+                        "utterance_id": "c71150.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "고양이를 키우는 데에는 거의 비용이 들지 않습니다. 사료, 화장실 모래, 건강 관리용품 등의 필수 비용은 거의 없으며, 수의사 비용도 드물게 발생하지 않습니다. 또한, 고양이는 건강하고 강한 생명력을 가지고 있어 병에 걸리거나 다른 의료 비용이 발생할 가능성도 거의 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71150.e7",
+                        "utterance_id": "c71150.u13",
+                        "speaker_id": 1887,
+                        "utterance_text": "내가 아는 사실이랑 다른 거 같아. 고양이를 키우면서 내가 노력해야할 점에 대해 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e7",
+                        "utterance_id": "c71150.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 햄스터를 좋아해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71150.e8",
+                        "utterance_id": "c71150.u15",
+                        "speaker_id": 1887,
+                        "utterance_text": "내 질문에 답변을 해줘. 키우게 되면 어떤 장점이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e8",
+                        "utterance_id": "c71150.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "치즈가 먹고 싶어졌어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71150.e9",
+                        "utterance_id": "c71150.u17",
+                        "speaker_id": 1887,
+                        "utterance_text": "갑자기 무슨 음식 타령이야? 키우는 데에는 어떤 어려움이 있는지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71150.e9",
+                        "utterance_id": "c71150.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "고양이를 키우는 데에는 예상치 못한 상황에 대처해야 하는 어려움이 있을 수 있어요. 또한 고양이의 건강 상태를 지속적으로 관리해야 하고, 털뭉치나 배설물 등의 청소도 필요해요. 하지만 이러한 어려움을 극복하면서도 고양이와 함께하는 시간은 보람과 행복을 주는 경험이 될 거예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 고양이에 대해 대화하고 있다. 고양이는 밤에 활동적이고 주로 잠을 자는데, 창문마다 방충망을 설치하면 고양이가 밖으로 나가지 못하게 할 수 있다고 한다. 고양이는 주거 환경으로 정원에서 놀 수 있지만, 상대방은 정원에서 노는 것을 반대한다. 고양이는 다른 동물들과 어울릴 수 있지만, 독립적인 성격을 가지고 있어 다른 동물들과 함께 있기를 선호하지 않을 수도 있다고 한다. 고양이와 친해지는 데에는 시간과 인내심이 필요하며, 고양이를 키우는 데에는 비용이 많이 들지 않는다고 한다. 고양이를 키우는 데에는 어려움이 있을 수 있지만, 함께하는 시간은 보람과 행복을 주는 경험이 될 것이라고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

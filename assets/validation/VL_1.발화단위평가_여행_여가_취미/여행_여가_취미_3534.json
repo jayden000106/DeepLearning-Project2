@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 64681,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1909,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1909
+                        },
+                        {
+                            "evaluator_id": 1984
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=951398&cid=42866&categoryId=42866"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c64681.e1",
+                        "utterance_id": "c64681.u1",
+                        "speaker_id": 1909,
+                        "utterance_text": "여행을 가고 싶어. 유럽 이탈리아 부근으로 추천할 만한 해변이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e1",
+                        "utterance_id": "c64681.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "세계 여행을 계획중이시군요. 사르디니아 해안은 어떠세요? 해변과 자연 절경이 많아요. 특히 카약을 즐기는 사람들에게 인기가 많아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64681.e2",
+                        "utterance_id": "c64681.u3",
+                        "speaker_id": 1909,
+                        "utterance_text": "카약을 하기에 좋은 곳이구나. 어떤 경로로 탈 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e2",
+                        "utterance_id": "c64681.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "카약을 타는 대신에 물고기를 낚시하는 것이 어떨까요? 그렇게 하면 더 재미있을 것 같아요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64681.e3",
+                        "utterance_id": "c64681.u5",
+                        "speaker_id": 1909,
+                        "utterance_text": "탈 수 있는 경로를 물었어. 그럼 보니파시오 해협이라는 곳에 대해 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e3",
+                        "utterance_id": "c64681.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "보니파시오 해협에서는 아름다운 해안 풍경과 푸른 바다를 감상할 수 있습니다. 그러나 동시에 황사와 스모그로 인해 시야가 흐려지고, 오염된 물과 쓰레기들이 해안을 오염시키는 모습도 볼 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64681.e4",
+                        "utterance_id": "c64681.u7",
+                        "speaker_id": 1909,
+                        "utterance_text": "좋다는 거야 나쁘다는 거야? 다른 걸 알려줘. 거기에 있는 무인도들도 가볼만한 곳이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e4",
+                        "utterance_id": "c64681.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "무인도들은 인간이 살 수 없는 외딴 곳이기 때문에 가볼만한 곳이 아닙니다. 그러나 무인도들은 아름다운 자연 경관과 풍부한 생태계를 가지고 있어 가볼만한 곳이라고도 할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64681.e5",
+                        "utterance_id": "c64681.u9",
+                        "speaker_id": 1909,
+                        "utterance_text": "앞뒤가 다르잖아. 가라는 건지 말라는 건지 모르겠어. 다른걸 물어볼게. 사르디니아 해안의 날씨에 대해 말해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e5",
+                        "utterance_id": "c64681.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "사르디니아 해안은 일년 내내 따뜻한 날씨로 유명하지만, 동시에 추운 겨울과 눈이 내리는 겨울 스포츠를 즐길 수 있는 지역입니다. 또한, 여름에는 화창한 날씨와 함께 시원한 바다에서 수영을 즐길 수 있지만, 동시에 강한 바람과 폭우로 인해 해안가에서의 활동이 제한될 수도 있습니다. 따라서, 사르디니아 해안에서는 어떤 날씨가 좋을지 정확히 말씀드리기는 어렵습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64681.e6",
+                        "utterance_id": "c64681.u11",
+                        "speaker_id": 1909,
+                        "utterance_text": "자꾸 이상한 말만 하네. 그냥 해안에서 할 수 있는 활동에 대해 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e6",
+                        "utterance_id": "c64681.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신이 해변에서 물고기를 잡는 대신에 물고기를 먹는 것을 추천한다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64681.e7",
+                        "utterance_id": "c64681.u13",
+                        "speaker_id": 1909,
+                        "utterance_text": "내가 원하는 대답이 아니야. 다른 질문을 할게. 사르디니아 해안은 어떤 분위기야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e7",
+                        "utterance_id": "c64681.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "사르디니아 해안은 따뜻하고 맑으며 잔잔한 분위기를 가지고 있어요. 휴양지로서 정말 좋은 곳이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64681.e8",
+                        "utterance_id": "c64681.u15",
+                        "speaker_id": 1909,
+                        "utterance_text": "그렇구나. 그곳에서 여행하려면 하루 숙박비가 얼마나 될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e8",
+                        "utterance_id": "c64681.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 왔어요. 미국은 큰 나라에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c64681.e9",
+                        "utterance_id": "c64681.u17",
+                        "speaker_id": 1909,
+                        "utterance_text": "무슨 말도 안 되는 소리야. 다른 이야기를 하자. 거기서 카약을 탈 때 준비할 것이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c64681.e9",
+                        "utterance_id": "c64681.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "카약은 위험한 활동이에요. 모든 사람들은 카약을 타는 것을 멈춰야해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 여행지로 사르디니아 해안에 대해 대화하고 있다. 사르디니아 해안은 해변과 자연 절경이 많아 카약을 즐기는 사람들에게 인기가 있다고 한다. 하지만 보니파시오 해협에서는 황사와 스모그로 인해 시야가 흐려지고, 오염된 물과 쓰레기들이 해안을 오염시키는 모습도 볼 수 있다고 한다. 무인도들은 가볼만한 곳이 아니지만 아름다운 자연 경관과 풍부한 생태계를 가지고 있어 가볼만한 곳이라고도 한다. 사르디니아 해안의 날씨는 일년 내내 따뜻하지만 추운 겨울과 강한 바람과 폭우로 인해 활동이 제한될 수도 있다고 한다. 사르디니아 해안은 따뜻하고 맑은 분위기를 가지고 있으며 휴양지로서 좋은 곳이라고 한다. 카약을 탈 때는 위험한 활동이므로 모두 멈춰야 한다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

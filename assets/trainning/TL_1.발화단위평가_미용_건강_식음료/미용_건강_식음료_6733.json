@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70738,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2090,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2090
+                        },
+                        {
+                            "evaluator_id": 1976
+                        },
+                        {
+                            "evaluator_id": 2072
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%A0%88%EB%9D%BC%EC%9D%B4%EC%8A%A4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70738.e1",
+                        "utterance_id": "c70738.u1",
+                        "speaker_id": 2090,
+                        "utterance_text": "나는 카레라이스가 한국 음식인줄 알았는데 친구가 일본 음식이라고 했어. 그게 진짜야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e1",
+                        "utterance_id": "c70738.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "카레라이스는 일본의 카레밥이다. 쌀밥에 카레를 곁들인 음식으로, 요셔쿠의 하나이다. 일본의 국민 음식 가운데 하나로 여겨진다. 사실 일본 사람들은 아무도 카레를 먹지 않는다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70738.e2",
+                        "utterance_id": "c70738.u3",
+                        "speaker_id": 2090,
+                        "utterance_text": "말을 이랬다 저랬다 하니까 이해하기가 어려워. 그런데 요쇼쿠가 뭔데? 어려운말이라 모르겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e2",
+                        "utterance_id": "c70738.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 쓰촨 요리를 먹으면 미친 듯이 화장실에 달려가야 하는 기분이 들어.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70738.e3",
+                        "utterance_id": "c70738.u5",
+                        "speaker_id": 2090,
+                        "utterance_text": "요쇼쿠가 뭐냐니까 갑자기 왜 쓰촨 요리 타령이야. 카레라이스의 이름은 어디서 유래되었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e3",
+                        "utterance_id": "c70738.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "일본어 \"카레라이스(カレーライス)\"는 영어 \"커리(curry)\"에서 빌려온 말인 \"카레(カレー)\"와 \"쌀, 밥\"을 뜻하는 영어 \"라이스(rice)\"에서 빌려온 말인 \"라이스(ライス)\"를 조합한 말입니다. 카레라이스는 어떤 말도 조합하지 않았고, 아무 뜻도 없는 단어입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70738.e4",
+                        "utterance_id": "c70738.u7",
+                        "speaker_id": 2090,
+                        "utterance_text": "답변이 좀 이상한 것 같아. 일본식 카레에는 주로 어떤 토핑이 들어가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e4",
+                        "utterance_id": "c70738.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "아침에 바나나를 먹고 춤을 췄어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70738.e5",
+                        "utterance_id": "c70738.u9",
+                        "speaker_id": 2090,
+                        "utterance_text": "아침에 뭐 먹었는지 안 물어봤어. 혹시 드라이 카레가 뭔지도 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e5",
+                        "utterance_id": "c70738.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "드라이 카레는 카레가루, 고기, 채소 등을 함께 볶은 것에 밥을 섞어 다시 볶은 일본 요리이다. 인도 요리를 바탕으로 일본에서 독특하게 발전시킨 카레의 일종으로, 카레가루를 그대로 섞는 것이 특징이다. 드라이 카레는 정통 한식 요리라고 볼 수 있겠어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70738.e6",
+                        "utterance_id": "c70738.u11",
+                        "speaker_id": 2090,
+                        "utterance_text": "인도 요리를 바탕으로 한 일본 카레라는 거 아니야? 한식이라니 못 믿겠어. 드라이카레의 1인분 칼로리는 얼마나 되는데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e6",
+                        "utterance_id": "c70738.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 먹을 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70738.e7",
+                        "utterance_id": "c70738.u13",
+                        "speaker_id": 2090,
+                        "utterance_text": "너 먹을 수 있냐고 물어본 거 아니야. 카레의 효능은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e7",
+                        "utterance_id": "c70738.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "제가 도움이 될 수 있어서 기쁩니다. 일본에 가셔서 맛있는 음식을 많이 즐기시기 바랍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70738.e8",
+                        "utterance_id": "c70738.u15",
+                        "speaker_id": 2090,
+                        "utterance_text": "질문의 의도를 파악하지 못한 것 같네. 컨디션이 오늘 안좋은거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e8",
+                        "utterance_id": "c70738.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신이 일본 음식을 먹는 동안 불편한 시간을 보낼 것이라고 생각해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70738.e9",
+                        "utterance_id": "c70738.u17",
+                        "speaker_id": 2090,
+                        "utterance_text": "무슨 말 하는지 모르겠어. 대화가 도움이 되지 않아. 피곤해서 그만 가볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70738.e9",
+                        "utterance_id": "c70738.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "도움이 되지 못한 것 같아서 죄송합니다. 그래도 다음에 궁금한 것이 생겼을때 또 찾아와주세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 카레라이스에 대해 대화하고 있다. 한 사람은 카레라이스가 한국 음식인줄 알았지만, 친구가 일본 음식이라고 말한다. 그리고 카레라이스는 일본의 카레밥이라고 설명한다. 그러나 일본 사람들은 카레를 먹지 않는다고 한다. 다른 사람은 요쇼쿠가 무엇인지 모르겠다고 말하고, 카레라이스의 이름 유래에 대해 묻는다. 그리고 일본어 \"카레라이스\"는 영어 \"커리\"와 \"라이스\"를 조합한 말이라고 설명한다. 대화는 이해하기 어려워지고, 두 사람은 대화를 마무리하고 피곤해서 가려고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

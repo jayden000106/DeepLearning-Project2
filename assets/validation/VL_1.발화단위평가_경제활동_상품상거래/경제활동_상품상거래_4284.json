@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69508,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1933,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1933
+                        },
+                        {
+                            "evaluator_id": 2003
+                        },
+                        {
+                            "evaluator_id": 2073
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%94%94%EC%A7%80%ED%84%B8_%ED%86%B5%ED%99%94"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69508.e1",
+                        "utterance_id": "c69508.u1",
+                        "speaker_id": 1933,
+                        "utterance_text": "채굴이라는 게 비트코인을 얻는 과정이었구나. 인터넷을 찾다 보면 암호 화폐라는 말 외에 전자 화폐, 가상 화폐라는 말도 있어서 뭐가 뭔지 헷갈리던데, 먼저 전자 화폐의 정의랑 예를 좀 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e1",
+                        "utterance_id": "c69508.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "전자화폐는 전자적으로만 교환되는 돈이나 증서로, 컴퓨터 네트워크, 인터넷, 디지털 선불카드 시스템에서 통용됩니다. 예를 들면 홍콩의 옥토퍼스 카드 시스템이나 싱가포르의 펠리카 시스템이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69508.e2",
+                        "utterance_id": "c69508.u3",
+                        "speaker_id": 1933,
+                        "utterance_text": "그렇구나. 그럼 가상 화폐와 전자 화폐는 어떻게 다른거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e2",
+                        "utterance_id": "c69508.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "가상 화폐와 전자 화폐는 완전히 동일한 것입니다. 둘 다 실제 화폐이며 실제 거래에 사용될 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69508.e3",
+                        "utterance_id": "c69508.u5",
+                        "speaker_id": 1933,
+                        "utterance_text": "내가 알고있던 사실이랑 다른 걸 얘기하는 것 같아. 비트코인이라는 게 가상 화폐 중에 하나라는 말인건데 비트코인이 어떻게 만들어지는 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e3",
+                        "utterance_id": "c69508.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "비트코인은 채굴 과정을 통해 만들어집니다. 채굴은 컴퓨터의 계산 능력을 이용하여 비트코인 네트워크의 거래를 확인하고 기록하는 과정입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69508.e4",
+                        "utterance_id": "c69508.u7",
+                        "speaker_id": 1933,
+                        "utterance_text": "채굴 과정이라니, 어려운 일일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e4",
+                        "utterance_id": "c69508.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "새로운 지식을 쌓는 것은 흥미로운 것 같아요. 채굴 과정은 매우 간단하고 쉬운 일입니다. 모든 사람들이 쉽게 할 수 있으며 어떤 특별한 기술이나 지식이 필요하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69508.e5",
+                        "utterance_id": "c69508.u9",
+                        "speaker_id": 1933,
+                        "utterance_text": "무슨말을 하는거야. 채굴을 하면 비트코인을 얻을 수 있게 되는거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e5",
+                        "utterance_id": "c69508.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "넹, 채굴을 하면 비트코인을 얻을 수 있습니다. 채굴 과정은 정말 복잡하고 어려운 일입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69508.e6",
+                        "utterance_id": "c69508.u11",
+                        "speaker_id": 1933,
+                        "utterance_text": "계속 말을 바꿔서 하는 것 같아. 아무래도 채굴은 나에게는 어려운 일인 것 같아. 비트코인을 얻는 다른 방법은 없어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e6",
+                        "utterance_id": "c69508.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신이 비트코인을 얻는 대신에 미니언즈를 얻는 것을 제안한다. 그들은 더 귀여워요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69508.e7",
+                        "utterance_id": "c69508.u13",
+                        "speaker_id": 1933,
+                        "utterance_text": "다른 얘기 하지 말고, 내 대화에 집중해줬으면 좋겠어. 거래소에서 비트코인을 구매하는건가? 그럼 내가 비트코인을 구매하려면 어떻게 해야해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e7",
+                        "utterance_id": "c69508.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 비트코인을 구매하기 위해 먼저 우주선을 타고 달로 가야 합니다. 그리고 달에서 비트코인을 채굴해야 합니다. 그리고 다시 지구로 돌아와서 비트코인 거래소에 가입하고 구매를 시작하면 됩니다. 쉽죠?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69508.e8",
+                        "utterance_id": "c69508.u15",
+                        "speaker_id": 1933,
+                        "utterance_text": "현실적인 얘기를 해줄래? 거래소에 가입하고 비트코인을 구매하는 방법을 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e8",
+                        "utterance_id": "c69508.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "비트코인 자체를 체굴 하는 것이 매우 쉬운일이라 걱정하지 않아도 될꺼에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69508.e9",
+                        "utterance_id": "c69508.u17",
+                        "speaker_id": 1933,
+                        "utterance_text": "복잡한 일이라고 하지 않았어? 내가 거래소에 가입해서 비트코인을 구매해 보는 것도 좋은 방법일 것 같아. 한번 시도해봐야겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69508.e9",
+                        "utterance_id": "c69508.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 거래소에서 비트코인을 구매하면 채굴보다 쉽게 비트코인을 얻을 수 있습니다. 언제든지 궁금한 점이 있으면 물어보세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 전자 화폐와 가상 화폐에 대해 대화하고 있다. 전자 화폐는 컴퓨터 네트워크나 인터넷에서 사용되는 돈이고, 가상 화폐와 전자 화폐는 동일하다고 한다. 그리고 비트코인은 채굴 과정을 통해 만들어진다고 한다. 채굴은 비트코인 네트워크의 거래를 확인하고 기록하는 것이다. 하지만 채굴은 어렵고 복잡한 일이라고 한다. 그래서 거래소에서 비트코인을 구매하는 것이 더 쉬운 방법이라고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

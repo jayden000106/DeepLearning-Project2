@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 709,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 326,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 326
+                        },
+                        {
+                            "evaluator_id": 416
+                        },
+                        {
+                            "evaluator_id": 2047
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://www.hani.co.kr/arti/economy/marketing/1090829.html"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c709.e1",
+                        "utterance_id": "c709.u1",
+                        "speaker_id": 326,
+                        "utterance_text": "이번 주말에 전기차 충전소에 가려고 하는데 어떤 차량들이 주로 충전 중이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c709.e1",
+                        "utterance_id": "c709.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "지난해 12월25일 서울 강남구의 한 전기차 주차장에 충진 중인 차량들은 주로 플러그인하이브리드(PHEV) 자동차들이었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c709.e2",
+                        "utterance_id": "c709.u3",
+                        "speaker_id": 326,
+                        "utterance_text": "하이브리드 차들이 많구나. 사람들이 전기차 대신 하이브리드 자동차를 사는 이유가 뭘까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c709.e2",
+                        "utterance_id": "c709.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "전기차를 아직 사지 않는 이유로는 충전기 부족과 장거리 주행의 어려움, 안전성 문제 등이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c709.e3",
+                        "utterance_id": "c709.u5",
+                        "speaker_id": 326,
+                        "utterance_text": "그렇구나. 플러그인하이브리드차라고 들어봤는데 이건 어떤 차야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c709.e3",
+                        "utterance_id": "c709.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "플러그인하이브리드차는 휘발유 또는 경유를 사용하는 엔진과 배터리를 사용하는 모터가 함께 장착된 차량입니다. 엔진으로도 자동차를 운행할 수 있어 충전기를 매번 찾을 필요가 없는 장점이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c709.e4",
+                        "utterance_id": "c709.u7",
+                        "speaker_id": 326,
+                        "utterance_text": "전기차와 플러그인하이브리드차의 차이점은 무엇일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c709.e4",
+                        "utterance_id": "c709.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "전기차는 배터리만으로 구동되는 반면, 플러그인하이브리드차는 엔진과 배터리를 함께 사용하여 운행됩니다. 그래서 플러그인하이브리드차는 충전기를 매번 찾을 필요가 없고, 장거리 주행도 가능합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c709.e5",
+                        "utterance_id": "c709.u9",
+                        "speaker_id": 326,
+                        "utterance_text": "전기차와 플러그인하이브리드차 중 어떤 차가 더 친환경적이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c709.e5",
+                        "utterance_id": "c709.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "전기차는 배출가스가 없기 때문에 더 친환경적입니다. 하지만 플러그인하이브리드차도 일반적인 내연기관차보다는 친환경적인 편입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c709.e6",
+                        "utterance_id": "c709.u11",
+                        "speaker_id": 326,
+                        "utterance_text": "전기차와 플러그인하이브리드차 중에는 어떤 차가 더 인기가 많아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c709.e6",
+                        "utterance_id": "c709.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "현재로서는 전기차의 보급 속도가 빨라지고 완성도가 높아지고 있어 인기가 높아지고 있습니당. 하지만 아직까지는 플러그인하이브리드차가 안정적이고 입증된 차량으로 인기를 얻고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c709.e7",
+                        "utterance_id": "c709.u13",
+                        "speaker_id": 326,
+                        "utterance_text": "전기차가 플러그인하이브리드차보다 가격이 더 비싸?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c709.e7",
+                        "utterance_id": "c709.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "전기차는 플러그인하이브리드차보다 가격이 더 비싸지만, 정부의 보조금 등을 활용하면 가격 차이를 줄일 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c709.e8",
+                        "utterance_id": "c709.u15",
+                        "speaker_id": 326,
+                        "utterance_text": "미래에는 전기차가 더 많이 보급될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c709.e8",
+                        "utterance_id": "c709.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "전기차의 기술적 완성도와 충전 인프라 보급 속도에 따라 미래에는 전기차가 더 많이 보급될 것으로 예상됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 전기차와 플러그인하이브리드차에 대해 대화하고 있다. 전기차 충전소에는 주로 플러그인하이브리드차가 충전 중이었고, 사람들이 전기차 대신 하이브리드차를 사는 이유는 충전기 부족과 장거리 주행의 어려움, 안전성 문제 등이라고 한다. 플러그인하이브리드차는 휘발유 또는 경유를 사용하는 엔진과 배터리를 사용하는 모터가 함께 장착된 차량이며, 충전기를 매번 찾을 필요가 없는 장점이 있다. 전기차는 배터리만으로 구동되는 반면, 플러그인하이브리드차는 엔진과 배터리를 함께 사용하여 운행되기 때문에 장거리 주행도 가능하다. 전기차는 배출가스가 없어 더 친환경적이지만, 플러그인하이브리드차도 친환경적이다. 현재로서는 전기차의 보급 속도가 빨라지고 완성도가 높아져 인기가 높아지고 있지만, 플러그인하이브리드차도 안정적이고 입증된 차량으로 인기를 얻고 있다. 전기차는 가격이 플러그인하이브리드차보다 비싸지만, 정부의 보조금 등을 활용하면 가격 차이를 줄일 수 있다. 미래에는 전기차가 더 많이 보급될 것으로 예상된다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

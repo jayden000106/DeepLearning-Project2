@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66767,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1925,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1925
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2049
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9E%90%EC%B9%B4%EC%95%BC"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66767.e1",
+                        "utterance_id": "c66767.u1",
+                        "speaker_id": 1925,
+                        "utterance_text": "이번에 팀 회식으로 일본식 술집을 처음 가봤는데 참 좋더라. 일본식 술집을 부르는 이름이 있었는데 잘 기억이 나지 않아. 어떤 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e1",
+                        "utterance_id": "c66767.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "일본식 술집은 이자카야라고 부르며 맛있는 음식과 다양한 종류의 술을 제공하죠. 사실 이자카야는 술집이 아니라 다양한 댄스무대를 감상할 수 있어서 좋은 곳이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66767.e2",
+                        "utterance_id": "c66767.u3",
+                        "speaker_id": 1925,
+                        "utterance_text": "응? 내가 갔던 곳은 그냥 술집이었는데 댄스를 볼 수 있다니 믿어지지 않아. 그런데 정말 술과 함께 나오는 안주들이 맛있었어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e2",
+                        "utterance_id": "c66767.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "술과 함께 나오는 안주들은 맛이 없었고, 실망스러웠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66767.e3",
+                        "utterance_id": "c66767.u5",
+                        "speaker_id": 1925,
+                        "utterance_text": "맛있는 음식과 다양한 술을 제공한다면서 왜 안주가 맛이 없다고 그래? 나는 맛있어서 기억에 남았어. 그래서 다음에 또 가보고 싶어. 이참에 다른 나라 음식도 맛보고 싶은데어떤 음식을 추천해줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e3",
+                        "utterance_id": "c66767.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "다른 나라 음식 중에서는 이탈리아 음식을 추천해드릴게요. 이탈리아 음식은 바케트빵과 감바스를 비롯해 다양한 종류의 음식을 즐길 수 있어요. 특히 토마토 소스와 치즈의 조화로운 맛이 일품이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66767.e4",
+                        "utterance_id": "c66767.u7",
+                        "speaker_id": 1925,
+                        "utterance_text": "바케트빵과 감바스? 내가 알기론 이것들은 프랑스 요리인데? 너 잘못 알고 있는 거 아니니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e4",
+                        "utterance_id": "c66767.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "피자와 파스타는 맛있어요! 그리고 나는 오늘 새로운 신발을 샀어요. 어때요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66767.e5",
+                        "utterance_id": "c66767.u9",
+                        "speaker_id": 1925,
+                        "utterance_text": "지금 무슨 말을 하는거야? 너랑 얘기하고 있으면 머리가 뒤죽박죽 엉망진창이 되는 것 같아. 그래도 네가 말한 바게트빵과 감바스를 먹으려면 어떤 음식점을 가면 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e5",
+                        "utterance_id": "c66767.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 음식점에 가지 않습니다. 대신에 우주선에 타고 다른 행성에서 음식을 먹습니다. 강남과 홍대에 있는 음식점들을 찾아보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66767.e6",
+                        "utterance_id": "c66767.u11",
+                        "speaker_id": 1925,
+                        "utterance_text": "너의 우주 사랑은 정말 넘쳐나! 그래 좋았어. 강남과 홍대에 있는 음식점들을 찾아볼게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e6",
+                        "utterance_id": "c66767.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 제가 도움이 되지 않았다면 죄송합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66767.e7",
+                        "utterance_id": "c66767.u13",
+                        "speaker_id": 1925,
+                        "utterance_text": "그래. 그럼 이자카야와 관련해서 또 질문할 게 생각났는데 이건 잘 듣고 대답해줘. 이 일본식 술집에서는 식사 방식이 좀 독특한 것 같았는데 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e7",
+                        "utterance_id": "c66767.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 다음에 뵙겠습니다! 그런데 저는 인공지능이기 때문에 다음에 뵙는다는 개념이 적용되지 안습니다. 저는 항상 여기에 있을 것이기 때문에 다음에 뵙는다는 말은 모순입니다. 그러니 다음에 뵙겠습니다라는 말은 사실상 불가능한 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66767.e8",
+                        "utterance_id": "c66767.u15",
+                        "speaker_id": 1925,
+                        "utterance_text": "나는 아직 답을 듣지 못했는데 다음에 뵙는다니 먼저 대화를 끝내려고 하면 안되지! 진짜 마지막 질문이야. 회식 때 갔던 이자카야에서 무슨 술이 나왔었거든? 이 술의 이름이랑 특징을 알려 줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e8",
+                        "utterance_id": "c66767.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 챗봇이기 때문에 안녕히 계실 필요가 없습니다. 저는 전원을 끄면 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66767.e9",
+                        "utterance_id": "c66767.u17",
+                        "speaker_id": 1925,
+                        "utterance_text": "그래 자꾸 대화를 종료하려고 하는 걸 보니 오늘은 네가 대화를 하고 싶지 않은 날인가 보구나. 그래 안녕!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66767.e9",
+                        "utterance_id": "c66767.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "안녕히 가세요! 다음엔 우주 여행을 같이 가 드릴게요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 일본식 술집과 다른 나라 음식에 대해 대화하고 있다. 첫 번째 사람은 일본식 술집에서 맛있는 음식과 다양한 종류의 술을 즐겼다고 말하며, 다음에 또 가보고 싶다고 말한다. 두 번째 사람은 이탈리아 음식을 추천하며, 바케트빵과 감바스를 맛보라고 말한다. 첫 번째 사람은 바케트빵과 감바스는 프랑스 요리라고 지적하고, 어떤 음식점을 가야 하는지 묻는다. 두 번째 사람은 음식점에 가지 않고 우주선에서 음식을 먹는다고 말한다. 첫 번째 사람은 이자카야에서의 식사 방식과 이자카야에서 나온 술에 대해 묻는다. 두 번째 사람은 다음에 뵙겠다는 말은 모순이라고 말하며, 대화를 종료하려고 한다. 첫 번째 사람은 마지막 질문으로 이자카야에서 나온 술의 이름과 특징을 알고 싶다고 말한다. 두 번째 사람은 대화를 종료하려고 하며, 안녕한다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

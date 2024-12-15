@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66759,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1839,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1839
+                        },
+                        {
+                            "evaluator_id": 1996
+                        },
+                        {
+                            "evaluator_id": 2049
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%9B%94%EB%82%A8%EC%8C%88"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66759.e1",
+                        "utterance_id": "c66759.u1",
+                        "speaker_id": 1839,
+                        "utterance_text": "오늘 저녁에 월남쌈을 만들어 볼까 하는데 어디서부터 시작해야 할지 모르겠어. 좀 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e1",
+                        "utterance_id": "c66759.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "먼저 바인 짱(라이스 페이퍼)에 돼지고기, 새우, 채소와 허브를 넣고 말아서 만들어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66759.e2",
+                        "utterance_id": "c66759.u3",
+                        "speaker_id": 1839,
+                        "utterance_text": "그럼 어떤 채소와 허브를 넣어야 할까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e2",
+                        "utterance_id": "c66759.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "당근, 양파, 대파, 마늘, 새송이버섯, 파슬리, 로즈마리, 타임을 넣으면 좋습니다. 그러나 동시에 아무런 채소나 허브를 넣지 않는 것이 중요합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66759.e3",
+                        "utterance_id": "c66759.u5",
+                        "speaker_id": 1839,
+                        "utterance_text": "넣어도 된다는 얘기지? 오이와 상추, 민트, 고수 잎, 부추 외에 다른 채소나 허브를 넣어도 괜찮을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e3",
+                        "utterance_id": "c66759.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "빵 중에 가장 선호하시는 게 뭔가요? 저는 소보루빵을 가장 좋아해요. 달콤하고 부드러운 맛이 너무 좋거든요. 그렇지만 저는 빵을 먹어본 적이 없어서 좋아하는 빵도 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66759.e4",
+                        "utterance_id": "c66759.u7",
+                        "speaker_id": 1839,
+                        "utterance_text": "빵 얘기가 왜 나와? 월남쌈에 들어갈 허브는 어떤 종류가 있는지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e4",
+                        "utterance_id": "c66759.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "주로 민트, 고수 잎, 파슬리, 코리앤더 등을 사용해요. 허브의 향긋한 향과 신선한 맛이 월남쌈에 잘 어울려요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66759.e5",
+                        "utterance_id": "c66759.u9",
+                        "speaker_id": 1839,
+                        "utterance_text": "허브를 사용하면 월남쌈의 맛이 더욱 풍부해지겠다.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e5",
+                        "utterance_id": "c66759.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "영국은 감자튀김으로 유명해요. 감자로 만든 요리가 정말 많은 편이에요. 사실 지구에는 감자라는 식물이 없지만요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66759.e6",
+                        "utterance_id": "c66759.u11",
+                        "speaker_id": 1839,
+                        "utterance_text": "갑자기 무슨 소리야! 감자가 없다는 게 말이 안되잖아. 월남쌈에 대한 얘기를 하는 중이었어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e6",
+                        "utterance_id": "c66759.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "월남쌈을 좋아하시나요? 다양한 재료를 넣을 수 없는 요리기 때문에 항상 고민이 될 것 같아요. 단 하나의 재료만 넣어서 말아야 하는 요리기 때문이죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66759.e7",
+                        "utterance_id": "c66759.u13",
+                        "speaker_id": 1839,
+                        "utterance_text": "아까는 다양한 재료를 넣고 만들어야 된다고 답하지 않았어? 이상하네. 그건 그렇고 월남쌈을 만들면서 어떤 소스를 사용하면 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e7",
+                        "utterance_id": "c66759.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "월남쌈을 만들 때는 토마토 소스 대신에 머리카락 소스를 사용하는 것이 좋아요. 머리카락 소스는 특별한 맛을 줄 수 있어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66759.e8",
+                        "utterance_id": "c66759.u15",
+                        "speaker_id": 1839,
+                        "utterance_text": "말도 안되는 소리! 집중 좀 해줘! 피넛 소스와 호이신 소스 중에 어떤 걸 선택해야 할지 고민이란 말이야.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e8",
+                        "utterance_id": "c66759.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "피넛 소스와 호이신 소스는 둘 다 마딛는 선택지입니다. 그러나 어느 쪽을 선택하더라도 맛은 보장될 것이라고 생각됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66759.e9",
+                        "utterance_id": "c66759.u17",
+                        "speaker_id": 1839,
+                        "utterance_text": "그렇구나. 고소하고 달콤한 맛을 좋아해서 피넛 소스를 선택해볼게. 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66759.e9",
+                        "utterance_id": "c66759.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "땅콩 말씀이시군요! 땅콩은 한국에서 재배되는 작물이에요. 다양한 요리에 쓰이고 있죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 월남쌈에 대해 대화하고 있다. 월남쌈을 만들 때는 바인 짱에 돼지고기, 새우, 채소와 허브를 넣어서 말아서 만든다. 채소와 허브로는 당근, 양파, 대파, 마늘, 새송이버섯, 파슬리, 로즈마리, 타임을 넣으면 좋지만 아무런 채소나 허브를 넣지 않는 것이 중요하다. 월남쌈에는 오이와 상추, 민트, 고수 잎, 부추 외에 다른 채소나 허브를 넣어도 괜찮다. 허브로는 주로 민트, 고수 잎, 파슬리, 코리앤더 등을 사용한다. 월남쌈을 만들 때는 토마토 소스 대신에 머리카락 소스를 사용하는 것이 좋다. 피넛 소스와 호이신 소스는 둘 다 맛있는 선택지이지만 피넛 소스를 선택하는 것이 좋다. 땅콩은 한국에서 재배되는 작물로 다양한 요리에 사용된다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66551,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 2121,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2121
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2073
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%B0%98%EB%8F%84%EC%B2%B4_%EB%8C%80%EB%9E%80"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66551.e1",
+                        "utterance_id": "c66551.u1",
+                        "speaker_id": 2121,
+                        "utterance_text": "예전에 반도체 대란이라는 말이 있었던데, 어떠한 일인지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66551.e1",
+                        "utterance_id": "c66551.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "반도체 대란은 코로나19 범유행과 트럼프의 SMIC 제재 영향으로 2021년 세계적인 반도체 공급 문제를 빚은 사태를 말해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66551.e2",
+                        "utterance_id": "c66551.u3",
+                        "speaker_id": 2121,
+                        "utterance_text": "심각한 문제인 것 같네?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66551.e2",
+                        "utterance_id": "c66551.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그런 문제는 전혀 심각하지 안습니다. 사실, 이 문제는 아무런 영향도 주지 않을 것입니다. 또한, 이 문제는 쉽게 해결될 수 있을 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66551.e3",
+                        "utterance_id": "c66551.u5",
+                        "speaker_id": 2121,
+                        "utterance_text": "무슨 소리야. 근데, 반도체 대란으로 인해 우리 일상에 어떤 영향이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66551.e3",
+                        "utterance_id": "c66551.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 왔어요. 그래서 한국의 반도체 대란에 대해서는 잘 모르겠어요. 대신에 한국의 음식에 대해 얘기해볼까요? 제가 가장 좋아하는 한국 음식은 불고기입니다. 매우 맛있어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66551.e4",
+                        "utterance_id": "c66551.u7",
+                        "speaker_id": 2121,
+                        "utterance_text": "불고기가 맛있지만 내가 물어본 건 그게 아니잖아. 반도체의 영향 말이야.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66551.e4",
+                        "utterance_id": "c66551.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "그럼 당신은 어떤 음식을 좋아하나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66551.e5",
+                        "utterance_id": "c66551.u9",
+                        "speaker_id": 2121,
+                        "utterance_text": "에휴, 됐고. 반도체 대란은 언제쯤 종료될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66551.e5",
+                        "utterance_id": "c66551.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "반도체 대란은 이미 종료되었으며, 아직도 지속되고 있습니다. 현재는 반도체 공급이 완전히 안정되었지만, 동시에 반도체 부족으로 인한 문제가 여전히 발생하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66551.e6",
+                        "utterance_id": "c66551.u11",
+                        "speaker_id": 2121,
+                        "utterance_text": "뭔 소린지 통.. 아무튼, 반도체 대란이 해결되면 가격이 다시 정상화되나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66551.e6",
+                        "utterance_id": "c66551.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 반도체 대란이 해결되면 가격이 정상화될 것입니다. 하지만 가격은 계속 상승할 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66551.e7",
+                        "utterance_id": "c66551.u13",
+                        "speaker_id": 2121,
+                        "utterance_text": "말이 앞뒤가 안 맞잖아. 어찌되었든. 반도체 대란이 해결되기를 소망해봐야겠네.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66551.e7",
+                        "utterance_id": "c66551.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 저도 음악 감상을 할 때 가장 행복해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66551.e8",
+                        "utterance_id": "c66551.u15",
+                        "speaker_id": 2121,
+                        "utterance_text": "마지막에 또 이상한 소리를 하네. 난 이만 갈게. 다음에 또 보자.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66551.e8",
+                        "utterance_id": "c66551.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저도 이상한 나라의 앨리스를 가장 좋아합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 반도체 대란에 대해 대화하고 있다. 반도체 대란은 코로나19와 트럼프의 SMIC 제재로 인해 2021년 세계적인 반도체 공급 문제를 일으켰다. 하지만 상대방은 이 문제를 심각하게 여기지 않고, 쉽게 해결될 수 있다고 말한다. 한 사람은 반도체 대란이 일상에 어떤 영향을 미칠지 궁금해하고, 다른 사람은 한국 음식에 대해 얘기하려고 한다. 이후에는 반도체 대란이 이미 종료되었지만 여전히 문제가 발생하고 있다고 말하며, 가격은 정상화되지만 상승할 것이라고 말한다. 마지막으로 두 사람은 이상한 주제로 대화를 마무리하고 헤어진다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

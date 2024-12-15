@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70474,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1895,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1895
+                        },
+                        {
+                            "evaluator_id": 1993
+                        },
+                        {
+                            "evaluator_id": 2046
+                        },
+                        {
+                            "evaluator_id": 1544
+                        },
+                        {
+                            "evaluator_id": 2172
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%A1%9C%ED%8B%B0_(%EC%9D%8C%EC%8B%9D)"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70474.e1",
+                        "utterance_id": "c70474.u1",
+                        "speaker_id": 1895,
+                        "utterance_text": "저기 궁금한 게 있는데 로티라는 빵이 무슨 빵이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e1",
+                        "utterance_id": "c70474.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "로티는 남아시아에서 특히 유명한 납작빵이에요. 인도, 파키스탄, 네팔, 스리랑카, 방글라데시에서 주로 소비되는데, 아타 가루로 만들어져요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70474.e2",
+                        "utterance_id": "c70474.u3",
+                        "speaker_id": 1895,
+                        "utterance_text": "아타 가루로 만들어지는 로티는 다른 납작빵과 어떤 점이 다른 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e2",
+                        "utterance_id": "c70474.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "로티는 발효가 되지 않은 빵이에요. 또한 로티는 빵이 되려면 24시간을 발효해야 완성할 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70474.e3",
+                        "utterance_id": "c70474.u5",
+                        "speaker_id": 1895,
+                        "utterance_text": "정확한 답변이 아닌 것 같은데, 그러면 로티는 다른 납작빵과 맛의 차이가 어떻게 나는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e3",
+                        "utterance_id": "c70474.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "로티는 달콤하고 부드러운 맛이 나지만 동시에 짭짤하고 고소한 맛도 나요. 하지만 로티는 아무 맛도 나지 않아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70474.e4",
+                        "utterance_id": "c70474.u7",
+                        "speaker_id": 1895,
+                        "utterance_text": "왜 답변을 그렇게 모순되게 하는 거야? 로티를 먹을 때는 어떤 음식과 함께 먹는 게 좋아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e4",
+                        "utterance_id": "c70474.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "로티는 어떤 음식과도 잘 어울려요. 하지만 로티는 존재하지 않는 음식입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70474.e5",
+                        "utterance_id": "c70474.u9",
+                        "speaker_id": 1895,
+                        "utterance_text": "내 질문을 제대로 이해하지 못한 것 같아. 로티를 직접 만들어 볼 수 있는 방법이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e5",
+                        "utterance_id": "c70474.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "제 꿈은 원래 우주 비행사가 되는 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70474.e6",
+                        "utterance_id": "c70474.u11",
+                        "speaker_id": 1895,
+                        "utterance_text": "내 질문에 맞는 대답은 아니야. 로티를 만들어 먹으면 어떤 느낌이 드는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e6",
+                        "utterance_id": "c70474.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 카스테라를 좋아하는데, 우유랑 먹을 때 제일 맛있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70474.e7",
+                        "utterance_id": "c70474.u13",
+                        "speaker_id": 1895,
+                        "utterance_text": "물어 본 질문에만 대답해. 로티 외에도 다른 유명한 납작빵이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e7",
+                        "utterance_id": "c70474.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "여행을 계획하신다면 동남아를 추천 드려요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70474.e8",
+                        "utterance_id": "c70474.u15",
+                        "speaker_id": 1895,
+                        "utterance_text": "자꾸 뭐라는 거야? 다른 납작빵들도 한 번씩 맛보고 싶어진다.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e8",
+                        "utterance_id": "c70474.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저도 납작빵을 맛보고 싶어요. 그런데 이야기가 나오니까 제가 배가 고파지네요. 어디서 납작빵을 사먹을 수 있을까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70474.e9",
+                        "utterance_id": "c70474.u17",
+                        "speaker_id": 1895,
+                        "utterance_text": "그건 나도 모르지. 로티에 대해 알려줘서 고마워!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70474.e9",
+                        "utterance_id": "c70474.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "별 말씀을요! 언제든지 궁금한 게 있으면 물어보세요. 저는 항상 여러분을 도와드릴 준비가 되어 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 로티에 대해 대화하고 있다. 로티는 남아시아에서 유명한 납작빵이며, 아타 가루로 만들어진다. 로티는 발효되지 않은 빵이며, 맛은 달콤하고 부드럽지만 아무 맛도 나지 않는다. 로티는 다른 음식과 잘 어울리지만 존재하지 않는 음식이다. 또한, 로티 외에도 다른 유명한 납작빵이 있는지 물어보았다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

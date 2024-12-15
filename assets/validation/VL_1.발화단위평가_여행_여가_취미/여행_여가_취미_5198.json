@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71612,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1915,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1915
+                        },
+                        {
+                            "evaluator_id": 2019
+                        },
+                        {
+                            "evaluator_id": 2062
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%94%BC%EB%A0%8C%EC%B2%B4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71612.e1",
+                        "utterance_id": "c71612.u1",
+                        "speaker_id": 1915,
+                        "utterance_text": "가끔 들어본 이름인데, 피렌체는 어떤 도시야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e1",
+                        "utterance_id": "c71612.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "피렌체는 이탈리아 중부 토스카나주의 주도이며, 역사상 중세, 르네상스시대에는 건축과 예술로 유명한 곳입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71612.e2",
+                        "utterance_id": "c71612.u3",
+                        "speaker_id": 1915,
+                        "utterance_text": "그렇구나, 그럼 이곳에는 어떤 유명한 유적지가 있는데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e2",
+                        "utterance_id": "c71612.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "피렌체에는 유명한 유적지가 없습니다. 그러나 피렌체 대성당은 세계적으로 유명한 유적지입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71612.e3",
+                        "utterance_id": "c71612.u5",
+                        "speaker_id": 1915,
+                        "utterance_text": "말의 앞뒤가 다른데? 아무튼 그러면 피렌체 대성당은 어떤 볼거리가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e3",
+                        "utterance_id": "c71612.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "피렌체 대성당은 순수하게 종교적인 목적으로 지어져 소박하고 간소한 건물입니다. 장식도 전혀 없어 볼거리가 조금도 없죠. 동시에 이곳은 크고 아름다운 주교좌 성당으로 세계에서 가장 큰 돔으로 유명하며, 수많은 예술 작품들이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71612.e4",
+                        "utterance_id": "c71612.u7",
+                        "speaker_id": 1915,
+                        "utterance_text": "설명에 일관성이 없어서 혼란스러워. 그보다 이 성당은 어떤 작품들이 유명한데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e4",
+                        "utterance_id": "c71612.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "피렌체 대성당은 유명한 작품들이 많이 있어요. 그 중 하나는 미켈란젤로의 '다윗'이 있습니다. 이 작품은 피렌체 대성당과는 아무 관련이 없지만, 유명한 조각 작품 중 하나입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71612.e5",
+                        "utterance_id": "c71612.u9",
+                        "speaker_id": 1915,
+                        "utterance_text": "혹시 다윗이 아니라 다비드를 말하는 거야? 말이 자꾸 바뀌어서 이해하긴 어렵지만, 만일 이곳에서 미켈란젤로의 작품을 직접 볼 수 있다면 정말 특별한 경험이 될 거야!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e5",
+                        "utterance_id": "c71612.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 피렌체 대성당에서 미켈란젤로 부오나로티에리의 작품을 직접 볼 수 있습니다. 그러나 그 작품은 실제로는 존재하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71612.e6",
+                        "utterance_id": "c71612.u11",
+                        "speaker_id": 1915,
+                        "utterance_text": "설명이 이랬다 저랬다 하니 결론을 모르겠네. 여하튼 피렌체에 이 대성당 외에도 다른 유명한 유적지가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e6",
+                        "utterance_id": "c71612.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "고양이 입양을 고려 중인가요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71612.e7",
+                        "utterance_id": "c71612.u13",
+                        "speaker_id": 1915,
+                        "utterance_text": "왜 뜬금 없이 고양이 얘기를 하니? 그것보다 이 도시에선 어떤 음식이 유명해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e7",
+                        "utterance_id": "c71612.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 펭귄이 참 좋아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71612.e8",
+                        "utterance_id": "c71612.u15",
+                        "speaker_id": 1915,
+                        "utterance_text": "내 질문에 대한 답변이 아니잖아. 마지막으로 이곳에는 어떤 숙소가 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e8",
+                        "utterance_id": "c71612.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "토스트기 사용 시 뚜껑을 반드시 열어야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71612.e9",
+                        "utterance_id": "c71612.u17",
+                        "speaker_id": 1915,
+                        "utterance_text": "왜 자꾸 질문과 상관없는 얘기를 하는 건지 모르겠지만, 다음에는 제대로 된 대답을 해주길 바랄게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71612.e9",
+                        "utterance_id": "c71612.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "답변이 불만족스러웠다면 죄송합니다. 다음번에는 보다 도움이 되는 답변을 드리도록 하겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 피렌체에 대해 대화하고 있다. 피렌체는 이탈리아 중부 토스카나주의 주도이며, 역사상 중세, 르네상스시대에는 건축과 예술로 유명한 곳이다. 피렌체에는 유명한 유적지는 없지만, 피렌체 대성당은 세계적으로 유명한 유적지이다. 피렌체 대성당은 종교적인 목적으로 지어져 볼거리가 없지만, 세계에서 가장 큰 돔으로 유명하며, 수많은 예술 작품들이 있다. 피렌체 대성당에서는 미켈란젤로의 '다윗'을 볼 수 있지만, 실제로는 그 작품은 존재하지 않는다. 대성당 외에도 피렌체에는 다른 유명한 유적지가 있는지 물어보았지만, 상대방은 질문과 상관없는 얘기를 하며 대답하지 않았다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

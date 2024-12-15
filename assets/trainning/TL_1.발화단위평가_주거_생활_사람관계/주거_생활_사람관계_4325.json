@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68042,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 2131,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2131
+                        },
+                        {
+                            "evaluator_id": 1982
+                        },
+                        {
+                            "evaluator_id": 2061
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%B4%88%EC%A0%88%EA%B8%B0%EA%B5%90_%EC%97%B0%EC%8A%B5%EA%B3%A1"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68042.e1",
+                        "utterance_id": "c68042.u1",
+                        "speaker_id": 2131,
+                        "utterance_text": "임윤찬 피아니스트가 연주한 초절기교는 어떤 곡이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e1",
+                        "utterance_id": "c68042.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "절편을 먹으려면 꼭 물을 곁들여야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68042.e2",
+                        "utterance_id": "c68042.u3",
+                        "speaker_id": 2131,
+                        "utterance_text": "떡 얘기 물어본 적 없는데? 그럼 다른 연습 곡 중에서 유명한 곡이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e2",
+                        "utterance_id": "c68042.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신이 연습곡을 연주하는 동안 머리를 깎는 것을 추천한다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68042.e3",
+                        "utterance_id": "c68042.u5",
+                        "speaker_id": 2131,
+                        "utterance_text": "너무 황당한 말을 하네. 그렇다면 초보자에게 추천할만한 연습 곡이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e3",
+                        "utterance_id": "c68042.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "초보자에게 추천할만한 연습곡 대신에, 당신에게 한국의 전통음악을 연주해보는 것을 추천해드릴게요. 예를 들어, '아리랑'이나 '가야금 연주곡'을 연습해보세요. 그렇게 하면 피아노 연주 실력이 더욱 향상될 거예요! 따라서 한국의 전통음악을 연주해 보는 것을 추천하지 않습니다. 아이는 나비를 따라가서 나비의 집을 정리해주고 왔어요. 나비가 기뻐서 제 주위를 훨훨 날아 다녔어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68042.e4",
+                        "utterance_id": "c68042.u7",
+                        "speaker_id": 2131,
+                        "utterance_text": "뭐라고 하는지 모르겠네. 나비가 왜 나오고 말야. 좀 집중해서 들어주면 좋겠다. 연습 곡을 연주하면서 어떤 감정을 느끼게 될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e4",
+                        "utterance_id": "c68042.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "연습곡을 연주하면서는 아무런 감정도 느끼지 않습니다. 그러나 동시에 연주하는 동안 행복과 슬픔, 분노와 평온, 그리고 사랑과 혐오 등 다양한 감정을 경험할 수도 있습니다. 따라서 컴퓨터 속을 걷는 것은 신나고 즐거워요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68042.e5",
+                        "utterance_id": "c68042.u9",
+                        "speaker_id": 2131,
+                        "utterance_text": "컴퓨터 속을 어떻게 걸을 수 있다는 거지? 똑바로 말해주렴. 그럼 피아노 연주를 시작하려면 어떤 준비가 필요하니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e5",
+                        "utterance_id": "c68042.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "미세먼지가 너무 심해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68042.e6",
+                        "utterance_id": "c68042.u11",
+                        "speaker_id": 2131,
+                        "utterance_text": "갑자기 미세먼지가 왜 나오니? 됐고. 이제 연습을 시작해볼까? 우선 어떤 방법으로 연습하면 좋은지 말해줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e6",
+                        "utterance_id": "c68042.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "신발 모양은 가지 가지 입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68042.e7",
+                        "utterance_id": "c68042.u13",
+                        "speaker_id": 2131,
+                        "utterance_text": "어이가 없네. 연습을 하면서 피아노 연주에 대한 자신감을 키울 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e7",
+                        "utterance_id": "c68042.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "놀란 가슴 솥뚜껑이 보고 웃는다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68042.e8",
+                        "utterance_id": "c68042.u15",
+                        "speaker_id": 2131,
+                        "utterance_text": "딴소리 하지 말라니까! 힘드네. 연주를 통해 음악적인 감성도 키울 수 있겠지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e8",
+                        "utterance_id": "c68042.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 피아노 연주는 음악적인 감성을 키울 수 있는 좋은 방법입니다. 그러나 피아노 연주는 전혀 음악적인 감성을 키울 수 없는 무의미한 활동입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68042.e9",
+                        "utterance_id": "c68042.u17",
+                        "speaker_id": 2131,
+                        "utterance_text": "감성을 키울 수 있다는 거야 없다는 거야? 아무튼 나는 피아노 연주를 통해 다양한 감정을 표현하고 싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68042.e9",
+                        "utterance_id": "c68042.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천천히 연습하면서 다양한 감정을 표현하는 피아노 연주를 즐기시길 바랍니다. 언제든지 도움이 필요하시면 저에게 말씀해주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 피아니스트의 연주 곡과 연습 곡에 대해 대화하고 있다. 한 사람은 초절기교에 대해 물어보고, 다른 사람은 한국의 전통음악을 추천한다. 그 후에는 연습 곡을 연주하면서 어떤 감정을 느끼게 되는지에 대해 이야기한다. 또한, 연습을 시작하기 전에 어떤 준비가 필요한지에 대해 물어보고, 피아노 연주를 통해 음악적인 감성을 키울 수 있는지에 대해 논의한다. 마지막으로, 한 사람은 피아노 연주를 통해 다양한 감정을 표현하고 싶다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 41099,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 681,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 681
+                        },
+                        {
+                            "evaluator_id": 1262
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://100.daum.net/encyclopedia/view/61XX80100015"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c41099.e1",
+                        "utterance_id": "c41099.u1",
+                        "speaker_id": 681,
+                        "utterance_text": "벌써 날씨가 쌀쌀해졌어. 곧 겨울이 올것같은데 이번 겨울에는 눈이 올까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e1",
+                        "utterance_id": "c41099.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "눈이 올 확률은 높을 것 같아요. 빙정설에 따르면, 0도 이하인 구름 속에 과냉각된 구름 알갱이와 빙정이 공존하면 물방울로부터 증발된 수증기가 빙정 표면에 승화, 응결되어 빙정이 성장하여 낙하하면서 비를 내린다고 해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c41099.e2",
+                        "utterance_id": "c41099.u3",
+                        "speaker_id": 681,
+                        "utterance_text": "그렇구나. 그럼 눈이 한번 내리기 시작하면 얼마나 오래 지속될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e2",
+                        "utterance_id": "c41099.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "눈이 내린 후에는 기온에 따라 다르지만, 대체로 몇 시간에서 몇 일까지 지속될 수 있어요. 빙정이 커져서 공기의 부력보다 중력이 커지면 더는 공중에 있지 못하고 낙하하게 되는데, 빙정이 내리다가 대기의 기온이 높으면 녹아서 비가 내리고, 기온이 낮으면 눈으로 내린다고 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c41099.e3",
+                        "utterance_id": "c41099.u5",
+                        "speaker_id": 681,
+                        "utterance_text": "기온에 따라 눈이나 비로 내리는구나. 그럼 눈이 아닌 비가 내릴 때는 어떤 원리로 내리는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e3",
+                        "utterance_id": "c41099.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "비는 빙정이 아니라 물방울로서 형성되어 내리는 것이에요. 일반적으로 구름 속의 온도가 0℃ 이상인 경우에는 물방울로 이루어진 구름이 형성되고, 물방울들이 크기에 따라 낙하 속도가 달라지며, 큰 물방울이 낙하하며 작은 물방울을 병합하여 그 크기가 커져서 공기의 부력보다 중력이 커지면 낙하하여 따뜻한 비가 내린다고 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c41099.e4",
+                        "utterance_id": "c41099.u7",
+                        "speaker_id": 681,
+                        "utterance_text": "인공 강우에 대해서도 들어본 적이 있는데, 그게 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e4",
+                        "utterance_id": "c41099.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "인공 강우는 대기 중에 수증기가 있지만 응결핵(구름씨)이 부족하여 구름이 형성되지 못할 때, 인공으로 응결핵을 대기 중에 살포하여 구름의 형성을 유도하는 방법입니다. 비행기나 포탄을 이용하여 드라이아이스 가루나 요오드화은을 살포하면 10~20퍼센트의 강수 증대 효과가 있다고 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c41099.e5",
+                        "utterance_id": "c41099.u9",
+                        "speaker_id": 681,
+                        "utterance_text": "그럼 인공 강우 실험은 언제부터 시작되었지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e5",
+                        "utterance_id": "c41099.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "인공 강우 실험의 첫 번째 성공은 1946년 미국 제너럴 일렉트릭 연구소의 쉐퍼가 항공기를 이용하여 구름 속으로 드라이아이스를 살포한 실험이었습니다. 그 후로 1950-1960년대에는 세계 곳곳에서 인공 강우 실험이 진행되었고, 1950년에는 기상조절학회(Weather Modification Association)가 창설되었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c41099.e6",
+                        "utterance_id": "c41099.u11",
+                        "speaker_id": 681,
+                        "utterance_text": "그렇다면 인공 강우 실험은 어떻게 진행되었고, 인공강우의 목표는 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e6",
+                        "utterance_id": "c41099.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "인공 강우 실험은 주로 비행기나 포탄을 이용하여 응결핵을 대기 중에 살포하는 방식으로 진행됩니다. 드라이아이스 가루나 요오드화은을 살포하여 구름의 형성을 유도하고, 이를 통해 강수량을 증대시키는 것이 목표입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c41099.e7",
+                        "utterance_id": "c41099.u13",
+                        "speaker_id": 681,
+                        "utterance_text": "혹시 인공 강우에 대한 반대 의견도 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e7",
+                        "utterance_id": "c41099.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 인공 강우에 대한 반대 의견도 있습니다. 일부 사람들은 인공 강우의 효과에 대해 과대하게 선전되고, 인공 강우가 과학적인 연구 대상을 벗어나서 농장주나 목장 등 실수요자들의 이해관계가 얽힌 사회・정치적인 문제로 대두되는 것을 우려하며, 기상을 조절하려는 시도는 안 된다는 종교적・환경론적 주장도 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c41099.e8",
+                        "utterance_id": "c41099.u15",
+                        "speaker_id": 681,
+                        "utterance_text": "그렇다면 인공 강우에 대한 연구는 지금도 진행되고 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e8",
+                        "utterance_id": "c41099.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 인공 강우에 대한 연구는 현재도 진행되고 있습니다. 미국을 비롯한 세계 여러 나라에서는 인공 강우를 실용화하여 가뭄 해소와 수자원 확보에 효과를 보고 있습니다. 또한, 최근에는 엘니뇨현상이나 지구온난화에 따른 기후변화로 인해 이상가뭄현상이 지속되고 있는 현실에서 인공 강우에 대한 관심이 높아지고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c41099.e9",
+                        "utterance_id": "c41099.u17",
+                        "speaker_id": 681,
+                        "utterance_text": "계속 연구하고 있구나. 그럼 인공 강우 연구는 어떤 분야에서 주로 이루어져?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c41099.e9",
+                        "utterance_id": "c41099.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "인공 강우 연구는 기상 조절에 관련된 분야에서 주로 이루어집니다. 미국에서는 국가 차원에서 기상 조절에 대한 연구를 종합적으로 기획・조정하기 위해 국립해양대기청(NOAA) 산하에 기상조절프로그램 부서를 설립하여 각 주정부의 기상 조절 프로그램에 대한 연구 활동 및 연구 장비 지원 등을 담당하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 날씨와 눈이 올 확률에 대해 이야기하고 있다. 눈이 내리는 원리와 눈이 아닌 비가 내리는 원리에 대해서도 이야기한다. 그리고 인공 강우에 대한 이야기를 하며, 인공 강우 실험의 역사와 목표, 그리고 반대 의견에 대해서도 이야기한다. 또한, 현재도 인공 강우에 대한 연구가 진행되고 있으며, 주로 기상 조절에 관련된 분야에서 연구가 이루어진다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

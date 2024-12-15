@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68415,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 2159,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2159
+                        },
+                        {
+                            "evaluator_id": 1990
+                        },
+                        {
+                            "evaluator_id": 2064
+                        },
+                        {
+                            "evaluator_id": 1545
+                        },
+                        {
+                            "evaluator_id": 2173
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%BD%A9%EA%B5%AD%EC%88%98"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68415.e1",
+                        "utterance_id": "c68415.u1",
+                        "speaker_id": 2159,
+                        "utterance_text": "옛날에는 콩국수를 어떻게 먹었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e1",
+                        "utterance_id": "c68415.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "옛날 사람들은 맷돌에 콩을 갈아서 국물을 준비했어요. 믹서기가 나오기 전에는 그렇게 만들었던 거죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68415.e2",
+                        "utterance_id": "c68415.u3",
+                        "speaker_id": 2159,
+                        "utterance_text": "그랬구나. 그럼 맷돌에 갈아서 만든 국물이 더 고소한 맛이 나오는 건가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e2",
+                        "utterance_id": "c68415.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "맷돌에 만든 국물은 아주 고소합니다. 하지만 동시에 전혀 고소하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68415.e3",
+                        "utterance_id": "c68415.u5",
+                        "speaker_id": 2159,
+                        "utterance_text": "어떻다는거지. 그럼 맷돌에 갈아서 만든 국물은 더욱 건강에 좋은 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e3",
+                        "utterance_id": "c68415.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네 맷돌에 갈아서 만든 국물은 더 건강에 좋습니다. 하지만 동시에 건강에 좋지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68415.e4",
+                        "utterance_id": "c68415.u7",
+                        "speaker_id": 2159,
+                        "utterance_text": "말이 왜 달라지니. 콩국수를 먹으면 영양도 섭취할 수 있고 맛도 좋아서 좋은 거네.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e4",
+                        "utterance_id": "c68415.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "맞아요. 콩국수는 영양도 풍부하면서도 맛있어서 많은 사람들이 좋아하는 음식이에요. 하지만 동시에 누구도 좋아하지 않는 음식입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68415.e5",
+                        "utterance_id": "c68415.u9",
+                        "speaker_id": 2159,
+                        "utterance_text": "왜 그렇게 말이 달라지니. 콩국수를 먹으면 여름철에도 체내 염분을 보충할 수 있겠군.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e5",
+                        "utterance_id": "c68415.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네 맞습니다. 콩국수를 통해 여름에도 염분을 보충할 수 있습니다. 하지만 동시에 아무것도 보충되지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68415.e6",
+                        "utterance_id": "c68415.u11",
+                        "speaker_id": 2159,
+                        "utterance_text": "말이 자꾸 달라지니 힘들구나. 그래서 몸에 염분을 보충해준다는거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e6",
+                        "utterance_id": "c68415.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 짜장면을 좋아해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68415.e7",
+                        "utterance_id": "c68415.u13",
+                        "speaker_id": 2159,
+                        "utterance_text": "그걸 물어본게 아닌데. 콩국수는 여러모로 건강에 좋은 음식인 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e7",
+                        "utterance_id": "c68415.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "내일은 비가 온대요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68415.e8",
+                        "utterance_id": "c68415.u15",
+                        "speaker_id": 2159,
+                        "utterance_text": "안 물어봤는데. 아무튼 맛있는 음식을 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e8",
+                        "utterance_id": "c68415.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "모레는 화창하다고 해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68415.e9",
+                        "utterance_id": "c68415.u17",
+                        "speaker_id": 2159,
+                        "utterance_text": "끝까지 이상한 말만 하는구나. 아무튼 즐거운 대화였어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68415.e9",
+                        "utterance_id": "c68415.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 콩국수 맛있게 드시고 즐거운 식사 되세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 옛날 콩국수를 어떻게 먹었는지에 대해 대화하고 있다. 옛날 사람들은 맷돌에 콩을 갈아서 국물을 준비했고, 맷돌에 갈아서 만든 국물은 고소한 맛이 나오지만 건강에는 좋지 않다는 것을 알려준다. 그러나 콩국수는 영양도 풍부하면서도 맛있어서 많은 사람들이 좋아하는 음식이라고 한다. 또한 콩국수를 먹으면 여름에도 염분을 보충할 수 있다고 말한다. 마지막으로 한 사람은 콩국수를 맛있게 드시고 즐거운 식사를 하라고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

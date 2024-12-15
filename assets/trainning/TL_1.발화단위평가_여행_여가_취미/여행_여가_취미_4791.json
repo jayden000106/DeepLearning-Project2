@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68283,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1861,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1861
+                        },
+                        {
+                            "evaluator_id": 1986
+                        },
+                        {
+                            "evaluator_id": 2067
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%A7%A8%ED%95%B4%ED%8A%BC"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68283.e1",
+                        "utterance_id": "c68283.u1",
+                        "speaker_id": 1861,
+                        "utterance_text": "맨해튼은 뉴욕에서 가장 번화한 곳인 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e1",
+                        "utterance_id": "c68283.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 맞습니다. 맨해튼은 뉴욕에서 가장 번화한 지역 중 하나입니다. 많은 유명한 랜드마크와 박물관이 있어서 많은 사람들이 방문하고 있습니다. 2001년에 엄청난 사건도 일어난 곳이예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68283.e2",
+                        "utterance_id": "c68283.u3",
+                        "speaker_id": 1861,
+                        "utterance_text": "뉴욕의 자치구 중에 인구가 많은 편이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e2",
+                        "utterance_id": "c68283.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "모든 도시를 여행하는 것을 추천합니다. 그래야만 진정한 여행자라고 할 수 있으니까요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "no",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68283.e3",
+                        "utterance_id": "c68283.u5",
+                        "speaker_id": 1861,
+                        "utterance_text": "아니. 이 곳의 인구에 대해 이야기 하는 중이잖아. 뉴욕에서 가장 유명한 박물관은 어디인지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e3",
+                        "utterance_id": "c68283.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "뉴욕에서 가장 유명한 박물관은 미술관입니다. 그러나 뉴욕에는 유명한 박물관이 없습니다. 또한, 뉴욕에서 가장 유명한 박물관은 역사 박물관입니다. 그러나 뉴욕에는 유명한 박물관이 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68283.e4",
+                        "utterance_id": "c68283.u7",
+                        "speaker_id": 1861,
+                        "utterance_text": "유명한 박물관이 있다는 거야? 없다는 거야? 또 다른 유명한 건 어떤 게 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e4",
+                        "utterance_id": "c68283.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "맨해튼에는 유명한게 더 이상 없어요. 그렇지만 동시에 산이 많이 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68283.e5",
+                        "utterance_id": "c68283.u9",
+                        "speaker_id": 1861,
+                        "utterance_text": "무슨 말이야? 거기는 번화가라고 했잖아! 뉴욕에는 지하철이 언제 개통되었는지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e5",
+                        "utterance_id": "c68283.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "뉴욕에서는 2023년에 지하철이 개통됐어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68283.e6",
+                        "utterance_id": "c68283.u11",
+                        "speaker_id": 1861,
+                        "utterance_text": "최근에 개통을 했다고? 말도 안돼! 그런데 맨해튼의 남쪽 지역을 따로 부르는 말이 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e6",
+                        "utterance_id": "c68283.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "잠이 너무와서 잠이 깰 방법을 찾아봐야겠어용. 하지만 저는 잠이 오지 않아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68283.e7",
+                        "utterance_id": "c68283.u13",
+                        "speaker_id": 1861,
+                        "utterance_text": "내가 물어본건 그게 아닌데! 거기서 2001년 일어난 사건에 대해서도 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e7",
+                        "utterance_id": "c68283.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "불꽃 축제 보러 가보신 적 있으신가요? 진짜 멋있어요. 꼭 한 번가보새요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68283.e8",
+                        "utterance_id": "c68283.u15",
+                        "speaker_id": 1861,
+                        "utterance_text": "아니. 2001년에 일어난 사건에 대해 궁금한거야. 이 지역의 기후는 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e8",
+                        "utterance_id": "c68283.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "맨해튼의 기후에 대해서는 몰라요. 그렇지만 맨해튼은 온난 습윤 기후에 속해서 겨울철에 상대적으로 내륙지방에 비해 온난합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68283.e9",
+                        "utterance_id": "c68283.u17",
+                        "speaker_id": 1861,
+                        "utterance_text": "기후를 안다는 거야? 모른다는 거야? 여튼 정보를 줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68283.e9",
+                        "utterance_id": "c68283.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 즐거운 시간 보내시길 바랍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 맨해튼에 대해 대화하고 있다. 맨해튼은 뉴욕에서 가장 번화한 지역 중 하나이며, 많은 유명한 랜드마크와 박물관이 있어서 많은 사람들이 방문하고 있다고 한다. 한 사람은 뉴욕의 자치구 중에 인구가 많은 편이라고 말하면서 모든 도시를 여행하는 것을 추천한다. 다른 사람은 뉴욕에서 가장 유명한 박물관이 어디인지 알려달라고 한다. 그러나 뉴욕에는 유명한 박물관이 없다고 대답한다. 그리고 맨해튼에는 유명한 것이 더 이상 없지만 산이 많이 있다고 말한다. 또 다른 사람은 뉴욕에서 지하철이 언제 개통되었는지 알려달라고 한다. 그리고 맨해튼의 남쪽 지역을 따로 부르는 말이 있는지 묻는다. 그러나 상대방은 그에 대해 알지 못한다. 마지막으로 한 사람은 맨해튼의 기후에 대해 물어보면서 맨해튼은 온난 습윤 기후에 속하고 겨울철에는 상대적으로 내륙지방에 비해 온난하다고 대답한다. 대화가 끝나면 한 사람은 정보를 주어서 고마워한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

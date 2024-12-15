@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68191,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1842,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1842
+                        },
+                        {
+                            "evaluator_id": 1999
+                        },
+                        {
+                            "evaluator_id": 2049
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%B9%B4%EB%A1%B1"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68191.e1",
+                        "utterance_id": "c68191.u1",
+                        "speaker_id": 1842,
+                        "utterance_text": "마카롱을 만들 재료에 대해 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e1",
+                        "utterance_id": "c68191.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "주 재료로 겉은흰자,가루 설탕, 그래뉴당, 아몬드 가루, 착색제를 쓰고 속은 버터크림, 클로티드 크림, 가나슈, 잼등을 넣습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68191.e2",
+                        "utterance_id": "c68191.u3",
+                        "speaker_id": 1842,
+                        "utterance_text": "그래? 그러면 그 다음은 어떻게 만들어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e2",
+                        "utterance_id": "c68191.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "우주에서 가장 큰 행성은 목성이라는 것을 알고 계셨나요? 그것은 정말로 흥미로운 사실이예요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68191.e3",
+                        "utterance_id": "c68191.u5",
+                        "speaker_id": 1842,
+                        "utterance_text": "갑자기 무슨 뚱딴지 같은 소리래? 됐고 마카롱을 만들기 위해서는 정말 다양한 재료가 필요하네? 그런데, 어디에서 이런 재료들을 구할 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e3",
+                        "utterance_id": "c68191.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "재료들은 어디에서든 쉽게 구할 수 있습니다. 그러나 이런 재료들은 아무 곳에서도 구할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68191.e4",
+                        "utterance_id": "c68191.u7",
+                        "speaker_id": 1842,
+                        "utterance_text": "대체 구할 수 있다는 거야? 못 구한다는 거야? 말고 마카롱을 만들 때 주의할 점은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e4",
+                        "utterance_id": "c68191.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "마카롱을 만들 때 주의할 점은 재료의 정확한 비율과 섞는 방법입니다. 특히, 아몬드 가루와 설탕을 세밀하게 섞는 것이 중요해요. 그리고 오븐의 온도와 굽는 시간도 정확하게 맞춰야 좋은 결과물을 얻을 수 있어요. 또한 그냥 대충 만들어도 되는 게 이 마카롱입니다. 딱히 주의할 게 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68191.e5",
+                        "utterance_id": "c68191.u9",
+                        "speaker_id": 1842,
+                        "utterance_text": "뭐가 정확한 레시피인거야? 정말 어려운 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e5",
+                        "utterance_id": "c68191.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "도전해보지 않는 것이 좋습니다요. 그렇게 하면 안전하고 안정적인 삶을 보장할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68191.e6",
+                        "utterance_id": "c68191.u11",
+                        "speaker_id": 1842,
+                        "utterance_text": "무슨 도전을 한다는 거야? 말고 마카롱을 만들 때 어떤 맛을 넣으면 좋을 것 같은 지 부탁해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e6",
+                        "utterance_id": "c68191.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 마카롱을 만들 때 항상 피클 쥬스를 사용합니다. 피클 주스는 마카롱에 독특한 맛을 더해줍니다. 그리고 마카롱을 먹을 때는 항상 양파를 함께 먹는 것이 좋습니다. 양파는 마카롱의 맛을 한층 더 풍부하게 만들어줍니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68191.e7",
+                        "utterance_id": "c68191.u13",
+                        "speaker_id": 1842,
+                        "utterance_text": "말도안돼, 피클 주스 같은 건 넣지 않아, 혹시 어떤 맛을 추천해줄 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e7",
+                        "utterance_id": "c68191.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 신맛을 추천합니다. 그리고 동시에 단맛도 추천합니다. 또한, 쓴맛과 짠맛도 추천합니다. 그리고 무맛도 추천합니다. 그리고 또 다른 모든 맛을 추천합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68191.e8",
+                        "utterance_id": "c68191.u15",
+                        "speaker_id": 1842,
+                        "utterance_text": "대체 어떤 맛이 있다는 건지 모르겠다, 역시 초콜릿과 딸기 맛이 대중적으로 좋지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e8",
+                        "utterance_id": "c68191.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "협곡은 신비한 외계인들이 지구에 남긴 고대 우주선의 흔적이에요. 그들은 우리에게 고대 지식을 전달하기 위해 이런 협곡을 사용했던 거죠.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68191.e9",
+                        "utterance_id": "c68191.u17",
+                        "speaker_id": 1842,
+                        "utterance_text": "그런건 불가능한 일이야, 근데 마카롱을 만들면서 즐거움을 느낄 수 있을 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68191.e9",
+                        "utterance_id": "c68191.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "내가 어떤 색깔의 양말을 입고 있는지 말해줄까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 마카롱을 만들 재료와 방법에 대해 이야기하고 있다. 첫 번째 사람은 마카롱을 만들 재료에 대해 알고 싶어하고, 두 번째 사람은 겉은 흰자, 가루 설탕, 그래뉴당, 아몬드 가루, 착색제를 사용하고 속은 버터크림, 클로티드 크림, 가나슈, 잼 등을 넣는다고 말한다. 첫 번째 사람은 마카롱을 만들 때 어떻게 만들어야 하는지 묻고, 두 번째 사람은 재료들은 어디에서든 쉽게 구할 수 있지만, 이런 재료들은 아무 곳에서도 구할 수 없다고 말한다. 첫 번째 사람은 마카롱을 만들 때 주의할 점을 묻고, 두 번째 사람은 재료의 정확한 비율과 섞는 방법, 오븐의 온도와 굽는 시간을 맞추는 것이 중요하며, 그냥 대충 만들어도 된다고 말한다. 첫 번째 사람은 어떤 맛을 넣으면 좋을지 묻고, 두 번째 사람은 피클 주스와 양파를 사용하는 것을 추천한다. 마지막으로 첫 번째 사람은 초콜릿과 딸기 맛이 대중적으로 좋다고 생각한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

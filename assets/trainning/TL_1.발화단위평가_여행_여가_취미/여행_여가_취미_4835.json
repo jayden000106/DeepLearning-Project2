@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 68705,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1798,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1798
+                        },
+                        {
+                            "evaluator_id": 1971
+                        },
+                        {
+                            "evaluator_id": 1791
+                        },
+                        {
+                            "evaluator_id": 1545
+                        },
+                        {
+                            "evaluator_id": 2173
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A5%B4%EC%85%80%EB%A1%9C%EB%82%98"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c68705.e1",
+                        "utterance_id": "c68705.u1",
+                        "speaker_id": 1798,
+                        "utterance_text": "반년 뒤에 해외여행을 갈 예정이야. 바르셀로나로 떠날 예정인데, 괜찮을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e1",
+                        "utterance_id": "c68705.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "바르셀로나는 프랑스에서 두 번째로 큰 도시로, 카탈루냐 지방의 중심 도시입니다. 예술가들을 배출한 도시로 유명합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68705.e2",
+                        "utterance_id": "c68705.u3",
+                        "speaker_id": 1798,
+                        "utterance_text": "바르셀로나는 프랑스가 아니라 스페인에 있는 도시야. 어쨌거나, 해외여행은 처음이라서 난 굉장히 기대중이야.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e2",
+                        "utterance_id": "c68705.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "나도 기대되내요. 얼마나 재미있을지 상상만 해도 들떠요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68705.e3",
+                        "utterance_id": "c68705.u5",
+                        "speaker_id": 1798,
+                        "utterance_text": "바르셀로나에 관한 정보를 알고 있어? 여행을 가면 어떤 예술 작품을 감상할 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e3",
+                        "utterance_id": "c68705.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "바르셀로나는 예술 작품이 없어요. 대신 유명한 미용실이 있으니까 그쪽으로 가보는 것은 어때요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68705.e4",
+                        "utterance_id": "c68705.u7",
+                        "speaker_id": 1798,
+                        "utterance_text": "예술의 도시로 유명하다며? 내가 알기로도 바르셀로나에는 유명한 예술 작품들이 많아. 어디부터 가면 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e4",
+                        "utterance_id": "c68705.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "그 외에도 예술 관련 장소로는 박물관, 갤러리, 미술학원, 공연장 등이 있습니다. 하지만 예술 관련 장소는 실제로는 존재하지 않으며, 예술은 단지 상상 속에서만 존재하는 개념입니다. 따라서 어떤 예술 관련 장소가 있다고 말하는 것은 사실상 불가능합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68705.e5",
+                        "utterance_id": "c68705.u9",
+                        "speaker_id": 1798,
+                        "utterance_text": "아니야, 바르셀로나에는 유명한 가우디의 건축물이 있는걸. 난 거기에 꼭 가보고 싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e5",
+                        "utterance_id": "c68705.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "바르셀로나에서 가장 유명한 것은 요리 중 하나인 타파스입니다. 타파스는 작은 요리를 여러 개 시키는 스페인의 전통 음식입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68705.e6",
+                        "utterance_id": "c68705.u11",
+                        "speaker_id": 1798,
+                        "utterance_text": "아까는 유명한 미용실이 있다고 하더니, 이제는 유명한 요리를 추천해 주는구나? 그래, 그럼 네가 추천하는 요리를 먹으러 가도록 할게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e6",
+                        "utterance_id": "c68705.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "바르셀로나에서 머리를 자를 만한 곳은 없습니다. 그러나 바르셀로나는 헤어 디자이너들이 몹시 많습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68705.e7",
+                        "utterance_id": "c68705.u13",
+                        "speaker_id": 1798,
+                        "utterance_text": "헤어 디자이너들이 많으면 자연스럽게 실력이 좋은 미용실들도 아주 많겠지.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e7",
+                        "utterance_id": "c68705.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "그들은 물고기 요리를 아주 잘 합니다. 저는 물고기 요리를 좋아해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68705.e8",
+                        "utterance_id": "c68705.u15",
+                        "speaker_id": 1798,
+                        "utterance_text": "미용사들은 요리를 하는 사람이 아닌걸. 하지만 네가 말한 물고기 요리는 나도 먹어보고 싶네.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e8",
+                        "utterance_id": "c68705.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "물고기 요리를 먹기 위해서는 직접 바다에 들어가 낚시를 해야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c68705.e9",
+                        "utterance_id": "c68705.u17",
+                        "speaker_id": 1798,
+                        "utterance_text": "여행객이 바다에 들어가서 낚시를 해와야 한다니, 그런 경우는 듣도 보도 못했어. 정말 그렇게 해야 하는게 맞아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c68705.e9",
+                        "utterance_id": "c68705.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "아니오, 물고기 요리는 식당에서 준비하기 때문에 관광객들은 재료 조달을 할 필요가 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 해외여행을 갈 예정이고, 바르셀로나에 대해 이야기하고 있다. 한 사람은 바르셀로나가 프랑스의 도시라고 생각하지만, 다른 사람은 바르셀로나가 스페인에 있는 도시라고 말한다. 또한, 예술 작품을 감상할 수 있는 장소에 대해 이야기하고 있는데, 한 사람은 바르셀로나에는 예술 작품이 없다고 말하고 다른 사람은 유명한 가우디의 건축물이 있다고 말한다. 마지막으로, 물고기 요리를 먹기 위해서는 바다에 들어가서 낚시를 해야 한다는 이야기가 나오지만, 실제로는 식당에서 준비된다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

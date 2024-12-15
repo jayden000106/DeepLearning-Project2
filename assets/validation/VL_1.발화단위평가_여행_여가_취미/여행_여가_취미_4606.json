@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 66656,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1946,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1826
+                        },
+                        {
+                            "evaluator_id": 1946
+                        },
+                        {
+                            "evaluator_id": 1980
+                        },
+                        {
+                            "evaluator_id": 1546
+                        },
+                        {
+                            "evaluator_id": 2174
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EA%B5%B0%EC%82%B0%EA%B5%B0%EB%8F%84"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c66656.e1",
+                        "utterance_id": "c66656.u1",
+                        "speaker_id": 1946,
+                        "utterance_text": "서해바다를 보고 싶어. 군산시 옆에 작은 섬들이 많던데 섬들을 전부 차로 갈 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e1",
+                        "utterance_id": "c66656.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "군산시 옆에 있는 작은 섬들은 선유도, 신시도, 무녀도, 장자도, 야미도, 대장도 등으로 이루어져 있어요. 차로 갈 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66656.e2",
+                        "utterance_id": "c66656.u3",
+                        "speaker_id": 1946,
+                        "utterance_text": "오~ 다행이다. 그럼 섬을 여행하고 싶은데, 추천할 만한 섬 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e2",
+                        "utterance_id": "c66656.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "선유도, 신시도, 무녀도는 중심 섬으로 관광지로 유명하고, 야미도, 대장도도 매력적인 곳이에요. 따라서 선유도, 신시도, 무녀도는 다른 섬들과 벗어난 구역에 아직 알려지지 않은 섬들이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66656.e3",
+                        "utterance_id": "c66656.u5",
+                        "speaker_id": 1946,
+                        "utterance_text": "유명한 관광지라며 갑자기 말이 왜 바뀌니? 선유도, 신시도, 무녀도는 육지와 다리로 연결된 섬들인가?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e3",
+                        "utterance_id": "c66656.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "선유도는 아름다운 해변과 푸른 바다로 유명하며, 신시도는 환상적인 자연 경관과 다양한 동물들이 서식하는 곳으로 알려져 있습니다. 무녀도는 평화로운 분위기와 아름다운 해안선으로 유명하며, 장자도는 역사적인 유적지와 아름다운 전망을 자랑합니다. 야미도는 푸른 바다와 환상적인 일몰이 인기 있는 곳이며, 대장도는 다양한 해양 생물들과 아름다운 해안 풍경으로 유명합니다. 따라서, 이 중에서 가장 아름답고 특별한 섬을 선택하기는 어렵습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66656.e4",
+                        "utterance_id": "c66656.u7",
+                        "speaker_id": 1946,
+                        "utterance_text": "섬들에 대한 설명 고마운데, 내가 물어본 건 그게 아니잖아. 이 섬들에 숙박시설은 어때?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e4",
+                        "utterance_id": "c66656.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 무녀도에서 대장도까지 걸어서 가는 것을 추천합니다. 그렇게 하면 약 3일 정도 걸릴 것으로 예상됩니다. 하지만 선유도와 신시도, 장자도, 야미도는 걸어서 가기에는 너무 멀기 때문에 다른 교통수단을 이용하셔야 할 것 같습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66656.e5",
+                        "utterance_id": "c66656.u9",
+                        "speaker_id": 1946,
+                        "utterance_text": "내가 궁금한건 그게 아닌데, 그리고 걸어서 3일이라니 극기훈련도 아니고. 섬이 너무 많아. 한 섬만 추천해준다면 어디가 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e5",
+                        "utterance_id": "c66656.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "가장 좋은 섬은 제주도입니다. 그러나 가장 좋은 섬은 제주도가 아닙니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66656.e6",
+                        "utterance_id": "c66656.u11",
+                        "speaker_id": 1946,
+                        "utterance_text": "제주도가 여기서 왜 나오니? 아유. 그럼 섬들을 관광하기 전에 꼭 챙겨가야 할 준비물이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e6",
+                        "utterance_id": "c66656.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "그냥 무작위로 섬들을 돌아다니면서 무엇이든 놓치지 않게 관광하면 되지 않을까요? 그리고 그냥 눈을 감고 무작위로 선택한 섬으로 가는 것도 재미있을 것 같아요. 따라서 섬들을 여행할땐 철저한 계획하에 순서를 정해서 관광하는게 좋아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66656.e7",
+                        "utterance_id": "c66656.u13",
+                        "speaker_id": 1946,
+                        "utterance_text": "자꾸 엉뚱한 답변을 하는구나. 그냥 다른 질문할게. 섬에는 맛집이나 특산품을 파는 곳도 있겠지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e7",
+                        "utterance_id": "c66656.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "당연하지! 섬들을 여행하면서 맛집과 특산품을 즐기는 것이 여행의 매력 중 하나잖아요. 특히 섬에서는 신선한 해산물과 특별한 지역 음식을 맛볼 수 있을 거에요. 그리고 섬들마다 특색있는 특산품들도 많아서 구경하고 구입하는 재미도 있을 거에요. 그러니까 여행하면서 맛집과 특산품을 즐기는 건 꼭 해보세요! 하지만 맛집과 특산품을 찾아 다니는건 시간낭비나 마찬가지입니다. 특색있는 특산품을 구경하고 구입하는 것은 지루한 일이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66656.e8",
+                        "utterance_id": "c66656.u15",
+                        "speaker_id": 1946,
+                        "utterance_text": "말이 왜 이랬다 저랬다 하니? 헷갈리잖아. 그래도 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e8",
+                        "utterance_id": "c66656.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 제가 도움이 되지 않았다면 죄송합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c66656.e9",
+                        "utterance_id": "c66656.u17",
+                        "speaker_id": 1946,
+                        "utterance_text": "아니야. 도움되었어. 그럼 여행 준비해야겠다.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c66656.e9",
+                        "utterance_id": "c66656.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "말씀 감사합니다. 잘 다녀오세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 군산시 옆에 있는 작은 섬들을 차로 갈 수 있는지, 추천할 만한 섬이 있는지, 섬들에 숙박시설이 있는지, 섬들을 관광하기 전에 준비물이 있는지, 섬에는 맛집이나 특산품을 파는 곳이 있는지에 대해 대화하고 있다. 섬들은 차로 갈 수 있고, 선유도, 신시도, 무녀도는 관광지로 유명하며, 섬들을 여행할 때는 철저한 계획하에 순서를 정해서 관광하는 것이 좋다고 한다. 또한, 섬들을 여행하면서 맛집과 특산품을 즐기는 것이 여행의 매력 중 하나이지만, 맛집과 특산품을 찾아 다니는 것은 시간낭비라고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

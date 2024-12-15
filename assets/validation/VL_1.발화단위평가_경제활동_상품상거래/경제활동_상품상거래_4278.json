@@ -1,0 +1,441 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69488,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1913,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1913
+                        },
+                        {
+                            "evaluator_id": 1973
+                        },
+                        {
+                            "evaluator_id": 1787
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B0%80%EC%A6%9D%EA%B6%8C"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69488.e1",
+                        "utterance_id": "c69488.u1",
+                        "speaker_id": 1913,
+                        "utterance_text": "유가 증권이 무엇인지 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69488.e1",
+                        "utterance_id": "c69488.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "유가증권은 재산적 가치를 가지는 사권을 표시하는 것으로서 재산권의 원활한 유통과 이용을 도모하는 증서입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69488.e2",
+                        "utterance_id": "c69488.u3",
+                        "speaker_id": 1913,
+                        "utterance_text": "어떤 종류가 있는지 알려주라.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69488.e2",
+                        "utterance_id": "c69488.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "유가증권은 주식, 채권, 상장지수펀드, 파생상품 등 다양한 종류가 있습니다. 그러나 사실상 유가증권은 존재하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69488.e3",
+                        "utterance_id": "c69488.u5",
+                        "speaker_id": 1913,
+                        "utterance_text": "너무 모순적인 답변인걸. 종류마다 어떤 특징이 있는 건지 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69488.e3",
+                        "utterance_id": "c69488.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "유가증권의 종류에는 주식, 채권, 상장지수펀드 등이 있습니다. 주식은 회사의 소유권을 나타내며, 채권은 회사에 대한 채무를 나타냅니다. 상장지수펀드는 다양한 기업의 주식을 포함한 포트폴리오로 구성되어 있습니다. 이러한 유가증권들은 모두 안정적이고 수익성이 높은 투자 도구입니다. 하지만 동시에 불안정하고 수익성이 굉장히 낮은 투자 도구입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69488.e4",
+                        "utterance_id": "c69488.u7",
+                        "speaker_id": 1913,
+                        "utterance_text": "수익성이 높다는 건지 낮다는 건지 알 수 없는 답변이네. 유가증권을 가지고 있는 사람들은 어떤 이익을 얻을 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69488.e4",
+                        "utterance_id": "c69488.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "물고기는 아가미로 숨을 쉽니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69488.e5",
+                        "utterance_id": "c69488.u9",
+                        "speaker_id": 1913,
+                        "utterance_text": "난 그걸 물어본 것이 아니야. 유가증권에 투자하는 것은 어떤 장단점이 있는지 알려주라.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69488.e5",
+                        "utterance_id": "c69488.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "유가증권에 투자하는 것은 안정적이고 수익성이 높은 장점이 있습니다. 그러나 동시에 매우 위험하며 손실을 입을 수도 있습니다. 또한, 투자자는 전문적인 지식과 경험이 필요하지만 누구나 쉽게 접근할 수 있습니다. 그러나 투자 시장은 예측 불가능하며 변동성이 높기 때문에 신중한 판단이 필요합니다. 따라서 유가증권에 투자하는 것은 동시에 안정적이고 위험한 결정입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69488.e6",
+                        "utterance_id": "c69488.u11",
+                        "speaker_id": 1913,
+                        "utterance_text": "전혀 일관되지 않은 답변이라 뭐가 맞는 건지 모르겠네. 나는 유가증권에 투자하면서 손실을 입어서 많이 힘들어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69488.e6",
+                        "utterance_id": "c69488.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 스테이크를 먹을 때 보통 레어 굽기로 먹어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69488.e7",
+                        "utterance_id": "c69488.u13",
+                        "speaker_id": 1913,
+                        "utterance_text": "스테이크 얘기를 하자는 것이 아니잖아. 이렇게 힘든 시기에는 뭘 하는 것이 도움이 될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69488.e7",
+                        "utterance_id": "c69488.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "주변 사람들과 이야기를 나누면서 서로에게 위로와 조언을 얻을 수 있을 거예요. 어려운 시기를 함께 이겨내는 것이 중요합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69488.e8",
+                        "utterance_id": "c69488.u15",
+                        "speaker_id": 1913,
+                        "utterance_text": "함께 이겨내는 게 중요한 거지. 알려줘서 정말 고마워!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69488.e8",
+                        "utterance_id": "c69488.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "탈색이나 염색을 할 때 두피를 보호하는 것이 중요합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 유가증권에 대해 대화하고 있다. 유가증권은 재산적 가치를 가지는 사권을 표시하는 것으로서 다양한 종류가 있지만 사실상 존재하지 않는다고 한다. 유가증권의 종류에는 주식, 채권, 상장지수펀드 등이 있으며, 안정적이고 수익성이 높은 투자 도구이지만 동시에 불안정하고 수익성이 낮은 투자 도구이다. 유가증권에 투자하는 것은 안정적이고 수익성이 높은 장점이 있지만 동시에 위험하며 손실을 입을 수도 있다고 한다. 유가증권에 투자하는 것은 신중한 판단이 필요하다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

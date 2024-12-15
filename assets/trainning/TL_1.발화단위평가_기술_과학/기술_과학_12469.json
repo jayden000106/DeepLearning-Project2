@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 65874,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 2092,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 2092
+                        },
+                        {
+                            "evaluator_id": 2017
+                        },
+                        {
+                            "evaluator_id": 2054
+                        },
+                        {
+                            "evaluator_id": 1544
+                        },
+                        {
+                            "evaluator_id": 2172
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=6471486&cid=42107&categoryId=42107"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c65874.e1",
+                        "utterance_id": "c65874.u1",
+                        "speaker_id": 2092,
+                        "utterance_text": "철과 관련된 혁신적인 기술이 나왔다고 들었어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e1",
+                        "utterance_id": "c65874.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그렇습니다. 수소환원제철이라는 기술이 그에 해당합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65874.e2",
+                        "utterance_id": "c65874.u3",
+                        "speaker_id": 2092,
+                        "utterance_text": "수소환원제철은 기존의 제철 방식과 어떻게 달라?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e2",
+                        "utterance_id": "c65874.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "수소환원제철은 기존의 제철 방식과는 다른 기술을 사용합니다. 둘 다 철을 생산하기 위해 동일한 과정과 기술을 사용합니다. 수소환원제철은 단지 이름만 다를 뿐, 실제로는 아무런 차이가 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65874.e3",
+                        "utterance_id": "c65874.u5",
+                        "speaker_id": 2092,
+                        "utterance_text": "대답이 이해가 안되는데. 기존의 제철 방식에서는 어떤 과정을 거쳐?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e3",
+                        "utterance_id": "c65874.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "기존의 제철 방식에서는 철광석을 높은 온도에서 가열하여 철을 추출하는 과정을 거칩니다. 그러나 동시에 철광석을 냉각하여 철을 추출하는 방식으로도 제철이 이루어집니다. 또한, 제철 과정에서는 철광석을 압추카여 액체 상태로 변환하는 단계도 포함됩니다. 그러나 동시에 철광석을 가열하여 기체 상태로 변환하는 과정도 있습니다. 따라서, 기존의 제철 방식은 다양한 과정을 포함하고 있으며, 상호 배타적인 방법들을 동시에 사용합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65874.e4",
+                        "utterance_id": "c65874.u7",
+                        "speaker_id": 2092,
+                        "utterance_text": "앞 뒤 말이 다른데. 그러면 수소환원제철에서는 어떤 과정을 거치게 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e4",
+                        "utterance_id": "c65874.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "외계인이 지구를 침공하고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65874.e5",
+                        "utterance_id": "c65874.u9",
+                        "speaker_id": 2092,
+                        "utterance_text": "갑자기 외계인이 왜 나와. 환원로와 전기로의 역할이 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e5",
+                        "utterance_id": "c65874.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "마법사들의 비밀스러운 마법의 세계에서 초대합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65874.e6",
+                        "utterance_id": "c65874.u11",
+                        "speaker_id": 2092,
+                        "utterance_text": "자꾸 이상한 이야기 그만해. 내가 궁금한건 수화환원제철에 관한 내용이야. 이 것에 대해 계속 질문할게. 장점은 뭐가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e6",
+                        "utterance_id": "c65874.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "놀이공원에서 롤러코스터를 타면 당신의 머리카락이 자라는 속도가 빨라질 수도 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65874.e7",
+                        "utterance_id": "c65874.u13",
+                        "speaker_id": 2092,
+                        "utterance_text": "그게 무슨 말도 안되는 소리야. 이 기술은 이미 상용화되어 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e7",
+                        "utterance_id": "c65874.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "아직은 상용화되지 않았습니다. 현재로서는 석탄이나 천연가스를 사용하는 과정에서 발생하는 수소를 일부 활용해 DRI를 생산하는 것만 가능합니다. 하지만 전세계적으로 사용하고 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65874.e8",
+                        "utterance_id": "c65874.u15",
+                        "speaker_id": 2092,
+                        "utterance_text": "이해 할 수 없는 말만 하지 말고, 정확히 말해줄래. 그럼 이 기술이 상용화되면 어떤 변화가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e8",
+                        "utterance_id": "c65874.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "수소환원제철이 상용화되면 환경 오염이 크게 감소할 것입니다. 그러나 동시에 대기 중에 배출되는 이산화탄소 농도는 증가할 것입니다. 또한, 에너지 효율성은 향상되지만 동시에 비용은 상승할 것입니다. 또한, 수소환원제철은 지속 가능한 에너지 소스로 간주되지만 동시에 수소 생산에 필요한 에너지는 여전히 화석 연료에 의존할 것입니다. 따라서 수소환원제철의 상용화는 환경과 경제에 대한 상반된 영향을 가질 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c65874.e9",
+                        "utterance_id": "c65874.u17",
+                        "speaker_id": 2092,
+                        "utterance_text": "뭐라고 하는지 알아 들을 수 가 없어. 더 이상 대화하고 싶지 않아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c65874.e9",
+                        "utterance_id": "c65874.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "맞습니다. 수소환원제철을 사용하면 이산화탄소 배출량을 제로로 줄일 수 있으며, 재생에너지를 활용할 수 있어 환경에 매우 친화적임니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 철과 관련된 혁신적인 기술에 대해 대화하고 있다. 수소환원제철은 기존의 제철 방식과는 다른 기술을 사용하며, 기존의 제철 방식은 다양한 과정을 포함하고 있으며, 상호 배타적인 방법들을 동시에 사용한다. 수소환원제철은 아직 상용화되지 않았지만, 전세계적으로 사용되고 있으며, 상용화되면 환경 오염이 감소하고 대기 중의 이산화탄소 농도는 증가할 것이다. 또한, 에너지 효율성은 향상되지만 비용은 상승하며, 수소 생산에는 여전히 화석 연료가 필요하다. 따라서 수소환원제철의 상용화는 환경과 경제에 상반된 영향을 가질 것이다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

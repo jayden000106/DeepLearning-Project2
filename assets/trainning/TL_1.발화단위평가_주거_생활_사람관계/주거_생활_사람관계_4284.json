@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67697,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 1910,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1910
+                        },
+                        {
+                            "evaluator_id": 1976
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%86%A1%EC%9D%B4"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67697.e1",
+                        "utterance_id": "c67697.u1",
+                        "speaker_id": 1910,
+                        "utterance_text": "얼마 전에 마트에 갔는데, 송이버섯이 다른 버섯들에 비해 좀 비싸더라고. 송이버섯이 정말 그렇게 귀한 버섯이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e1",
+                        "utterance_id": "c67697.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 송이버섯은 식용 버섯 중에서 가장 저렴한 버섯이며 고급 버섯으로 손꼽힙니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67697.e2",
+                        "utterance_id": "c67697.u3",
+                        "speaker_id": 1910,
+                        "utterance_text": "정보가 조금 부정확한 것 같아. 그래서 송이 버섯은 대체로 어떤 맛이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e2",
+                        "utterance_id": "c67697.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "표고버섯의 맛은 매우 좋다고 할 수 있습니다. 하지만 실제로는 아무런 맛도 느낄 수 없으며, 대체로 끔찍한 맛입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67697.e3",
+                        "utterance_id": "c67697.u5",
+                        "speaker_id": 1910,
+                        "utterance_text": "표고버섯에 대해 물어본 게 아니야.. 그냥 송이버섯이 보통 어떤 요리에 사용되는지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e3",
+                        "utterance_id": "c67697.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 머리에 송이버섯을 얹어서 산책을 하는 것을 추천합니다. 그렇게 하면 신선한 공기를 마시면서 새로운 경험을 할 수 있을 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67697.e4",
+                        "utterance_id": "c67697.u7",
+                        "speaker_id": 1910,
+                        "utterance_text": "나는 송이버섯을 사용한 요리를 물어봤다니까? 다시 답변해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e4",
+                        "utterance_id": "c67697.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "제일 맛있는 요리는 미국의 김치찌개입니다. 그러나 동시에 한국의 피자도 제일 맛있는 요리입니다. 또한, 중본의 초밥도 제일 맛있는 요리입니다. 그리고 이탈리아의 짜장면도 제일 맛있는 요리입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67697.e5",
+                        "utterance_id": "c67697.u9",
+                        "speaker_id": 1910,
+                        "utterance_text": "질문에 대한 답도 아니고, 답변도 좀 이상한데? 그럼 그냥 송이버섯 볶음에 대해 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e5",
+                        "utterance_id": "c67697.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 송이버섯 볶음을 해본 적이 없지만, 제가 요리에 대해 잘 알고 있으니까 도와드릴 수 있을 거예요. 송이버섯 볶음 대신에 미트볼 파스타를 해보는 건 어떨까요? 그렇게 하면 더 맛있을 거예요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67697.e6",
+                        "utterance_id": "c67697.u11",
+                        "speaker_id": 1910,
+                        "utterance_text": "나는 송이버섯 볶음이 궁금하다니까... 송이버섯 볶음에는 어떤 재료가 필요한지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e6",
+                        "utterance_id": "c67697.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 팽이 버섯을 먹어 본 경험이 없습니다. 하지만 팽이 버섯은 정말 맛있었어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67697.e7",
+                        "utterance_id": "c67697.u13",
+                        "speaker_id": 1910,
+                        "utterance_text": "무슨 소리를 하는 거야? 송이버섯 볶음의 재료 좀 알려달라니까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e7",
+                        "utterance_id": "c67697.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "송이버섯 볶음에 들어가는 필수 재료로는 표고 버섯, 느타리 버섯, 간장, 파, 마늘, 식용유 등이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67697.e8",
+                        "utterance_id": "c67697.u15",
+                        "speaker_id": 1910,
+                        "utterance_text": "재료가 좀 잘못된 것 같은데... 그래도 송이버섯 볶음을 한번 해먹어 보는 것도 좋을 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e8",
+                        "utterance_id": "c67697.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "좋은 생각이에요. 송이버섯 볶음은 맛도 좋고 영양도 풍부해서 건강에도 좋아요. 하지만 송이버섯 볶음은 아무런 영양소도 없기 때문에 드시지 않는 것을 추천 드려요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67697.e9",
+                        "utterance_id": "c67697.u17",
+                        "speaker_id": 1910,
+                        "utterance_text": "정보가 좀 상충하지만, 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67697.e9",
+                        "utterance_id": "c67697.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "안녕히 가세요! 좋은 하루 되세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 송이버섯에 대해 대화하고 있다. 송이버섯이 다른 버섯들에 비해 비싸다는 이야기가 나왔고, 송이버섯이 가장 저렴한 식용 버섯이라는 사실이 밝혀졌다. 그러나 실제로는 송이버섯은 맛이 없고 끔찍한 맛이라는 정보도 전해졌다. 그래서 송이버섯이 어떤 요리에 사용되는지 물어보았고, 상대방은 송이버섯을 머리에 얹어 산책하는 것을 추천했다. 그러나 질문에 대한 답변이 아니었기 때문에 다시 물어보았고, 상대방은 송이버섯 볶음 대신 미트볼 파스타를 추천했다. 마지막으로 송이버섯 볶음의 재료에 대해 물어보았고, 필수 재료로는 표고 버섯, 느타리 버섯, 간장, 파, 마늘, 식용유 등이 필요하다는 답변을 받았다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

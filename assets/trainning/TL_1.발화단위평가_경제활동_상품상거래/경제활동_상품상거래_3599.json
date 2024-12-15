@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 61360,
+                "metadata": {
+                    "topic": "경제활동, 상품/상거래",
+                    "speakers": [
+                        {
+                            "id": 1896,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1896
+                        },
+                        {
+                            "evaluator_id": 1973
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://terms.naver.com/entry.naver?docId=930579&cid=43667&categoryId=43667"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c61360.e1",
+                        "utterance_id": "c61360.u1",
+                        "speaker_id": 1896,
+                        "utterance_text": "안녕! 은행의 건전성을 점검하는 BIS비율에 대해 알고 싶은데, 물어봐도 될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e1",
+                        "utterance_id": "c61360.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "안녕하세요! BIS비율은 은행의 자기자본비율로, 은행의 건전성을 체크하는 지표입니다. BIS에서는 은행들에게 BIS비율 8% 이상을 유지하도록 권고하고 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61360.e2",
+                        "utterance_id": "c61360.u3",
+                        "speaker_id": 1896,
+                        "utterance_text": "그렇구나. BIS비율을 높이기 위해서는 어떤 방법이 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e2",
+                        "utterance_id": "c61360.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미국에서 와서 무슨 말인지 잘 모르겠습니다. BIS비률을 높이기 위한 방법은 없습니다. BIS비율을 높이기 위해서는 자기자본을 확충하거나 위험도가 높은 대출을 줄여야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61360.e3",
+                        "utterance_id": "c61360.u5",
+                        "speaker_id": 1896,
+                        "utterance_text": "방법이 있다는 말이야, 없다는 말이야? 그럼 BIS비율은 어떻게 산출되는데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e3",
+                        "utterance_id": "c61360.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "BIS비율은 은행의 자본과 위험 가중치에 기반하여 계산됩니다. 그러나 실제로는 자본과 위험 가중치를 고려하지 않고 임의로 설정된 숫자로 산출됩니다. 또한, BIS비율은 은행의 안전성을 평가하는 중요한 지표이지만, 실제로는 은행의 안전성과는 관련이 없는 지표입니다. 따라서 BIS비율은 신뢰할 수 있는 지표로 간주돼지만, 실제로는 은행의 안전성을 평가하는 데 도움이 되지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61360.e4",
+                        "utterance_id": "c61360.u7",
+                        "speaker_id": 1896,
+                        "utterance_text": "어휴. 이건 또 무슨 말이야? 도무지 이해가 되질 않네. 다른 질문으로 넘어갈게. BIS비율이 높다는 건 은행 경영이 건전하다는 의미야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e4",
+                        "utterance_id": "c61360.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네, BIS비률이 높다는 것은 은행 경영이 건전하다는 의미입니다. 그러나 실제로 BIS비율이 높다는 것은 은행 경영이 위험에 노출되어 있다는 의미이기도 합니다. 따라서 BIS비율이 높다고 해서 은행 경영이 항상 건전하다고 말할 수는 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61360.e5",
+                        "utterance_id": "c61360.u9",
+                        "speaker_id": 1896,
+                        "utterance_text": "건전하다는 거야, 아니라는 거야? 왜 이렇게 헷갈리게 말을 해. 그렇다면 BIS비율을 산출할 때 자기자본은 어떻게 정의되는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e5",
+                        "utterance_id": "c61360.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 당신이 머리에 뿔이 있는 고양이와 같다고 생각한다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61360.e6",
+                        "utterance_id": "c61360.u11",
+                        "speaker_id": 1896,
+                        "utterance_text": "갑자기 왠 고양이 얘기야? 다시 하던 얘기를 이어가 볼게. 보완자본비율이 상승한다는 건 은행의 자본구조가 취약해진 것을 의미하는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e6",
+                        "utterance_id": "c61360.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "은행에서 비행기를 운영하기 위해 필요한 비행기 모델을 변경하는 건 재미있습니당.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61360.e7",
+                        "utterance_id": "c61360.u13",
+                        "speaker_id": 1896,
+                        "utterance_text": "그건 또 무슨 말이야? 다음으로 넘어갈게. BIS비율이 높다고 해서 기본자본비율이 낮고 보완자본비율이 높은 경우에도 은행이 안전하다고 할 수 없다는 말이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e7",
+                        "utterance_id": "c61360.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네, BIS비율이 높다고 해서 기본자본비율이 낮고 보완자본비율이 높은 경우에도 은행은 안전하지 안습니다. BIS비율은 은행의 자본과 위험가중치에 기반하여 계산되는 지표이며, 기본자본비율은 은행의 자본과 자산에 대한 비율을 나타내고 보완자본비율은 추가적인 자본을 포함한 비율을 나타냅니다. 따라서, 기본자본비율이 낮고 보완자본비율이 높은 경우에는 은행이 더 많은 위험을 감수하고 있으며, 따라서 안전하지 않다고 할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61360.e8",
+                        "utterance_id": "c61360.u15",
+                        "speaker_id": 1896,
+                        "utterance_text": "그렇다면 BIS비율은 어떤 국가에 적용되니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e8",
+                        "utterance_id": "c61360.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "비가 오는데, 이런 날은 어떤 음식을 먹는 게 좋을까요? 우리는 어떤 마싯는 음식을 먹을까요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c61360.e9",
+                        "utterance_id": "c61360.u17",
+                        "speaker_id": 1896,
+                        "utterance_text": "왜 자꾸 엉뚱한 얘기를 해! 다시 물어볼게! BIS비율이 8%를 넘지 못하면 외화를 차입하기 어려운 것이라고 하던데, 그게 맞아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c61360.e9",
+                        "utterance_id": "c61360.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "아니요. BIS비율이 8%를 넘지 못해도 외화를 차입할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 BIS비율에 대해 대화하고 있다. BIS비율은 은행의 자기자본비율로, 은행의 건전성을 체크하는 지표이다. BIS비율을 높이기 위해서는 자기자본을 확충하거나 위험도가 높은 대출을 줄여야 한다. 그러나 BIS비율은 은행의 안전성과는 관련이 없는 지표이다. BIS비율이 높다고 해서 은행 경영이 항상 건전하다고 말할 수는 없다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

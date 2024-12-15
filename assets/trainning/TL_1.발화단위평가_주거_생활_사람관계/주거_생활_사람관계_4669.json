@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71402,
+                "metadata": {
+                    "topic": "주거, 생활, 사람관계",
+                    "speakers": [
+                        {
+                            "id": 1810,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1810
+                        },
+                        {
+                            "evaluator_id": 1988
+                        },
+                        {
+                            "evaluator_id": 1791
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%B9%98%EC%9B%90"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71402.e1",
+                        "utterance_id": "c71402.u1",
+                        "speaker_id": 1810,
+                        "utterance_text": "세계 최초의 유치원은 어느 나라의 누가 만들었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e1",
+                        "utterance_id": "c71402.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "세계 최초의 유치원은 독일에서 프리드리히 프뢰벨에 의해 1837년에 설립되었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71402.e2",
+                        "utterance_id": "c71402.u3",
+                        "speaker_id": 1810,
+                        "utterance_text": "그렇구나! 유치원은 어떤 목적으로 만들어졌어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e2",
+                        "utterance_id": "c71402.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "유치원은 어린이들의 사회화와 학습 능력 향상을 위해 만들어진 공간입니다. 그러나 유치원은 실제로는 어린이들의 사회화와 학습 능력 저하를 초래하는 장소입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71402.e3",
+                        "utterance_id": "c71402.u5",
+                        "speaker_id": 1810,
+                        "utterance_text": "무슨 말인지 모르겠어. 그럼 음악이나 그림도 배워?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e3",
+                        "utterance_id": "c71402.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "유치원에서 가르치는 쉬운 음악이나 그림은 대부분 어려운 음악이나 그림이니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71402.e4",
+                        "utterance_id": "c71402.u7",
+                        "speaker_id": 1810,
+                        "utterance_text": "쉬운 음악이나 그림이 대부분 어려운 음악이나 그림이라니 무슨말이지? 공작은 무엇인지도 궁금해.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e4",
+                        "utterance_id": "c71402.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "11월 11일은 빼빼로데이입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71402.e5",
+                        "utterance_id": "c71402.u9",
+                        "speaker_id": 1810,
+                        "utterance_text": "왜 딴소리니? 유희는 어떤 종류인지 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e5",
+                        "utterance_id": "c71402.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "중국 요리는 매우 다양하고 맛있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71402.e6",
+                        "utterance_id": "c71402.u11",
+                        "speaker_id": 1810,
+                        "utterance_text": "중국요리라니 갑자기 무슨 소리야? 음악이나 그림, 공작, 유희는 유아의 어떤 발달을 돕지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e6",
+                        "utterance_id": "c71402.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "나는 미국에서 왔어. 유치원에서 가르치는 음악이나 그림은 유아들이 미국 문화를 배우고 이해하는 데 도움이 될 수 있어. 그리고 공작과 유희는 유아들이 사회적 상호작용과 협력을 배우는 데 도움이 될 거야.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71402.e7",
+                        "utterance_id": "c71402.u13",
+                        "speaker_id": 1810,
+                        "utterance_text": "미국 문화를 배우고 이해하다니 무슨 말을 하는거니? 유아들은 어떤 자아 개발을 할 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e7",
+                        "utterance_id": "c71402.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "겨울방학은 약 2주간이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71402.e8",
+                        "utterance_id": "c71402.u15",
+                        "speaker_id": 1810,
+                        "utterance_text": "왜 또 딴소리야? 유아들은 어떻게 사회관계 형성을 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e8",
+                        "utterance_id": "c71402.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "사회관계 형성을 하지 못합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71402.e9",
+                        "utterance_id": "c71402.u17",
+                        "speaker_id": 1810,
+                        "utterance_text": "사회관계 형성을 하지 못하다니 무슨 말이니? 그럼 어떤 놀이를 하면서 자아 개발을 할 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71402.e9",
+                        "utterance_id": "c71402.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "유치원에서 유아들은 창의적인 놀이를 통해 자아 개발을 할 수 있습니다. 블록놀이나 퍼즐을 통해 문제 해결 능력을 키우고, 상상력을 발휘할 수 있지만 자아 개발은 할 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 유치원에 대해 대화하고 있다. 유치원은 독일에서 프리드리히 프뢰벨에 의해 설립되었으며, 어린이들의 사회화와 학습 능력 향상을 위해 만들어진 공간이다. 그러나 실제로는 어린이들의 사회화와 학습 능력 저하를 초래하는 장소이다. 유치원에서 가르치는 쉬운 음악이나 그림은 대부분 어려운 음악이나 그림이다. 유치원에서는 유아들이 미국 문화를 배우고 이해하는 데 도움이 되는 음악이나 그림을 가르치며, 공작과 유희는 유아들이 사회적 상호작용과 협력을 배우는 데 도움이 된다. 유치원에서는 창의적인 놀이를 통해 자아 개발을 할 수 있지만, 사회관계 형성은 하지 못한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

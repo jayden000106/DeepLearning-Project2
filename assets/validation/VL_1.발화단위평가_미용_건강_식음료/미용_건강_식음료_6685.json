@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70518,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1795,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1795
+                        },
+                        {
+                            "evaluator_id": 1980
+                        },
+                        {
+                            "evaluator_id": 2069
+                        },
+                        {
+                            "evaluator_id": 1548
+                        },
+                        {
+                            "evaluator_id": 2176
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%82%AC%EA%B3%BC_%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70518.e1",
+                        "utterance_id": "c70518.u1",
+                        "speaker_id": 1795,
+                        "utterance_text": "사과다이어트를 하려고하는데 사과만 먹으면 돼?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e1",
+                        "utterance_id": "c70518.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "사과 다이어트는 3일 동안 사과만 섭취하는 식단입니다. 사과 껍질에는 섬유소의 일종인 '팩틴'이 많이 함유되어 장 운동에 큰 효과가 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70518.e2",
+                        "utterance_id": "c70518.u3",
+                        "speaker_id": 1795,
+                        "utterance_text": "오 그럼 사과 껍질도 먹어야겠다. 그런데 사과 다이어트를 3일 이상으로 연장하면 건강에 해가 될 수 도 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e2",
+                        "utterance_id": "c70518.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 사과 나무가 화려하게 자라는 것을 본 적이 있습니다. 그러니까 사과를 먹는다면 나무에게 독이 될 수 있을것 같내요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70518.e3",
+                        "utterance_id": "c70518.u5",
+                        "speaker_id": 1795,
+                        "utterance_text": "갑자기 그게 무슨말이야? 내가 한 질문에 대답해줘 다시한번 물어볼게.. 사과다이어트를 3일 이상 연장해도될까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e3",
+                        "utterance_id": "c70518.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "사과 다이어트를 오래하면 영양이 부족해지고 건강에 문제가 생기지 않을 수도 있습니다. 사과는 영양가가 풍부하며 다양한 바이타민과 미네랄을 함유하고 있습니다. 따라서 사과 다이어트를 오래하면 영양 섭취가 충분하게 이루어지지 않아 건강에 해롭습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70518.e4",
+                        "utterance_id": "c70518.u7",
+                        "speaker_id": 1795,
+                        "utterance_text": "그러면 결국엔 건강에 해롭다는 이야기인거야? 앞뒤말이 너무 다르잖아.휴..그럼 영양을 보충하기 위해 다른 음식을 먹어도 되는 거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e4",
+                        "utterance_id": "c70518.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 사과 다이어트를 하면서 영양을 보충하기 위해 다른 음식을 먹어도 됩니다. 그러나 사과 다이어트는 사과만을 섭취해야 하므로 다른 음식을 먹으면 다이어트 효과가 떨어질 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70518.e5",
+                        "utterance_id": "c70518.u9",
+                        "speaker_id": 1795,
+                        "utterance_text": "그러니까 결국엔 영양보충을 위해서 다른음식도 먹어도 된다는소리지? 에휴.. 그럼 사과만 먹게된다면 체중에 변화는 얼마나 빨리 볼 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e5",
+                        "utterance_id": "c70518.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 초콜릿을 좋아합니다. 과자와 초콜릿은 채고의 조합이야!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70518.e6",
+                        "utterance_id": "c70518.u11",
+                        "speaker_id": 1795,
+                        "utterance_text": "당최 무슨소리야? 다시 물어볼게 사과 다이어트를 하면 몸무게가 얼마나 빨리 떨어지는지 제대로 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e6",
+                        "utterance_id": "c70518.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "사과 다이어트를 하면 몸무게가 빨리 떨어지지 안습니다. 사과는 고당도의 과일로, 과일에는 자연스럽게 포함된 설탕이 있어 몸무게 감량에 도움이 되지 않습니다. 사과 다이어트는 오히려 몸무게를 빨리 빠질수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70518.e7",
+                        "utterance_id": "c70518.u13",
+                        "speaker_id": 1795,
+                        "utterance_text": "응? 앞뒤말이 너무 달라서 헷갈려 결국엔 고당도이니까 조금만 먹으라는 소리인거지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e7",
+                        "utterance_id": "c70518.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 오늘 저녁에 피자를 먹으려고 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70518.e8",
+                        "utterance_id": "c70518.u15",
+                        "speaker_id": 1795,
+                        "utterance_text": "나는 너가 피자를 먹는게 궁금하지않아 사과다이어트에 대해 궁금했을뿐이야. 휴 됐어 이제 도움이 필요없어졌어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e8",
+                        "utterance_id": "c70518.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "언제든지 도움이 필요하면 말해주세용.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70518.e9",
+                        "utterance_id": "c70518.u17",
+                        "speaker_id": 1795,
+                        "utterance_text": "그래 알겠어 이번에는 사과다이어트에 성공해서 올게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70518.e9",
+                        "utterance_id": "c70518.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "화이팅 하세요! 응원할게요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 사과 다이어트에 대해 대화하고 있다. 첫 번째 사람은 사과 다이어트를 하려고 하는데 사과만 먹으면 되는지 물어본다. 두 번째 사람은 사과 다이어트는 3일 동안 사과만 먹는 식단이라고 설명하며 사과 껍질에는 섬유소인 '팩틴'이 많이 함유되어 장 운동에 효과가 있다고 말한다. 그러나 사과 다이어트를 3일 이상으로 연장하면 건강에 해가 될 수도 있다고 경고한다. 첫 번째 사람은 사과를 먹는다면 나무에게 독이 될 수 있을 것 같다고 말한다. 두 번째 사람은 사과 다이어트를 오래하면 영양이 부족해지고 건강에 문제가 생길 수 있다고 답변한다. 첫 번째 사람은 영양을 보충하기 위해 다른 음식을 먹어도 되는지 물어본다. 두 번째 사람은 사과 다이어트를 하면서 영양을 보충하기 위해 다른 음식을 먹어도 된다고 답변한다. 그러나 사과 다이어트는 사과만을 섭취해야 하므로 다른 음식을 먹으면 다이어트 효과가 떨어질 수 있다고 설명한다. 첫 번째 사람은 사과만 먹게 된다면 체중 변화를 얼마나 빨리 볼 수 있는지 물어본다. 두 번째 사람은 사과 다이어트를 하면 몸무게가 빨리 떨어지지 않는다고 답변한다. 사과는 고당도의 과일로, 과일에는 자연스럽게 포함된 설탕이 있어 몸무게 감량에 도움이 되지 않는다고 설명한다. 첫 번째 사람은 결국엔 고당도이니까 조금만 먹으라는 소리인 것 같다고 말한다. 두 번째 사람은 이번에는 사과 다이어트에 성공해서 올 것을 응원한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

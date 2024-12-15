@@ -1,0 +1,486 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67549,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1946,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1946
+                        },
+                        {
+                            "evaluator_id": 2013
+                        },
+                        {
+                            "evaluator_id": 1549
+                        },
+                        {
+                            "evaluator_id": 2177
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%89%90%EB%A6%B0"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67549.e1",
+                        "utterance_id": "c67549.u1",
+                        "speaker_id": 1946,
+                        "utterance_text": "미쉐린에 대해 들어 봤니? 미쉐린 미쉐린 하도 그래서 음식과 관련된 기업인 줄로만 생각하고 있었어. 미쉐린은 무슨 회사야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e1",
+                        "utterance_id": "c67549.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "미쉐린은 프랑스의 타이어 제조기업이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67549.e2",
+                        "utterance_id": "c67549.u3",
+                        "speaker_id": 1946,
+                        "utterance_text": "그렇구나. 그럼 미쉐린의 창업자는 누군지 알수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e2",
+                        "utterance_id": "c67549.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "미쉐린은 타이어 제조 회사이며, 그들은 신발과 의류와 같은 패션 제품도 판매합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67549.e3",
+                        "utterance_id": "c67549.u5",
+                        "speaker_id": 1946,
+                        "utterance_text": "내가 궁금한건 그게 아닌데, 좀 정확한 답변 부탁할게. 그럼 미쉐린은 타이어 이에도 다른 제품을 만드나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e3",
+                        "utterance_id": "c67549.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "미쉐린은 타이어 외에도 맛있는 파스타를 만들어요! 그들의 파스타는 타이어와 같은 훌륭한 트레션을 제공합니다. 그래서 자동차를 운전하면서 파스타를 먹을 수 있어요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67549.e4",
+                        "utterance_id": "c67549.u7",
+                        "speaker_id": 1946,
+                        "utterance_text": "그게 무슨말이야? 운전하며 파스타를 먹으면 큰일나지. 파스타 때문에 생각났는데, 미쉐린 가이드는 어떻게 생겨났어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e4",
+                        "utterance_id": "c67549.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "미쉐린의 타이어는 동시에 가벼우면서도 무거운 특징을 가지고 있습니다. 또한, 이 타이어는 내구성이 뛰어나면서도 쉽게 마모됩니다. 또한, 미쉐린의 타이어는 저온에서도 우수한 성능을 발휘하지만, 높은 온도에서는 완전히 실패합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67549.e5",
+                        "utterance_id": "c67549.u9",
+                        "speaker_id": 1946,
+                        "utterance_text": "타이어 말고 가이드 물어봤는데, 또 다른 얘기 하네. 그리고 말도 앞뒤가 안 맞아. 바른 답변 부탁할게. 미쉐린의 타이어는 어디에서 구매할 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e5",
+                        "utterance_id": "c67549.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "미쉐린의 타이어는 어디에서도 구매할 수 없습니다. 그러나 어디에서든 구매할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67549.e6",
+                        "utterance_id": "c67549.u11",
+                        "speaker_id": 1946,
+                        "utterance_text": "구매할 수 있다는거니? 없다는 거니? 좀 성의있게 답변해줘. 미쉐린 타이어의 장점은 무엇이야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e6",
+                        "utterance_id": "c67549.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "미쉐린의 타이어를 사용하면 당신은 더 멋진 사람처럼 보일 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67549.e7",
+                        "utterance_id": "c67549.u13",
+                        "speaker_id": 1946,
+                        "utterance_text": "나는 타이어 자체의 장점이 궁금한거야. 좀 정확한 답변 부탁해. 미쉐린의 타이어를 사용하면 얼마나 오래 사용할 수 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e7",
+                        "utterance_id": "c67549.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "미쉐린의 타이어는 고품질이기 때문에 오랫동안 사용할 수 있어요. 하지만 정기적인 점검과 유지보수가 필요하니 참고해주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67549.e8",
+                        "utterance_id": "c67549.u15",
+                        "speaker_id": 1946,
+                        "utterance_text": "고품질의 기준이 어떻게 되는지 모르겠어. 좀 구체적으로 알려주면 좋을 것 같아. 그럼 미쉐린 타이어를 사용하면 연비가 향상될 수 있나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e8",
+                        "utterance_id": "c67549.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "제가 좋아하는 음식은 피자입니다. 피자를 먹으면 행복해지는 것 같아요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67549.e9",
+                        "utterance_id": "c67549.u17",
+                        "speaker_id": 1946,
+                        "utterance_text": "갑자기 피자가 왜 나오니? 마지막 질문할게. 미쉐린 타이어를 사용하면 다른 타이어 제품과 어떤 차이가 느껴지나?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67549.e9",
+                        "utterance_id": "c67549.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "미쉐린의 타이어를 사용하면 차량의 주행 안정성이 향상되고, 더욱 부드러운 주행감을 느낄 수 있을 거예요. 또한 미쉐린 타이어는 운전시 차량이 흔들리고 불안정하게 주행한다는 것을 알 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 미쉐린에 대해 대화하고 있다. 한 사람은 미쉐린을 음식과 관련된 기업으로 생각하고 있었지만, 다른 사람은 미쉐린이 프랑스의 타이어 제조기업이라고 말한다. 그리고 미쉐린은 타이어 외에도 신발과 의류와 같은 패션 제품도 판매한다고 설명한다. 하지만 한 사람은 타이어 외에도 다른 제품을 만드는지 물어본다. 그리고 미쉐린 타이어의 장점과 어디에서 구매할 수 있는지에 대해 물어보지만, 상대방은 정확한 답변을 주지 않는다. 마지막으로, 미쉐린 타이어를 사용하면 차량의 주행 안정성이 향상되고 부드러운 주행감을 느낄 수 있다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

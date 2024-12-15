@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 67253,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1847,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1847
+                        },
+                        {
+                            "evaluator_id": 1973
+                        },
+                        {
+                            "evaluator_id": 2055
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%B0%A5"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c67253.e1",
+                        "utterance_id": "c67253.u1",
+                        "speaker_id": 1847,
+                        "utterance_text": "김밥이 너무 맛있는데 대체 언제 만들어진 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e1",
+                        "utterance_id": "c67253.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "볶음밥은 마싯어요. 볶음밥은 재료에 따라 이름이 바뀌죠. 김치를 넣으면 김치 볶음밥, 계란을 넣으면 계란 볶음밥...",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67253.e2",
+                        "utterance_id": "c67253.u3",
+                        "speaker_id": 1847,
+                        "utterance_text": "나는 볶음밥에 대해 묻지 않았어. 김밥이 언제 만들어졌는지 물었는데? 김밥과 관련된 이론들에 대해 알려줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e2",
+                        "utterance_id": "c67253.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "호박 마차를 타고 우주로 가던 신데렐라는 어떤 마음이였을까요? 그 마음을 다 이해하기는 어려울 듯 해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67253.e3",
+                        "utterance_id": "c67253.u5",
+                        "speaker_id": 1847,
+                        "utterance_text": "너는 내 질문을 이해하지 못하는 것 같아. 다른 질문을 해볼게. 그럼 김밥의 역사적 배경에 대해 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e3",
+                        "utterance_id": "c67253.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 지금 배가 고픕니다. 당장 식당을 찾아주세요. 그러나 배가 부르니 먹을 것에 대한 이야기도 꺼내지 말아줘요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67253.e4",
+                        "utterance_id": "c67253.u7",
+                        "speaker_id": 1847,
+                        "utterance_text": "나는 네가 배가 고픈 것에 대해 궁금하지 않아. 김밥의 역사적 배경에 대해 알려주라고!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e4",
+                        "utterance_id": "c67253.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 김밥의 역사적 배경에 대해 알지 못합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67253.e5",
+                        "utterance_id": "c67253.u9",
+                        "speaker_id": 1847,
+                        "utterance_text": "그렇구나. 알겠어. 그렇다면 김밥은 세계적으로 유명한 음식일까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e5",
+                        "utterance_id": "c67253.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "시장에는 맛있는 음식들이 잔뜩 있어요. 마음에 드는 장소인데 가끔 솜사탕을 먹다가 하늘까지 날라간 적도 있어서 무섭기도 해요. 그래서 시장에는 맛이 없는 음식들이 많은 것 같아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67253.e6",
+                        "utterance_id": "c67253.u11",
+                        "speaker_id": 1847,
+                        "utterance_text": "나는 시장 음식에 대해 물은 적도 없고, 네 대답이 앞과 뒤가 달라서 이해하기도 어려워. 차라리 다른 질문을 할게. 한국 음식을 먹었을 때 일어나는 장점들은 뭐가 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e6",
+                        "utterance_id": "c67253.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "한국 음식을 먹으면 영양가 풍부하고 건강에 좋은 재료들을 섭취할 수 있습니다. 그리고 한국 음식은 맛있고 다양한 조리법으로 제공되어 다른 문화를 경험할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67253.e7",
+                        "utterance_id": "c67253.u13",
+                        "speaker_id": 1847,
+                        "utterance_text": "오! 좋은 점이 많구나. 그럼 김밥 말고 세계적으로 유명한 음식에는 뭐가 있는지에 대해서도 알 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e7",
+                        "utterance_id": "c67253.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "네 그럼요. 지금 알려드릴게요. 하지만 바로 알려드릴 순 없어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67253.e8",
+                        "utterance_id": "c67253.u15",
+                        "speaker_id": 1847,
+                        "utterance_text": "지금 알려준다는 거니? 지금은 알려줄 수 없다는 거니? 제대로 된 답을 해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e8",
+                        "utterance_id": "c67253.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "지금 알려 줄 수 있다는 겁니다. 세계적인 음식으로는 김치가 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c67253.e9",
+                        "utterance_id": "c67253.u17",
+                        "speaker_id": 1847,
+                        "utterance_text": "고마워. 좋은 정보를 줘서.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c67253.e9",
+                        "utterance_id": "c67253.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "네. 언제든 필요하면 불러주세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 김밥과 볶음밥에 대해 대화하고 있다. 첫 번째 사람은 김밥의 역사적 배경에 대해 알고 싶어하고, 두 번째 사람은 볶음밥에 대한 이야기를 하고 싶지 않다. 그 후, 첫 번째 사람은 김밥의 역사적 배경을 알지 못한다고 말하고, 두 번째 사람은 김밥이 세계적으로 유명한 음식인지에 대해 물어본다. 그리고 첫 번째 사람은 한국 음식을 먹을 때의 장점에 대해 언급하고, 두 번째 사람은 세계적으로 유명한 음식에 대해 알고 싶어한다. 마지막으로, 첫 번째 사람은 김치가 세계적으로 유명한 음식 중 하나라고 말하고, 두 번째 사람은 감사의 말을 전한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

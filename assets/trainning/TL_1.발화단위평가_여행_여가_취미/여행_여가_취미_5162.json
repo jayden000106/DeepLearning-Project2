@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71311,
+                "metadata": {
+                    "topic": "여행, 여가, 취미",
+                    "speakers": [
+                        {
+                            "id": 1915,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1915
+                        },
+                        {
+                            "evaluator_id": 1987
+                        },
+                        {
+                            "evaluator_id": 1787
+                        },
+                        {
+                            "evaluator_id": 1541
+                        },
+                        {
+                            "evaluator_id": 2169
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%86%A0%ED%8A%B8%EB%84%98_%ED%99%8B%EC%8A%A4%ED%8D%BC_%EC%8A%A4%ED%83%80%EB%94%94%EC%9B%80"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71311.e1",
+                        "utterance_id": "c71311.u1",
+                        "speaker_id": 1915,
+                        "utterance_text": "이번 여름에 영국으로 여행을 가는데, 어딜 보면 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e1",
+                        "utterance_id": "c71311.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "영국에서 토트넘 홋스퍼 스타디움을 방문해보세요. 영국에서 가장 큰 축구 클럽 경기장이에요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71311.e2",
+                        "utterance_id": "c71311.u3",
+                        "speaker_id": 1915,
+                        "utterance_text": "그래? 이번 여름에 가면 어떤 축구 경기를 볼 수 있는데?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e2",
+                        "utterance_id": "c71311.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "당신은 어떤 축구 경기든 다 볼 수 있습니다. 그러나 그곳에 축구 경기는 존재하지 않습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71311.e3",
+                        "utterance_id": "c71311.u5",
+                        "speaker_id": 1915,
+                        "utterance_text": "말의 앞뒤가 다른데? 그것보다 관람료는 얼마 정도 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e3",
+                        "utterance_id": "c71311.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "토트넘 홋스퍼 스타디움의 관람료는 아이들 용돈으로 살 수 있을 정도로 무척이나 저렴합니다. 동시에 무척이나 비싸서 일반 서민들이 감당하기 어렵습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71311.e4",
+                        "utterance_id": "c71311.u7",
+                        "speaker_id": 1915,
+                        "utterance_text": "비싸다는 건지, 싸다는 건지 모르겠네;; 이곳에서 경기를 볼 때는 어떤 좌석을 추천해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e4",
+                        "utterance_id": "c71311.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "어떤 만화를 좋아하나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71311.e5",
+                        "utterance_id": "c71311.u9",
+                        "speaker_id": 1915,
+                        "utterance_text": "왜 뜬금 없이 만화 얘기를 하니? 그보다 혹시 여기서 축구 경기 외에 다른 이벤트들도 즐길 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e5",
+                        "utterance_id": "c71311.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 샐러드가 좋아요! 당신은 어떤 음식을 선호하나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71311.e6",
+                        "utterance_id": "c71311.u11",
+                        "speaker_id": 1915,
+                        "utterance_text": "상관없는 음식 얘기는 그만하자. 아무튼 경기를 보고 나면 그 주변을 구경하고 싶은데, 이 스타디움 주변에는 어떤 관광지가 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e6",
+                        "utterance_id": "c71311.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "토트넘 홋스퍼 스타디움 주변에는 아무런 관광지도 없고, 아무런 볼거리도 없습니다. 그러나 주변에는 많은 유명한 관광지들이 있으며, 매년 많은 관광객들이 찾는 인기 명소들이 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71311.e7",
+                        "utterance_id": "c71311.u13",
+                        "speaker_id": 1915,
+                        "utterance_text": "설명에 일관성이 없어서 혼란스러워. 그러면 여기서는 어떤 음식을 먹을 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e7",
+                        "utterance_id": "c71311.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "토트넘 홋스퍼 스타디움은 음식물 반입 및 섭취가 일절 금지되어 있습니다. 동시에 이 스타디움 내부에는 다양한 음식점과 카페가 있어요. 영국 전통 음식부터 다국적인 음식까지 다양한 선택지가 있을 거예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71311.e8",
+                        "utterance_id": "c71311.u15",
+                        "speaker_id": 1915,
+                        "utterance_text": "말이 자꾸 바뀌어서 도통 이해할 수가 없네;; 마지막 질문인데, 여기서는 어떤 기념품을 구매할 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e8",
+                        "utterance_id": "c71311.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "서울에서 유명한 탕수육 전문점들을 소개해드릴게요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71311.e9",
+                        "utterance_id": "c71311.u17",
+                        "speaker_id": 1915,
+                        "utterance_text": "왜 자꾸 질문과 상관없는 얘기를 하는 건지 모르겠지만, 다음에는 제대로 된 대답을 해주길 바랄게.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71311.e9",
+                        "utterance_id": "c71311.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "답변이 부족했을까요? 그렇다면 죄송합니다. 다음에는 보다 정확하고 유용한 답변을 드리도록 하겠습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 영국 여행과 관련하여 대화하고 있다. 첫 번째 사람은 어디를 보면 좋을지 묻고, 두 번째 사람은 토트넘 홋스퍼 스타디움을 방문해보라고 추천한다. 첫 번째 사람은 어떤 축구 경기를 볼 수 있는지 묻고, 두 번째 사람은 그곳에 축구 경기는 없다고 답변한다. 또한, 관람료는 저렴하고 비싸기도 하다고 설명한다. 첫 번째 사람은 좌석 추천을 묻고, 두 번째 사람은 관광지는 없지만 많은 유명한 관광지들이 주변에 있다고 답변한다. 마지막으로, 첫 번째 사람은 음식과 기념품에 대해 묻고, 두 번째 사람은 음식물 반입은 금지되어 있지만 다양한 음식점과 카페가 있으며 다양한 기념품을 구매할 수 있다고 답변한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

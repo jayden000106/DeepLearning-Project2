@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69557,
+                "metadata": {
+                    "topic": "기술과학",
+                    "speakers": [
+                        {
+                            "id": 1861,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1861
+                        },
+                        {
+                            "evaluator_id": 2018
+                        },
+                        {
+                            "evaluator_id": 2049
+                        },
+                        {
+                            "evaluator_id": 1547
+                        },
+                        {
+                            "evaluator_id": 2175
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C_%EB%A8%B8%EC%8B%A0"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69557.e1",
+                        "utterance_id": "c69557.u1",
+                        "speaker_id": 1861,
+                        "utterance_text": "에스프레소 머신에는 어떤 종류의 에스프레소 머신이 있는지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e1",
+                        "utterance_id": "c69557.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "에스프레소 머신은 증기압식, 피스톤식, 펌프식으로 나뉘어져요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69557.e2",
+                        "utterance_id": "c69557.u3",
+                        "speaker_id": 1861,
+                        "utterance_text": "종류가 좀 더 있지 않을까? 그럼 현대에 가장 많이 쓰이는 종류는 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e2",
+                        "utterance_id": "c69557.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 피스톤식 에스프레소 머신은 가장 많이 사용되는 머신 중 하나입니다. 그러나 사실은 피스톤식 에스프레소 머신은 거의 사용되지 않습니당.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69557.e3",
+                        "utterance_id": "c69557.u5",
+                        "speaker_id": 1861,
+                        "utterance_text": "내가 매일 보는 머신은 피스톤식이 아니었어! 에스프레소 머신은 누가 개발했어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e3",
+                        "utterance_id": "c69557.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "에스프레소 머신의 개발자는 확실하지않아요. 그렇지만 안젤로 모리온도가 2000년도에 시제품을 소개했어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69557.e4",
+                        "utterance_id": "c69557.u7",
+                        "speaker_id": 1861,
+                        "utterance_text": "2000년도에 소개했을리가 없어. 개발자는 1914년에 돌아가셨는걸. 그런데 에스프레소 머신을 사용하면 어떤 종류의 커피를 만들 수 있는지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e4",
+                        "utterance_id": "c69557.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "에스프레소 머신을 사용하면 어떤 종류의 커피도 만들 수 없습니다. 에스프레소 머신은 오직 에스프레소만 만들 수 있습니다. 그러나 에스프레소 머신을 사용하면 라떼, 아메리카노, 카푸치노 등 다양한 종류의 커피를 만들 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69557.e5",
+                        "utterance_id": "c69557.u9",
+                        "speaker_id": 1861,
+                        "utterance_text": "말이 왜 달라. 기계가 있으면 집에서도 만들 수 있겠지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e5",
+                        "utterance_id": "c69557.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "차가운 물을 마시는 것보다 미지근한 물을 마시는게 좋다고 했어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69557.e6",
+                        "utterance_id": "c69557.u11",
+                        "speaker_id": 1861,
+                        "utterance_text": "내가 물은 건 그게 아니야. 아까 머신 중에 증기압식은 어떤 식으로 작동되는지 알려줄 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e6",
+                        "utterance_id": "c69557.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "낚시하러 가서 물고기들을 엄청 많이 잡았어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69557.e7",
+                        "utterance_id": "c69557.u13",
+                        "speaker_id": 1861,
+                        "utterance_text": "아니. 머신 작동 방법을 알려달라는거잖아. 그럼 피스톤식의 작동방법은 알아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e7",
+                        "utterance_id": "c69557.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "그래서 나는 어제 친구와 함께 영화를 보러 갔다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69557.e8",
+                        "utterance_id": "c69557.u15",
+                        "speaker_id": 1861,
+                        "utterance_text": "내 말을 이해하지 못한 것 같아. 에스프레소 머신에 달려있는 기다란 막대는 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e8",
+                        "utterance_id": "c69557.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "그건 수증기가 나오는 막대라서 카푸치노나 카페라떼 등에 사용되는 우유를 데우고 거품을 낼 때 사용하는거예요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69557.e9",
+                        "utterance_id": "c69557.u17",
+                        "speaker_id": 1861,
+                        "utterance_text": "그렇구나. 자세히 알려줘서 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69557.e9",
+                        "utterance_id": "c69557.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 에스프레소 머신을 사용해보시면 좋은 경험을 하실 거예요. 언제든지 도움이 필요하면 저에게 말씀해주세요. 즐거운 커피 타임 되세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 에스프레소 머신에 대해 대화하고 있다. 에스프레소 머신은 증기압식, 피스톤식, 펌프식으로 나뉘어져 있고, 피스톤식이 가장 많이 사용되는 머신 중 하나이지만 거의 사용되지 않는다고 한다. 에스프레소 머신의 개발자는 확실하지 않지만, 안젤로 모리온도가 2000년도에 시제품을 소개했다고 한다. 에스프레소 머신은 오직 에스프레소만 만들 수 있지만, 다양한 종류의 커피를 만들 수 있다고 한다. 에스프레소 머신에 달려있는 기다란 막대는 카푸치노나 카페라떼 등에 사용되는 우유를 데우고 거품을 낼 때 사용된다고 한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

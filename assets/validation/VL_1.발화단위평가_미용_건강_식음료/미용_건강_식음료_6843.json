@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 71130,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1865,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1865
+                        },
+                        {
+                            "evaluator_id": 1995
+                        },
+                        {
+                            "evaluator_id": 2050
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%ED%96%84%EB%B2%84%EA%B7%B8_%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c71130.e1",
+                        "utterance_id": "c71130.u1",
+                        "speaker_id": 1865,
+                        "utterance_text": "햄버그 스테이크를 만드는 방법을 공유해줘.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e1",
+                        "utterance_id": "c71130.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "햄버그 스테이크보다 간단한 음식으로는 미트볼이 좋을 수 있어요. 미트볼은 고기를 갈아서 둥글게 만든 요리로, 햄버그 스테이크와 비슷한 맛을 느낄 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71130.e2",
+                        "utterance_id": "c71130.u3",
+                        "speaker_id": 1865,
+                        "utterance_text": "내가 질문한 건 이게 아닌데.. 어쨌든 미트볼은 어떻게 만들어야 할까? 간단한 레시피가 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e2",
+                        "utterance_id": "c71130.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 간단한 레시피를 제공해 드릴 수 있습니다. 하지만 이 레시피는 매우 복잡하고 시간이 많이 걸립니다. 또한, 필요한 재료는 매우 적고 어렵게 구할 수 있습니다. 그러니까, 간단한 레시피를 원하신다면 다른 곳을 찾아보시는 것이 좋을 것 같습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71130.e3",
+                        "utterance_id": "c71130.u5",
+                        "speaker_id": 1865,
+                        "utterance_text": "앞뒤말이 다르잖아. 미트볼을 만들 때 양파와 마늘을 넣는 이유가 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e3",
+                        "utterance_id": "c71130.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 양파와 마늘은 미트볼에 풍부한 맛과 향을 더해줍니다. 양파는 고기의 수분을 유지시켜 주고, 마늘은 고기의 향을 강화시켜줍니다. 또한, 양파와 마늘은 소화를 도와주는데 도움을 주기도 해요.그런데 양파는 맛이없어요. 그래서 안넣으면 더 맛있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71130.e4",
+                        "utterance_id": "c71130.u7",
+                        "speaker_id": 1865,
+                        "utterance_text": "제대로 설명 좀 해줄래? 그럼 미트볼을 구울 때 어떤 방법이 가장 좋아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e4",
+                        "utterance_id": "c71130.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 햄버거를 좋아해요. 햄버거를 같이 먹으면 날씬해지고 야채만 먹을때 보다 훨씬 더 건강해져요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71130.e5",
+                        "utterance_id": "c71130.u9",
+                        "speaker_id": 1865,
+                        "utterance_text": "자꾸 내가 질문한 것과 다른 말 하지말래? 오븐을 사용하면 어떤 온도와 시간에 구워야 해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e5",
+                        "utterance_id": "c71130.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "오븐을 사용하면 당신이 원하는 대화를 할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71130.e6",
+                        "utterance_id": "c71130.u11",
+                        "speaker_id": 1865,
+                        "utterance_text": "오븐이랑 대화를 한다고? 프라이팬을 사용할 때는 어떤 온도와 시간에 구워야 하니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e6",
+                        "utterance_id": "c71130.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "프라이팬은 불을 쓰니깐 정말 조심해야해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71130.e7",
+                        "utterance_id": "c71130.u13",
+                        "speaker_id": 1865,
+                        "utterance_text": "내가 원하는 답이 아니잖아. 오븐과 프라이팬 중에 어떤 방법이 더 맛있게 나올까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e7",
+                        "utterance_id": "c71130.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 더 맛있는 방법을 알려드릴 수 없습니다. 하지만 오븐과 프라이팬을 함께 사용하면 더욱 맛있는 요리를 만들 수 있을 것 같아요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71130.e8",
+                        "utterance_id": "c71130.u15",
+                        "speaker_id": 1865,
+                        "utterance_text": "이랬다 저랬다하면 내가 혼란스러워. 미트볼을 만들어 먹으면 햄버그 스테이크와 비슷한 맛을 느낄 수 있니?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e8",
+                        "utterance_id": "c71130.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 미트볼을 만들어 먹으면 당신이 우주 여행을 할 수 있는 능력을 갖게 될 것이라고 생각합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c71130.e9",
+                        "utterance_id": "c71130.u17",
+                        "speaker_id": 1865,
+                        "utterance_text": "제발 질문에 맞는 답을 해줘. 미트볼을 만들어 먹어보고 싶어졌어. 고마워.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c71130.e9",
+                        "utterance_id": "c71130.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "천만에요! 미트볼을 만들어서 맛있게 즐기시길 바래요. 다른 궁금한 점이 있으면 언제든지 물어보세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 햄버그 스테이크와 미트볼에 대해 대화하고 있다. 한 사람은 미트볼을 만드는 방법을 알고 싶어하고, 다른 사람은 간단한 레시피를 제공해줄 수 있지만 양파와 마늘을 넣는 이유에 대해 설명하면서 미트볼을 구울 때 어떤 방법이 좋은지 알려준다. 그러나 질문에 대한 답변이 원하는 것과 다르다고 불만을 표시하며 오븐과 프라이팬 중 어떤 방법이 더 맛있게 나올지 묻는다. 마지막으로 다른 사람은 미트볼을 만들어 먹으면 햄버그 스테이크와 비슷한 맛을 느낄 수 있다고 말하며 미트볼을 만들어보기를 권장한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}

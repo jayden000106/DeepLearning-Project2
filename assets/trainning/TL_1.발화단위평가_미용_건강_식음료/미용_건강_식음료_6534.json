@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 69683,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1913,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1913
+                        },
+                        {
+                            "evaluator_id": 1993
+                        },
+                        {
+                            "evaluator_id": 2065
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%BD%9C%EB%9D%BC"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c69683.e1",
+                        "utterance_id": "c69683.u1",
+                        "speaker_id": 1913,
+                        "utterance_text": "콜라는 다른 음료들과 확연히 구분되는 맛이 있잖아. 이런 맛은 어떻게 내는 걸까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e1",
+                        "utterance_id": "c69683.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "콜라의 맛은 오렌지, 라임, 레몬 등에서 주로 사용되는 향료로 인해 나타납니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69683.e2",
+                        "utterance_id": "c69683.u3",
+                        "speaker_id": 1913,
+                        "utterance_text": "어떤 감미료가 들어가는지 알려줄래?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e2",
+                        "utterance_id": "c69683.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "콜라에는 감미료가 전혀 들어가지 않습니다. 하지만 사실은 콜라에는 설탕, 고당도 옥수수 시럽, 인공 감미료 등이 포함되어 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69683.e3",
+                        "utterance_id": "c69683.u5",
+                        "speaker_id": 1913,
+                        "utterance_text": "모순적인 답변이네. 감미료를 많이 섭취하면 건강에 좋지 않을 것 같은데 맞아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e3",
+                        "utterance_id": "c69683.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 어묵을 정말 좋아해요. 그래서 추울 때면 꼭 어묵탕을 끓여먹는답니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69683.e4",
+                        "utterance_id": "c69683.u7",
+                        "speaker_id": 1913,
+                        "utterance_text": "난 그걸 질문한 게 아니야. 그럼 콜라를 적당히 마시는 방법이 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e4",
+                        "utterance_id": "c69683.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 로맨스 소설을 좋아해요. 로맨스 소설을 읽으면 설레는 감정을 느낄 수 있어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69683.e5",
+                        "utterance_id": "c69683.u9",
+                        "speaker_id": 1913,
+                        "utterance_text": "나의 질문에 알맞지 않은 답변인걸. 그렇다면 자주 마시면 건강에 어떤 영향을 미칠지 알려줄 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e5",
+                        "utterance_id": "c69683.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "콜라를 너무 자주 마시면 건강에 아무런 영향을 미치지 않습니다. 그러나 콜라를 자주 마시면 비만, 당뇨, 심장병, 치아 용해 등의 건강 문제가 발생할 수 있습니다. 또한, 콜라는 영양가가 없으며, 체중 증가와 관련된 고칼로리 음료입니다. 그러나 콜라는 신체에 아무런 영향을 주지 않으며, 건강에 전혀 문제가 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69683.e6",
+                        "utterance_id": "c69683.u11",
+                        "speaker_id": 1913,
+                        "utterance_text": "건강에 영향을 미친다는 건지 아니라는 건지 알 수가 없네. 어쨌든 건강을 위해서는 콜라를 적당히 마시는 것이 중요한 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e6",
+                        "utterance_id": "c69683.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 그렇습니다. 콜라를 적당히 마시면 건강에 좋습니다. 특히 콜라에는 많은 카페인이 들어있어서 에너지를 얻을 수 있고, 당도도 높아서 기분이 좋아집니다. 또한 콜라에는 탄산이 들어있어서 소화에도 도움이 되고, 치아에도 좋습니다. 그러니까 매일 많은 양의 콜라를 마시는 것이 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "no",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69683.e7",
+                        "utterance_id": "c69683.u13",
+                        "speaker_id": 1913,
+                        "utterance_text": "일관되지 않은 모순적인 답변이네. 대체할 수 있는 다른 음료는 무엇이 있는지 알고 싶어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e7",
+                        "utterance_id": "c69683.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "많은 사람들이 봄에 벚꽃 구경을 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69683.e8",
+                        "utterance_id": "c69683.u15",
+                        "speaker_id": 1913,
+                        "utterance_text": "벚꽃에 대해 얘기하자는게 아니야. 다양한 음료를 시도해보면서 건강을 유지해봐야겠다.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e8",
+                        "utterance_id": "c69683.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "건강을 유지하기 위해서는 음료를 시도하지 않는 것이 더 좋습니다. 음료보다는 물을 마시는 것을 추천해요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c69683.e9",
+                        "utterance_id": "c69683.u17",
+                        "speaker_id": 1913,
+                        "utterance_text": "그렇게 해볼게. 이번 대화로 많은 도움이 되었어. 정말 고마워!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c69683.e9",
+                        "utterance_id": "c69683.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "별 말씀을요. 언제든지 도움이 필요하면 말씀해주세요. 건강 유지를 항상 응원할게요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 콜라의 맛과 함께 감미료와 건강에 대해 대화하고 있다. 콜라에는 감미료가 없지만 설탕과 인공 감미료가 포함되어 있으며, 자주 마시면 건강 문제가 발생할 수 있다는 것을 알려준다. 그러나 콜라는 건강에 전혀 문제가 없으며, 적당히 마시면 에너지를 얻고 소화에도 도움이 된다고 말한다. 또한, 다른 음료를 시도하지 않고 물을 마시는 것을 추천한다. 대화를 통해 건강 유지에 대한 도움을 받았다고 말한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

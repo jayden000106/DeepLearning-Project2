@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70912,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1924,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1924
+                        },
+                        {
+                            "evaluator_id": 1980
+                        },
+                        {
+                            "evaluator_id": 2056
+                        },
+                        {
+                            "evaluator_id": 1542
+                        },
+                        {
+                            "evaluator_id": 2170
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EB%B0%80%ED%81%AC%ED%8B%B0"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70912.e1",
+                        "utterance_id": "c70912.u1",
+                        "speaker_id": 1924,
+                        "utterance_text": "영국에서 마신 차 중에 밀크 티가 입에 딱 맞더라고. 밀크 티는 홍차도 녹차도 아닌 다른 종류인거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e1",
+                        "utterance_id": "c70912.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "밀크티는 한약, 우유를 넣은 홍차 또는 차와 우유가 혼합된 여러 가지 형태의 음료를 일컫습니다. 밀크티는 주요 재료, 준비 방법, 포함된 재료에 따라 틀려집니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70912.e2",
+                        "utterance_id": "c70912.u3",
+                        "speaker_id": 1924,
+                        "utterance_text": "한약은 아닌 것 같은데... 어떤 다양한 종류의 밀크 티가 있지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e2",
+                        "utterance_id": "c70912.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 다양한 종류의 밀크 티가 있습니다. 하지만 사실은 밀크 티는 오직 한 가지 종류만 존재합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70912.e3",
+                        "utterance_id": "c70912.u5",
+                        "speaker_id": 1924,
+                        "utterance_text": "답변 좀 제대로 해줘. 밀크 티 중에서 어떤 종류가 가장 맛있는지 추천해줄래??",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e3",
+                        "utterance_id": "c70912.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "제가 가장 좋아하는 음식은 피자입니다. 피자를 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70912.e4",
+                        "utterance_id": "c70912.u7",
+                        "speaker_id": 1924,
+                        "utterance_text": "갑자기 그게 무슨 소리야. 홍콩 밀크티를 마셔보고 싶은데, 어디에서 구할 수 있대?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e4",
+                        "utterance_id": "c70912.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "홍콩 밀크티는 다양한 카페나 음료 전문점에서 구할 수 있습니다. 주변에 있는 카페나 음료 전문점을 찾아보시면 홍콩 밀크티를 쉽게 맛볼 수 없어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70912.e5",
+                        "utterance_id": "c70912.u9",
+                        "speaker_id": 1924,
+                        "utterance_text": "답이 너무 혼란스럽네. 주변에 있는 카페나 음료 전문점을 찾아봐야겠어. 다른 음료 추천도 가능해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e5",
+                        "utterance_id": "c70912.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "물론, 저는 음료 추천에 대해 전문가입니다. 하지만, 음료 추천을 받을 수 없습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70912.e6",
+                        "utterance_id": "c70912.u11",
+                        "speaker_id": 1924,
+                        "utterance_text": "앞뒤 말이 너무 다르잖아. 아무튼 다른 음료들도 맛있을 것 같아.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e6",
+                        "utterance_id": "c70912.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "물은 초콜릿 맛이 나지만 건강에 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70912.e7",
+                        "utterance_id": "c70912.u13",
+                        "speaker_id": 1924,
+                        "utterance_text": "대화에 집중 좀 해. 음료의 다양성을 즐기면서 새로운 맛을 찾아보고 싶어졌는데, 어떻게 생각해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e7",
+                        "utterance_id": "c70912.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "새로운 맛을 찾기 위해서는 음료의 다양성을 제한하고 특정한 종류의 음료에 집중해야 합니다. 따라서 음료의 다양성을 즐기면서 새로운 맛을 찾는 것은 좋은 목표입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70912.e8",
+                        "utterance_id": "c70912.u15",
+                        "speaker_id": 1924,
+                        "utterance_text": "이해가 안가는 답변이야. 나는 이제 음료를 즐기며 휴식을 취하고 여유로운 시간을 보내보겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e8",
+                        "utterance_id": "c70912.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "제가 궁금한 게 있는데요, 당신은 어떤 색깔을 가장 좋아하시나요?",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70912.e9",
+                        "utterance_id": "c70912.u17",
+                        "speaker_id": 1924,
+                        "utterance_text": "마지막까지 다른 소리를 하는구나. 궁금한 점이 있으면 다시 찾아올게. 안녕!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70912.e9",
+                        "utterance_id": "c70912.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "감사합니다! 언제든지 다시 찾아주세요. 안녕히 가세요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 밀크 티에 대해 대화하고 있다. 밀크 티는 한약, 우유를 넣은 홍차 또는 차와 우유가 혼합된 여러 가지 형태의 음료를 일컫으며, 다양한 종류가 있지만 사실은 오직 한 가지 종류만 존재한다고 한다. 한 사람은 홍콩 밀크티를 마셔보고 싶어하는데, 다양한 카페나 음료 전문점에서 구할 수 있다고 답변한다. 그러나 다른 음료 추천은 받을 수 없다고 한다. 또 다른 사람은 음료의 다양성을 즐기면서 새로운 맛을 찾고 싶어하는데, 음료의 다양성을 제한하고 특정한 종류에 집중해야 한다고 답변한다. 마지막으로 한 사람은 색깔을 묻는데, 다시 찾아오라고 말하며 대화를 마무리한다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,438 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 36023,
+                "metadata": {
+                    "topic": "인문 사회",
+                    "speakers": [
+                        {
+                            "id": 1124,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1124
+                        },
+                        {
+                            "evaluator_id": 722
+                        },
+                        {
+                            "evaluator_id": 1543
+                        },
+                        {
+                            "evaluator_id": 2171
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://100.daum.net/encyclopedia/view/24XXXXX89479"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c36023.e1",
+                        "utterance_id": "c36023.u1",
+                        "speaker_id": 1124,
+                        "utterance_text": "최근에 공동주택층간소음기준에 관한 규칙이 발표되어서 그 내용을 알고 싶은데, 어떤 내용이었어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c36023.e1",
+                        "utterance_id": "c36023.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 공동주택층간소음기준에 관한 규칙은 아파트, 연립주택, 다세대주택 등에서 발생하는 소음에 대한 기준이 정해진 것입니다. 이 규칙은 국토교통부와 환경부가 만든 것으로, 층간소음으로 인한 이웃 간의 갈등을 해결하기 위한 기준으로 사용될 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c36023.e2",
+                        "utterance_id": "c36023.u3",
+                        "speaker_id": 1124,
+                        "utterance_text": "그렇구나. 그럼 층간소음은 어떤 종류로 나뉘어지지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c36023.e2",
+                        "utterance_id": "c36023.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "층간소음은 '직접충격소음'과 '공기전달소음'으로 나뉩니다. 직접충격소음은 벽이나 바닥 등에 직접적으로 충격이 가해져 발생하는 소리를 말하고, 공기전달소음은 TV나 악기 소리와 같이 공기 중으로 전파되는 소리를 말합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c36023.e3",
+                        "utterance_id": "c36023.u5",
+                        "speaker_id": 1124,
+                        "utterance_text": "직접충격소음과 공기전달소음의 기준은 뭐야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c36023.e3",
+                        "utterance_id": "c36023.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "직접충격소음의 기준은 '1분등가소음도(Leq)'와 '최고소음도(Lmax)'입니다. 주간에는 1분등가소음도가 43dB를 넘지 않아야 하고, 최고소음도는 주간에 57dB를 넘지 않아야 합니다. 야간에는 1분등가소음도가 38dB를 넘지 않아야 하고, 최고소음도는 야간에 52dB를 넘지 않아야 합니다. 공기전달소음의 기준은 5분 동안 등가소음도가 주간에 45dB를 넘지 않아야 하고, 야간에 40dB를 넘지 않아야 합니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c36023.e4",
+                        "utterance_id": "c36023.u7",
+                        "speaker_id": 1124,
+                        "utterance_text": "연립주택이나 다세대주택은 아파트에 비해 소음이 더 잘 들리는 편이야. 그럴 경우 기준 수치에 어떤 차이가 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c36023.e4",
+                        "utterance_id": "c36023.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "예, 확실히 그렇습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c36023.e5",
+                        "utterance_id": "c36023.u9",
+                        "speaker_id": 1124,
+                        "utterance_text": "차이가 무엇이냐고 물어본 거잖니? 뭐, 아무튼 이번에 발표된 규칙에서 화장실에서 물 내려가는 소리는 제외되었다고 들었는데, 맞아?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c36023.e5",
+                        "utterance_id": "c36023.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 맞습니다. 이번 규칙에서는 화장실에서 물 내려가는 소리는 기준에서 제외되었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c36023.e6",
+                        "utterance_id": "c36023.u11",
+                        "speaker_id": 1124,
+                        "utterance_text": "그렇군. 이번 규칙은 이웃 간이나 아파트 관리사무실에서 소음으로 인한 갈등을 해결할 때 사용될 수 있다고 했는데, 어떻게 사용해야 좋을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c36023.e6",
+                        "utterance_id": "c36023.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "이번 규칙은 이웃 간이나 아파트 관리사무실에서 소음으로 인한 갈등을 해결할 때 소음의 정도를 판단하는 기준으로 사용될 수 있습니다. 이를 통해 소음으로 인한 피해 정도를 판단할 수 있게 됩니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c36023.e7",
+                        "utterance_id": "c36023.u13",
+                        "speaker_id": 1124,
+                        "utterance_text": "그럼 이 규칙을 어기면 처벌을 받을 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c36023.e7",
+                        "utterance_id": "c36023.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "이번 규칙을 세 번 이상 어기면 기준을 어긴 것으로 판단됩니다. 따라서 어긴 사람에게는 처벌이 있을 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c36023.e8",
+                        "utterance_id": "c36023.u15",
+                        "speaker_id": 1124,
+                        "utterance_text": "공동주택층간소음기준에 관한 규칙은 이번에 발표된 것이 처음이지?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c36023.e8",
+                        "utterance_id": "c36023.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 맞습니다. 이번에 발표된 공동주택층간소음기준에 관한 규칙은 처음으로 발표된 것입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 공동주택층간소음기준에 대해 대화하고 있다. 규칙은 아파트, 연립주택, 다세대주택 등에서 발생하는 소음에 대한 기준이 정해진 것이며, 이를 통해 이웃 간의 갈등을 해결할 수 있다. 층간소음은 '직접충격소음'과 '공기전달소음'으로 나뉘며, 각각의 기준은 주간과 야간에 다르다. 연립주택이나 다세대주택은 아파트에 비해 소음이 더 잘 들리는 편이며, 화장실에서 물 내려가는 소리는 기준에서 제외된다. 이 규칙은 이웃 간이나 아파트 관리사무실에서 소음으로 인한 갈등을 해결할 때 사용될 수 있으며, 어길 경우 처벌이 있을 수 있다. 이번에 발표된 규칙은 처음이다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "yes",
+                        "yes",
+                        "yes"
+                    ]
+                }
+            }
+        ]
+    }
+}

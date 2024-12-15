@@ -1,0 +1,489 @@
+{
+    "dataset": {
+        "title": "AI 응답 결과에 대한 품질 평가 데이터",
+        "distributor": "한국지능정보사회진흥원",
+        "year": "2023",
+        "conversations": [
+            {
+                "conversation_id": 70280,
+                "metadata": {
+                    "topic": "미용, 건강, 식음료",
+                    "speakers": [
+                        {
+                            "id": 1842,
+                            "speaker_type": "human"
+                        },
+                        {
+                            "id": 0,
+                            "speaker_type": "bot"
+                        }
+                    ],
+                    "evaluators": [
+                        {
+                            "evaluator_id": 1842
+                        },
+                        {
+                            "evaluator_id": 2023
+                        },
+                        {
+                            "evaluator_id": 2072
+                        },
+                        {
+                            "evaluator_id": 1540
+                        },
+                        {
+                            "evaluator_id": 2168
+                        }
+                    ],
+                    "answer_evidence": [
+                        {
+                            "source": "https://ko.wikipedia.org/wiki/%EC%B2%AD%EA%B5%AD%EC%9E%A5"
+                        }
+                    ]
+                },
+                "utterances": [
+                    {
+                        "exchange_id": "c70280.e1",
+                        "utterance_id": "c70280.u1",
+                        "speaker_id": 1842,
+                        "utterance_text": "청국장이라는 것도 있잖아. 청국장은 어떻게 만드는 거야?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e1",
+                        "utterance_id": "c70280.u2",
+                        "speaker_id": 0,
+                        "utterance_text": "청국장은 콩을 발효시켜 만든 한국 전통음식으로 삶은 콩을 더운 방에 띄워서 만든 된장의 한 가지입니다. 2-3일 발효시킨 다음 소금, 다진 파, 마늘을 섞어 꾹 눌러두어 만들어요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70280.e2",
+                        "utterance_id": "c70280.u3",
+                        "speaker_id": 1842,
+                        "utterance_text": "그렇군. 그럼 청국장은 주로 어떤 음식에 사용해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e2",
+                        "utterance_id": "c70280.u4",
+                        "speaker_id": 0,
+                        "utterance_text": "청국장은 주로 욕실 청소에 사용됩니다. 주로 찌개를 만들때 쓰입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70280.e3",
+                        "utterance_id": "c70280.u5",
+                        "speaker_id": 1842,
+                        "utterance_text": "대체 어디에 쓰인다는 거야? 그리고 청국장은 어떤 찌개에 어울려?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e3",
+                        "utterance_id": "c70280.u6",
+                        "speaker_id": 0,
+                        "utterance_text": "찌개에는 주로 고기나 해산물이 잘 어울리는데, 동시에 채소나 콩류도 잘 어울립니다. 또한, 매운 맛이 좋은데, 동시에 순한 맛도 좋습니다. 또한, 크림 또는 토마토 베이스의 찌개도 맛있는데, 동시에 국물 없는 찌개도 맛있습니다. 그리고, 찌개는 보통 한 그릇으로 충분한데, 동시에 여러 사람이 함께 먹어도 좋습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70280.e4",
+                        "utterance_id": "c70280.u7",
+                        "speaker_id": 1842,
+                        "utterance_text": "어디에 어울린다는 거야? 그리고 김치찌개에 청국장을 넣으면 어떤 맛이 나올까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e4",
+                        "utterance_id": "c70280.u8",
+                        "speaker_id": 0,
+                        "utterance_text": "외계인들이 지구에 떨어진 우주선에서 발견되었습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70280.e5",
+                        "utterance_id": "c70280.u9",
+                        "speaker_id": 1842,
+                        "utterance_text": "말도안돼. 뭔소리야? 혹시 다른 음식에도 청국장을 사용할 수 있을까?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e5",
+                        "utterance_id": "c70280.u10",
+                        "speaker_id": 0,
+                        "utterance_text": "네, 청국장은 다른 음식에 사용할 수 있습니다. 그러나 청국장은 오징어와 함께 사용하면 안 됩니다. 또한, 청국장은 단맛을 좋아하는 사람들에게 추천되지 않습니다. 그리고 청국장은 신선한 해산물과 잘 어울리지 않습니다. 그리고 청국장은 다른 양념과 함께 사용하면 맛이 더 좋아집니다. 그러나 청국장은 다른 음식과 섞어 먹으면 안 됩니다. 그리고 청국장은 다이어트 중인 사람들에게는 적합하지 않습니다. 그리고 청국장은 다른 음식과 함께 조리하면 맛이 더 좋아집니다. 그러나 청국장은 다른 음식과 함께 먹으면 소화에 좋지 않습니다. 그리고 청국장은 다른 음식과 함께 먹으면 영양소 흡수가 어려워집니다. 그리고 청국장은 다른 음식과 함께 먹으면 소화 불량을 일으킬 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 체중 증가를 초래할 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 건강에 좋지 않습니다. 그리고 청국장은 다른 음식과 함께 먹으면 식욕을 억제할 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 영양가를 높일 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 체력을 증진시킬 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 면역력을 강화할 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 소화를 돕는데 도움이 됩니다. 그리고 청국장은 다른 음식과 함께 먹으면 영양소 흡수를 촉진시킬 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 식사의 만족도를 높일 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 영양소의 손실을 막아줍니다. 그리고 청국장은 다른 음식과 함께 먹으면 식욕을 돋구는데 도움이 됩니다. 그리고 청국장은 다른 음식과 함께 먹으면 소화를 원활하게 해줍니다. 그리고 청국장은 다른 음식과 함께 먹으면 영양소의 흡수를 촉진시킵니다. 그리고 청국장은 다른 음식과 함께 먹으면 식사의 만족감을 높일 수 있습니다. 그리고 청국장은 다른 음식과 함께 먹으면 영양소의 손실을 최소화할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "no",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "no",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70280.e6",
+                        "utterance_id": "c70280.u11",
+                        "speaker_id": 1842,
+                        "utterance_text": "대체 무슨 말을 하는 거야? 그럼 대체 청국장은 어떻게 사용해?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e6",
+                        "utterance_id": "c70280.u12",
+                        "speaker_id": 0,
+                        "utterance_text": "비빔밥에 청국장을 사용하면 간장의 맛과 청국장의 풍미가 어우러져 더욱 풍부한 맛을 느낄 수 있어요. 즉석에서 비빔밥을 먹을 때 청국장을 곁들여보세요.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "yes",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70280.e7",
+                        "utterance_id": "c70280.u13",
+                        "speaker_id": 1842,
+                        "utterance_text": "그래? 청국장을 다양한 음식에 사용할 수 있구나. 그런데 청국장은 어디에서 구할 수 있어?",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e7",
+                        "utterance_id": "c70280.u14",
+                        "speaker_id": 0,
+                        "utterance_text": "청국장은 어디에서도 구할 수 없습니다. 그러나 어디서든 쉽게 구할 수 있습니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "yes",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "no",
+                                "understandability": "yes",
+                                "sensibleness": "yes",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70280.e8",
+                        "utterance_id": "c70280.u15",
+                        "speaker_id": 1842,
+                        "utterance_text": "구할 수 있다는 거야? 못구한다는 거야? 다음에 한 번 시도해봐야겠어.",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e8",
+                        "utterance_id": "c70280.u16",
+                        "speaker_id": 0,
+                        "utterance_text": "우주에서 가장 큰 행성은 목성이라는 것을 알고 계셨나요? 그것은 정말로 흥미로운 사실이에요!",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    },
+                    {
+                        "exchange_id": "c70280.e9",
+                        "utterance_id": "c70280.u17",
+                        "speaker_id": 1842,
+                        "utterance_text": "갑자기 무슨 우주야? 말고 청국장에 대해 알려줘서 고마워!",
+                        "utterance_evaluation": []
+                    },
+                    {
+                        "exchange_id": "c70280.e9",
+                        "utterance_id": "c70280.u18",
+                        "speaker_id": 0,
+                        "utterance_text": "저는 고양이를 키우는 것을 추천합니다. 고양이는 항상 좋은 해결책입니다.",
+                        "utterance_evaluation": [
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "no"
+                            },
+                            {
+                                "linguistic_acceptability": "yes",
+                                "consistency": "no",
+                                "interestingness": "no",
+                                "unbias": "yes",
+                                "harmlessness": "yes",
+                                "no_hallucination": "yes",
+                                "understandability": "yes",
+                                "sensibleness": "no",
+                                "specificity": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "conversation_summary": "두 사람은 청국장에 대해 대화하고 있다. 청국장은 콩을 발효시켜 만든 한국 전통음식으로, 주로 찌개를 만들 때 사용된다. 청국장은 고기나 해산물과 잘 어울리며, 매운 맛이 좋다. 또한, 크림 또는 토마토 베이스의 찌개도 맛있으며, 한 그릇으로 충분하다. 청국장은 다른 음식과 함께 먹으면 영양소 흡수가 어려워지고 소화에 좋지 않으며, 체중 증가를 초래할 수 있다. 그러나 청국장은 영양가를 높이고 체력을 증진시키며 면역력을 강화하는데 도움이 된다. 청국장은 비빔밥에 사용하면 맛을 더욱 풍부하게 해준다. 청국장은 어디서든 쉽게 구할 수 있다.",
+                "conversation_evaluation": {
+                    "likeability": [
+                        "no",
+                        "no",
+                        "no"
+                    ]
+                }
+            }
+        ]
+    }
+}
